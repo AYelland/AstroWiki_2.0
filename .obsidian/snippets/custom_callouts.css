@@ -1,0 +1,10 @@
+.callout[data-callout="derivation"] {
+    --callout-color: 255, 255, 255;
+    --callout-title-color: #ff0000;
+    --callout-icon: none;
+}
+
+.callout:is([data-callout-metadata^="black.title"]) {
+    color: #ff0000; /*-content font color - needs to be HEX-*/
+    --callout-color: 255, 200, 255; /*-overall callout color - needs to be RGB-*/
+} 

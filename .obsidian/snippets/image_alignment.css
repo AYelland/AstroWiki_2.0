@@ -1,0 +1,13 @@
+img[alt*="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[alt*="right"] {
+    float:right;
+    clear:right;
+    margin-top: 1rem;
+    /*margin-bottom: 4px;*/
+    margin-left: 1rem;
+}

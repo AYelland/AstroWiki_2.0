@@ -1,0 +1,1 @@
+`$= const value = Math.round(((dv.page("FILENAME").file.tasks.where(t => t.completed).length) / (dv.page("FILENAME").file.tasks).length || 0) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"`

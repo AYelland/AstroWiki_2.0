@@ -1,0 +1,15 @@
+{
+  "accentColor": "#ee7411",
+  "cssTheme": "",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "banner_modification",
+    "center_tables",
+    "embed_links_modifications",
+    "image_alignment",
+    "bigger_preview_popup"
+  ],
+  "translucency": false,
+  "baseFontSize": 16,
+  "baseFontSizeAction": false
+}

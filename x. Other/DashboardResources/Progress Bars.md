@@ -1,0 +1,16 @@
+
+| Topic                                  | Progress                                                                                                                                                                                                                            |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Solar System                           | `$= const value = Math.round(((dv.page("Checklist A").file.tasks.where(t => t.completed).length) / (dv.page("Checklist A").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| Exoplanets                             | `$= const value = Math.round(((dv.page("Checklist B").file.tasks.where(t => t.completed).length) / (dv.page("Checklist B").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| Stars & Stellar Evolution              | `$= const value = Math.round(((dv.page("Checklist C").file.tasks.where(t => t.completed).length) / (dv.page("Checklist C").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| Compact Objects & Gravitational Waves  | `$= const value = Math.round(((dv.page("Checklist D").file.tasks.where(t => t.completed).length) / (dv.page("Checklist D").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| ISM & Emission                         | `$= const value = Math.round(((dv.page("Checklist E").file.tasks.where(t => t.completed).length) / (dv.page("Checklist E").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| Plasma & Gravitational Lensing         | `$= const value = Math.round(((dv.page("Checklist F").file.tasks.where(t => t.completed).length) / (dv.page("Checklist F").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| Galaxies                               | `$= const value = Math.round(((dv.page("Checklist G").file.tasks.where(t => t.completed).length) / (dv.page("Checklist G").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| Cosmology                              | `$= const value = Math.round(((dv.page("Checklist H").file.tasks.where(t => t.completed).length) / (dv.page("Checklist H").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| Instrumentation & Astronomical Methods | `$= const value = Math.round(((dv.page("Checklist I").file.tasks.where(t => t.completed).length) / (dv.page("Checklist I").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+| Lightning Round                        | `$= const value = Math.round(((dv.page("Checklist J").file.tasks.where(t => t.completed).length) / (dv.page("Checklist J").file.tasks).length) * 100); "<progress value='" + value + "' max='100'></progress>" + " " + value + "%"` |
+
+
+

@@ -1,0 +1,8 @@
+.obsidian-banner-wrapper {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.mod-header:has(+ .obsidian-banner-wrapper) {
+  margin-top: var(--banner-height);
+}

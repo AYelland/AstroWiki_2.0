@@ -1,0 +1,4 @@
+.theme-dark,
+.theme-light {
+  --embed-background: rgba(0, 0, 0, 0); /* Change the RGBA values to your desired color and opacity */
+}

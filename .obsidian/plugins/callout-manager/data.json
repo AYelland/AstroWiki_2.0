@@ -1,0 +1,189 @@
+{
+  "callouts": {
+    "custom": [
+      "key-idea",
+      "space",
+      "instrumentation",
+      "note",
+      "image",
+      "cian",
+      "today",
+      "sun",
+      "atom",
+      "temperature",
+      "derivation",
+      "measure",
+      "math",
+      "spectra",
+      "catalog",
+      "bonus"
+    ],
+    "settings": {
+      "Key Points": [
+        {
+          "changes": {
+            "icon": "lucide-book-marked"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "147, 8, 221"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "168, 128, 208"
+          }
+        }
+      ],
+      "Takeaway": [
+        {
+          "changes": {
+            "icon": "lucide-book-marked",
+            "color": "175, 8, 221"
+          }
+        }
+      ],
+      "key-idea": [
+        {
+          "changes": {
+            "icon": "lucide-key-round",
+            "color": "41, 168, 5"
+          }
+        }
+      ],
+      "space": [
+        {
+          "changes": {
+            "icon": "lucide-stars",
+            "color": "173, 4, 195"
+          }
+        }
+      ],
+      "instrumentation": [
+        {
+          "changes": {
+            "icon": "lucide-satellite",
+            "color": "155, 3, 3"
+          }
+        }
+      ],
+      "note": [
+        {
+          "changes": {
+            "icon": "lucide-paperclip",
+            "color": "171, 171, 171"
+          }
+        }
+      ],
+      "image": [
+        {
+          "changes": {
+            "icon": "lucide-bar-chart-horizontal-big",
+            "color": "171, 171, 171"
+          }
+        }
+      ],
+      "cian": [
+        {
+          "changes": {
+            "icon": "lucide-bug",
+            "color": "221, 8, 182"
+          }
+        }
+      ],
+      "today": [
+        {
+          "changes": {
+            "icon": "lucide-calendar",
+            "color": "221, 8, 8"
+          }
+        }
+      ],
+      "sun": [
+        {
+          "changes": {
+            "icon": "lucide-sun",
+            "color": "255, 174, 0"
+          }
+        }
+      ],
+      "atom": [
+        {
+          "changes": {
+            "icon": "lucide-atom",
+            "color": "8, 221, 12"
+          }
+        }
+      ],
+      "temperature": [
+        {
+          "changes": {
+            "icon": "lucide-thermometer",
+            "color": "221, 8, 8"
+          }
+        }
+      ],
+      "derivation": [
+        {
+          "changes": {
+            "icon": "lucide-calculator",
+            "color": "0, 0, 0"
+          }
+        }
+      ],
+      "measure": [
+        {
+          "changes": {
+            "icon": "lucide-pencil-ruler",
+            "color": "0, 125, 128"
+          }
+        }
+      ],
+      "math": [
+        {
+          "changes": {
+            "icon": "lucide-pencil-ruler",
+            "color": "112, 206, 18"
+          }
+        }
+      ],
+      "spectra": [
+        {
+          "changes": {
+            "icon": "lucide-line-chart",
+            "color": "221, 8, 143"
+          }
+        }
+      ],
+      "catalog": [
+        {
+          "changes": {
+            "icon": "lucide-clipboard-list",
+            "color": "115, 166, 54"
+          }
+        }
+      ],
+      "bonus": [
+        {
+          "changes": {
+            "icon": "lucide-candy",
+            "color": "78, 148, 228"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

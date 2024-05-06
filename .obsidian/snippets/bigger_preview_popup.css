@@ -1,0 +1,36 @@
+.theme-light, .theme-dark {
+    --popover-width: 700px;
+    --popover-height: 400px;
+}
+
+/*.popover.hover-popover.is-loaded {
+	position: absolute;
+	z-index: var(–layer-popover);
+	transform: scale(0.9); /* makes the content smaller /
+	/ max-height:55vh;
+	max-width:40vw; 
+	min-height:600px;
+	min-width:700px;
+	overflow: hidden;
+	padding: 0px 0px 0px 0px;
+}
+
+.popover.hover-popover.is-loaded {
+	border: 1px solid darkgrey;
+	box-shadow: 6px 6px 7px #50535C;
+	border-radius: 5px;
+}
+
+.popover.hover-popover .markdown-embed {
+	height: 600px;
+}
+
+.popover .markdown-embed-link{display:block;}
+.file-embed-link svg,.markdown-embed-link svg{width:24px;height:24px;opacity:1.0;}
+.markdown-embed-link{top:0.8em;right:0.8em;}
+
+.markdown-preview-view {
+min-height: none;
+/ max-height: 600px;
+}
+*/

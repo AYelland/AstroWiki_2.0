@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:Checklist",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "file:Question",
+      "color": {
+        "a": 1,
+        "rgb": 6084308
+      }
+    },
+    {
+      "query": "file:Flashcard",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 0.499959309895833,
+  "collapse-forces": false,
+  "centerStrength": 0.429606119791667,
+  "repelStrength": 11.4388020833333,
+  "linkStrength": 1,
+  "linkDistance": 500,
+  "scale": 0.2027496258386958,
+  "close": true
+}
