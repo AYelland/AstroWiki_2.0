@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bb858c4cf2d6e7cf",
+        "id": "35c99e68d51e8207",
         "type": "tabs",
         "children": [
           {
-            "id": "8a67893df9d1af86",
+            "id": "cf52c03ac31b95f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "F. Plasma & Gravitational Lensing/Gravitational Lensing.md",
-                "mode": "source",
-                "source": false
+                "file": "Dashboard.canvas",
+                "viewState": {
+                  "x": 854.5626494065401,
+                  "y": -437.0592888987543,
+                  "zoom": -0.9723594341005648
+                }
               }
             }
           }
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "F. Plasma & Gravitational Lensing/Gravitational Lensing.md",
+                "file": "Dashboard.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "F. Plasma & Gravitational Lensing/Gravitational Lensing.md",
+                "file": "Dashboard.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "F. Plasma & Gravitational Lensing/Gravitational Lensing.md"
+                "file": "Dashboard.canvas"
               }
             }
           }
@@ -134,25 +137,28 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 312.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "homepage:Open homepage": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "custom-sort:Toggle custom sorting": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false,
+      "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "8a67893df9d1af86",
+  "active": "cf52c03ac31b95f5",
   "lastOpenFiles": [
-    "LICENSE",
     "AstroWiki Homepage.md",
+    "F. Plasma & Gravitational Lensing/Gravitational Lensing.md",
+    "x. Images/lensing_weak.png",
+    "LICENSE",
     "Dashboard.canvas",
     "Units & Conversions.md",
     "168 Questions.pdf",
@@ -182,7 +188,6 @@
     "Prepared Question.md",
     "MIT Faculty.md",
     "Important Numbers.md",
-    "A. The Solar System/Standard Model of Planetary Formation.md",
     "x. Images/astrowiki_icon_orange.png",
     "x. Images/astrowiki_icon.png.sb-eff2b1bd-KHS0jd",
     "x. Images/~$ASTRO_oral_custom_diagrams.pptx",
@@ -192,11 +197,9 @@
     "x. Other/Latex_168Questions.tex.tex",
     "x. Other/Latex_168Questions.md.tex",
     "x. Other/main.tex",
-    "ASTRO_Oral_Qualification_Exam_Questions.pdf",
     "x. Images/first_stars.png",
     "x. Images/EMspectrum_scales.jpeg",
     "x. Images/Local_Group.jpg",
-    "x. Images/GW_sensitivity_future.png",
-    "x. Images/GW150914.png"
+    "x. Images/GW_sensitivity_future.png"
   ]
 }
