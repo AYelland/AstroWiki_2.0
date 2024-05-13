@@ -16,7 +16,7 @@ The relativistic counterpart to this is [[Synchrotron Radiation]].
 > This frequency can be derived from balancing the *Lorentz Force* and and the *Centripetal Force*, assuming the charge ($q$) moves circular motion around the magnetic field.
 > 
 > $$F_{\rm B} = \frac{q}{c} \, \left( \vec{v} \times \vec{B} \right) = \frac{q B v}{c} \hspace{2.5cm} F_{\rm circ} = m_{0} \frac{v^{2}}{r} = m_{0} \, \omega_{\rm c} \, r$$
-> $$m_{0} \, \omega_{\rm c} \, v = \frac{q B v}{c} \hRightarrow \omega_{\rm c} = \frac{q B}{m_{0} c}$$
+> $$m_{0} \, \omega_{\rm c} \, v = \frac{q B v}{c} \hspace{1cm} \Rightarrow \hspace{1cm} \omega_{\rm c} = \frac{q B}{m_{0} c}$$
 > 
 > *Note: The mass ($m_{0}$) is the rest mass.*
 
@@ -24,7 +24,7 @@ The relativistic counterpart to this is [[Synchrotron Radiation]].
 
 The power emitted from cyclotron radiation is:
 
-$$P = \fpar{q^{2}}{6 \pi \epsilon_{0} c^{3}} \, a^{2} = \fpar{q^{2}}{6 \pi \epsilon_{0} c^{3}} \fpar{q B v}{m c}^{2} = \fpar{q^{4} B}{6 \pi \epsilon_{0} c^{3}} \frac{\beta^{2}}{m^{2}} \hRightarrow P \propto m^{-2}$$
+$$P = \left(\frac{q^{2}}{6 \pi \epsilon_{0} c^{3}}\right) \, a^{2} = \left(\frac{q^{2}}{6 \pi \epsilon_{0} c^{3}}\right) \left(\frac{q B v}{m c}\right)^{2} = \left(\frac{q^{4} B}{6 \pi \epsilon_{0} c^{3}}\right) \frac{\beta^{2}}{m^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} P \propto m^{-2}$$
 
 ...which tells us that there is much stronger emission from lighter particles that heavier particles ($P \propto m^{-2}$). Therefore, electrons have much more radiation that protons, and hence, particle accelerators use protons to reduce the energy loss and radiation noise.
 

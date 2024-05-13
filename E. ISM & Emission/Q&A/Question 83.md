@@ -6,7 +6,7 @@ Why is the gas in the interstellar medium largely transparent at visible wavelen
 ---
 The [[Optical Depth#Opacity|opacity]] of the [[Interstellar Medium|ISM]] has many sources. 
 
-$$\rho\kappa = \frac{1}{l} = n\sigma = \alpha = \td{\tau}{z} \textcolor{gray}{\hWhere \rd z \equiv \text{path of light}}$$
+$$\rho\kappa = \frac{1}{l} = n\sigma = \alpha = \frac{\mathrm{d} \tau}{\mathrm{d} z} \textcolor{gray}{\hspace{1cm} \text{where} \hspace{1cm} \mathrm{d} z \equiv \text{path of light}}$$
 
 Ignoring emissions from the ISM, the relevant light-matter interactions are:
 
@@ -24,7 +24,7 @@ Overall, there is not much opacity in the [[Interstellar Medium|ISM]], on the ex
 
 This is due to having such a low particle density in the [[Interstellar Medium|ISM]]. Even in the densest phases (i.e. [[Interstellar Medium#Molecular Clouds|molecular clouds]]), the density is still very low compared to stellar atmospheres. $\implies$ low optical depths ($\tau$) in the visible band.
 
-$$\tau = \int_{0}^{z} \alpha \; \rd z = \int_{0}^{z} n\sigma \; \rd z$$
+$$\tau = \int_{0}^{z} \alpha \; \mathrm{d} z = \int_{0}^{z} n\sigma \; \mathrm{d} z$$
 
 The wavelength dependence of the optical depth can be plotted as..
 

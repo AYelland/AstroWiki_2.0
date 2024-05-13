@@ -28,17 +28,17 @@ $${\rm SNR} = \frac{R_{\rm s} \sqrt{t}}{\sqrt{R_{\rm s} + n (R_{\rm b} + R_{\rm 
 
 For ground-based observations of a *faint* source in the [[Electromagnetic Spectrum|IR]], we will be in the counting regime (making this calculation valid) and [[Question 155#^9367ad|sky limited]], such that the SNR will scale with $\sqrt{t}$ (see [[Question 158]]). 
 
-$${\rm SNR} = \fpar{R_{\rm s}}{\sqrt{n R_{\rm b}}}\sqrt{t}$$
+$${\rm SNR} = \left(\frac{R_{\rm s}}{\sqrt{n R_{\rm b}}\right)}\sqrt{t}$$
 
 We can now look at how the source photon rate ($R_{\rm s}$), the background photon rate ($R_{\rm b}$), and the number of pixels covered by our source and background ($n$) scales with the diameter of the aperture.
 
-- **Source Photon Rate ($R_{\rm s}$):** defined similar to a power/luminosity, but using the source photon *number* flux ($F_{\rm s}$, counts per area per time) and $f$ is the optical throughput (unitless). $$R_{\rm s} = \fpar{\text{\# of source photons}}{\rm exposure\ time} = \td{N_{\rm s}}{t} = f F_{\rm s} \left( \pi \tfpar{D}{2}^{2} \right) \quad \propto D^{2}$$
-- **Background Photon Rate ($R_{\rm b}$):** defined similar to the source photon rate, but uses the background photon *number* flux ($F_{\rm b}$, counts per area per time) and $f$ is the optical throughput (unitless). $$R_{\rm b} = \fpar{\text{\# of background photons}}{\rm exposure\ time} = \td{N_{\rm b}}{t} = f F_{\rm b} \left( \pi \tfpar{D}{2}^{2} \right) \quad \propto D^{2}$$
-- **Pixel Coverage ($n$):** if our seeing is diffraction-limited, then the point=spread function (PSF) and the associated number of pixels covered the by the background and source drops off with respect to $\theta^{2} \implies n \propto D^{-2}$.  ![[snr_skynoise.png|align:center|200]] $$\theta_{1} \to \theta_{2} \hRightarrow n \propto \frac{1}{D^{2}}$$
+- **Source Photon Rate ($R_{\rm s}$):** defined similar to a power/luminosity, but using the source photon *number* flux ($F_{\rm s}$, counts per area per time) and $f$ is the optical throughput (unitless). $$R_{\rm s} = \left(\frac{\text{\# of source photons}}{\rm exposure\ time}\right) = \frac{\mathrm{d} N_{\rm s}}{\mathrm{d} t} = f F_{\rm s} \left(\left(\tfrac{D}{2}\right)^{2} \right) \quad \propto D^{2}$$
+- **Background Photon Rate ($R_{\rm b}$):** defined similar to the source photon rate, but uses the background photon *number* flux ($F_{\rm b}$, counts per area per time) and $f$ is the optical throughput (unitless). $$R_{\rm b} = \left(\frac{\text{\# of background photons}}{\rm exposure\ time}\right) = \frac{\mathrm{d} N_{\rm b}}{\mathrm{d} t} = f F_{\rm b} \left( \pi \left(\tfrac{D}{2}\right)^{2} \right) \quad \propto D^{2}$$
+- **Pixel Coverage ($n$):** if our seeing is diffraction-limited, then the point=spread function (PSF) and the associated number of pixels covered the by the background and source drops off with respect to $\theta^{2} \implies n \propto D^{-2}$.  ![[snr_skynoise.png|align:center|200]] $$\theta_{1} \to \theta_{2} \hspace{1cm} \Rightarrow \hspace{1cm} n \propto \frac{1}{D^{2}}$$
 
 Bring these three contributions together, we see that the diffraction limitation cancels with the $D^{2}$ scaling of background photon rate ($R_{\rm b}$), such that our ${\rm SNR}$ scales with...
 
-$${\rm SNR} = \fpar{R_{\rm s}}{\sqrt{n R_{\rm b}}}\sqrt{t} \propto \fpar{D^{2}}{\sqrt{D^{2} \cdot D^{-2}}} \sqrt{t}\hRightarrow \boxed{{\rm SNR} \propto D^{2} \sqrt{t}}$$
+$${\rm SNR} = \left(\frac{R_{\rm s}}{\sqrt{n R_{\rm b}}}\right) \sqrt{t} \propto \left(\frac{D^{2}}{\sqrt{D^{2} \cdot D^{-2}}}\right) \sqrt{t}\hspace{1cm} \Rightarrow \hspace{1cm} \boxed{{\rm SNR} \propto D^{2} \sqrt{t}}$$
 
 Therefore, if we are trying to achieve some specific ${\rm SNR}$, then exposure time required scales inversely with the diameter.
 

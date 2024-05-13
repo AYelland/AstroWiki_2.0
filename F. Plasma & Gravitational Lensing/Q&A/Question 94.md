@@ -31,7 +31,7 @@ $$
 \begin{aligned}[t]
 	k &\equiv \text{wave vector} \quad(k_{\parallel} \equiv k \cos \theta)\\
 	\theta &\equiv \text{angle between }\vec{B}_{0} \; {\rm and} \; \vec{k} \\
-	c_{\rm s} &\equiv \text{speed of sound} = \sqrt{\pd{P}{\rho}} \\
+	c_{\rm s} &\equiv \text{speed of sound} = \sqrt{\frac{\partial P}{\partial \rho}} \\
 	v_{\rm A} &\equiv \text{Alfvén Velocity} = \sqrt{\frac{B_{0}}{\mu_{0} \rho_{0}}}
 \end{aligned}
 $$
@@ -48,7 +48,7 @@ This means the wave propagates in the direction of the magnetic field, and oscil
 
 These waves represent one of the normal modes that satisfies the first part of the dispersion relation:
 
-$$\left( \omega^{2} - k_{\parallel}^{2} \, v_{\rm A}^{2} \right) \times \left( \dots \right) = 0 \hRightarrow \underbrace{\vec{v}_{\rm ph} = \fpar{\omega}{k} \; \hat{k} = \left( v_{\rm A} \cos \theta \right)\; \hat{k}}_{\text{phase velocity}} \quad , \quad \underbrace{\vec{v}_{\rm g} = \td{\omega}{k} = \pm \; \vec{v}_{\rm A}}_{\text{group velocity}}$$
+$$\left( \omega^{2} - k_{\parallel}^{2} \, v_{\rm A}^{2} \right) \times \left( \dots \right) = 0 \hspace{1cm} \Rightarrow \hspace{1cm} \underbrace{\vec{v}_{\rm ph} = \left(\frac{\omega}{k}\right) \; \hat{k} = \left( v_{\rm A} \cos \theta \right)\; \hat{k}}_{\text{phase velocity}} \quad , \quad \underbrace{\vec{v}_{\rm g} = \frac{\mathrm{d} \omega}{\mathrm{d} k} = \pm \; \vec{v}_{\rm A}}_{\text{group velocity}}$$
 
 **2 & 3) Magnetosonic Waves** - Compression waves in the density of the magnetic field lines *(similar to sounds waves in matter)*. They are driven by the mutual interaction between the electrically conducting fluid and the magnetic field.
 
@@ -58,9 +58,9 @@ $$
 \begin{align}
 	&\left( \dots \right) \times \left( \omega^{4} - k^{2} \left( c_{\rm s}^{2} + v_{\rm A}^{2} \right) \, \omega^{2} + k^{2} \, k_{\parallel}^{2} \, c_{\rm s}^{2} \, v_{\rm A}^{2} \right) = 0 \\
 	\\
-	&\hRightarrow\omega^{2} = \frac{1}{2} \left(  k^{2} \left( c_{\rm s}^{2} + v_{\rm A}^{2} \right) \pm \sqrt{k^{4} \left( c_{\rm s}^{2} + v_{\rm A}^{2} \right)^{2} - 4 k^{2} \, k_{\parallel}^{2} \, v_{\rm A}^{2} \, c_{\rm s}^{2}  } \; \right) \\
+	&\hspace{1cm} \Rightarrow \hspace{1cm}\omega^{2} = \frac{1}{2} \left(  k^{2} \left( c_{\rm s}^{2} + v_{\rm A}^{2} \right) \pm \sqrt{k^{4} \left( c_{\rm s}^{2} + v_{\rm A}^{2} \right)^{2} - 4 k^{2} \, k_{\parallel}^{2} \, v_{\rm A}^{2} \, c_{\rm s}^{2}  } \; \right) \\
 	\\
-	&\hRightarrow \underbrace{\vec{v}_{\rm ph,\ \pm}^{\ 2} = \frac{\omega^{2}}{k^{2}} = \frac{1}{2} \left( \left( c_{\rm s}^{2} + v_{\rm A}^{2} \right) \pm \sqrt{\left( c_{\rm s}^{2} + v_{\rm A}^{2} \right)^{2} - 4 v_{\rm A}^{2} c_{\rm s}^{2} \cos^{2} \theta } \; \right)\; \hat{k}}_{\text{phase velocity}} 
+	&\hspace{1cm} \Rightarrow \hspace{1cm} \underbrace{\vec{v}_{\rm ph,\ \pm}^{\ 2} = \frac{\omega^{2}}{k^{2}} = \frac{1}{2} \left( \left( c_{\rm s}^{2} + v_{\rm A}^{2} \right) \pm \sqrt{\left( c_{\rm s}^{2} + v_{\rm A}^{2} \right)^{2} - 4 v_{\rm A}^{2} c_{\rm s}^{2} \cos^{2} \theta } \; \right)\; \hat{k}}_{\text{phase velocity}} 
 \end{align}
 $$
 

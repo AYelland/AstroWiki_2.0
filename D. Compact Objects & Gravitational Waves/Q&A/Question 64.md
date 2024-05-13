@@ -22,21 +22,21 @@ To find an expression for this value at the boundary ($r = R_{\rm M}$), we can a
 
 $$P_{\rm ram} = \rho \,v_{\rm dyn}^{2} = \frac{\dot{M}\sqrt{2 G M}}{4 \pi R_{\rm M}^{5/2}}$$
 $$\textcolor{gray}{\left[ \hspace{0.5cm}
-\rho = \underbrace{\fpar{\dot{M}}{4 \pi R_{\rm M}^{2}\; v_{\rm dyn}}}_{\rm mass\ continuity}
+\rho = \underbrace{\left(\frac{\dot{M}}{4 \pi R_{\rm M}^{2}\; v_{\rm dyn}}\right)}_{\rm mass\ continuity}
 \hspace{2cm}
 v_{\rm dyn} = \sqrt{\frac{2 G M}{R_{\rm M}}}
 \hspace{0.5cm} \right]}$$
 
 ...and the magnetic field acts as a dipole with a constant dipole moment $|m|$. 
 
-$$P_{\rm mag} = \frac{B_{\rm M}^{2}}{2 \mu_{0}} = \frac{1}{2 \mu_{0}} \fpar{\mu_{0} m}{2 \pi R_{\rm M}^{3}}^{2} = \frac{\mu_{0} m^{2}}{8 \pi^{2} R_{\rm M}^{6}}$$
+$$P_{\rm mag} = \frac{B_{\rm M}^{2}}{2 \mu_{0}} = \frac{1}{2 \mu_{0}} \left(\frac{\mu_{0} m}{2 \pi R_{\rm M}^{3}}\right)^{2} = \frac{\mu_{0} m^{2}}{8 \pi^{2} R_{\rm M}^{6}}$$
 $$
 \textcolor{gray}{\left[ \;
 B_{*} = \pm \frac{\mu_{0} m}{2 \pi R_{*}^{3}}
 \hspace{0.5cm} , \hspace{0.5cm}
 B_{*} R_{*}^{3} = B_{\rm M} R_{\rm M}^{3}
-\hRightarrow
-B_{\rm M} = B_{*} \fpar{R_{*}}{R_{\rm M}}^{3} = \pm \frac{\mu_{0} m}{2 \pi R_{\rm M}^{3}} 
+\hspace{1cm} \Rightarrow \hspace{1cm}
+B_{\rm M} = B_{*} \left(\frac{R_{*}}{R_{\rm M}}\right)^{3} = \pm \frac{\mu_{0} m}{2 \pi R_{\rm M}^{3}} 
 \; \right]}
 $$
 
@@ -44,13 +44,13 @@ Balancing the pressures...
 
 $$
 P_{\rm ram} = P_{\rm mag}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \frac{\dot{M}\sqrt{2 G M}}{4 \pi R_{\rm M}^{5/2}} = \frac{\mu_{0} m^{2}}{8 \pi^{2} R_{\rm M}^{6}}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
-	R_{\rm M}^{7/2} &\propto \fpar{4 \pi}{\dot{M} \sqrt{2 G M}} \fpar{\mu_{0} m^{2}}{8 \pi^{2}} \\
-	R_{\rm M} &\propto \fpar{\mu_{0} m^{2}}{2 \pi \dot{M} \sqrt{2 G M}}^{2/7} \\
-	R_{\rm M} &\propto \fpar{\mu_{0}^{2} m^{4}}{8 \pi^{2} G M \dot{M}^{2}}^{1/7}
+	R_{\rm M}^{7/2} &\propto \left(\frac{4 \pi}{\dot{M} \sqrt{2 G M}}\right) \left(\frac{\mu_{0} m^{2}}{8 \pi^{2}}\right) \\
+	R_{\rm M} &\propto \left(\frac{\mu_{0} m^{2}}{2 \pi \dot{M} \sqrt{2 G M}}\right)^{2/7} \\
+	R_{\rm M} &\propto \left(\frac{\mu_{0}^{2} m^{4}}{8 \pi^{2} G M \dot{M}^{2}}\right)^{1/7}
 \end{aligned}
 
 $$
@@ -58,11 +58,11 @@ $$
 ...we can then show how the magnetospheric radius is dependent on the accretion power ([[Luminosity|luminosity]]) derived in [[Question 54]].
 
 $$
-\textcolor{gray}{\left[ L_{\rm acc} = \frac{G M \dot{M}}{2 R} \quad \implies \quad \dot{M} = \fpar{2 R}{G M} L_{\rm acc} \right]}
+\textcolor{gray}{\left[ L_{\rm acc} = \frac{G M \dot{M}}{2 R} \quad \implies \quad \dot{M} = \left(\frac{2 R}{G M}\right) L_{\rm acc} \right]}
 \hspace{2cm}
 \begin{aligned}[t]
-	R_{\rm M} &\propto \left( \frac{\mu_{0}^{2} m^{4}}{8 \pi^{2} G M} \fpar{G M}{2 R L_{\rm acc}}^{2} \right)^{1/7} \\
-	R_{\rm M} &\propto \left( \frac{\mu_{0}^{2} m^{4}}{32 \pi^{2}} \fpar{G M}{R^{2}} \right)^{1/7} L_{\rm acc}^{-2/7}
+	R_{\rm M} &\propto \left( \frac{\mu_{0}^{2} m^{4}}{8 \pi^{2} G M} \left(\frac{G M}{2 R L_{\rm acc}}\right)^{2} \right)^{1/7} \\
+	R_{\rm M} &\propto \left( \frac{\mu_{0}^{2} m^{4}}{32 \pi^{2}} \left(\frac{G M}{R^{2}}\right) \right)^{1/7} L_{\rm acc}^{-2/7}
 \end{aligned}
 $$
 $$\boxed{R_{\rm M} \propto L_{\rm acc}^{-2/7}}$$
@@ -79,8 +79,8 @@ The angular momentum ($\ell$) and the torque ($\tau$) of the disk and pulsar can
 
 $$
 \begin{alignat}{2}
-	&\text{For the Pulsar:} &\hspace{2cm} &\ell_{\rm pulsar} &&= I \Omega &\hRightarrow &\tau_{\rm pulsar} &&= \dot{\ell}_{\rm pulsar} &&= I \dot{\Omega} \\
-	&\text{For the Disk:} &\hspace{2cm} &\ell_{\rm disk} &&= m \Omega r^{2} &\hRightarrow &\tau_{\rm disk} &&= \dot{\ell}_{\rm disk} &&= \dot{m} \Omega r^{2}
+	&\text{For the Pulsar:} &\hspace{2cm} &\ell_{\rm pulsar} &&= I \Omega &\hspace{1cm} \Rightarrow \hspace{1cm} &\tau_{\rm pulsar} &&= \dot{\ell}_{\rm pulsar} &&= I \dot{\Omega} \\
+	&\text{For the Disk:} &\hspace{2cm} &\ell_{\rm disk} &&= m \Omega r^{2} &\hspace{1cm} \Rightarrow \hspace{1cm} &\tau_{\rm disk} &&= \dot{\ell}_{\rm disk} &&= \dot{m} \Omega r^{2}
 \end{alignat}
 $$
 
@@ -109,7 +109,7 @@ Comparing to the the [[Question 54|accretion power]] we can identify the relatio
 
  $$
 \begin{aligned}[t]
-	\textcolor{gray}{\left[ L_{\rm acc} = \frac{G M \dot{M}}{2 R} \quad \implies \quad \dot{M} = \fpar{2 R}{G M} L_{\rm acc} \right]} \hspace{2cm}
+	\textcolor{gray}{\left[ L_{\rm acc} = \frac{G M \dot{M}}{2 R} \quad \implies \quad \dot{M} = \left(\frac{2 R}{G M}\right) L_{\rm acc} \right]} \hspace{2cm}
 		&\dot{P} \propto \dot{M} R_{\rm M}^{1/2} \\
 	\textcolor{gray}{\left[ R_{\rm M} \propto \left( \frac{G M \mu_{0}^{2} m^{4}}{32 \pi^{2}R^{2}} \right)^{1/7} L_{\rm acc}^{-2/7} \quad \implies \quad R_{\rm M} \propto L_{\rm acc}^{-2/7} \right]} \hspace{2cm}
 		&\dot{P} \propto \Big( L_{\rm acc} \Big) \; \Big( L_{\rm acc}^{-2/7} \Big)^{1/2}

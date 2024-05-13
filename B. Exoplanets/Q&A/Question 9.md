@@ -9,8 +9,8 @@ With what velocity precision must one measure the reflex motion of a sun-like st
 Using the **binary mass function** (derived [[Binary Stars#Spectroscopic Binary|here]] and at the end of [[Question 8]]), we can approximate that the planet's mass is much smaller than the star's mass ($M_{\rm p} \ll M_{*}$) and apply the values in the question.
 
 $$
-v_{\rm r,*} \sim \fpar{2 \pi G}{P}^{1/3} \fpar{M_{\rm p} \sin i}{M_{*}^{2/3}}
-\hWhere \left\{ \; 
+v_{\rm r,*} \sim \left(\frac{2 \pi G}{P}\right)^{1/3} \left(\frac{M_{\rm p} \sin i}{M_{*}^{2/3}}\right)
+\hspace{1cm} \text{where} \hspace{1cm} \left\{ \; 
 \begin{aligned}
 	G &= 6.675 \times 10^{-11} \; {\rm \tfrac{N \cdot m^{2}}{kg^{2}}} &\, &\sim 10^{-11} \; {\rm \tfrac{N \cdot m^{2}}{kg^{2}}} \\
 	P &= 1 \; {\rm yr} &\, &\sim \pi \times 10^{7} \; {\rm s} \\
@@ -19,7 +19,7 @@ v_{\rm r,*} \sim \fpar{2 \pi G}{P}^{1/3} \fpar{M_{\rm p} \sin i}{M_{*}^{2/3}}
 	M_{\rm p} &= 1 \; {\rm M_{\oplus}} = 5.972 \times 10^{24} \; {\rm kg} &\, &\sim 10^{24} \; {\rm kg} \\
 \end{aligned} \right.
 $$
-$$v_{\rm r,*} \sim \fpar{10^{-11}}{10^{7}}^{1/3} \fpar{10^{24}}{(10^{30})^{2/3}} \sim 10^{-2} \; {\rm m/s} \sim 1 \; {\rm cm/s}$$
+$$v_{\rm r,*} \sim \left(\frac{10^{-11}}{10^{7}}\right)^{1/3} \left(\frac{10^{24}}{(10^{30})^{2/3}}\right) \sim 10^{-2} \; {\rm m/s} \sim 1 \; {\rm cm/s}$$
 
 We find that we would need approximately ${\rm cm/s}$ velocity resolution (assuming circular orbit with maximum inclination). Otherwise, we would not be able to see any significant change over an orbit. At the moment, no instrument is able to achieve this precision. 
 

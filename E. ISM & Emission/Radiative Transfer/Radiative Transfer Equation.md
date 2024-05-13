@@ -12,8 +12,8 @@ When light interacts with matter, one of two things can happen:
 1) Light is created/emitted
 2) Light is absorbed/scattered/removed
 
-With this in mind, we can compose the **Radiative Transfer Equation (RTE)** from the change in the [[Intensity#Specific Intensity|specific intensity]] over the path the light traveled ($\rd z$).
-$$\td{I_{\nu}}{z} = j_{\nu} - \alpha_{\nu} I_{\nu}$$
+With this in mind, we can compose the **Radiative Transfer Equation (RTE)** from the change in the [[Intensity#Specific Intensity|specific intensity]] over the path the light traveled ($\mathrm{d} z$).
+$$\frac{\mathrm{d} I_{\nu}}{\mathrm{d} z} = j_{\nu} - \alpha_{\nu} I_{\nu}$$
 Here, $\alpha_{\nu}$ is the absorption coefficient and $j_{\nu}$ is the spontaneous emission coefficient where...
 $$
 \left[ j_{\nu} \right] \equiv \frac{\text{specific intensity}}{\text{length}}
@@ -22,7 +22,7 @@ $$
 $$
 
 > [!note]
-> Having $\alpha_{\nu} \propto \td{I_{\nu}}{z}$ is not always exact; however, it tends to be a pretty good estimate. Additionally, one could introduce an additional term for "simulated emission" that would also be proportional to the change in intensity, but its not necessary in more cases.
+> Having $\alpha_{\nu} \propto \frac{\mathrm{d} I_{\nu}}{\mathrm{d} z}$ is not always exact; however, it tends to be a pretty good estimate. Additionally, one could introduce an additional term for "simulated emission" that would also be proportional to the change in intensity, but its not necessary in more cases.
 
 ---
 **NOT FINISHED:**
@@ -31,13 +31,13 @@ If we solve the RTE, then we can define the **source function** ($S_{\nu}$).
 
 $$
 \begin{align}
-	\td{I_{\nu}}{z} &= j_{\nu} - \alpha_{\nu} I_{\nu} \\
-	\frac{1}{\alpha_{\nu}} \td{I_{\nu}}{z} &= \frac{j_{\nu}}{\alpha_{\nu}} - I_{\nu} \\
-	\td{I_{\nu}}{\tau_{\nu}} &= S_{\nu} - I_{\nu} \hWhere \boxed{S_{\nu} \equiv \frac{j_{\nu}}{\alpha_{\nu}}} \\
-	\td{I_{\nu}}{\tau_{\nu}} e^{\tau_{\nu}} &= S_{\nu} e^{\tau_{\nu}} - I_{\nu} e^{\tau_{\nu}} \\
-	\td{}{\tau_{\nu}} \underbrace{\left( I_{\nu} e^{\tau_{\nu}} \right)}_{x} &= \underbrace{S_{\nu} e^{\tau_{\nu}}}_{y} \\
-	x(\tau_{\nu}) - x(0) &= \int_{0}^{\tau_{\nu}} y(\tau_{\nu}') \; \rd \tau_{\nu}' \\
-		x(\tau_{\nu}) - x(0) &= \int_{0}^{\tau_{\nu}} y(\tau_{\nu}') \; \rd \tau_{\nu}' \\
+	\frac{\mathrm{d} I_{\nu}}{\mathrm{d} z} &= j_{\nu} - \alpha_{\nu} I_{\nu} \\
+	\frac{1}{\alpha_{\nu}} \frac{\mathrm{d} I_{\nu}}{\mathrm{d} z} &= \frac{j_{\nu}}{\alpha_{\nu}} - I_{\nu} \\
+	\frac{\mathrm{d} I_{\nu}}{\mathrm{d} \tau_{\nu}} &= S_{\nu} - I_{\nu} \hspace{1cm} \text{where} \hspace{1cm} \boxed{S_{\nu} \equiv \frac{j_{\nu}}{\alpha_{\nu}}} \\
+	\frac{\mathrm{d} I_{\nu}}{\mathrm{d} \tau_{\nu}} e^{\tau_{\nu}} &= S_{\nu} e^{\tau_{\nu}} - I_{\nu} e^{\tau_{\nu}} \\
+	\frac{\mathrm{d} }{\mathrm{d} \tau_{\nu}} \underbrace{\left( I_{\nu} e^{\tau_{\nu}} \right)}_{x} &= \underbrace{S_{\nu} e^{\tau_{\nu}}}_{y} \\
+	x(\tau_{\nu}) - x(0) &= \int_{0}^{\tau_{\nu}} y(\tau_{\nu}') \; \mathrm{d} \tau_{\nu}' \\
+		x(\tau_{\nu}) - x(0) &= \int_{0}^{\tau_{\nu}} y(\tau_{\nu}') \; \mathrm{d} \tau_{\nu}' \\
 \end{align}
 $$
 

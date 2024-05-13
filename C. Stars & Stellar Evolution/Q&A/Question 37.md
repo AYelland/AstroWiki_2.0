@@ -9,12 +9,12 @@ The [[Stellar Structure#Schwarzschild Criterion]] defines the limit at which a r
 $$
 \left\{ \; 
 \begin{alignat}{3}
-	&\text{Stable (Radiation):} &\hspace{1cm} \left| \td{T}{r} \right| &< \left| \td{T}{r} \right|_{\rm ad} \\
-	&\text{Unstable (Convection):} &\hspace{1cm} \left| \td{T}{r} \right| &\gtrsim \left| \td{T}{r} \right|_{\rm ad}
+	&\text{Stable (Radiation):} &\hspace{1cm} \left| \frac{\mathrm{d} T}{\mathrm{d} r} \right| &< \left| \frac{\mathrm{d} T}{\mathrm{d} r} \right|_{\rm ad} \\
+	&\text{Unstable (Convection):} &\hspace{1cm} \left| \frac{\mathrm{d} T}{\mathrm{d} r} \right| &\gtrsim \left| \frac{\mathrm{d} T}{\mathrm{d} r} \right|_{\rm ad}
 \end{alignat}
 \; \right\}
-\hWhere
-\left| \td{T}{r} \right|_{\rm ad} = \frac{T}{P} \left( 1 - \frac{1}{\gamma_{\rm ad}} \right) \td{P}{r}
+\hspace{1cm} \text{where} \hspace{1cm}
+\left| \frac{\mathrm{d} T}{\mathrm{d} r} \right|_{\rm ad} = \frac{T}{P} \left( 1 - \frac{1}{\gamma_{\rm ad}} \right) \frac{\mathrm{d} P}{\mathrm{d} r}
 $$
 
 where $\gamma=\gamma_{\rm ad}$ is the assumed [[Polytropes|polytropic]] exponent (or adiabatic index). We take absolute values because these gradient quantities are often negative. 
@@ -29,4 +29,4 @@ The limit on the temperature gradient means that
 
 > [!note] 
 > We can also reframe this equation in terms of logarithmic derivatives since $(1/x) df/dx = d \ln(f)/dx$). 
-> $$\left| \td{T}{r} \right|_{\rm ad} = \left( 1 - \frac{1}{\gamma_{\rm ad}} \right) \td{(\ln P)}{(\ln r)}$$
+> $$\left| \frac{\mathrm{d} T}{\mathrm{d} r} \right|_{\rm ad} = \left( 1 - \frac{1}{\gamma_{\rm ad}} \right) \frac{\mathrm{d} (\ln P)}{\mathrm{d} (\ln r)}$$

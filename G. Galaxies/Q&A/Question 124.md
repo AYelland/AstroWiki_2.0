@@ -10,7 +10,7 @@ Describe the following relations and what they are useful for: (i) Kennicutt-Sch
 
 The **Kennicutt-Schmidt** is an empirical relation between the local surface gas density ($\Sigma_{\rm gas}$) and star formation rate (SFR) surface density ($\Sigma_{\rm SFR}$) in a given region.
 
-$$\Sigma_{\rm SFR} \propto (\Sigma_{\rm gas})^{n} \hWhere \left[ \Sigma_{\rm SFR} \right] \equiv \frac{({\rm mass} / {\rm time})}{{\rm area}} \hspace{0.5cm} , \hspace{0.5cm} \left[ \Sigma_{\rm gas} \right] \equiv \frac{\rm mass}{\rm area}$$
+$$\Sigma_{\rm SFR} \propto (\Sigma_{\rm gas})^{n} \hspace{1cm} \text{where} \hspace{1cm} \left[ \Sigma_{\rm SFR} \right] \equiv \frac{({\rm mass} / {\rm time})}{{\rm area}} \hspace{0.5cm} , \hspace{0.5cm} \left[ \Sigma_{\rm gas} \right] \equiv \frac{\rm mass}{\rm area}$$
 
 The index was initially inferred to be $n \sim 2 \pm 1$ for the Milky Way (Schmitz, 1959), but has been since been narrowed to $n \sim 1.4 \pm 0.15$ by using a larger sample of spiral & starburst galaxies (Kennicutt, 1989).
 

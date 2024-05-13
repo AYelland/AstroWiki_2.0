@@ -1,3 +1,37 @@
+/* Theme Colors & Modifications */
+.theme-dark,
+.theme-light {
+    --interactive-accent: #EE7411;
+    --text-accent: #EE7411;
+    --interactive-accent-rgb: #EE7411;
+    --embed-background: rgba(0, 0, 0, 0);
+    --popover-width: 800px;
+    --popover-height: 500px;
+}
+
+/* Banner Plugin Modifications */
+.obsidian-banner-wrapper {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.mod-header:has(+ .obsidian-banner-wrapper) {
+  margin-top: var(--banner-height);
+}
+
+/* Alignment of Images */
+img[alt*="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[alt*="right"] {
+    float:right;
+    clear:right;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
 /* Custom Callouts */
 .callout[data-callout="key-idea"] {
     --callout-color: 41, 168, 5;
@@ -100,3 +134,20 @@
     color: #ff0000; 
     --callout-color: 255, 200, 255;
 } */
+
+
+/* Markdown Table Alignment */
+.markdown-preview-view table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Expanding the number of pixels per line - Page width*/
+/*body {
+  --file-line-width: 60rem !important;
+  --tab-stacked-pane-width: 850px;
+}
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-embed-block > div:not(.block-language-dataview) {
+  max-width: 100%;
+}*/
+

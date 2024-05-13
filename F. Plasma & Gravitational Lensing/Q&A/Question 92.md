@@ -9,8 +9,8 @@ What is “dispersion measure” for electromagnetic waves in a plasma? How is i
 The **dispersion measure (DM)** quantifies the dispersion of light along the path of propagation. It is defined as the integrated free electron density (i.e. column density) between the source and the observer.
 
 $$
-{\rm DM} = \int_{0}^{d} n_{\rm e}(z) \; \rd z
-\hWhere
+{\rm DM} = \int_{0}^{d} n_{\rm e}(z) \; \mathrm{d} z
+\hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	z &\equiv \text{path of propagation} \\
 	n_{\rm e}(z) &\equiv {\rm e^{-}\ number\ density\ at\ } z \\
@@ -19,7 +19,7 @@ $$
 
 **Basic Overview:**
 - The refractive index varies along the light's path of propagation depending on the medium the light passes through. In particular, we are concerned with ionized material and its affect on the propagation.
-- The refractive index is a frequency-dependent quantity. $$n = \frac{c}{v} = \frac{c}{\nu \lambda} = \frac{2 \pi c}{\omega \lambda} \hWhere n \equiv \text{refractive index}$$
+- The refractive index is a frequency-dependent quantity. $$n = \frac{c}{v} = \frac{c}{\nu \lambda} = \frac{2 \pi c}{\omega \lambda} \hspace{1cm} \text{where} \hspace{1cm} n \equiv \text{refractive index}$$
 - If we shine a spectrum of many frequencies through an ionized region, the light which experiences a lower refractive index will exit first ($v = c/n$).
 - This leads to a ***frequency-dependent time delay*** of the observed light, and the further the light travels through an ionized medium, or the denser the medium, the greater the effect.
 - The **dispersion measure** quantifies this dispersion of light by integrating the free electron density along the direction of propagation, and thus is effectively a column density.
@@ -31,7 +31,7 @@ $$
 > $$
 > \textcolor{gray}{ \left[ \; 
 > \text{Dispersion Relation:} \hspace{1cm} \omega^{2} = \omega_{\rm p}^{2} + c^{2} k^{2}
-> \hWhere
+> \hspace{1cm} \text{where} \hspace{1cm}
 > \begin{aligned}
 > 	\omega &\equiv \text{wave ang. frequency} \\
 > 	\omega_{\rm p} &\equiv \text{plasma ang. frequency} \\
@@ -39,24 +39,24 @@ $$
 > \end{aligned}
 > \; \right]}
 > $$
-> $$v_{\rm g} = \td{\omega}{k} = \frac{2 c^{2} k}{2 \sqrt{\omega_{\rm p}^{2} + c^{2} k^{2}}} = \frac{c^{2} k}{\omega} = c \; \sqrt{1 - \fpar{\omega_{\rm p}}{\omega}^{2}}$$
+> $$v_{\rm g} = \frac{\mathrm{d} \omega}{\mathrm{d} k} = \frac{2 c^{2} k}{2 \sqrt{\omega_{\rm p}^{2} + c^{2} k^{2}}} = \frac{c^{2} k}{\omega} = c \; \sqrt{1 - \left(\frac{\omega_{\rm p}}{\omega}\right)^{2}}$$
 > 
 > $$
 > \begin{aligned}[b]
-> 	t(\omega) &= \left[ \int_{0}^{d} \frac{\rd z}{v_{\rm g}} \right] - \frac{d}{c} \\
-> 	&= \left[ \int_{0}^{d} \frac{\rd z}{c \sqrt{1 - (\omega_{\rm p}/\omega)^{2}}} \right] - \frac{d}{c} \\
+> 	t(\omega) &= \left[ \int_{0}^{d} \frac{\mathrm{d} z}{v_{\rm g}} \right] - \frac{d}{c} \\
+> 	&= \left[ \int_{0}^{d} \frac{\mathrm{d} z}{c \sqrt{1 - (\omega_{\rm p}/\omega)^{2}}} \right] - \frac{d}{c} \\
 > 	\\
 > 	&\hspace{0.5cm} \textcolor{gray}{\Downarrow \quad(\omega \, \gg \, \omega_{\rm p})} \\
 > 	\\
-> 	&\approx \left[ \int_{0}^{d} \frac{1}{c} \, \left( 1 + \frac{1}{2} \fpar{\omega_{\rm p}}{\omega}^{2} \right) \; \rd z \right] - \frac{d}{c} \\
-> 	&\approx \left[ \frac{d}{c} + \int_{0}^{d} \frac{1}{2 c}\fpar{\omega_{\rm p}}{\omega}^{2} \; \rd z \right] - \frac{d}{c} \\
-> 	&\approx \frac{1}{2 c} \frac{1}{\omega^{2}} \int_{0}^{d} \omega_{\rm p}^{2} \; \rd z \hspace{4cm} \textcolor{gray}{\left[ \omega_{\rm p} \equiv \sqrt{\frac{e^{2} n_{\rm e}}{\epsilon_{0} \,m_{\rm e}}} \right]} \\
-> 	&\approx \fpar{e^{2}}{2 \epsilon_{0} \, m_{\rm e} c} \; \frac{1}{\omega^{2}} \left( \int_{0}^{d} n_{\rm e} \; \rd z \right) \hspace{1.5cm} \textcolor{gray}{\left[ \nu \equiv \frac{\omega}{2 \pi} \right]}\\
-> 	&\approx \underbrace{\fpar{e^{2}}{8 \pi^{2} \epsilon_{0} \, m_{\rm e} c}}_{k_{\rm DM}} \; \frac{1}{\nu^{2}}\; \underbrace{\left( \int_{0}^{d} n_{\rm e} \; \rd z \right)}_{\rm DM}
+> 	&\approx \left[ \int_{0}^{d} \frac{1}{c} \, \left( 1 + \frac{1}{2} \left(\frac{\omega_{\rm p}}{\omega}\right)^{2} \right) \; \mathrm{d} z \right] - \frac{d}{c} \\
+> 	&\approx \left[ \frac{d}{c} + \int_{0}^{d} \frac{1}{2 c}\left(\frac{\omega_{\rm p}}{\omega}\right)^{2} \; \mathrm{d} z \right] - \frac{d}{c} \\
+> 	&\approx \frac{1}{2 c} \frac{1}{\omega^{2}} \int_{0}^{d} \omega_{\rm p}^{2} \; \mathrm{d} z \hspace{4cm} \textcolor{gray}{\left[ \omega_{\rm p} \equiv \sqrt{\frac{e^{2} n_{\rm e}}{\epsilon_{0} \,m_{\rm e}}} \right]} \\
+> 	&\approx \left(\frac{e^{2}}{2 \epsilon_{0} \, m_{\rm e} c}\right) \; \frac{1}{\omega^{2}} \left( \int_{0}^{d} n_{\rm e} \; \mathrm{d} z \right) \hspace{1.5cm} \textcolor{gray}{\left[ \nu \equiv \frac{\omega}{2 \pi} \right]}\\
+> 	&\approx \underbrace{\left(\frac{e^{2}}{8 \pi^{2} \epsilon_{0} \, m_{\rm e} c}\right)}_{k_{\rm DM}} \; \frac{1}{\nu^{2}}\; \underbrace{\left( \int_{0}^{d} n_{\rm e} \; \mathrm{d} z \right)}_{\rm DM}
 > \end{aligned}
 > $$
 > 
-> $$t(\nu) = {\rm DM} \frac{k_{\rm DM}}{\nu^{2}} \hRightarrow \Delta t = {\rm DM} \, k_{\rm DM} \left( \frac{1}{\nu_{2}^{2}} - \frac{1}{\nu_{1}^{2}} \right)$$
+> $$t(\nu) = {\rm DM} \frac{k_{\rm DM}}{\nu^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} \Delta t = {\rm DM} \, k_{\rm DM} \left( \frac{1}{\nu_{2}^{2}} - \frac{1}{\nu_{1}^{2}} \right)$$
 > 
 > where we have defined the dispersion constant ($k_{\rm DM}$). 
 > 

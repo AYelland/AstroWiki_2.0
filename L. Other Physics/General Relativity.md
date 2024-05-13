@@ -15,7 +15,7 @@ The Schwarzchild metric is an exact (and vacuum-region) solution to the Einstein
 Omitting tensor notation entirely, the line element for proper time takes the form
 
 $$
-- c^{2} \rd \tau^{2} = - \left( 1 - \frac{R_{\rm s}}{r} \right) c^{2} \rd t^{2} + \left( 1 - \frac{R_{\rm s}}{r} \right)^{-1} \rd r^{2} + r^{2} ( \rd \theta^{2} + \sin^{2}\theta \, \rd \varphi^{2} )
+- c^{2} \mathrm{d} \tau^{2} = - \left( 1 - \frac{R_{\rm s}}{r} \right) c^{2} \mathrm{d} t^{2} + \left( 1 - \frac{R_{\rm s}}{r} \right)^{-1} \mathrm{d} r^{2} + r^{2} ( \mathrm{d} \theta^{2} + \sin^{2}\theta \, \mathrm{d} \varphi^{2} )
 $$
 
 ...where $R_S = \frac{2GM}{c^2}$ is the **Schwarzschild radius** and we use the so-called "Schwarzschild coordinates"  
@@ -32,8 +32,8 @@ The Kerr metric is a generalization of the [[#Schwarzschild Metric]] for a rotat
 
 $$
 \begin{aligned}
-	\rd s^{2} &= - c^{2} \rd \tau^{2} \\
-	&= - \left( 1 - \frac{R_{\rm s} r}{\Sigma} \right) c^{2} \rd t^{2} + \frac {\Sigma}{\Delta} \rd r^{2} + \Sigma \rd \theta^{2} + \left( r^{2} + a^{2} + \frac{R_{\rm s} r a^{2}}{\Sigma} \sin^{2} \theta \right) \sin^{2} \theta \, \rd \varphi^{2} - \frac{2 R_{\rm s} r a \sin^{2} \theta}{\Sigma} c \, \rd t \, \rd \varphi 
+	\mathrm{d} s^{2} &= - c^{2} \mathrm{d} \tau^{2} \\
+	&= - \left( 1 - \frac{R_{\rm s} r}{\Sigma} \right) c^{2} \mathrm{d} t^{2} + \frac {\Sigma}{\Delta} \mathrm{d} r^{2} + \Sigma \mathrm{d} \theta^{2} + \left( r^{2} + a^{2} + \frac{R_{\rm s} r a^{2}}{\Sigma} \sin^{2} \theta \right) \sin^{2} \theta \, \mathrm{d} \varphi^{2} - \frac{2 R_{\rm s} r a \sin^{2} \theta}{\Sigma} c \, \mathrm{d} t \, \mathrm{d} \varphi 
 \end{aligned}
 $$
 
@@ -55,7 +55,7 @@ R_{\rm s} = \frac{2 G M}{c^{2}}
 \end{aligned}
 $$
 
-A key feature is the $\rd t \, \rd \varphi$ term that couples time and the motion in the plane of rotation. When the black hole's angular momentum goes to zero, this term disappears such that we are left with the [[#Schwarzschild Metric]].
+A key feature is the $\mathrm{d} t \, \mathrm{d} \varphi$ term that couples time and the motion in the plane of rotation. When the black hole's angular momentum goes to zero, this term disappears such that we are left with the [[#Schwarzschild Metric]].
 
 ## Friedmann–Lemaître–Robertson–Walker Metric
 *(Abbrev. as **FLRW metric**)*
@@ -64,10 +64,10 @@ The **Friedmann–Lemaître–Robertson–Walker Metric** is a solution to the E
 
 These assumptions lead to a form of the metric...
 
-$$- c^{2} \rd \tau^{2} = - c^{2} \rd t^{2} + a(t)^{2} \, \rd \mathbf{\Sigma}^{2}$$
-...where $\rd \mathbf{\Sigma}$ is the line element on a 3D space of uniform curvature...
+$$- c^{2} \mathrm{d} \tau^{2} = - c^{2} \mathrm{d} t^{2} + a(t)^{2} \, \mathrm{d} \mathbf{\Sigma}^{2}$$
+...where $\mathrm{d} \mathbf{\Sigma}$ is the line element on a 3D space of uniform curvature...
 
-$$\rd \mathbf{\Sigma}^{2} \equiv \frac{\rd r^{2}}{1 - k r^{2}} + r^{2} \rd \mathbf{\Omega}^{2} \hWhere \rd \mathbf{\Omega}^{2} = \rd \theta^{2} + \sin^{2}{\theta} \, \rd \varphi^{2}$$
+$$\mathrm{d} \mathbf{\Sigma}^{2} \equiv \frac{\mathrm{d} r^{2}}{1 - k r^{2}} + r^{2} \mathrm{d} \mathbf{\Omega}^{2} \hspace{1cm} \text{where} \hspace{1cm} \mathrm{d} \mathbf{\Omega}^{2} = \mathrm{d} \theta^{2} + \sin^{2}{\theta} \, \mathrm{d} \varphi^{2}$$
 
 ...and $k$ represents the curvature of the spacetime.
 
@@ -88,7 +88,7 @@ We usually define $a$ such that $a_0=1$.
 By applying this metric in the Einstein field equations, we find two differential equations, one of which represents the energy conservation while the other represents the Hubble parameter, $H(a)$.
 
 $$
-H^{2}(a) \equiv \underbrace{\fpar{\dot{a}}{a}^{2} = \frac{8 \pi G \rho}{3} - \frac{k c^{2}}{a^{2}} +\frac{\Lambda c^{2}}{3}}_{\text{Hubble Parameter}}
+H^{2}(a) \equiv \underbrace{\left(\frac{\dot{a}}{a}\right)^{2} = \frac{8 \pi G \rho}{3} - \frac{k c^{2}}{a^{2}} +\frac{\Lambda c^{2}}{3}}_{\text{Hubble Parameter}}
 \hspace{2cm}
 \underbrace{\frac{\ddot{a}}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^{2}} \right) + \frac{\Lambda c^{2}}{3}}_{\text{Conservation of Energy}}
 $$

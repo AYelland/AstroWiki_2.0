@@ -26,8 +26,8 @@ aliases:
 
 The **apparent magnitude** ($m$) is defined as how bright a source object appears relative to reference object. It is a measure of *"how much [[Flux]] do we observe"*. Since this quantity is depends on both the brightness of the object and its distance, it is *not* and intrinsic characteristic of a source.
 
-$$\Delta m = m_{1} - m_{2} = -2.5 \log_{10} \fpar{(F_{\nu})_{1}}{(F_{\nu})_{2}}
-\hWhere
+$$\Delta m = m_{1} - m_{2} = -2.5 \log_{10} \left(\frac{(F_{\nu})_{1}}{(F_{\nu})_{2}}\right)
+\hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	(F_{\nu})_{1} &\equiv \text{source object flux} \\
 	(F_{\nu})_{2} &\equiv \text{reference object flux}
@@ -44,10 +44,10 @@ There are two main reference object systems utilized in astronomy that allow us 
 Since the apparent magnitude of an object is dependent on the wavelength/frequency of light its being observed with, astronomers have also defined the...
 
 - **monochromatic magnitude** - the magnitude of an object at a single wavelength
-	$$\ m_{\nu, 1} - m_{\nu, 2} = -2.5 \log_{10} \fpar{(F_{\nu})_{1}}{(F_{\nu})_{2}}$$
+	$$\ m_{\nu, 1} - m_{\nu, 2} = -2.5 \log_{10} \left(\frac{(F_{\nu})_{1}}{(F_{\nu})_{2}}\right)$$
 	
 - **band magnitude** - the magnitude spectrum of an object across many wavelengths. For these spectrum observations that use a a filter bandpass (such as the [[Photometry#UBVRI System]]), fluxes must integrated over the frequency band $X$ with a transmission function $T_X(\nu)$.
-	$$\ m_{X, 1} - m_{X, 2} = -2.5 \log_{10} \fpar{ \int (F_{\nu})_{1} T_{X}(\nu) \; \rd\nu}{\int (F_{\nu})_{2} T_{X}(\nu) \; \rd\nu} = -2.5 \log_{10} \fpar{(F_{X})_{1}}{(F_{X})_{2}}$$
+	$$\ m_{X, 1} - m_{X, 2} = -2.5 \log_{10} \left(\frac{ \int (F_{\nu})_{1} T_{X}(\nu) \; \mathrm{d}\nu}{\int (F_{\nu})_{2} T_{X}(\nu) \; \mathrm{d}\nu}\right) = -2.5 \log_{10} \left(\frac{(F_{X})_{1}}{(F_{X})_{2}}\right)$$
 	Since in most observations you cannot single out a specific wavelength/frequency of light, the band magnitude is much more practical.
 
 ### Vega Reference System
@@ -55,9 +55,9 @@ Since the apparent magnitude of an object is dependent on the wavelength/frequen
 The Vega reference system is calibrated using the flux of the AO V star Vega, $(F_{\nu})_{\rm Vega}$, which has a non-flat, flux distribution (i.e. the flux changes for different frequencies). With this calibration, the star Vega at magnitude of zero in all frequency bands. ($m_{\rm \nu, Vega} = 0$ and $m_{\rm X, Vega} = 0$)
 
 $$
-m_{\nu} = -2.5 \log_{10} \fpar{F_{\nu}}{(F_{\nu})_{\rm Vega}}
+m_{\nu} = -2.5 \log_{10} \left(\frac{F_{\nu}}{(F_{\nu})_{\rm Vega}}\right)
 \hspace{2cm}
-m_{X} = -2.5 \log_{10} \fpar{ F_{X}}{(F_{X})_{\rm Vega}}
+m_{X} = -2.5 \log_{10} \left(\frac{ F_{X}}{(F_{X})_{\rm Vega}}\right)
 $$
 
 ### AB Reference System
@@ -66,22 +66,22 @@ The AB reference system is calibrated to a hypothetical source with flux with a 
 
 $$(F_{\nu})_{\rm AB} = 3.63\times10^{-20} {\rm erg}\ {\rm s}^{-1} {\rm cm}^{-2} {\rm Hz}^{-1}$$
 
-Because the AB reference object gives a flat, flux distribution, $(F_{\nu})_{\rm AB} =$ constant, we can pair this with the normalization principle for the transmission function, $\int T_X(\nu)\rd\nu = 1$ such that...
+Because the AB reference object gives a flat, flux distribution, $(F_{\nu})_{\rm AB} =$ constant, we can pair this with the normalization principle for the transmission function, $\int T_X(\nu)\mathrm{d}\nu = 1$ such that...
 
-$$\int (F_{\nu})_{\rm AB} T_X(\nu) \rd\nu = (F_{\nu})_{\rm AB} \int T_X(\nu) \rd\nu = (F_{\nu})_{\rm AB}$$
+$$\int (F_{\nu})_{\rm AB} T_X(\nu) \mathrm{d}\nu = (F_{\nu})_{\rm AB} \int T_X(\nu) \mathrm{d}\nu = (F_{\nu})_{\rm AB}$$
 
  This means, using this calibration allows us to immediately extract a constant in the apparent magnitude expression.
  
 $$
 \begin{align}
-	m_{\nu} &= -2.5 \log_{10} \fpar{F_{\nu}}{(F_{\nu})_{\rm AB}} \\
+	m_{\nu} &= -2.5 \log_{10} \left(\frac{F_{\nu}}{(F_{\nu})_{\rm AB}}\right) \\
 	&= -2.5 \log_{10} (F_{\nu}) - 48.6
 \end{align}
 $$
 $$
 \begin{alignat}{2}
-	m_{X} &= -2.5 \log_{10} \fpar{F_{X}}{(F_{\nu})_{\rm AB}} &\quad&\textcolor{gray}{= -2.5 \log_{10} \fpar{\int F_{\nu} T_X(\nu)\rd\nu}{(F_{\nu})_{\rm AB}}} \\
-	&= -2.5 \log_{10} \left( F_{X} \right) - 48.6 &&\textcolor{gray}{= -2.5 \log_{10} \left( \int F_{\nu} T_X(\nu)\rd\nu \right) - 48.6}
+	m_{X} &= -2.5 \log_{10} \left(\frac{F_{X}}{(F_{\nu})_{\rm AB}}\right) &\quad&\textcolor{gray}{= -2.5 \log_{10} \left(\frac{\int F_{\nu} T_X(\nu)\mathrm{d}\nu}{(F_{\nu})_{\rm AB}}\right)} \\
+	&= -2.5 \log_{10} \left( F_{X} \right) - 48.6 &&\textcolor{gray}{= -2.5 \log_{10} \left( \int F_{\nu} T_X(\nu)\mathrm{d}\nu \right) - 48.6}
 \end{alignat}
 $$
 
@@ -93,7 +93,7 @@ $$
 The value of the hypothetical source flux ($(F_{\nu})_{\rm AB}$)in the [[#AB Reference System]] was chosen such that the source has the same magnitude in the *V-band*.
 $$m_{\rm X, AB} = m_{\rm X, Vega}$$
 Therefore, to convert between the magnitude reference systems in other optical frequency bands, we can apply the conversion: 
-$$m_{\rm X, AB} - m_{\rm X, Vega} = -2.5\log_{10}\left(\frac{\int (F_{\nu})_{\rm AB} \, T_{X}(\nu) \; \rd\nu}{(F_{\nu})_{\rm Vega} \, T_{X}(\nu) \; \rd\nu}\right)$$
+$$m_{\rm X, AB} - m_{\rm X, Vega} = -2.5\log_{10}\left(\frac{\int (F_{\nu})_{\rm AB} \, T_{X}(\nu) \; \mathrm{d}\nu}{(F_{\nu})_{\rm Vega} \, T_{X}(\nu) \; \mathrm{d}\nu}\right)$$
 
 For example, this gives us...
 $$
@@ -108,15 +108,15 @@ $$
 
 The **absolute magnitude** ($M$) is defined as the [[#apparent magnitude]] ($m$) if the source were measured at a distance of $10\,\pu{pc}$ away from the observer. With removing the issue of observational effects, the absolute magnitude is related to the intrinsic brightness of the source.
 
-$$\underbrace{M - m}_{\text{dist. modulus}} = -2.5 \log_{10} \fpar{F_{10 {\rm pc}}}{F_{\rm D}}$$
+$$\underbrace{M - m}_{\text{dist. modulus}} = -2.5 \log_{10} \left(\frac{F_{10 {\rm pc}}}{F_{\rm D}}\right)$$
 
 With [[Flux#^fdb0f0|flux scaling with the inverse-square law]], we can express the [[#apparent magnitude]] measured at a distance $D$ and vise versa.
 $$
 \begin{align}
-	M - m &= -2.5 \log_{10} \fpar{F_{10 {\rm pc}}}{F_{\rm D}} \\
+	M - m &= -2.5 \log_{10} \left(\frac{F_{10 {\rm pc}}}{F_{\rm D}}\right) \\
 	&= -2.5 \log_{10} \left( \frac{L}{4 \pi (10 \; {\rm pc})^{2}} \cdot \frac{4 \pi D^{2}}{L} \right) \\
-	&= -2.5 \log_{10} \fpar{D}{10 \; {\rm pc}}^{2} \\
-	&= -5 \left(\log_{10}D - 1 \right) \hspace{1.5cm} \hRightarrow D = 10^{\frac{m - M + 5}{5}}
+	&= -2.5 \log_{10} \left(\frac{D}{10 \; {\rm pc}}\right)^{2} \\
+	&= -5 \left(\log_{10}D - 1 \right) \hspace{1.5cm} \hspace{1cm} \Rightarrow \hspace{1cm} D = 10^{\frac{m - M + 5}{5}}
 \end{align}
 $$
 
@@ -157,7 +157,7 @@ Photographic observations have now been superseded by electronic photometry such
 A **color index** is defined by taking the difference in [[Magnitude|magnitudes]] (a flux ratio) at two different wavelengths or through two different [[Photometry#Bandpass Systems|bandpass]] filters. The most common filters used are the [[Photometry#UBVRI Filters]].
 
 $$
-\lambda_{\rm short} - \lambda_{\rm long} \quad \equiv \quad M_{\rm short \lambda} - M_{\rm long \lambda} = -2.5\log_{10} \fpar{F_{\rm short \lambda}}{F_{\rm long \lambda}}
+\lambda_{\rm short} - \lambda_{\rm long} \quad \equiv \quad M_{\rm short \lambda} - M_{\rm long \lambda} = -2.5\log_{10} \left(\frac{F_{\rm short \lambda}}{F_{\rm long \lambda}}\right)
 $$
 
 $$$$
@@ -179,7 +179,7 @@ The value of this index tells us how the star is emitting, relative to the diffe
 
 For the HR diagram, as a replacement of temperature, the B-V color index is classically used. The V-K tends to have a better spread in $\lambda$, but the V-band is ill-defined. The G-K is better because G works will in space.
 
-$$B-V \quad \equiv \quad m_{\rm B} - m_{\rm V} = -2.5\log_{10} \fpar{F_{\rm B}}{F_{\rm V}}$$
+$$B-V \quad \equiv \quad m_{\rm B} - m_{\rm V} = -2.5\log_{10} \left(\frac{F_{\rm B}}{F_{\rm V}}\right)$$
 
 > [!example]-
 > - If a star has the magnitudes of $B = m_{\rm B} = 6.7$ and $V = m_{\rm V} = 8.2$, then $B - V = > -1.5$.

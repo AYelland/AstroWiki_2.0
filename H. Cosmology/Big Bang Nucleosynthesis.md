@@ -78,7 +78,7 @@ It takes universe $\sim 200 \; {\rm s}$ to finally became cool enough for [[Deut
 > 
 > To calculate this time delay, we can use the [[Deuteron Fusion|deuteron fusion]] reaction ($\ce{p + n \leftrightharpoons D + \gamma}$) since it never freezes out, and only stops once all neutrons are used up. From the [[Saha Equation]]...
 > 
-> $$\frac{n_{\rm D}}{n_{\rm p} n_{\rm n}} = \frac{g_{\rm D}}{g_{\rm p} g_{\rm n}} \fpar{m_{\rm D}}{m_{\rm p} m_{\rm n}}^{3/2} \fpar{k_{\rm B} T}{2 \pi \hbar^{2}}^{-3/2} \exp \left[ \frac{2.22 \; {\rm MeV}}{k_{\rm B} T} \right]$$
+> $$\frac{n_{\rm D}}{n_{\rm p} n_{\rm n}} = \frac{g_{\rm D}}{g_{\rm p} g_{\rm n}} \left(\frac{m_{\rm D}}{m_{\rm p} m_{\rm n}}\right)^{3/2} \left(\frac{k_{\rm B} T}{2 \pi \hbar^{2}}\right)^{-3/2} \exp \left[ \frac{2.22 \; {\rm MeV}}{k_{\rm B} T} \right]$$
 > 
 > ...where $g_{\rm p}=g_{\rm n}=2$ *(2 spin configurations)*, $g_{\rm D}=3$ *(3 spin configurations: $\uparrow\uparrow, \downarrow\downarrow, \uparrow\downarrow$)*, and $m_{\rm p}=m_{\rm n}=m_{\rm D}/2$. Simplifying...
 > 
@@ -90,7 +90,7 @@ It takes universe $\sim 200 \; {\rm s}$ to finally became cool enough for [[Deut
 > 
 > We now want to know when this happens. We can relate $n_{p}$ to the temperature to calculate the corresponding temperature and time. Additionally, we can relate $n_{p}$ to the baryon density ($n_{b}$) and photon density ($n_{\gamma}$) through the fixed [[Question 145|baryon-to-photon ratio]] ($\eta \simeq 5 \times 10^{-10}$) and the [[#The Neutron-Proton Ratio|neutron-proton ratio]] ($n_{\rm n}/n_{\rm p} \simeq 1/5$).
 > 
-> $$n_{\rm b} = n_{\rm p} + n_{\rm n} = \frac{6}{5} \, n_{\rm p} \hRightarrow n_{\rm p} = \frac{5}{6} \, \eta \, n_{\gamma} = \frac{5}{6} \, \eta \left( 0.24 \left(\frac{k_{\rm B} T}{\hbar c} \right)^{3} \right)$$
+> $$n_{\rm b} = n_{\rm p} + n_{\rm n} = \frac{6}{5} \, n_{\rm p} \hspace{1cm} \Rightarrow \hspace{1cm} n_{\rm p} = \frac{5}{6} \, \eta \, n_{\gamma} = \frac{5}{6} \, \eta \left( 0.24 \left(\frac{k_{\rm B} T}{\hbar c} \right)^{3} \right)$$
 > 
 > This yields a temperature and time delay of...
 > 
@@ -99,7 +99,7 @@ It takes universe $\sim 200 \; {\rm s}$ to finally became cool enough for [[Deut
 > 	\\
 > 	1 &\approx 3.4\times10^{-9} \left(\frac{kT}{m_n c^2}\right)^{3/2} \exp \left[ \frac{2.22 \; {\rm MeV}}{k_{\rm B} T} \right]
 > \end{aligned}$$
-> $$T \approx 8 \times 10^{8} \; {\rm K} \hRightarrow t \approx 200 \; {\rm s}$$
+> $$T \approx 8 \times 10^{8} \; {\rm K} \hspace{1cm} \Rightarrow \hspace{1cm} t \approx 200 \; {\rm s}$$
 
 During the duration of this time delay, we lose neutrons some quantity of neutrons through [[Beta Decay|beta decay]], with a lifetime of $\tau \sim 890 \; {\rm s}$. Therefore, after $t \sim 200 \; {\rm s}$ , our [[#The Neutron-Proton Ratio|neutron-proton ratio]] is actually closer to...
 

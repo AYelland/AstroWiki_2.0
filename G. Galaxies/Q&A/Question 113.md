@@ -20,12 +20,12 @@ In comparison to an [[Galaxy Profiles#Isothermal Sphere]], the phase space distr
 
 The [[Timescales#Weak Interactions|weak two-body interaction timescale]] can be expressed in terms of the [[Timescales#Crossing Timescale|crossing timescale]].
 
-$$t_{\rm weak} \approx \fpar{N}{6 \ln N} \; t_{\rm cross} \approx \fpar{N}{6 \ln N} \fpar{G N m}{v^{3}} \propto \frac{N^{2}}{\ln N}$$
+$$t_{\rm weak} \approx \left(\frac{N}{6 \ln N}\right) \; t_{\rm cross} \approx \left(\frac{N}{6 \ln N}\right) \left(\frac{G N m}{v^{3}}\right) \propto \frac{N^{2}}{\ln N}$$
 
 In comparison to the [[Timescales#Violent Relaxation|violent relaxation timescale]] (effectively the [[Timescales#Dynamical Timescale|dynamical/free-fall timescale]])...
 
-$$t_{\rm vr} \sim t_{\rm ff} \sim \frac{1}{\sqrt{G \rho}} \; \propto N\hWhere \rho = m n = \frac{3 N m}{4 \pi R^{3}} = \frac{3 v^{3}}{4 \pi G^{3} N^{2} m^{2}}$$
+$$t_{\rm vr} \sim t_{\rm ff} \sim \frac{1}{\sqrt{G \rho}} \; \propto N\hspace{1cm} \text{where} \hspace{1cm} \rho = m n = \frac{3 N m}{4 \pi R^{3}} = \frac{3 v^{3}}{4 \pi G^{3} N^{2} m^{2}}$$
 
 ...we find that the violent relaxation timescale is much shorter.
 
-$$t_{\rm weak} \approx t_{\rm ff} \fpar{N}{\ln N} \hRightarrow t_{\rm vr} \lt t_{\rm weak}$$
+$$t_{\rm weak} \approx t_{\rm ff} \left(\frac{N}{\ln N}\right) \hspace{1cm} \Rightarrow \hspace{1cm} t_{\rm vr} \lt t_{\rm weak}$$

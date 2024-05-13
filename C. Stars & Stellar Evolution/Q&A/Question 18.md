@@ -9,16 +9,16 @@ By [[Blackbody Radiation#Wien's Displacement Law]], we know that the [[Flux|flux
 ![[wiens_displacementLaw.png|aling:center|500]]
 
 $$
-B_{\nu}(\nu,T) = \frac{2 h \nu^{3}}{c^{2}} \fpar{1}{\exp \left[ \frac{h \nu}{k_{\rm B} T} \right] - 1} \hRightarrow \lambda_{\rm peak} \simeq \frac{b}{T_{\rm eff}}
+B_{\nu}(\nu,T) = \frac{2 h \nu^{3}}{c^{2}} \left(\frac{1}{\exp \left[ \frac{h \nu}{k_{\rm B} T}\right) \right] - 1} \hspace{1cm} \Rightarrow \hspace{1cm} \lambda_{\rm peak} \simeq \frac{b}{T_{\rm eff}}
 $$
 
 By assuming the stellar surface emits as a [[Blackbody Radiation|blackbody]], we can measure the flux output of a star in the [[Photometry#UBVRI Filters|B and V bands]] , take their difference, and find the [[Hertzsprung-Russell Diagram#Color Index|color index (B-V)]]. 
 
 $$
 \begin{align}
-	\lambda_{\rm short} - \lambda_{\rm long} \quad \equiv \quad m_{\rm short \lambda} &- m_{\rm long \lambda} = -2.5\log_{10} \fpar{F_{\rm short \lambda}}{F_{\rm long \lambda}} \\
+	\lambda_{\rm short} - \lambda_{\rm long} \quad \equiv \quad m_{\rm short \lambda} &- m_{\rm long \lambda} = -2.5\log_{10} \left(\frac{F_{\rm short \lambda}}{F_{\rm long \lambda}}\right) \\
 	&\Downarrow \\
-	B-V \quad \equiv \quad m_{\rm B} &- m_{\rm V} = -2.5\log_{10} \fpar{F_{\rm B}}{F_{\rm V}}
+	B-V \quad \equiv \quad m_{\rm B} &- m_{\rm V} = -2.5\log_{10} \left(\frac{F_{\rm B}}{F_{\rm V}}\right)
 \end{align}
 $$
 

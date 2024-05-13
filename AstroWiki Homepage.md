@@ -33,9 +33,9 @@ Additionally, you will also find other files containing information that proved 
     If something is confusing, ask other grad students or faculty. You could spend a week on any question if you really wanted to, but there's no time for that. So to keep things moving smoothly, ask confidently and ask often.
 
 3. **Consider working locally.**
-    Can use this website, but can also download this vault from [this github repo](https://github.com/CianMRoche/AstroWiki/tree/main) and navigate it locally with the program [Obsidian](https://obsidian.md/). This has the advantage of using canvases, editing, and greater customizability, but most importantly a full text search (rather than just note titles and headings as on the website version). It'll probably also be a bit smoother. 
+    You can use this website, but can also download this vault from [this github repo](https://github.com/AYelland/AstroWiki_2.0) and navigate it locally with the program [Obsidian](https://obsidian.md/). This has the advantage of using canvases, editing, and greater customizability, but most importantly a full text search (rather than just note titles and headings as on the website version). It'll probably also be a bit smoother. 
     
-    Additionally, this allows you to use the [[Dashboard.canvas|Dashboard]] feature for tracking your progress throughout your studying experience. For details on how to set this up, see [[How to Use the Dashboard]]. *(For other features and tips on how to best use a local version, reach out to Alexander Yelland, [ayelland@mit.edu](mailto:ayelland@mit.edu).)*
+    Additionally, this allows you to use the [[Dashboard.canvas|Dashboard]] feature (not visible on website) for tracking your progress throughout your studying experience - a very cool feature. For details on how to set this up and to see a preview of the dashboard, see [[How to Use the Dashboard]]. *(For other features and tips on how to best use a local version, reach out to Alexander Yelland, [ayelland@mit.edu](mailto:ayelland@mit.edu).)*
 
 4. **Contribute.**
     You will find mistakes and perhaps even inconsistencies with other students' notes. Please fix them! Then you can submit a pull request on the GitHub repository linked above (best choice, requires downloading the vault in step 3), or reach out to Alexander Yelland ([ayelland@mit.edu](mailto:ayelland@mit.edu)) or Cian Roche ([roche@mit.edu](mailto:roche@mit.edu)) and we can update the notes :)
@@ -45,7 +45,18 @@ Additionally, you will also find other files containing information that proved 
     
     If you do find yourself getting stuck on some question/concept, considering moving on to other questions in the section and returning to the question/concept later. Many of the questions don't follow a logical order, and some of the more complicated questions are front-loaded in a given section.
 
-
 ## Direct Contributors
 
 Cian Roche, Alexander Yelland, and Meredith Neyer, using and often copying directly material provided by Megan Masterson, Xiaowei Ou, Geoffrey Mo, and Rahul Jayaraman.
+
+> [!note] Additional Resources
+> 
+> Below, there are some additional links to specific notes or online resources that can be useful throughout your studying experience. 
+> 
+> - [[168 Questions.pdf|The ASTRO Oral Exam Questions]]
+> - [[168 Flashcards|The ASTRO Oral Exam Answers]]
+> - [AstroWiki 1.0 GitHub Repository - Cian Roche's Notes](https://github.com/CianMRoche/AstroWiki/tree/main)
+> - [AstroWiki 2.0 GitHub Repository - Alex Yelland's Notes](https://github.com/AYelland/AstroWiki_2.0)
+> - [Michael Reefe's Notes - Meme Edition](https://www.mit.edu/~mreefe/MIT_Astro_168_MAR_meme_edition.pdf)
+> 
+> *(There is also a Google Drive containing other ASTRO graduate student notes and a list of questions asked in previous oral exams, but this is not linked due to privacy reasons.)*

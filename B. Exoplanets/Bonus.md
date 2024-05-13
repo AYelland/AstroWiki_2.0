@@ -13,9 +13,9 @@ $$
 \begin{align}
 	P^{2} = \frac{4 \pi^{2} a^{3}}{G M_{\rm tot}} &\approx \frac{4 \pi^{2} a^{3}}{G M_{*}} \hspace{2cm} \textcolor{gray}{\left[ M_{\rm tot} = (M_{\rm p} + M_{*}) \approx M_{*} \right]}\\
 	&= \frac{4 \pi^{2}}{G} \frac{\left[ a^{3} / \left( \frac{4}{3} \pi R_{*}^{3} \right) \right]}{\left[ M_{*} / \left( \frac{4}{3} \pi R_{*}^{3} \right) \right]} \\
-	&= \frac{4 \pi^{2}}{G} \fpar{3}{4 \pi} \fpar{a^{3}}{R_{*}^{3}} \fpar{1}{\rho_{*}} \\
+	&= \frac{4 \pi^{2}}{G} \left(\frac{3}{4 \pi}\right) \left(\frac{a^{3}}{R_{*}^{3}}\right) \left(\frac{1}{\rho_{*}}\right) \\
 
-	&= \frac{3 \pi}{G} \fpar{a}{R_{*}}^{3} \fpar{1}{\rho_{*}}
+	&= \frac{3 \pi}{G} \left(\frac{a}{R_{*}}\right)^{3} \left(\frac{1}{\rho_{*}}\right)
 \end{align}
 $$
 
@@ -27,7 +27,7 @@ $$\frac{T}{P} \simeq \frac{(2 R_{*})}{\pi (2 a)} \implies \frac{a}{R_*} \simeq \
 
 ...where the $2 R_*$ comes from approximating the transiting arc as a straight line relative to the large distance $a$ (for a relatively small stellar radius, $R_{*}$). Combining and rearranging the above expressions, we can derive a relationship for stellar density with respect to period and duration of the transit (independent of transit depth).
 
-$$\rho_{*}(T, P) = \frac{3 \pi}{G} \fpar{P}{\pi T}^{3} \frac{1}{P^{2}} = \frac{3}{G \pi^{2}} \fpar{P}{T^{3}}$$
+$$\rho_{*}(T, P) = \frac{3 \pi}{G} \left(\frac{P}{\pi T}\right)^{3} \frac{1}{P^{2}} = \frac{3}{G \pi^{2}} \left(\frac{P}{T^{3}}\right)$$
 
 > [!note]
 > The circular orbit assumption is not unreasonable given the [[Detection Methods#Transit Method|transit method]] is biased to small orbital radii -- which tend to lead to smaller eccentricities.
@@ -46,12 +46,12 @@ To actually calculate the planet's temperature ($T_{\rm p}$), we need a follow-u
 
 > [!math] Long Wavelength Limit for [[Blackbody Radiation#Blackbody Specific Intensity]]
 > $$
-> B_{\lambda}(\lambda,T) = \frac{2 h c^{2}}{\lambda^{5}} \fpar{1}{e^{h c / (\lambda k_{\rm B} T)} - 1}
-> \hRightarrow
+> B_{\lambda}(\lambda,T) = \frac{2 h c^{2}}{\lambda^{5}} \left(\frac{1}{e^{h c / (\lambda k_{\rm B} T)} - 1}\right)
+> \hspace{1cm} \Rightarrow \hspace{1cm}
 > B_{\lambda}(\lambda,T) \approx \frac{2 c k_{\rm B} T}{\lambda^{4}} \propto \frac{T}{\lambda^{4}}
 > $$
 
 > [!note] Another method, but not valid?
-> $$T_{\rm p} = \fpar{(F_{*} + F_{\rm p}) - F_{*}}{\sigma}^{1/4} = \fpar{F_{\rm p}}{\sigma}^{1/4} \hspace{2cm} T_{*} = \fpar{F_{*}}{\sigma}^{1/4}$$
+> $$T_{\rm p} = \left(\frac{(F_{*} + F_{\rm p}) - F_{*}}{\sigma}\right)^{1/4} = \left(\frac{F_{\rm p}}{\sigma}\right)^{1/4} \hspace{2cm} T_{*} = \left(\frac{F_{*}}{\sigma}\right)^{1/4}$$
 > I am not sure if this is a valid method, given that without normalization and corrections, the light curve is not flat. The orbit of the planet gives additional contributions that create a sinusoidal continuum, and it could be affecting how the flux is measured?
 

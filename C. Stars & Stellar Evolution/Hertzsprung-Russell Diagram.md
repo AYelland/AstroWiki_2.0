@@ -47,11 +47,11 @@ The **Hayashi Track** is where a protostar undergoes isothermal contraction ($T_
 > [!derivation]- Limiting Case of a fully Convective Star
 > To calculate the boundary, we look at the limiting case of a fully convective star in hydrostatic equilibrium. We need...
 > 
-> - [[Stellar Structure#Hydrostatic Equilibrium]] $$\td{P}{r} = - \frac{G \rho \, m(r)}{r^{2}}$$
+> - [[Stellar Structure#Hydrostatic Equilibrium]] $$\frac{\mathrm{d} P}{\mathrm{d} r} = - \frac{G \rho \, m(r)}{r^{2}}$$
 > - [[Blackbody Radiation#Effective Temperature]]-[[Luminosity]] Relationship $$L = 4 \pi R^{2} \sigma T_{\rm eff}^{4}$$
 > - [[Thermodynamics#Ideal Gas Law]] for a hydrogen gas $$P = \frac{\rho k_{\rm B} T}{\mu m_{\rm p}}$$
 > - [[Optical Depth#Opacity Law]] $$\kappa_{R} = \kappa_{0} \, \rho^{a} \, T^{b}$$
-> - [[Polytropes|Polytropic Model]] for a Convective Star $$P(\rho, M, R) = K(M, R)\, \rho^{\gamma} \hWhere \gamma = 5/3$$
+> - [[Polytropes|Polytropic Model]] for a Convective Star $$P(\rho, M, R) = K(M, R)\, \rho^{\gamma} \hspace{1cm} \text{where} \hspace{1cm} \gamma = 5/3$$
 > 
 > This all [combines together](https://en.wikipedia.org/wiki/Hayashi_track#Derivation) to yield...
 > $$\log L \simeq 30 \log T_{\rm eff} - 4 \log M + {\rm constant}$$
@@ -82,7 +82,7 @@ The **Henyey Track** is where a protostar undergoes contraction with near-consta
 - Opacity follows [Kramer's Rule](https://en.wikipedia.org/wiki/Kramers%27_opacity_law)
 	- Gas heated & ionized by gravitational contraction leading to decreased opacity
 - Luminosity ($L$) remains roughly constant while radius ($R$) decreases.
-$$T_{\rm eff} \propto \fpar{L}{R^{2}}^{1/4} \hRightarrow \text{protostar moves left on HR diagram}$$
+$$T_{\rm eff} \propto \left(\frac{L}{R^{2}}\right)^{1/4} \hspace{1cm} \Rightarrow \hspace{1cm} \text{protostar moves left on HR diagram}$$
 - When central temperature becomes hot enough for [[_Stellar Nucleosynthesis#^methods-of-fusion|hydrogen fusion]], the [[Stellar Classes#Protostar|protostar]] becomes a [[Stellar Classes#Main Sequence]] star and it reaches the [[#Zero-Age Main Sequence (ZAMS)|ZAMS]] line.
 	- Given that low-mass stars star the [[#Hayashi Track]] near the bottom, they don't have a [[#Henyey Track]] and begin immediately on the [[#Main Sequence (MS)]]
 	- If the [[Stellar Classes#Protostar|protostar]] did not accrete enough mass for hydrogen fusion but it can still undergo [[Deuteron Fusion|deuteron burning]], then it will instead transition into a [[Stellar Classes#Brown Dwarf]].
@@ -116,7 +116,7 @@ The **main sequence** comprises $\sim 90\%$ of known stars, including the [[Sun]
 	- Large-mass stars ($\gtrsim 2 \; {\rm M_{\odot}}$) 
 		- *convective core & radiative envelope*
 		- CNO burning becomes dominate energy generation method
-		- Steep $T$ dependence yields a steep $\left|\td{T}{r} \right|$
+		- Steep $T$ dependence yields a steep $\left|\frac{\mathrm{d} T}{\mathrm{d} r} \right|$
 - Changes in Composition of Core
 	- At [[#Zero-Age Main Sequence (ZAMS)|ZAMS]]: $\left[ \; X = 0.74 \, , \, Y = 0.24 \, \implies \, \mu = 0.60 \; \right]$ (from [[Interstellar Medium|ISM]])
 	- At [[#Terminal-Age Main Sequence (TAMS)|TAMS]]: $\left[ \; X = 0 \, , \, Y = 0.98 \, \implies \, \mu = 1.34 \; \right]$ (after H-core burning)
@@ -144,7 +144,7 @@ The **Subgiant Branch** is the phase in stellar evolution after [[#Main Sequence
 
 **What happens when the hydrogen fuel is exhausted in the core?**
 - The star accumulates an inert helium core, not undergoing helium fusion ($\varepsilon_{\rm m} = 0$).
-	- The helium core is *isothermal* (seen from [[Stellar Structure|stellar structure equations]] of the core) $$\left\{ \begin{align} &\td{L}{r} = 4 \pi \rho r^{2} \varepsilon_{\rm m} = 0 \\ &\quad L(r=0) = 0 \end{align} \right\} \quad + \quad \left\{ \td{T}{r} = - \frac{3 \kappa_{\rm R} \rho L(r)}{16 \pi a c T^{3} r^{2}} = 0 \right\} \hRightarrow T = \text{constant}$$
+	- The helium core is *isothermal* (seen from [[Stellar Structure|stellar structure equations]] of the core) $$\left\{ \begin{align} &\frac{\mathrm{d} L}{\mathrm{d} r} = 4 \pi \rho r^{2} \varepsilon_{\rm m} = 0 \\ &\quad L(r=0) = 0 \end{align} \right\} \quad + \quad \left\{ \frac{\mathrm{d} T}{\mathrm{d} r} = - \frac{3 \kappa_{\rm R} \rho L(r)}{16 \pi a c T^{3} r^{2}} = 0 \right\} \hspace{1cm} \Rightarrow \hspace{1cm} T = \text{constant}$$
 - Core surrounded by thick hydrogen-rich envelope.
 - At the bottom of the envelope, there is a hydrogen burning shell continuing deposit helium ash into core. 
 	- This thermal pressure is enough to sustain the star and maintain equilibrium.
@@ -296,7 +296,7 @@ In  $M \gtrsim 8 \; {\rm M_{\odot}}$ stars, they can achieve higher thresholds f
 - Once the fuel is exhausted, the core will undergo normal gravitational contractions ( or degenerate core contractions) and heating around the new inert core.
 	- The heating of the envelope will continue until the next nuclear burning threshold is reached, temporarily stabilizing the core (on the [[Timescales#Nuclear Timescale|nuclear timescale]]) through each nuclear reactions.
 	- This allows the star to eventually cross each accessible nuclear burning threshold, creating an "onion skin" structure of burning and non-burning shells with an iron core
-- Throughout this process, the luminosity is [[Luminosity#Eddington Limit|Edddington-Limited]], such that $L \sim$ constant across the entire evolution. $$L_{\rm Edd} = \frac{4 \pi c G M}{\kappa} \approx 3.2 \times 10^{4} \; \fpar{M}{M_{\odot}} \fpar{\kappa_{\odot}}{\kappa} \; L_{\odot}$$
+- Throughout this process, the luminosity is [[Luminosity#Eddington Limit|Edddington-Limited]], such that $L \sim$ constant across the entire evolution. $$L_{\rm Edd} = \frac{4 \pi c G M}{\kappa} \approx 3.2 \times 10^{4} \; \left(\frac{M}{M_{\odot}}\right) \left(\frac{\kappa_{\odot}}{\kappa}\right) \; L_{\odot}$$
 - Eventually, the electron degeneracy pressure will not be able to provide sufficient support for the iron core ([[Chandrasekhar Limit]])
 - Given that its [[Binding Energy#Nuclear Binding Energy|inefficient to fuse nuclei heavier than iron]] and the electron degeneracy pressure is too weak, the iron core will collapse causing a [[Core-Collapse|core collapse]] [[Stellar Explosions#Supernova|supernovae]] or [[Photodisintegration|photodisintegration]].
 
@@ -322,7 +322,7 @@ If we assume that stars act as pure [[Blackbody Radiation|blackbodies]], then we
 
 $$
 L = (4 \pi R^{2}) \; \sigma T^{4}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \log L = 4 \log T + \underbrace{\log(4\pi\sigma) + 2 \log R}_{\rm constant}
 \hspace{1cm}
 \textcolor{gray}{\left[ \; y = m x + b \; \right]}

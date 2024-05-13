@@ -21,7 +21,7 @@ $$D_{\rm max} = \sqrt{\frac{E}{4 \pi S_{\rm min}}}$$
 
 Meaning, we expect to be able to see sources in a volume of space (centered on us) of size...
 
-$$V = \frac{4}{3} \pi D_{\rm max}^{3} \hspace{2cm} \underbrace{N(F) \; \rd F = n \cdot \left( 4 \pi r^{2} \right) \cdot \rd r}_{\text{\# of events with flux }\in\;[ F, F+\rd F]}  \quad \propto D_{\rm max}^{3}$$
+$$V = \frac{4}{3} \pi D_{\rm max}^{3} \hspace{2cm} \underbrace{N(F) \; \mathrm{d} F = n \cdot \left( 4 \pi r^{2} \right) \cdot \mathrm{d} r}_{\text{\# of events with flux }\in\;[ F, F+\mathrm{d} F]}  \quad \propto D_{\rm max}^{3}$$
 
 ...such that if the spatial density of sources is uniform, we should see $N \propto D_{\rm max}^{3} \propto S_{\rm min}^{-3/2}$ events, (i.e. a line on a log-log plot of slope $-3/2$).
 

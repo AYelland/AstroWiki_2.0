@@ -10,9 +10,9 @@ What is "Press-Schechter theory" and why is it wrong?
 
 Using this theory, we can find the [[Press-Schechter#Press-Schechter Halo Mass Function]] that tells us the number of halos (collapsed structures) we will find in some volume element.
 
-$$N(M) \; \rd M = \frac{1}{\sqrt{2 \pi}} \; \fpar{\delta_{c}}{\sigma_{M}^{2}} \exp \left[ - \frac{\delta_{c}^{2}}{2 \sigma_{M}^{2}} \right] \; \td{\sigma_{M}}{M} \; \rd M$$
+$$N(M) \; \mathrm{d} M = \frac{1}{\sqrt{2 \pi}} \; \left(\frac{\delta_{c}}{\sigma_{M}^{2}}\right) \exp \left[ - \frac{\delta_{c}^{2}}{2 \sigma_{M}^{2}} \right] \; \frac{\mathrm{d} \sigma_{M}}{\mathrm{d} M} \; \mathrm{d} M$$
 $$\Downarrow$$
-$$n(M) \; \rd M = \frac{1}{\sqrt{2 \pi}} \; \fpar{\rho_{0} \delta_{c}}{M \sigma_{M}^{2}} \exp \left[ - \frac{\delta_{c}^{2}}{2 \sigma_{M}^{2}} \right] \; \td{\sigma_{M}}{M} \; \rd M$$
+$$n(M) \; \mathrm{d} M = \frac{1}{\sqrt{2 \pi}} \; \left(\frac{\rho_{0} \delta_{c}}{M \sigma_{M}^{2}}\right) \exp \left[ - \frac{\delta_{c}^{2}}{2 \sigma_{M}^{2}} \right] \; \frac{\mathrm{d} \sigma_{M}}{\mathrm{d} M} \; \mathrm{d} M$$
 
 ##### ...and why is it wrong?
 

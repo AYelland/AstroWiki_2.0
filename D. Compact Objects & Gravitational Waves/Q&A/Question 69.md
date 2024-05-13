@@ -16,10 +16,10 @@ Here are some common initial mass functions for stars:
 
 1. To answer the first question, we will need to assume some probability distribution for the number of stars as a function of mass. That probability distribution function is defined as the **initial mass function (IMF)**. 
 	
-	We will use the "Salpeter IMF" with its Kroupa 2001 modification... $$\td{N}{M} \propto M^{-2.3}$$...which holds for stars above $0.5 \; M_{\odot}$ . *(We won't consider objects below this mass since there are alternative powers on $M$ for lower masses.)*
+	We will use the "Salpeter IMF" with its Kroupa 2001 modification... $$\frac{\mathrm{d} N}{\mathrm{d} M} \propto M^{-2.3}$$...which holds for stars above $0.5 \; M_{\odot}$ . *(We won't consider objects below this mass since there are alternative powers on $M$ for lower masses.)*
 	
-	If we want to find the number of stars above a specific mass ($M_{*}$), we would simply integrate... $$N(M>M_{*}) \propto \int_{M_{*}}^{\infty} M^{-2.3} \; \rd M$$
-	Thus, the ratio of number stars above $0.5\,M_\odot$ to the number of stars above $20\,M_\odot$ is given by... $$f \equiv \frac{N_{20}}{N_{5}} = \frac{\int_{20 \, M_{\odot}}^{\infty} M^{-2.3} \; \rd M}{\int_{0.5 \, M_{\odot}}^{\infty} M^{-2.3} \; \rd M} \simeq 10^{-3}$$...where we "round down" to reflect the fact we aren't covering the whole distribution in mass.
+	If we want to find the number of stars above a specific mass ($M_{*}$), we would simply integrate... $$N(M>M_{*}) \propto \int_{M_{*}}^{\infty} M^{-2.3} \; \mathrm{d} M$$
+	Thus, the ratio of number stars above $0.5\,M_\odot$ to the number of stars above $20\,M_\odot$ is given by... $$f \equiv \frac{N_{20}}{N_{5}} = \frac{\int_{20 \, M_{\odot}}^{\infty} M^{-2.3} \; \mathrm{d} M}{\int_{0.5 \, M_{\odot}}^{\infty} M^{-2.3} \; \mathrm{d} M} \simeq 10^{-3}$$...where we "round down" to reflect the fact we aren't covering the whole distribution in mass.
 	
 	This is the statement that **about 1 in 1000 stars can become a [[Black Hole|black hole]].** Therefore, in the Milky Way where we have $\sim 10^{11}$ stars, about $10^{8}$ can become black holes.
 

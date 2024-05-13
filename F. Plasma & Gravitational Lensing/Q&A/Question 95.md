@@ -37,15 +37,15 @@ If the Ideal Ohm's Law holds true, then the magnetic flux through any closed con
 > [!derivation]- Proof of Alfvén's Theorem
 > The following proof constitutes "Alfvén's Theorem". Begin by combining the Idealized Ohm's Law with Faraday's Law to obtain:
 > 
-> $$\pd{\vec{B}}{t} = -\nabla \times \vec{E}  = \nabla \times \left( \vec{v} \times \vec{B} \right) $$
+> $$\frac{\partial \vec{B}}{\partial t} = -\nabla \times \vec{E}  = \nabla \times \left( \vec{v} \times \vec{B} \right) $$
 > 
 > Then, using the fact that $\nabla \cdot \vec{B} = 0$ along with the properties of a vector triple product $\left[ \; a \times (b \times c) = (a \cdot c) \, b - (b \cdot a) \, c \; \right]$ , we can re-write this expression as:
 > 
-> $$\pd{\vec{B}}{t} = - (\vec{v} \cdot \nabla) \,\vec{B}$$
+> $$\frac{\partial \vec{B}}{\partial t} = - (\vec{v} \cdot \nabla) \,\vec{B}$$
 > 
 > Taking the "advective" or "convective" derivative (goes by many names) $\left[ \; D/Dt = \partial/\partial t + \vec{v} \cdot \nabla \; \right]$ of $\vec{B}$ , one can also obtain this result.
 > 
-> $$\frac{D \vec{B}}{D t} = \left(\pd{}{t} + \vec{v} \cdot \nabla \right) \vec{B} = \pd{\vec{B}}{t} + (\vec{v} \cdot \nabla) \, \vec{B} = 0$$
+> $$\frac{D \vec{B}}{D t} = \left(\frac{\partial }{\partial t} + \vec{v} \cdot \nabla \right) \vec{B} = \frac{\partial \vec{B}}{\partial t} + (\vec{v} \cdot \nabla) \, \vec{B} = 0$$
 > 
 > What this means is that the magnetic field is constant along streamlines, or in another sense, the magnetic field lines are streamlines. 
 > 

@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "35c99e68d51e8207",
+        "id": "7f354bc8f1c55b64",
         "type": "tabs",
         "children": [
           {
-            "id": "cf52c03ac31b95f5",
+            "id": "2307f2ab3d1f7ac8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard.canvas",
-                "viewState": {
-                  "x": 854.5626494065401,
-                  "y": -437.0592888987543,
-                  "zoom": -0.9723594341005648
-                }
+                "file": "x. Other/How to Use the Dashboard.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -51,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "astrowiki_ic",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard.canvas",
+                "file": "x. Other/How to Use the Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dashboard.canvas",
+                "file": "x. Other/How to Use the Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard.canvas"
+                "file": "x. Other/How to Use the Dashboard.md"
               }
             }
           }
@@ -137,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,53 +149,53 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "cf52c03ac31b95f5",
+  "active": "2307f2ab3d1f7ac8",
   "lastOpenFiles": [
-    "AstroWiki Homepage.md",
-    "F. Plasma & Gravitational Lensing/Gravitational Lensing.md",
-    "x. Images/lensing_weak.png",
-    "LICENSE",
     "Dashboard.canvas",
-    "Units & Conversions.md",
-    "168 Questions.pdf",
+    "AstroWiki Homepage.md",
     "x. Other/DashboardResources/Deadlines.md",
     "x. Other/How to Use the Dashboard.md",
+    "168 Flashcards.md",
+    "G. Galaxies/Velocity Dispersion.md",
+    "Mnemonics.md",
+    "H. Cosmology/Jeans Formalism.md",
+    "L. Other Physics/Spherical Harmonics.md",
+    "G. Galaxies/Press-Schechter.md",
+    "H. Cosmology/Spherical Top Hat Model.md",
+    "C. Stars & Stellar Evolution/Polytropes.md",
+    "C. Stars & Stellar Evolution/Pulsation.md",
+    "C. Stars & Stellar Evolution/Schoenberg Chandrasekhar Limit.md",
+    "C. Stars & Stellar Evolution/Spectral Classes.md",
+    "C. Stars & Stellar Evolution/Stellar Classes.md",
+    "E. ISM & Emission/Spectral Features.md",
+    "F. Plasma & Gravitational Lensing/Gravitational Lensing.md",
+    "B. Exoplanets/Bonus.md",
+    "B. Exoplanets/Detection Methods.md",
+    "168 Questions.pdf",
+    "x. Other/Latex_168Questions.tex",
+    "x. Other/main.tex",
+    "ASTRO_Oral_Qualification_Exam_Questions.pdf",
+    "H. Cosmology/Big Bang Nucleosynthesis.md",
+    "H. Cosmology/Distances.md",
+    "x. Other/Latex_Preamble.sty",
+    "Latex_168Questions.tex",
+    "Latex_Preamble.sty",
+    "H. Cosmology/Cosmological Timeline.md",
+    "H. Cosmology/Cosmic Distance Ladder.md",
+    "x. Images/dashboard_screenshot.png",
+    "dashboard_screenshot.png",
+    "Screen Shot 2024-05-13 at 10.41.56 AM.png",
+    "A. The Solar System/Asteroid Belt.md",
+    "publish.css",
+    "B. Exoplanets/Q&A/Question 8.md",
+    "x. Images/lensing_weak.png",
+    "LICENSE",
     "x. Images/astrowiki_icon.png",
     "x. Other/ASTRO_oral_custom_diagrams.pptx",
-    "ASTRO_oral_custom_diagrams.pptx",
-    "file.md",
-    "x. Other/DashboardResources/Checklists/Question Checklist.md",
-    "168 Flashcards.md",
-    "H. Cosmology/Cosmic Microwave Background.md",
-    "I. Instrumentation & Astronomical Methods/Instruments.md",
-    "G. Galaxies/Galaxies - General.md",
-    "B. Exoplanets/Exoplanets - General.md",
-    "C. Stars & Stellar Evolution/Stars - General.md",
-    "A. The Solar System/Kuiper Belt.md",
-    "A. The Solar System/Nebular Hypothesis.md",
-    "A. The Solar System/Nice Model.md",
-    "A. The Solar System/Orbital Resonance.md",
-    "A. The Solar System/History of Earth-Moon-Sun Units.md",
     "x. Images/HowToDashboard.png",
-    "A. The Solar System/Core-Accretion Theory.md",
-    "A. The Solar System/Asteroid Belt.md",
-    "A. The Solar System/Planetary Migration.md",
-    "A. The Solar System/Oort Cloud.md",
-    "Prepared Question.md",
-    "MIT Faculty.md",
-    "Important Numbers.md",
     "x. Images/astrowiki_icon_orange.png",
-    "x. Images/astrowiki_icon.png.sb-eff2b1bd-KHS0jd",
-    "x. Images/~$ASTRO_oral_custom_diagrams.pptx",
     "x. Images/android-chrome-512x512.png",
     "x. Images/android-chrome-192x192.png",
-    "x. Other/Latex_168Questions.tex",
-    "x. Other/Latex_168Questions.tex.tex",
-    "x. Other/Latex_168Questions.md.tex",
-    "x. Other/main.tex",
-    "x. Images/first_stars.png",
-    "x. Images/EMspectrum_scales.jpeg",
-    "x. Images/Local_Group.jpg",
-    "x. Images/GW_sensitivity_future.png"
+    "x. Images/first_stars.png"
   ]
 }

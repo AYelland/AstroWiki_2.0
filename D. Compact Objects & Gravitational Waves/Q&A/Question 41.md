@@ -27,7 +27,7 @@ $$
 
 Assuming that the number densities of the neutrons and protons ($\bar{n}_{\rm n}$ , $\bar{n}_{\rm p}$) can be roughly represented by the [[Statistical Mechanics#Maxwell-Boltzmann]] distribution, we can use a ratio of their Boltzmann factors.
 
-$$\bar{n}_{\rm s} = g_{\rm s} \fpar{m_{\rm s} k_{\rm B} T}{2 \pi \hbar^{2}}^{3/2} \exp \left( - \frac{m_{\rm s} c^{2}}{k_{\rm B} T} \right) \hWhere s \equiv \text{particle species}$$
+$$\bar{n}_{\rm s} = g_{\rm s} \left(\frac{m_{\rm s} k_{\rm B} T}{2 \pi \hbar^{2}}\right)^{3/2} \exp \left( - \frac{m_{\rm s} c^{2}}{k_{\rm B} T} \right) \hspace{1cm} \text{where} \hspace{1cm} s \equiv \text{particle species}$$
 $$\frac{\bar{n}_{\rm n}}{\bar{n}_{\rm p}} \sim \exp \left( - \frac{(m_{\rm n} - (m_{\rm p} + m_{\rm e})) c^{2}}{k_{\rm B} T} \right) \sim \exp \left( - \frac{ 0.8 \; {\rm MeV}}{k_{\rm B} T} \right) \sim \exp \left( - \frac{10^{10} \; [{\rm K}]}{T}\right)$$
 
 From this, we see that at temperatures $\sim 10^{10} \; {\rm K}$, we have $e \sim 3$ times more protons than neutrons; however, the ratio maximizes at a 8:1?

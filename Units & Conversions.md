@@ -224,7 +224,7 @@ The distance light can travel in 1 [[#Year (${ rm y}$)|year]].
 The approximate distance between a single proton and single electron in a hydrogen atom. 
 $$
 a_{0} = \frac{4 \pi \epsilon_{0} \hbar^{2}}{m_{\rm e} e^{2}} = \frac{\hbar}{m_{\rm e} \alpha c}
-\hWhere \left\{ \hspace{0.2cm}
+\hspace{1cm} \text{where} \hspace{1cm} \left\{ \hspace{0.2cm}
 \begin{align}
 	\epsilon_{0} &\equiv \text{permittivity of free space} \\
 	\hbar &\equiv \text{reduced Planck constant} \\
@@ -245,7 +245,7 @@ $$
 
 > [!note] Hyrdogen-Like Atoms
 > One can also describe a very similar relationship for hydrogen-like atoms between different particles by replacing the mass of the electron, $m_{\rm e}$, with the reduced mass, $\mu$.
-> $$a_{\mu} = \frac{4 \pi \epsilon_{0} \hbar^{2}}{\mu e^{2}} = \fpar{4 \pi \epsilon_{0} \hbar^{2}}{m_{e} e^{2}} \fpar{m_{e}}{\mu} = \fpar{m_{e}}{\mu} a_{0}$$
+> $$a_{\mu} = \frac{4 \pi \epsilon_{0} \hbar^{2}}{\mu e^{2}} = \left(\frac{4 \pi \epsilon_{0} \hbar^{2}}{m_{e} e^{2}}\right) \left(\frac{m_{e}}{\mu}\right) = \left(\frac{m_{e}}{\mu}\right) a_{0}$$
 > This allows us to compare the hydrogen system to more complex systems involving a variety of particles beyond just protons and electrons.
 
 ## Time
@@ -434,7 +434,7 @@ The unit of power for the SI unit system.
 A measure of current (a moving charge) in the SI unit system.
 
 **SI Units:**
-- $1 \; {\rm A} = 1 \; {\rm C/s} \hWhere C \equiv \text{Coulombs}$
+- $1 \; {\rm A} = 1 \; {\rm C/s} \hspace{1cm} \text{where} \hspace{1cm} C \equiv \text{Coulombs}$
 
 ### Volts ($V$)
 
@@ -458,11 +458,11 @@ A unit of power, specifically for the energy produced by the [[Sun]].
 
 $G$ has dimensions of 1/(density $\times$ time^2) - think of [[Timescales#Dynamical Timescale]]
 
-- $G = 6.674 \times 10^{−11} \; {\rm \frac{N \cdot m^{2}}{kg^{2}}} \hWhere {\rm \frac{N \cdot m^{2}}{kg^{2}}} = {\rm \frac{m^{3}}{kg \cdot s^{2}}}$
+- $G = 6.674 \times 10^{−11} \; {\rm \frac{N \cdot m^{2}}{kg^{2}}} \hspace{1cm} \text{where} \hspace{1cm} {\rm \frac{N \cdot m^{2}}{kg^{2}}} = {\rm \frac{m^{3}}{kg \cdot s^{2}}}$
 - $G = 1.3 \times 10^{20} \; {\rm m^{3} \, s^{-2} \, M_{\odot}^{-1}}$
 
 For the gravitational potential energy, and identifying the associated units...
-$$E = \frac{G M m}{R} \hRightarrow [G] = \left[ \frac{E R}{M^{2}} \right] \hRightarrow {\rm GERM^{2}}$$
+$$E = \frac{G M m}{R} \hspace{1cm} \Rightarrow \hspace{1cm} [G] = \left[ \frac{E R}{M^{2}} \right] \hspace{1cm} \Rightarrow \hspace{1cm} {\rm GERM^{2}}$$
 
 ### Plank's Constant ($h$)
 
@@ -472,7 +472,7 @@ $$E = \frac{G M m}{R} \hRightarrow [G] = \left[ \frac{E R}{M^{2}} \right] \hRigh
 - $hc = 1.23984193 \times 10^{-6} \; {\rm eV} \sim 10^{-6} \; {\rm eV \; m}$
 - $hc = 1.98644568 \times 10^{-25} \; {\rm J\ m} \sim 2 \times 10^{-25} \; {\rm J\ m}$
 
-$$\lambda \nu = c \hRightarrow \lambda (h\nu) = h c = 10^{-6} \;{\rm eV}$$
+$$\lambda \nu = c \hspace{1cm} \Rightarrow \hspace{1cm} \lambda (h\nu) = h c = 10^{-6} \;{\rm eV}$$
 
 ### Boltzmann Constant ($k_{\rm B}$)
 
@@ -488,19 +488,19 @@ $$\lambda \nu = c \hRightarrow \lambda (h\nu) = h c = 10^{-6} \;{\rm eV}$$
 The elementary charge of a particle, same as charge of electron or proton (with the proper signs)
 
 **SI Units:**
-- $1 \; e = 1.60217663 \times 10^{-19} \; {\rm C} \hWhere {\rm C=Coulombs}$
+- $1 \; e = 1.60217663 \times 10^{-19} \; {\rm C} \hspace{1cm} \text{where} \hspace{1cm} {\rm C=Coulombs}$
 
 ### Speed of Light ($c$)
 
 The speed of light in a vacuum. 
 
-$$n = \frac{c}{v} = \frac{1}{\beta} \hWhere \begin{aligned}
+$$n = \frac{c}{v} = \frac{1}{\beta} \hspace{1cm} \text{where} \hspace{1cm} \begin{aligned}
 	c &\equiv \text{velocity of light in vacuum} \\
 	v &\equiv \text{velocity of light in medium} \\
 	n &\equiv \text{index of refraction}
 \end{aligned}$$
 
-$$c^{2} = \frac{1}{\epsilon_{0} \, \mu_{0}} \hWhere \begin{aligned}
+$$c^{2} = \frac{1}{\epsilon_{0} \, \mu_{0}} \hspace{1cm} \text{where} \hspace{1cm} \begin{aligned}
 	\epsilon_{0} &\equiv \text{permittivity of free space} \\
 	\mu_{0} &\equiv \text{permeability of free space} \\
 \end{aligned}$$
@@ -529,7 +529,7 @@ Also known as the **magnetic constant**.
 Also known as the **electric constant**.
 
 **SI Units:**
-- $\epsilon_{0} = 8.8541878128 \times 10^{-12} \; {\rm F/m} \hWhere {\rm F=Farad=\frac{C}{V}}$
+- $\epsilon_{0} = 8.8541878128 \times 10^{-12} \; {\rm F/m} \hspace{1cm} \text{where} \hspace{1cm} {\rm F=Farad=\frac{C}{V}}$
 
 **CGS Units:**
 - At unity.

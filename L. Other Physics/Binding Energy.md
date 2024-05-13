@@ -11,12 +11,12 @@ The **electrostatic binding energy** is the minimum energy required to remove th
 
 Using **Bohr's Model:**
 $$
-U_{\rm E} = - \frac{1}{2 a_{0}} \fpar{Z e}{n}^{2}
+U_{\rm E} = - \frac{1}{2 a_{0}} \left(\frac{Z e}{n}\right)^{2}
 $$
 The electrostatic binding energy ($\varepsilon_{a}$) can be approximated with the elementary charge ($e$) and the Bohr radius ($a_{0}$).
-$$\varepsilon_{a} = \frac{e^{2}}{a_{0}} \hWhere k = \frac{1}{4 \pi \epsilon_{0}} = 1$$
+$$\varepsilon_{a} = \frac{e^{2}}{a_{0}} \hspace{1cm} \text{where} \hspace{1cm} k = \frac{1}{4 \pi \epsilon_{0}} = 1$$
 $$n \equiv \frac{N}{V} = \frac{\text{\# of particles}}{\text{volume}} = \text{number density}$$
-Tightly Packed: $\quad n_{0} = a_{0}^{-3} \hRightarrow n_{0} a_{0}^{3} \sim 1 \hRightarrow \varepsilon_{a} \sim n_{0}^{1/3} e^{2}$
+Tightly Packed: $\quad n_{0} = a_{0}^{-3} \hspace{1cm} \Rightarrow \hspace{1cm} n_{0} a_{0}^{3} \sim 1 \hspace{1cm} \Rightarrow \hspace{1cm} \varepsilon_{a} \sim n_{0}^{1/3} e^{2}$
 
 ## Gravitational Binding Energy
 
@@ -26,10 +26,10 @@ For a spherical body with a constant, uniform density, we can apply the *spheric
 
 $$
 \begin{align}
-	U_{\rm G} &= - \int_{0}^{M} \frac{G M(r) \; \rd m}{r} \\
-	&= - \int_{0}^{R} \frac{G \left( \frac{4}{3} \pi r^{3} \rho \right) \left( 4 \pi r^{2} \rho \; \rd r \right)}{r}  \\
-	&= - \frac{16 G \pi^{2} \rho^{2}}{3} \int_{0}^{R} r^{4} \; \rd r \\
-	&= - \frac{16 G \pi^{2} R^{5} \rho^{2}}{15} \textcolor{gray}{\hWhere M = \rho V = \rho \left( \frac{4}{3} \pi R^{3} \right)} \\
+	U_{\rm G} &= - \int_{0}^{M} \frac{G M(r) \; \mathrm{d} m}{r} \\
+	&= - \int_{0}^{R} \frac{G \left( \frac{4}{3} \pi r^{3} \rho \right) \left( 4 \pi r^{2} \rho \; \mathrm{d} r \right)}{r}  \\
+	&= - \frac{16 G \pi^{2} \rho^{2}}{3} \int_{0}^{R} r^{4} \; \mathrm{d} r \\
+	&= - \frac{16 G \pi^{2} R^{5} \rho^{2}}{15} \textcolor{gray}{\hspace{1cm} \text{where} \hspace{1cm} M = \rho V = \rho \left( \frac{4}{3} \pi R^{3} \right)} \\
 	&= - \frac{3 G M^{2}}{5 R}
 \end{align}
 $$

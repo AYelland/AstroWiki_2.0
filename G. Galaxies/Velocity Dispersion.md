@@ -17,13 +17,13 @@ A series of relationships derived from the virial theorem, relating velocity dis
 > 
 > From the [[Virial Theorem]] of a gravitational bound star of mass ($m$), speed ($v$) and distance ($r$) from the center of a spherical mass distribution of mass ($M$)... 
 > 
-> $$2 \expval{T} + \expval{U} = 2 \left( \frac{1}{2} m v^{2} \right) + \left( -\frac{G M m}{r} \right) = 0 \hRightarrow v^{2} = \frac{G M}{r}$$
+> $$2 \left\langle T \right\rangle + \left\langle U \right\rangle = 2 \left( \frac{1}{2} m v^{2} \right) + \left( -\frac{G M m}{r} \right) = 0 \hspace{1cm} \Rightarrow \hspace{1cm} v^{2} = \frac{G M}{r}$$
 > 
 > Let's now estimate $v$ and $r$ :
 > - If the system is isotropic, then $\sigma_{x} = \sigma_{y} = \sigma_{z}$ and the total velocity dispersion is $\sigma_{\rm 3D} = \sqrt{\sigma_{x}^{2} + \sigma_{y}^{2} + \sigma_{z}^{2}} = \sqrt{3} \, \sigma_{\rm 1D}$. That said, if we make an observation, we really measure a 1-dimensional dispersion (toward us and away from us, denoted $\sigma_{r}$ for radial). A good estimate for the 3D speed of a star is then $v^{2} \simeq 3 \sigma_{r}^{2}$. 
 > - A reasonable estimate for the radial location of the average star is $r \simeq R/2$, where $R$ is the galactic radius
 > 
-> Putting these estimates into the virial theorem and rearranging, we have $$v^{2} = \frac{G M}{r} \hRightarrow \sigma^{2} \simeq \frac{2 G M}{3 R} \hTherefore M \simeq \frac{3 \sigma^{2} R}{2 G}$$This result however is only valid up to an order $\sim 1-10$ factor.
+> Putting these estimates into the virial theorem and rearranging, we have $$v^{2} = \frac{G M}{r} \hspace{1cm} \Rightarrow \hspace{1cm} \sigma^{2} \simeq \frac{2 G M}{3 R} \hspace{0.5cm} \therefore \hspace{0.5cm} M \simeq \frac{3 \sigma^{2} R}{2 G}$$This result however is only valid up to an order $\sim 1-10$ factor.
 
 
 ## Cluster Velocity Dispersion
@@ -44,7 +44,7 @@ In a similar manner to to measuring the mass of elliptical galaxies using *stell
 
 Through Newtonian dynamics, we can related the circular velocity ($v_{\rm c} \equiv v_{\phi}$) of a stars in a galaxy to the mass contained ($M_{\rm r}$) within the galactocentric radius $r$.
 
-$$F_{\rm c} = m \frac{v_{\phi}^{2}}{r} = \frac{G M_{r} m}{r^{2}} =F_{\rm g} \hRightarrow v_{\phi} = \sqrt{\frac{G M_{r}}{r}} \quad \propto r^{-1/2}$$
+$$F_{\rm c} = m \frac{v_{\phi}^{2}}{r} = \frac{G M_{r} m}{r^{2}} =F_{\rm g} \hspace{1cm} \Rightarrow \hspace{1cm} v_{\phi} = \sqrt{\frac{G M_{r}}{r}} \quad \propto r^{-1/2}$$
 
 The majority of the stellar mass in the Milky Way is contained within about $r \sim 10 \; {\rm kpc}$. After that, we expect to see the circular velocity decrease, approaching a $1/\sqrt{r}$ curve as there isn't a lot of mass to add to the enclosed mass as radius increases. 
 
@@ -71,7 +71,7 @@ The very large deficit in escape velocity resulting from the baryons can only be
 
 The **Tully-Fisher Relation** (1977) is an empirical relationship between the circular/rotational velocity of a [[Galaxy Classification#Spiral Galaxy|spiral galaxy]] and its [[Luminosity|luminosity]]. *(Analogue to [[Velocity Dispersion#Faber-Jackson Relation|Faber-Jackson]] for spiral galaxies.)*
 
-$$L \propto v_{\rm rot}^{\gamma} \hWhere \gamma \simeq 4$$
+$$L \propto v_{\rm rot}^{\gamma} \hspace{1cm} \text{where} \hspace{1cm} \gamma \simeq 4$$
 
 **Assumptions**:
 - Galaxy radiates as a thin disk
@@ -82,15 +82,15 @@ $$L \propto v_{\rm rot}^{\gamma} \hWhere \gamma \simeq 4$$
 > 
 > Beginning with the [[Virial Theorem]] and assuming circular motion of a test mass ($m$) around the galactic mass ($M$)....
 > 
-> $$2 \expval{T} + \expval{U} = 2 \left( \frac{1}{2} m v_{\rm rot}^{2} \right) + \left( - \frac{G M m}{R} \right)= 0 \hRightarrow v_{\rm rot}^{2} = \frac{G M}{R}$$ 
+> $$2 \left\langle T \right\rangle + \left\langle U \right\rangle = 2 \left( \frac{1}{2} m v_{\rm rot}^{2} \right) + \left( - \frac{G M m}{R} \right)= 0 \hspace{1cm} \Rightarrow \hspace{1cm} v_{\rm rot}^{2} = \frac{G M}{R}$$ 
 > 
 > ...we will assume the disk (spiral galaxy) emits with the following [[Luminosity|luminosity]], dependent on the [[Intensity#Specific Mean Intensity|mean surface brightness]] ($J_{0}$).
 > 
-> $$L = F \cdot A = (4 \pi J_{0}) \cdot (2 \pi R^{2}) = 8 \pi^{2} J_{0} R^{2} \hRightarrow R = \sqrt{\frac{L}{8 \pi^{2} J_{0}}}$$
+> $$L = F \cdot A = (4 \pi J_{0}) \cdot (2 \pi R^{2}) = 8 \pi^{2} J_{0} R^{2} \hspace{1cm} \Rightarrow \hspace{1cm} R = \sqrt{\frac{L}{8 \pi^{2} J_{0}}}$$
 > 
 > If we let $\Gamma = M/L$ be the mass-light ratio, then we can express the circular velocity as...
 > 
-> $$v_{\rm rot}^{4} = \frac{\left( G M \right)^{2}}{R^{2}} = \frac{\left(G \, \Gamma  L \right)^{2} \cdot \left( 8 \pi^{2} J_{0} \right)}{L} = \underbrace{\left(8 \pi^{2} G^{2} \Gamma^{2} J_{0} \right)}_{\rm constant} \, L \hRightarrow L \propto v_{\rm rot}^{4}$$
+> $$v_{\rm rot}^{4} = \frac{\left( G M \right)^{2}}{R^{2}} = \frac{\left(G \, \Gamma  L \right)^{2} \cdot \left( 8 \pi^{2} J_{0} \right)}{L} = \underbrace{\left(8 \pi^{2} G^{2} \Gamma^{2} J_{0} \right)}_{\rm constant} \, L \hspace{1cm} \Rightarrow \hspace{1cm} L \propto v_{\rm rot}^{4}$$
 
 > [!bonus] Hubble Law and Distance Ladder
 > - The Tully-Fisher relation can be used to get approximate distances to galactic sources from their circular velocities (via redshift measurements on each side), and thus, it can play a role in the [[Cosmic Distance Ladder]].
@@ -107,7 +107,7 @@ $$L \propto v_{\rm rot}^{\gamma} \hWhere \gamma \simeq 4$$
 
 The **Faber-Jackson Relation** (1976) is an empirical relationship between the stellar [[Velocity Dispersion#Galaxy Velocity Dispersion|velocity dispersion]] of an [[Galaxy Classification#Elliptical Galaxy|elliptical galaxy]] and its [[Luminosity|luminosity]]. *(Analogue to [[Velocity Dispersion#Tully-Fisher Relation|Tully-Fisher]] for elliptical galaxies, but its not as well calibrated)*
 
-$$L \propto \sigma^{\gamma} \hWhere \gamma \simeq 4$$
+$$L \propto \sigma^{\gamma} \hspace{1cm} \text{where} \hspace{1cm} \gamma \simeq 4$$
 
 **Assumptions**:
 - Galaxy radiates as a sphere
@@ -118,15 +118,15 @@ $$L \propto \sigma^{\gamma} \hWhere \gamma \simeq 4$$
 > 
 > Beginning with the [[Virial Theorem]] and assuming circular motion of a test mass ($m$) around the galactic mass ($M$)....
 > 
-> $$2 \expval{T} + \expval{U} = 2 \left( \frac{1}{2} m \left(\sqrt{3} \sigma  \right)^{2} \right) + \left( - \frac{G M m}{R} \right) = 0 \hRightarrow \sigma^{2} = \frac{G M}{3 R}$$ 
+> $$2 \left\langle T \right\rangle + \left\langle U \right\rangle = 2 \left( \frac{1}{2} m \left(\sqrt{3} \sigma  \right)^{2} \right) + \left( - \frac{G M m}{R} \right) = 0 \hspace{1cm} \Rightarrow \hspace{1cm} \sigma^{2} = \frac{G M}{3 R}$$ 
 > 
 > ...we will assume the sphere (elliptical galaxy) emits with the following [[Luminosity|luminosity]], dependent on the [[Intensity#Specific Mean Intensity|mean surface brightness]] ($J_{0}$).
 > 
-> $$L = F \cdot A = (4 \pi J_{0}) \cdot (4 \pi R^{2}) = 16 \pi^{2} J_{0} R^{2} \hRightarrow R = \sqrt{\frac{L}{16 \pi^{2} J_{0}}}$$
+> $$L = F \cdot A = (4 \pi J_{0}) \cdot (4 \pi R^{2}) = 16 \pi^{2} J_{0} R^{2} \hspace{1cm} \Rightarrow \hspace{1cm} R = \sqrt{\frac{L}{16 \pi^{2} J_{0}}}$$
 > 
 > If we let $\Gamma = M/L$ be the mass-light ratio, then we can express the circular velocity as...
 > 
-> $$\sigma^{4} = \frac{\left( G M \right)^{2}}{9 R^{2}} = \frac{\left(G \, \Gamma  L \right)^{2} \cdot \left( 16 \pi^{2} J_{0} \right)}{9 L} = \underbrace{\left(\tfrac{16}{9} \pi^{2} G^{2} \Gamma^{2} J_{0} \right)}_{\rm constant} \, L \hRightarrow L \propto \sigma^{4}$$
+> $$\sigma^{4} = \frac{\left( G M \right)^{2}}{9 R^{2}} = \frac{\left(G \, \Gamma  L \right)^{2} \cdot \left( 16 \pi^{2} J_{0} \right)}{9 L} = \underbrace{\left(\tfrac{16}{9} \pi^{2} G^{2} \Gamma^{2} J_{0} \right)}_{\rm constant} \, L \hspace{1cm} \Rightarrow \hspace{1cm} L \propto \sigma^{4}$$
 
 
 ## M-Sigma Relation

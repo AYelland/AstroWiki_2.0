@@ -20,7 +20,7 @@ $$
 	E_{e} &= E'_{e} + |\vec{p}| c \\
 	\vec{p}_{e} &= \vec{p}_{e}^{\,\prime} + \vec{p}
 \end{aligned}
-\hWhere
+\hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	E_{e} &= m_{e} c^{2} \\
 	\vec{p}_{e} &= 0
@@ -35,7 +35,7 @@ $$E'_{e} = m_{e} c^{2} - |\vec{p}_{e}^{\,\prime}| c$$
 
 Filling in the relativistic kinetic energy, we find...
 
-$$E'_{e} = c \sqrt{|\vec{p}_{e}^{\,\prime}|^{2} + m_{e}^{2} c^{2}} \hRightarrow 
+$$E'_{e} = c \sqrt{|\vec{p}_{e}^{\,\prime}|^{2} + m_{e}^{2} c^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
 	\sqrt{|\vec{p}_{e}^{\,\prime}|^{2} + m_{e}^{2} c^{2}} &= m_{e} c - |\vec{p}_{e}^{\,\prime}| \\
 	\sqrt{x^{2} + y^{2}} &= y - x

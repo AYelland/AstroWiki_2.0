@@ -1,7 +1,7 @@
 ---
-first_pass: 2025-04-11
-second_pass: 2025-04-17
-test_day: 2025-04-24
+first_pass: 2024-11-01
+second_pass: 2024-11-15
+test_day: 2024-12-01
 ---
 
 # Days Remaining

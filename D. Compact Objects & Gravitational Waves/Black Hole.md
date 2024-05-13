@@ -48,7 +48,7 @@ Most of the black holes seen above are $\mathcal{O}(10 \; {\rm M_{\odot}})$, but
 
 The spin (or angular momentum) can be parameterized by the maximum physical spin an an object could have, while still held together through gravitational force.
 
-$$J_{\rm max} = \frac{G M^{2}}{c} \hRightarrow |J| \le |J_{\rm max}| = \frac{G M^{2}}{c} \hRightarrow a \equiv \frac{c \, |J|}{G M^{2}} \le 1$$
+$$J_{\rm max} = \frac{G M^{2}}{c} \hspace{1cm} \Rightarrow \hspace{1cm} |J| \le |J_{\rm max}| = \frac{G M^{2}}{c} \hspace{1cm} \Rightarrow \hspace{1cm} a \equiv \frac{c \, |J|}{G M^{2}} \le 1$$
 
 By this, we can define the spin-parameter $a \in \left[ -1, 1 \right]$ , such that any rotating black hole's spin is relative to the speed of light. *(In actuality, the maximum spin is $a \simeq 0.998$, but I won't go into details.)*
 
@@ -70,7 +70,7 @@ a = \cases{
 	~~~0 &\text{(Schwarzschild, zero spin)} \\ 
 	+1 &\text{(prograde, maximal spin)}
 }
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \alpha = \begin{cases}
 	9 &\text{when } a=-1 \\
 	6 &\text{when } a=~~~0 \\
@@ -145,7 +145,7 @@ The **innermost stable circular orbit (ISCO)** is the orbit at which any inward 
 
 For non-rotating black holes, the ISCO has a radius $R_{\rm ISCO} \sim 3 \, R_{\rm S}$ (where $R_{\rm S} \equiv$ Schwarzschild radius). 
 
-$$R_{\rm ISCO} = 3 R_{\rm S} = 6 R_{\rm g} = \frac{6 G M}{c^{2}} \hWhere R_{\rm g} = \frac{G M}{c^{2}}$$
+$$R_{\rm ISCO} = 3 R_{\rm S} = 6 R_{\rm g} = \frac{6 G M}{c^{2}} \hspace{1cm} \text{where} \hspace{1cm} R_{\rm g} = \frac{G M}{c^{2}}$$
 
 For a rotating black hole, the location of the ISCO dependent on the [[#Spin|spin parameter]] ($a$) of the black hole.
 
@@ -181,13 +181,13 @@ Current area of research, though no candidate yet. David Keiser (MIT, CTP) is wo
 
 **Mass Measurements:**
 - For the EM observations: (XRBs)
-	- If we have radial velocity measurements, we can find constraints on the mass through the [[Binary Stars#For a Spectroscopic Binary|binary mass function]]. $$v_{\rm 1,r} = \fpar{2 \pi G}{P}^{1/3} \fpar{M_{2} \sin i}{(M_{1} + M_{2})^{2/3}} \frac{1}{\sqrt{1-e^{2}}}$$ 
+	- If we have radial velocity measurements, we can find constraints on the mass through the [[Binary Stars#For a Spectroscopic Binary|binary mass function]]. $$v_{\rm 1,r} = \left(\frac{2 \pi G}{P}\right)^{1/3} \left(\frac{M_{2} \sin i}{(M_{1} + M_{2})^{2/3}}\right) \frac{1}{\sqrt{1-e^{2}}}$$ 
 	- We can infer the mass though X-ray [[Methods#Reverberation Mapping]] (*x-ray timing*)
 		- Uses the time lags between correlated X-ray signals to infer information about the environment very close to a black hole, and indirectly, properties of the black hole.
 		- Has only been done in one source (Cygnus X-1, Mastroserio+19).
 
 - For GW observations: ([[Instruments#LIGO]], [[Instruments#VIRGO]])
-	- For the [[Instruments#LIGO]] observations, we can observe the [[Question 43|gravitational frequency and amplitude]], [[Gravitational Waves#Chirp Mass|chirp mass]], and duration of compact binary merger. Assuming the coalescence of the two masses happens at the ISCO radius ($R_{\rm ISCO}$), we can calculate the orbital frequency ($\omega_{\rm c}$) and gravitational wave frequency ($f_{\rm c} = \omega_{\rm c} / \pi$) at coalescence from [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] as... $$\omega_{\rm c} = \frac{f_{\rm c}}{\pi} = \sqrt{\frac{G M}{a_{c}^{3}}} = \frac{c^{3}}{(6)^{3/2} \, G M}$$...along with the amplitude...$$h_{0} = \fpar{4}{\sqrt{5} c^{4}} \frac{(G M_{\rm c})^{5/3}\omega^{2/3}}{R}$$Once we have $M$ and $M_{\rm c}$, we can combine them to find the individual binary mass before merging.
+	- For the [[Instruments#LIGO]] observations, we can observe the [[Question 43|gravitational frequency and amplitude]], [[Gravitational Waves#Chirp Mass|chirp mass]], and duration of compact binary merger. Assuming the coalescence of the two masses happens at the ISCO radius ($R_{\rm ISCO}$), we can calculate the orbital frequency ($\omega_{\rm c}$) and gravitational wave frequency ($f_{\rm c} = \omega_{\rm c} / \pi$) at coalescence from [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] as... $$\omega_{\rm c} = \frac{f_{\rm c}}{\pi} = \sqrt{\frac{G M}{a_{c}^{3}}} = \frac{c^{3}}{(6)^{3/2} \, G M}$$...along with the amplitude...$$h_{0} = \left(\frac{4}{\sqrt{5} c^{4}}\right) \frac{(G M_{\rm c})^{5/3}\omega^{2/3}}{R}$$Once we have $M$ and $M_{\rm c}$, we can combine them to find the individual binary mass before merging.
 
 
 **Spin Measurement:**
@@ -238,7 +238,7 @@ Current area of research, though no candidate yet. David Keiser (MIT, CTP) is wo
 	- If we measure $\sigma$ from spectral line widths, we can infer the SMBH mass.
 	- See [[Question 124]].
 - [[Methods#Reverberation Mapping]] in the [[Active Galactic Nuclei|AGN]]:
-	- Measure the timing delay between optical broad lines with respect to the continuum to get the location of the "broad line region" (BLR). Then, relate the SMBH mass to the velocity widths of the lines $$M_{\rm BH} = \frac{f (\Delta v)^{2} r_{\rm BLR}}{G} \hWhere \underbrace{f \equiv \text{BLR scaling factor} \sim 5}_{\text{dependent on geometry and kinematics}}$$
+	- Measure the timing delay between optical broad lines with respect to the continuum to get the location of the "broad line region" (BLR). Then, relate the SMBH mass to the velocity widths of the lines $$M_{\rm BH} = \frac{f (\Delta v)^{2} r_{\rm BLR}}{G} \hspace{1cm} \text{where} \hspace{1cm} \underbrace{f \equiv \text{BLR scaling factor} \sim 5}_{\text{dependent on geometry and kinematics}}$$
 	- Requirements:
 		- High time resolution ($\lesssim 1 \; {\rm day}$)
 		- Long duration monitoring ($\lesssim 1 \; {\rm day}$)

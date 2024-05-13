@@ -1,16 +1,16 @@
 [
   "table-editor-obsidian",
-  "dataview",
   "cm-editor-syntax-highlight-obsidian",
   "highlightr-plugin",
   "templater-obsidian",
   "homepage",
   "obsidian-latex",
-  "callout-manager",
   "short-internal-links-to-headings",
   "obsidian-completr",
   "obsidian-pandoc",
   "quick-latex",
   "custom-sort",
-  "obsidian-banners"
+  "obsidian-banners",
+  "dataview",
+  "callout-manager"
 ]

@@ -14,7 +14,7 @@ $$Q = \frac{\sigma}{\sigma_{\rm crit}}
 
 On the **large scale**, galactic disks are stabilized by *rotational motion*. If we were to introduce a radial perturbation to some star on the disk (initiating epicyclic motion), the we can use Newtonian mechanics to balance the centripetal and gravitational forces. Keeping mass and angular momentum conserved, we find that the system remains stable if:
 
-$$R_{\rm rot} > \frac{2 \pi G \Sigma}{3 \Omega^{2}} \hWhere
+$$R_{\rm rot} > \frac{2 \pi G \Sigma}{3 \Omega^{2}} \hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 G &= \text{gravitational constant} \\
 \Sigma &= \text{surface density of stellar disk to $R$} \\
@@ -25,7 +25,7 @@ G &= \text{gravitational constant} \\
 On the **smaller scale**, stability is achieved through *random motion* if...
 
 $$R < \lambda_{J} 
-\hWhere
+\hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}[t]
  \lambda_{J} \equiv \frac{\pi v_{s}^{2}}{G \rho_{0}} = \frac{\pi \sigma^{2}}{G \rho_{0}} &\equiv \text{Jeans Length} \\
  v_{s} &= \text{sound speed} \\
@@ -38,16 +38,16 @@ Combining the two stability criteria with the epicyclic frequency ($\kappa = \sq
 
 $$\begin{align}
 \lambda_{J} \ge R_{\rm rot} 
-\hRightarrow 
+\hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
 \frac{\pi \sigma^{2}}{G \rho_{0}} &\ge \frac{2 \pi G \Sigma}{3 \Omega^{2}} \\
 \frac{\pi \sigma^{2}}{8 G \Sigma} &\ge \frac{2 \pi G \Sigma}{3 \Omega^{2}} \\
 \sigma^{2} &\ge \frac{16 G^{2} \Sigma^{2}}{3 \Omega^{2}} \\
 \sigma &\ge \frac{4 G \Sigma}{\sqrt{3} \, \Omega} \\
-\sigma &\ge \sqrt{32}{3} \, \fpar{G \Sigma}{\kappa} \approx 3.26 \, \fpar{G \Sigma}{\kappa}
+\sigma &\ge \sqrt{32}{3} \, \left(\frac{G \Sigma}{\kappa}\right) \approx 3.26 \, \left(\frac{G \Sigma}{\kappa}\right)
 \end{aligned}
 \end{align}$$
 
-$$\sigma_{\rm crit} \equiv \sqrt{32}{3} \, \fpar{G \Sigma}{\kappa} \approx 3.26 \, \fpar{G \Sigma}{\kappa} 
-\hRightarrow
-\sigma \ge \sigma_{\rm crit} \hRightarrow \boxed{Q = \frac{\sigma}{\sigma_{\rm crit}}}$$
+$$\sigma_{\rm crit} \equiv \sqrt{32}{3} \, \left(\frac{G \Sigma}{\kappa}\right) \approx 3.26 \, \left(\frac{G \Sigma}{\kappa}\right) 
+\hspace{1cm} \Rightarrow \hspace{1cm}
+\sigma \ge \sigma_{\rm crit} \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{Q = \frac{\sigma}{\sigma_{\rm crit}}}$$

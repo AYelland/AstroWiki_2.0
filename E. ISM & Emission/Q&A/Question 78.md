@@ -15,22 +15,22 @@ Explain, from a statistical mechanics point of view, why the Balmer lines are mo
 > Intuitively, above this temperature, the hydrogen is mostly ionized (since ionization energy is just above the $n=2$ energy level), and below this temperature, most electrons are in the ground state ($n=1$), yielding the [[Spectral Features#Lyman Series]], not the [[Spectral Features#Balmer Series]].
 > 
 > So basically...
-> $$\text{Balmer lines} \propto \fpar{n_{\text{un-ionized, } 2}}{n_{\text{tot}}} = \underbrace{\fpar{n_{\text{un-ionized, } 2}}{n_{\text{un-ionized, tot}}}}_{\text{Boltzmann factor}} \; \underbrace{\fpar{n_{\text{un-ionized, tot}}}{n_{\text{tot}}}}_{\text{Saha}} $$
+> $$\text{Balmer lines} \propto \left(\frac{n_{\text{un-ionized, } 2}}{n_{\text{tot}}}\right) = \underbrace{\left(\frac{n_{\text{un-ionized, } 2}}{n_{\text{un-ionized, tot}}}\right)}_{\text{Boltzmann factor}} \; \underbrace{\left(\frac{n_{\text{un-ionized, tot}}}{n_{\text{tot}}}\right)}_{\text{Saha}} $$
 
 Hydrogen only has a single ionized level (since it only has one electron to "give"). Therefore, the total number density can be represented by: $n_{\rm tot} = n_{\rm I} + n_{\rm II}$ where the roman subscripts refer to $\rm{HI}$ and $\rm{HII}$, the neutral (un-ionized) and singly-ionized states of Hydrogen, respectively. 
 
 **Saha Equation:**
 Using the [[Saha Equation]]...
 
-$$\frac{n_{r+1}}{n_{r}} = \fpar{g_{e}\,g_{r+1}}{g_{r}} \fpar{1}{\lambda^{3} \, n_{e}} \,e^{-\chi_{r} / k_{\rm B} T} \hWhere \lambda \equiv \fpar{h^{2}}{2 \pi m_{e} k_{\rm B} T}^{1/2}$$
+$$\frac{n_{r+1}}{n_{r}} = \left(\frac{g_{e}\,g_{r+1}}{g_{r}}\right) \left(\frac{1}{\lambda^{3} \, n_{e}}\right) \,e^{-\chi_{r} / k_{\rm B} T} \hspace{1cm} \text{where} \hspace{1cm} \lambda \equiv \left(\frac{h^{2}}{2 \pi m_{e} k_{\rm B} T}\right)^{1/2}$$
 
 ...where we can identify that ($n_{r+1} = n_{\rm II}$) and ($n_{r} = n_{\rm I}$). Additionally using the [[Saha Equation#^degeneracies|linked degeneracies]], this simplifies to...
 
-$$\frac{n_{\rm II}}{n_{\rm I}} = \fpar{1}{\lambda^{3} \, n_{e}} \, \exp \left[ - \frac{13.6 \; {\rm eV}}{k_{\rm B} T} \right]$$
+$$\frac{n_{\rm II}}{n_{\rm I}} = \left(\frac{1}{\lambda^{3} \, n_{e}}\right) \, \exp \left[ - \frac{13.6 \; {\rm eV}}{k_{\rm B} T} \right]$$
 
 This allows us to define the fraction of $\ce{H}$ atoms in an netural state.
 
-$$\frac{n_{\rm I}}{n_{\rm tot}} = \frac{n_{\rm I}}{n_{\rm I}+n_{\rm II}} = \left[ 1 + \frac{n_{\rm II}}{n_{\rm I}} \right]^{-1} = \left[ 1 + \fpar{1}{\lambda^{3} \, n_{e}} \, \exp \left[ - \frac{13.6 \; {\rm eV}}{k_{\rm B} T} \right] \right]^{-1}$$
+$$\frac{n_{\rm I}}{n_{\rm tot}} = \frac{n_{\rm I}}{n_{\rm I}+n_{\rm II}} = \left[ 1 + \frac{n_{\rm II}}{n_{\rm I}} \right]^{-1} = \left[ 1 + \left(\frac{1}{\lambda^{3} \, n_{e}}\right) \, \exp \left[ - \frac{13.6 \; {\rm eV}}{k_{\rm B} T} \right] \right]^{-1}$$
 
 **Boltzmann Equation:**
 The neutral hydrogen population ($n_{\rm I}$) can be broken down into a sum of the energy level states ($n_{\rm I} = n_{1} + n_{2} + \dots$), where the subscript refers to the $n^{th}$ energy level. 
@@ -52,7 +52,7 @@ $$\frac{n_{2}}{n_{\rm I}} = \sum_{m=1}^{\infty} \frac{g_{2}}{g_{m}} \; \exp \lef
 **Combining the Saha and Boltzmann Relations:**
 Putting these together, we can define the fraction of $\ce{H}$ atoms in an $n=2$ state relative to all hydrogen (neutral or ionized) as a function of temperature, which ends up looking like this:
 
-$$\frac{n_{2}}{n_{\rm tot}} = \underbrace{\fpar{n_{2}}{n_{m, \, {\rm I}}}}_{\rm Boltzmann} \; \underbrace{\left( \frac{n_{\rm I}}{n_{\rm tot}} \right)}_{\rm Saha}$$
+$$\frac{n_{2}}{n_{\rm tot}} = \underbrace{\left(\frac{n_{2}}{n_{m, \, {\rm I}}}\right)}_{\rm Boltzmann} \; \underbrace{\left( \frac{n_{\rm I}}{n_{\rm tot}} \right)}_{\rm Saha}$$
   
 ![[balmer_fraction.png|align:center|600]]
 

@@ -35,7 +35,7 @@ $$
 The total mass of the system ($M$) multiplied by the velocity of the center-of-mass ($\dot{\vec{R}}$) yields the **center-of-mass momentum** ($\vec{P}$). As it turns out, this is also just the sum of the individual mass's momentums ($\vec{p}_{1}$, $\vec{p}_{2}$, $\dots$).
 
 $$
-\vec{P} = M \dot{\vec{R}} = M \fpar{m_{1} \dot{\vec{r}}_{1} + m_{2} \dot{\vec{r}}_{2} + \dots}{M} = m_{1} \dot{\vec{r}}_{1} + m_{2} \dot{\vec{r}}_{2} + \dots = \vec{p}_{1} + \vec{p}_{2} + \dots
+\vec{P} = M \dot{\vec{R}} = M \left(\frac{m_{1} \dot{\vec{r}}_{1} + m_{2} \dot{\vec{r}}_{2} + \dots}{M}\right) = m_{1} \dot{\vec{r}}_{1} + m_{2} \dot{\vec{r}}_{2} + \dots = \vec{p}_{1} + \vec{p}_{2} + \dots
 $$
 
 ## Relative Position

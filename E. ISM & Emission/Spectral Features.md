@@ -46,7 +46,7 @@ Summing the line emission from all radii of the relativistic disk gives a skewed
 
 The energy levels of hydrogen are...
 
-$$E_{n} = \left( \frac{- m_{\rm e} e^{4}}{2 \left( 4 \pi \varepsilon_{0} \hbar \right)^{2}} \right) \frac{1}{n^{2}} = \frac{-13.6 \; {\rm eV}}{n^{2}} \hRightarrow \lambda = \frac{h c}{E_{\rm initial} - E_{\rm final}}$$
+$$E_{n} = \left( \frac{- m_{\rm e} e^{4}}{2 \left( 4 \pi \varepsilon_{0} \hbar \right)^{2}} \right) \frac{1}{n^{2}} = \frac{-13.6 \; {\rm eV}}{n^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} \lambda = \frac{h c}{E_{\rm initial} - E_{\rm final}}$$
 
 ### Rydberg Formula
 
@@ -56,7 +56,7 @@ The **Rydberg formula** calculates the wavelengths of a spectral lines of electr
 
 $$
 \frac{1}{\lambda} = R Z^{2} \left( \frac{1}{n_{1}^{2}} - \frac{1}{n_{2}^{2}} \right)
-\hWhere
+\hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	R &\equiv \text{Rydberg Constant} \\
 	Z &\equiv \text{atomic number} \\
@@ -67,13 +67,13 @@ $$
 
 The **Rydberg Constant** ($R_{\rm \infty}$) is combined with the reduced mass ($\mu$) of the nuclei-electron system prior to being used in the expression above.
 
-$$R_{Z} = R_{\infty} \, \mu  = \fpar{m_{\rm e} e^{4}}{3 \varepsilon_{0}^{2} h^{3} c} \fpar{(Z m_{\rm p})(m_{\rm e})}{Z m_{\rm p} + m_{\rm e}} \approx 1.0973 \times 10^{7} \; {\rm [m]} \fpar{(Z m_{\rm p})(m_{\rm e})}{Z m_{\rm p} + m_{\rm e}}$$
+$$R_{Z} = R_{\infty} \, \mu  = \left(\frac{m_{\rm e} e^{4}}{3 \varepsilon_{0}^{2} h^{3} c}\right) \left(\frac{(Z m_{\rm p})(m_{\rm e})}{Z m_{\rm p} + m_{\rm e}}\right) \approx 1.0973 \times 10^{7} \; {\rm [m]} \left(\frac{(Z m_{\rm p})(m_{\rm e})}{Z m_{\rm p} + m_{\rm e}}\right)$$
 
 For hydrogen ($Z=1$), these expressions simplify to...
 
 $$
 \frac{1}{\lambda} = R_{\rm H} \left( \frac{1}{n_{1}^{2}} - \frac{1}{n_{2}^{2}} \right)
-\hWhere
+\hspace{1cm} \text{where} \hspace{1cm}
 R_{\rm H} \approx 1.09678 \times 10^{7} \; {\rm m^{-1}}
 $$
 
@@ -112,7 +112,7 @@ The **Lyman Limit** (or **break** or **discontinuity**) is the short-wavelength 
 ![[LymanLimit_spectra.jpeg|align:center|500]]
 
 
-When there are a significant number of [[Interstellar Medium#Atomic Hydrogen|neutral hydrogen atoms]] along some line-of-sight, any light with $\lambda < 912 \; \AA$ (more energetic) will be absorbed. 
+When there are a significant number of [[Interstellar Medium#Atomic Hydrogen|neutral hydrogen atoms]] along some line-of-sight, any light with $\lambda < 912 \; {\rm \mathring{A}}$ (more energetic) will be absorbed. 
 
 Since we know the wavelength of the Lyman Break in the rest frame (experimentally), by observing the break in the spectra of a source, we can determine its redshift (since at that stage the spectrum was the "most energetic"). For far away sources, we assume the light of a source hits the Lyman Limit along the line of sight, meaning we shouldn't see any flux at wavelengths smaller than $\lambda = 912\,\pu{Å} (1+z)$. 
 
@@ -165,9 +165,9 @@ This "jump" is related to (but distinct from) the [[#Lyman Limit]], which occurs
 The **21cm line** is a spectral feature representing the spin flip (hyperfine) transition in the ground state of neutral hydrogen ($\ce{HI}$). The corresponding energy of this transition is:
 $$
 \lambda = \frac{h c}{E_{1} - E_{2}} \sim 21.1 \; {\rm cm}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \nu \sim 1.42 \; {\rm GHz}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \nu \sim 0.7 \; {\rm ns}$$
 
 ![[21cm_spinflip.png|align:center|450]]
@@ -185,7 +185,7 @@ The degeneracy of the anti-aligned state is $g=1$ since the total spin quantum n
 
 The spin transition temperature ($T_{\rm spin}$) can be found from the Boltzmann relation:
 
-$$\frac{n_{\rm u}}{n_{\rm d}} = \frac{g_{\rm u}}{g_{\rm d}} e^{-(E_{\rm u} - E_{\rm d}) / k_{\rm B} T_{\rm spin}} \hRightarrow k_{\rm B} T_{\rm spin} = \frac{E_{\rm d} - E_{\rm u}}{\ln (3 n_{\rm u} / n_{\rm d})}$$
+$$\frac{n_{\rm u}}{n_{\rm d}} = \frac{g_{\rm u}}{g_{\rm d}} e^{-(E_{\rm u} - E_{\rm d}) / k_{\rm B} T_{\rm spin}} \hspace{1cm} \Rightarrow \hspace{1cm} k_{\rm B} T_{\rm spin} = \frac{E_{\rm d} - E_{\rm u}}{\ln (3 n_{\rm u} / n_{\rm d})}$$
 
 For all but the coldest spin temperatures, $n_{\rm u} / n_{\rm d} \approx 3$.
 

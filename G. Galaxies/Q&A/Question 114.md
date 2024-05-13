@@ -19,7 +19,7 @@ If we tried to explain the existence of spiral structures with differential rota
 > 
 > ...then the timescale for rotation is...
 > 
-> $$t_{\rm rot} = \frac{1}{\nu} = \frac{2 \pi}{\Omega} = \frac{2 \pi r}{v_{\rm rot}} \sim 0.1 \; {\rm Gyr} \hWhere \begin{aligned} v_{\rm rot} &= 200 \; {\rm km/s} \\ r &= 10 \; {\rm kpc} \end{aligned}$$
+> $$t_{\rm rot} = \frac{1}{\nu} = \frac{2 \pi}{\Omega} = \frac{2 \pi r}{v_{\rm rot}} \sim 0.1 \; {\rm Gyr} \hspace{1cm} \text{where} \hspace{1cm} \begin{aligned} v_{\rm rot} &= 200 \; {\rm km/s} \\ r &= 10 \; {\rm kpc} \end{aligned}$$
 > 
 > Meaning, spiral arms would have wound up ~10s to 100s of times in the age of the universe ($\sim 13.7 \; {\rm Gyr}$). In such a case, we should not see prevalent structure today, as it would all be washed out over many rotations.
 

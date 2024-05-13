@@ -6,7 +6,7 @@ aliases:
 ## Classical Limit
 
 When the number of particles becomes very large ($N \gg 1$), all probabilities take on a Guassian distribution.
-$$N \gg 1 \hRightarrow \bar{n}_{s} \ll 1 \hspace{0.5cm} , \hspace{0.5cm} e^{\beta H} \gg 1$$
+$$N \gg 1 \hspace{1cm} \Rightarrow \hspace{1cm} \bar{n}_{s} \ll 1 \hspace{0.5cm} , \hspace{0.5cm} e^{\beta H} \gg 1$$
 
 ## Equipartition Energy
 
@@ -32,10 +32,10 @@ $$
 
 **Maxwell-Boltzmann Statistics** describes a system containing a large number of identical non-interacting, non-relativistic classical particles in thermodynamic equilibrium. *(Only valid when the temperature is high enough or the particle density is low enough to render quantum effects negligible.)*
 
-**Single Partition Function:**$$Z_{1} = e^{- \beta H} \quad\hWhere \beta \equiv \frac{1}{k_{\rm B} T}$$
+**Single Partition Function:**$$Z_{1} = e^{- \beta H} \quad\hspace{1cm} \text{where} \hspace{1cm} \beta \equiv \frac{1}{k_{\rm B} T}$$
 **Partition Function:**$$Z = \frac{1}{N!} \left( Z_{1} \right)^{N} = \sum_{\mu}^{N} e^{- \beta H_{\mu}}$$
-**Probability Distribution Function (PDF):**$$p(\mu) = \frac{1}{Z} e^{- \beta H_{\mu}} \hRightarrow p(v)  = \left[ \frac{m}{2 \pi k_{\rm B} T} \right]^{3/2} \exp\left( - \frac{m v^{2}}{2 k_{\rm B} T} \right)$$
-**Average Number Density:**$$\bar{n}_{s} = \sum n_{s} p(\mu_{s}) = - \frac{1}{\beta} \pd{\ln(Z)}{E_{s}} \hRightarrow \bar{n}_{\rm s} = g_{\rm s} \fpar{m_{\rm s} k_{\rm B} T}{2 \pi \hbar^{2}}^{3/2} \exp \left( - \frac{m_{\rm s} c^{2}}{k_{\rm B} T} \right)$$
+**Probability Distribution Function (PDF):**$$p(\mu) = \frac{1}{Z} e^{- \beta H_{\mu}} \hspace{1cm} \Rightarrow \hspace{1cm} p(v)  = \left[ \frac{m}{2 \pi k_{\rm B} T} \right]^{3/2} \exp\left( - \frac{m v^{2}}{2 k_{\rm B} T} \right)$$
+**Average Number Density:**$$\bar{n}_{s} = \sum n_{s} p(\mu_{s}) = - \frac{1}{\beta} \frac{\partial \ln(Z)}{\partial E_{s}} \hspace{1cm} \Rightarrow \hspace{1cm} \bar{n}_{\rm s} = g_{\rm s} \left(\frac{m_{\rm s} k_{\rm B} T}{2 \pi \hbar^{2}}\right)^{3/2} \exp \left( - \frac{m_{\rm s} c^{2}}{k_{\rm B} T} \right)$$
 
 ### Fermi-Dirac & Bose-Einstein
 *(Also known as the **Quantum Canonical Distribution**)*
@@ -66,16 +66,16 @@ For any set of canonical pairs $\left\{ \, (T ,S) \, , \, (J, x) \, , \, (\mu, N
 
 $$
 \begin{aligned}
-	\langle \mathcal{O}_{1} \rangle_{c} &= - \frac{1}{\beta} \pd{\ln(Z)}{\mathcal{O}_{2}} \\
-	\langle \mathcal{O}_{1}^{2} \rangle_{c} &= - \frac{1}{\beta} \pd{\langle \mathcal{O}_{1} \rangle_{c}}{\mathcal{O}_{2}} \\
-	\langle \mathcal{O}_{1}^{3} \rangle_{c} &= - \frac{1}{\beta} \pd{\langle \mathcal{O}_{1}^{2} \rangle_{c}}{\mathcal{O}_{2}} \\
+	\langle \mathcal{O}_{1} \rangle_{c} &= - \frac{1}{\beta} \frac{\partial \ln(Z)}{\partial \mathcal{O}_{2}} \\
+	\langle \mathcal{O}_{1}^{2} \rangle_{c} &= - \frac{1}{\beta} \frac{\partial \langle \mathcal{O}_{1} \rangle_{c}}{\partial \mathcal{O}_{2}} \\
+	\langle \mathcal{O}_{1}^{3} \rangle_{c} &= - \frac{1}{\beta} \frac{\partial \langle \mathcal{O}_{1}^{2} \rangle_{c}}{\partial \mathcal{O}_{2}} \\
 	&\dots
 \end{aligned}
 \hspace{1cm} \underbrace{\Leftrightarrow}_{\text{flip the negative}} \hspace{1cm}
 \begin{aligned}
-	\langle \mathcal{O}_{2} \rangle_{c} &= - \frac{1}{\beta} \pd{\ln(Z)}{\mathcal{O}_{1}} \\
-	\langle \mathcal{O}_{2}^{2} \rangle_{c} &= - \frac{1}{\beta} \pd{\langle \mathcal{O}_{2} \rangle_{c}}{\mathcal{O}_{1}} \\
-	\langle \mathcal{O}_{2}^{3} \rangle_{c} &= - \frac{1}{\beta} \pd{\langle \mathcal{O}_{2}^{2} \rangle_{c}}{\mathcal{O}_{1}} \\
+	\langle \mathcal{O}_{2} \rangle_{c} &= - \frac{1}{\beta} \frac{\partial \ln(Z)}{\partial \mathcal{O}_{1}} \\
+	\langle \mathcal{O}_{2}^{2} \rangle_{c} &= - \frac{1}{\beta} \frac{\partial \langle \mathcal{O}_{2} \rangle_{c}}{\partial \mathcal{O}_{1}} \\
+	\langle \mathcal{O}_{2}^{3} \rangle_{c} &= - \frac{1}{\beta} \frac{\partial \langle \mathcal{O}_{2}^{2} \rangle_{c}}{\partial \mathcal{O}_{1}} \\
 	&\dots
 \end{aligned}
 $$
@@ -83,12 +83,12 @@ $$
 ### Energy
 
 For the average energy to the $n^{th}$ power...
-$$\langle E^{n} \rangle_{c} = (-1)^{n} \pd{^{n} \ln (Z)}{\beta^{n}}$$
+$$\langle E^{n} \rangle_{c} = (-1)^{n} \frac{\partial ^{n} \ln (Z)}{\partial \beta^{n}}$$
 If dealing with a...
 $$
 \begin{alignat}{6}
-	&\textbf{Monatomic Gas:} \hspace{1cm}& 3 \text{ trans d.o.f.} &+ 0 \text{ rot d.o.f.} &= 3 \text{ d.o.f.} &\hRightarrow \langle E \rangle &= 3 \, (\tfrac{1}{2} k_{\rm B} T) = \tfrac{3}{2} k_{\rm B} T \\
-	&\textbf{Diatomic Gas:} \hspace{1cm}& 3 \text{ trans d.o.f.} &+ 2 \text{ rot d.o.f.} &= 5 \text{ d.o.f.} &\hRightarrow \langle E \rangle &= 5 \, (\tfrac{1}{2} k_{\rm B} T) = \tfrac{5}{2} k_{\rm B} T \\
-	&\textbf{Polyatomic Gas:} \hspace{1cm}& 3 \text{ trans d.o.f.} &+ 3 \text{ rot d.o.f.} &= 5 \text{ d.o.f.} &\hRightarrow \langle E \rangle &= 6 \, (\tfrac{1}{2} k_{\rm B} T) = 3 k_{\rm B} T \\
+	&\textbf{Monatomic Gas:} \hspace{1cm}& 3 \text{ trans d.o.f.} &+ 0 \text{ rot d.o.f.} &= 3 \text{ d.o.f.} &\hspace{1cm} \Rightarrow \hspace{1cm} \langle E \rangle &= 3 \, (\tfrac{1}{2} k_{\rm B} T) = \tfrac{3}{2} k_{\rm B} T \\
+	&\textbf{Diatomic Gas:} \hspace{1cm}& 3 \text{ trans d.o.f.} &+ 2 \text{ rot d.o.f.} &= 5 \text{ d.o.f.} &\hspace{1cm} \Rightarrow \hspace{1cm} \langle E \rangle &= 5 \, (\tfrac{1}{2} k_{\rm B} T) = \tfrac{5}{2} k_{\rm B} T \\
+	&\textbf{Polyatomic Gas:} \hspace{1cm}& 3 \text{ trans d.o.f.} &+ 3 \text{ rot d.o.f.} &= 5 \text{ d.o.f.} &\hspace{1cm} \Rightarrow \hspace{1cm} \langle E \rangle &= 6 \, (\tfrac{1}{2} k_{\rm B} T) = 3 k_{\rm B} T \\
 \end{alignat}
 $$

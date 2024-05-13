@@ -25,18 +25,18 @@ If the planet is without an atmosphere, then we can assume the emission is the s
 
 $$
 F_{\rm b} = \frac{L}{4 \pi R_{*}^{2}} \quad , \quad F_{\rm d} = \frac{L}{4 \pi \left(R_{*}^{2} - R_{\rm p}^{2} \right)}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
 	F_{\rm b} \left( 4 \pi R_{*}^{2} \right) &= F_{\rm d} \left( 4 \pi \left(R_{*}^{2} - R_{\rm p}^{2} \right) \right) \\
 	\frac{F_{\rm d}}{F_{\rm b}} &= \frac{R_{*}^{2} - R_{\rm p}^{2}}{R_{*}^{2}}
 \end{aligned}
 $$
-$$\delta \equiv \left( 1 - \frac{F_{\rm d}}{F_{\rm b}} \right) = \fpar{R_{\rm p}}{R_{*}}^{2} \equiv \text{percentage change in light-curve}$$
+$$\delta \equiv \left( 1 - \frac{F_{\rm d}}{F_{\rm b}} \right) = \left(\frac{R_{\rm p}}{R_{*}}\right)^{2} \equiv \text{percentage change in light-curve}$$
 
 If the planet has an atmosphere, then we assume the atmosphere has an exponential density profile with a constant [[Optical Depth#Optical depth|optical depth]] ($\tau_{\nu}$), an atmospheric scale height ($H$), and a specific number of scale heights ($N_{H}$). Performing the same calculation with a new radius...
 $$
 R_{\rm p} \; \longrightarrow \; R_{\rm p} + \underbrace{N_{H} H (1 - e^{-\tau_{\nu}})}_{\text{atmosphere height}}
-\hWhere \left\{ \;
+\hspace{1cm} \text{where} \hspace{1cm} \left\{ \;
 \begin{aligned}
 	H &\equiv \text{atmospheric scale height} = \tfrac{k_{\rm B} T}{\mu g} \\
 	\mu &= \text{mean molcular mass} \\
@@ -47,7 +47,7 @@ R_{\rm p} \; \longrightarrow \; R_{\rm p} + \underbrace{N_{H} H (1 - e^{-\tau_{\
 $$
 
 $$
-\delta \equiv \left( 1 - \frac{F_{\rm d}}{F_{\rm b}} \right) = \fpar{R_{\rm p} + N_{H} H (1 - e^{-\tau_{\nu}})}{R_{*}}^{2} 
+\delta \equiv \left( 1 - \frac{F_{\rm d}}{F_{\rm b}} \right) = \left(\frac{R_{\rm p} + N_{H} H (1 - e^{-\tau_{\nu}})}{R_{*}}\right)^{2} 
 $$
 
 > [!note] Normalizing the Flux
@@ -70,17 +70,17 @@ Why does this give you the mass? Once you have the radial velocity, you can use 
 		- True velocity can be measured when the orbiting body is moving along the line-of-sight, directly towards or away from us. 
 	- The conversion from true velocity to radial velocity is through the inclination angle ($i$)
 	- The center of mass of the system gives us the **binary mass ratio**.
-$$v = a \omega = a \fpar{2 \pi}{P} \hspace{1.5cm} v = v_{\rm r} \sin i \hspace{1.5cm} \underbrace{M_{*} a_{*} = M_{\rm p} a_{\rm p}}_{\rm center\ of\ mass}$$
+$$v = a \omega = a \left(\frac{2 \pi}{P}\right) \hspace{1.5cm} v = v_{\rm r} \sin i \hspace{1.5cm} \underbrace{M_{*} a_{*} = M_{\rm p} a_{\rm p}}_{\rm center\ of\ mass}$$
 $$
-a_{*} = v_{*} \fpar{P}{2 \pi} \; , \; a_{\rm p} = v_{\rm p} \fpar{P}{2 \pi}
+a_{*} = v_{*} \left(\frac{P}{2 \pi}\right) \; , \; a_{\rm p} = v_{\rm p} \left(\frac{P}{2 \pi}\right)
 \begin{aligned}[t]
-&\hRightarrow
+&\hspace{1cm} \Rightarrow \hspace{1cm}
 	\frac{M_{*}}{M_{\rm p}} = \frac{a_{\rm p}}{a_{*}} = \frac{v_{\rm p}}{v_{*}} = \frac{v_{\rm r,p}}{v_{\rm r,*}} \\
 	\\
-	&\hRightarrow 
+	&\hspace{1cm} \Rightarrow \hspace{1cm} 
 	\begin{aligned}[t]
-		a = a_{*} + a_{\rm p} &= \fpar{P}{2 \pi} (v_{*} + v_{\rm p}) \\
-		&= \fpar{P}{2 \pi} \fpar{v_{\rm r,*} + v_{\rm r,p}}{\sin i}
+		a = a_{*} + a_{\rm p} &= \left(\frac{P}{2 \pi}\right) (v_{*} + v_{\rm p}) \\
+		&= \left(\frac{P}{2 \pi}\right) \left(\frac{v_{\rm r,*} + v_{\rm r,p}}{\sin i}\right)
 	\end{aligned}
 \end{aligned}
 $$
@@ -91,23 +91,23 @@ $$
 	- Since we only measure $v_{*,r}$ in practice, we use the mass ratio to express $v_{p,r}$ in terms of the other parameters.
 	- This yields an equivalent expression to the **binary mass function**
 $$
-P^{2} = \frac{4 \pi^{2} a^{3}}{G M} \hRightarrow 
+P^{2} = \frac{4 \pi^{2} a^{3}}{G M} \hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
 	M_{\rm tot} &= \frac{4 \pi^{2} a^{3}}{G P^{2}} \\
-	M_{\rm tot} &= \frac{4 \pi^{2}}{G P^{2}} \fpar{P}{2 \pi}^{3} \fpar{v_{\rm r,*} + v_{\rm r,p}}{\sin i}^{3} \\
-	M_{\rm tot} &= \frac{P}{2 \pi G} \fpar{v_{\rm r,*} + v_{\rm r,p}}{\sin i}^{3} \\
-	M_{\rm tot} &= \frac{P}{2 \pi G} \fpar{v_{\rm r,*}}{\sin i}^{3} \left( 1 + \frac{v_{\rm r,p}}{v_{\rm r,*}} \right)^{3} \\
-	M_{\rm tot} &= \frac{P}{2 \pi G} \fpar{v_{\rm r,*}}{\sin i}^{3} \left( 1 + \frac{M_{*}}{M_{\rm p}} \right)^{3} \\
-	v_{\rm r,*}^{3} &= \frac{2 \pi G}{P} \fpar{M_{\rm p}^{3} (M_{*} + M_{\rm p})}{(M_{*} + M_{\rm p})^{3}} \sin^{3} i
+	M_{\rm tot} &= \frac{4 \pi^{2}}{G P^{2}} \left(\frac{P}{2 \pi}\right)^{3} \left(\frac{v_{\rm r,*} + v_{\rm r,p}}{\sin i}\right)^{3} \\
+	M_{\rm tot} &= \frac{P}{2 \pi G} \left(\frac{v_{\rm r,*} + v_{\rm r,p}}{\sin i}\right)^{3} \\
+	M_{\rm tot} &= \frac{P}{2 \pi G} \left(\frac{v_{\rm r,*}}{\sin i}\right)^{3} \left( 1 + \frac{v_{\rm r,p}}{v_{\rm r,*}} \right)^{3} \\
+	M_{\rm tot} &= \frac{P}{2 \pi G} \left(\frac{v_{\rm r,*}}{\sin i}\right)^{3} \left( 1 + \frac{M_{*}}{M_{\rm p}} \right)^{3} \\
+	v_{\rm r,*}^{3} &= \frac{2 \pi G}{P} \left(\frac{M_{\rm p}^{3} (M_{*} + M_{\rm p})}{(M_{*} + M_{\rm p})^{3}}\right) \sin^{3} i
 \end{aligned}
 $$
-$$v_{\rm r,*} = \fpar{2 \pi G}{P}^{1/3} \underbrace{\fpar{M_{\rm p} \sin i}{(M_{*} + M_{\rm p})^{2/3}}}_{(\text{binary mass function})^{1/3}}$$
+$$v_{\rm r,*} = \left(\frac{2 \pi G}{P}\right)^{1/3} \underbrace{\left(\frac{M_{\rm p} \sin i}{(M_{*} + M_{\rm p})^{2/3}}\right)}_{(\text{binary mass function})^{1/3}}$$
 
 Given we know the radial velocity and stellar mass from the spectroscopic observations, we can solved implicitly for $M_{p}$. 
 
 > [!note]
 > There is another version of this derivation where we don't have to assume circular orbits. This results in an addition factor to account for the eccentricity ($\varepsilon$).
 > $$
-> v_{\rm r,*} = \fpar{2 \pi G}{P}^{1/3} \fpar{M_{\rm p} \sin i}{(M_{*} + M_{\rm p})^{2/3}} \fpar{1}{\sqrt{1 - \varepsilon^{2}}}
+> v_{\rm r,*} = \left(\frac{2 \pi G}{P}\right)^{1/3} \left(\frac{M_{\rm p} \sin i}{(M_{*} + M_{\rm p})^{2/3}}\right) \left(\frac{1}{\sqrt{1 - \varepsilon^{2}}}\right)
 > $$
 

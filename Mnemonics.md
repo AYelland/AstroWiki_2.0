@@ -96,7 +96,7 @@
 > - $T$ = taller letter = higher power = 3
 > - $r$ = shorter letter = lower power = 2
 > 
-> $$\td{T}{r} = -\frac{3}{16 \pi} \cdot \frac{\kappa_{R}}{a c} \cdot \frac{\rho L}{T^{3} r^{2}} \hWhere a = \frac{4 \sigma}{c}$$
+> $$\frac{\mathrm{d} T}{\mathrm{d} r} = -\frac{3}{16 \pi} \cdot \frac{\kappa_{R}}{a c} \cdot \frac{\rho L}{T^{3} r^{2}} \hspace{1cm} \text{where} \hspace{1cm} a = \frac{4 \sigma}{c}$$
 ^e7ef73
 
 ## Flux-Luminosity Relationship
@@ -171,7 +171,7 @@
 
 > [!tip] "$L$oo$\kappa$, its a '34 GMc Eddington!"
 >
-> $$L \cdot \kappa = 4 \pi G M c \hspace{1cm} \Leftrightarrow \hspace{1cm} L \approx 3 \times 10^{4} \; \fpar{M}{M_{\odot}} \fpar{\kappa_{\odot}}{\kappa} \; L_{\odot}$$
+> $$L \cdot \kappa = 4 \pi G M c \hspace{1cm} \Leftrightarrow \hspace{1cm} L \approx 3 \times 10^{4} \; \left(\frac{M}{M_{\odot}}\right) \left(\frac{\kappa_{\odot}}{\kappa}\right) \; L_{\odot}$$
 > - Eddington sounds like a car model
 > - GMC is a car company $\implies G M c$
 > - '34 is the year of model $\implies 3 \times 10^{4}$

@@ -21,7 +21,7 @@ To find the approximate size to of the heliosphere (closest point being the heli
 The [[Sun#Solar Wind|solar wind]] in the [[Sun#heliosphere]] can be viewed as exerting a [[Fluid Mechanics#Ram Pressure|ram pressure]] on the [[Interstellar Medium|ISM]].
 
 $$
-P_{\rm{ram}} = \rho_{\rm sw} v_{\rm n}^{2} \hWhere
+P_{\rm{ram}} = \rho_{\rm sw} v_{\rm n}^{2} \hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	\rho_{\rm sw} \equiv \rho_{\rm sw}(R_{\rm ram})
 \end{aligned}
@@ -31,9 +31,9 @@ Here, $R_{\rm ram}$ labels the distance from the [[Sun]] to [[Sun#Heliopause|hel
 
 - We approximate the relative velocity ($v_{\rm n}$) by assuming the speed of the [[Sun#Solar Wind|solar wind]] is approximately the same as the particle escape velocity from the surface of the [[Sun]], and by assuming the speed remains constant until reaching the [[Sun#Heliopause|heliopause]]. (Within the [[Sun#heliosphere]], we can treat the [[Interstellar Medium|ISM]] to be at rest.) $$v_{\rm n} \sim v_{\rm esc,\odot} = \sqrt{\frac{2 G M_{\odot}}{R_{\odot}}} \simeq 600 \, {\rm km/s} = 6 \times 10^{5} \; {\rm m/s}$$
 
-- We approximate the mass density ($\, \rho_{\rm sw} \equiv \rho_{\rm sw}(r) \,$) of the [[Sun#Heliosphere|heliosphere]] by assuming the inner-heliospheric medium is composed purely of ionized hydrogen gas. From earth ground-based measurements, we can determine the solar wind density at $r = 1 \; {\rm AU}$. $$\rho_{\rm sw, AU} \simeq n_{\rm AU} \, \mu \, m_{\rm p} \simeq (7 \times 10^{6} \pu{m^{-3}})\, \fpar{1}{2} \, (1.6\times 10^{-27}\,\pu{kg}) \simeq 10^{-21} \; {\rm kg/m^{3}}$$Here, the number density is ($n_{\rm AU} = 6 \times 10^{3} \; {\rm m^{-3}}$), the [[Mean Molecular Weight|mean molecular weight ]] is ($\mu = 1/2$) for purely ionized hydrogen gas, and the hydrogen mass ($m_{\rm H} \approx m_{\rm p}$) is about $1 \; {\rm amu}$.
+- We approximate the mass density ($\, \rho_{\rm sw} \equiv \rho_{\rm sw}(r) \,$) of the [[Sun#Heliosphere|heliosphere]] by assuming the inner-heliospheric medium is composed purely of ionized hydrogen gas. From earth ground-based measurements, we can determine the solar wind density at $r = 1 \; {\rm AU}$. $$\rho_{\rm sw, AU} \simeq n_{\rm AU} \, \mu \, m_{\rm p} \simeq (7 \times 10^{6} \pu{m^{-3}})\, \left(\frac{1}{2}\right) \, (1.6\times 10^{-27}\,\pu{kg}) \simeq 10^{-21} \; {\rm kg/m^{3}}$$Here, the number density is ($n_{\rm AU} = 6 \times 10^{3} \; {\rm m^{-3}}$), the [[Mean Molecular Weight|mean molecular weight ]] is ($\mu = 1/2$) for purely ionized hydrogen gas, and the hydrogen mass ($m_{\rm H} \approx m_{\rm p}$) is about $1 \; {\rm amu}$.
 
-- Using this solar wind density ($\rho_{\rm sw,AU} = \rho_{\rm sw}(r = 1 \; {\rm AU})$), we can apply [[Stellar Structure#Mass Continuity|mass continuity]] for a spherically symmetric density field to find $\rho_{\rm sw}(r)$ at any radial distance from the sun. $$\td{M}{r} = \left( 4 \pi r^{2} \right) \, \rho(r) = \text{constant} \hRightarrow \rho(r) \propto \frac{1}{r^{2}}$$As a result, we have... $$4 \pi r^{2} \, \rho_{\rm sw}(r) = 4 \pi \, (1 \; {\rm AU})^{2} \, \rho_{\rm sw, AU} \hRightarrow \rho_{\rm sw}(r) = \fpar{1 \; {\rm AU}}{r}^{2} \rho_{\rm sw, AU}$$
+- Using this solar wind density ($\rho_{\rm sw,AU} = \rho_{\rm sw}(r = 1 \; {\rm AU})$), we can apply [[Stellar Structure#Mass Continuity|mass continuity]] for a spherically symmetric density field to find $\rho_{\rm sw}(r)$ at any radial distance from the sun. $$\frac{\mathrm{d} M}{\mathrm{d} r} = \left( 4 \pi r^{2} \right) \, \rho(r) = \text{constant} \hspace{1cm} \Rightarrow \hspace{1cm} \rho(r) \propto \frac{1}{r^{2}}$$As a result, we have... $$4 \pi r^{2} \, \rho_{\rm sw}(r) = 4 \pi \, (1 \; {\rm AU})^{2} \, \rho_{\rm sw, AU} \hspace{1cm} \Rightarrow \hspace{1cm} \rho_{\rm sw}(r) = \left(\frac{1 \; {\rm AU}}{r}\right)^{2} \rho_{\rm sw, AU}$$
 **2) ISM Pressure**
 
 The thermal pressure of the [[Interstellar Medium|ISM]] can be modeled as an [[Thermodynamics#Ideal Gas Law|ideal gas]] with pressure 
@@ -46,7 +46,7 @@ $$
 \begin{align}
 	P_{\rm ram} &= P_{\rm ISM} \\
 	\rho_{\rm sw} \, v_{n}^{2} &= n_{\rm ISM} \, k_{\rm B} \, T_{\rm ISM} \\
-	\left( \fpar{R_{\rm AU}}{r}^{2} \rho_{\rm sw, AU} \right) \, (v_{\rm \odot, esc})^{2} &= n_{\rm ISM} \, k_{\rm B} \, T_{\rm ISM} \\
+	\left( \left(\frac{R_{\rm AU}}{r}\right)^{2} \rho_{\rm sw, AU} \right) \, (v_{\rm \odot, esc})^{2} &= n_{\rm ISM} \, k_{\rm B} \, T_{\rm ISM} \\
 	&\Downarrow
 \end{align}
 $$

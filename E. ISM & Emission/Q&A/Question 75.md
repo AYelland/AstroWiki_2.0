@@ -23,7 +23,7 @@ Using the power law energy distribution for the electron population, we can use 
 
 Since the power emitted by high-energy particles ($\gamma \uparrow$) is larger than the power emitted by lower-energy particles ($\gamma \downarrow$)...
 
-$$P = \fpar{q^{4} B}{6 \pi \epsilon_{0} c^{3}} \frac{\gamma^{4} \beta^{2}}{m_{0}^{2}} \hspace{1cm} \text{or} \hspace{1cm} \td{E}{t} \propto \gamma^{2} \propto E^{2}$$
+$$P = \left(\frac{q^{4} B}{6 \pi \epsilon_{0} c^{3}}\right) \frac{\gamma^{4} \beta^{2}}{m_{0}^{2}} \hspace{1cm} \text{or} \hspace{1cm} \frac{\mathrm{d} E}{\mathrm{d} t} \propto \gamma^{2} \propto E^{2}$$
 
 ...they lose energy faster, creating a "knee" in the observed synchrotron spectrum. Meaning, older synchrotron sources will break at lower energies.
 

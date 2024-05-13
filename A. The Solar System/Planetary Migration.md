@@ -23,14 +23,14 @@ This specifically can occur in *two different scenarios*:
 	- The central body loses angular momentum.
 	- The orbiting body gains angular momentum.
 	- The semi-major axis of the orbiting body increases with time.
-	$$P_{\rm rot} < P_{\rm orbit} \hRightarrow \text{semi-major axis increases}$$
+	$$P_{\rm rot} < P_{\rm orbit} \hspace{1cm} \Rightarrow \hspace{1cm} \text{semi-major axis increases}$$
 	
 2) The rotational period is longer (slower rotational frequency) than the orbital period
 	- The tidal bulge is **behind** of the line of attraction.
 	- The central body gains angular momentum.
 	- The orbiting body loses angular momentum.
 	- The semi-major axis of the orbiting body decreases with time.
-	$$P_{\rm rot} > P_{\rm orbit} \hRightarrow \text{semi-major axis decreases}$$
+	$$P_{\rm rot} > P_{\rm orbit} \hspace{1cm} \Rightarrow \hspace{1cm} \text{semi-major axis decreases}$$
 
 If the orbiting body is in an eccentric orbit, the strength of the tidal forces is strongest when it is near the pericenter. The orbit is slowed and its semi-major axis decreases, reducing its eccentricity.
 
@@ -45,7 +45,7 @@ There are two types of tidal locking:
 
 #### Synchronous Rotation
 
-$$P_{\rm rot} = P_{\rm orbit} \hRightarrow \text{stable semi-major axis}$$
+$$P_{\rm rot} = P_{\rm orbit} \hspace{1cm} \Rightarrow \hspace{1cm} \text{stable semi-major axis}$$
 
 *Synchronous Rotation* occurs when there is no change in the net rotation rate in one of the bodies over the course of a complete orbit. In other words, when the rotational period one body is equal to the orbital period of the other, the same hemisphere of the smaller body always faces the larger object. 
 
@@ -54,7 +54,7 @@ $$P_{\rm rot} = P_{\rm orbit} \hRightarrow \text{stable semi-major axis}$$
 #### Spin-Orbit Resonance
 *(Also known as **asynchronous locking**)*
 
-$$N_{1} P_{\rm rot} = N_{2} P_{\rm orbit} \hWhere N_{1},N_{2} \in \mathbb{Z}\hRightarrow \text{stable semi-major axis}$$
+$$N_{1} P_{\rm rot} = N_{2} P_{\rm orbit} \hspace{1cm} \text{where} \hspace{1cm} N_{1},N_{2} \in \mathbb{Z}\hspace{1cm} \Rightarrow \hspace{1cm} \text{stable semi-major axis}$$
 
 *Spin-Orbit Resonance* occurs when the orbit of the smaller body has an integer resonance with spin of the larger body. 
 

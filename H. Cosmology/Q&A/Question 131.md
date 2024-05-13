@@ -22,17 +22,17 @@ That said, once the sound horizon grows big enough, it will be able to stabilize
 
 Given the [[Jeans Formalism|Jeans stability criteria]] depends on the [[Fluid Mechanics#Speed of Sound|speed of sound]], we can use the general definition to analyze how it changes in the early universe.
 
-$$c_{\rm s} = \sqrt{\pd{P}{\rho}}$$
+$$c_{\rm s} = \sqrt{\frac{\partial P}{\partial \rho}}$$
 
 - **Radiation-Dominated:**
 	Before [[Cosmological Timeline#Recombination]], the fluid is dominated by [[Stellar Structure#Radiative Energy Transport|radiation pressure]].
 	
-	$$P_{rad} = \frac{1}{3} \rho c^{2} \hRightarrow c_{\rm s} = \sqrt{\pd{P}{\rho}} = \frac{c}{\sqrt{3}}$$
+	$$P_{rad} = \frac{1}{3} \rho c^{2} \hspace{1cm} \Rightarrow \hspace{1cm} c_{\rm s} = \sqrt{\frac{\partial P}{\partial \rho}} = \frac{c}{\sqrt{3}}$$
 
 - **Matter-Dominated:**
 	After [[Cosmological Timeline#Recombination]], the baryons are effectively an [[Thermodynamics#Ideal Gas Law|ideal gas]], where we use $T  = T_{0} (1+z_{\rm rec}) \simeq 2.7 (1100) \; {\rm K} \simeq 3000 \; \pu{K}$ and $\mu$ is the [[Mean molecular weight#Mean molecular weight|mean molecular weight]]. 
 	
-	$$P = \frac{\rho}{\mu m_{\rm p}} k_{\rm B} T \hRightarrow c_{\rm s} = \sqrt{\pd{P}{\rho}} = \sqrt{\frac{k_{\rm B} T}{\mu m_{\rm p}}} \ll c$$
+	$$P = \frac{\rho}{\mu m_{\rm p}} k_{\rm B} T \hspace{1cm} \Rightarrow \hspace{1cm} c_{\rm s} = \sqrt{\frac{\partial P}{\partial \rho}} = \sqrt{\frac{k_{\rm B} T}{\mu m_{\rm p}}} \ll c$$
 	
 This means $c_{\rm s}$ drops dramatically at recombination, and thus, so does the [[Jeans Formalism#Jeans Length]] and [[Jeans Formalism#Jeans Mass]].
 
@@ -47,19 +47,19 @@ This implies most of the structure we see today formed after recombination. As a
 - **Radiation-Dominated:** $$H(t) = H_{0} \sqrt{\Omega_{r} (1+z)^{4}} \hspace{3cm} a(t) \propto t^{1/2}$$
 	The [[Distances#Comoving Distance|comoving length]] ($\chi_{\rm s}$) and [[Distances#Proper Distance|proper length]] ($L_{\rm s}$) of the sound horizon is...
 	
-	$$\chi_{\rm s} \simeq \int_{0}^{t} \frac{c_{\rm s} \; \rd t'}{a(t')} \propto 2 c_{\rm s} \, t^{1/2} \hRightarrow L_{\rm s} = a \, \chi_{\rm s} \propto 2 c_{\rm s} \, t$$
+	$$\chi_{\rm s} \simeq \int_{0}^{t} \frac{c_{\rm s} \; \mathrm{d} t'}{a(t')} \propto 2 c_{\rm s} \, t^{1/2} \hspace{1cm} \Rightarrow \hspace{1cm} L_{\rm s} = a \, \chi_{\rm s} \propto 2 c_{\rm s} \, t$$
 	
 	If we plug in the expression for $t$ from the [[Friedmann Equation]], we would find is smaller than the [[Jeans Formalism#Jeans Length]] ($\lambda_{J}$), and thus, there would be no collapsing.
 	
-	$$H = \frac{\dot{a}}{a} = \frac{1}{2 t} = \sqrt{\frac{8 \pi G \rho_{r}}{3}} \hRightarrow t = \frac{1}{2} \sqrt{\frac{3}{8 \pi G \rho_{r}}} \hRightarrow L_{\rm s} = \underbrace{\sqrt{\frac{\pi c_{\rm s}^{2}}{G \rho_{r}}}}_{\lambda_{J}} \; \cdot \; \sqrt{\frac{3}{8 \pi^{2}}}$$
+	$$H = \frac{\dot{a}}{a} = \frac{1}{2 t} = \sqrt{\frac{8 \pi G \rho_{r}}{3}} \hspace{1cm} \Rightarrow \hspace{1cm} t = \frac{1}{2} \sqrt{\frac{3}{8 \pi G \rho_{r}}} \hspace{1cm} \Rightarrow \hspace{1cm} L_{\rm s} = \underbrace{\sqrt{\frac{\pi c_{\rm s}^{2}}{G \rho_{r}}}}_{\lambda_{J}} \; \cdot \; \sqrt{\frac{3}{8 \pi^{2}}}$$
 
 - **Matter-Dominated:** $$H(t) = H_{0} \sqrt{\Omega_{M} (1+z)^{3}} \hspace{3cm} a(t) \propto t^{2/3}$$
 	Using the same equations as above with a different $a(t)$ expression, we find...
 	
-	$$\chi_{\rm s} \simeq \int_{0}^{t} \frac{c_{\rm s} \; \rd t'}{a(t')} \propto 3 c_{\rm s} \, t^{1/3} \hRightarrow L_{s} = a\, \chi_{s} \propto 3 c_{\rm s} \, t$$
+	$$\chi_{\rm s} \simeq \int_{0}^{t} \frac{c_{\rm s} \; \mathrm{d} t'}{a(t')} \propto 3 c_{\rm s} \, t^{1/3} \hspace{1cm} \Rightarrow \hspace{1cm} L_{s} = a\, \chi_{s} \propto 3 c_{\rm s} \, t$$
 	...where similarly, if we plug in the expression for $t$ from the [[Friedmann Equation]], we would find is smaller than the [[Jeans Formalism#Jeans Length]] ($\lambda_{J}$), and thus, there would be no collapsing.
 	
-	$$H = \frac{\dot{a}}{a} = \frac{2}{3 t} = \sqrt{\frac{8 \pi G \rho_{M}}{3}} \hRightarrow t = \frac{2}{3} \sqrt{\frac{3}{8 \pi G \rho_{M}}} \hRightarrow L_{\rm s} = \underbrace{\sqrt{\frac{\pi c_{\rm s}^{2}}{G \rho_{M}}}}_{\lambda_{J}} \; \cdot \; \sqrt{\frac{3}{2 \pi^{2}}}$$
+	$$H = \frac{\dot{a}}{a} = \frac{2}{3 t} = \sqrt{\frac{8 \pi G \rho_{M}}{3}} \hspace{1cm} \Rightarrow \hspace{1cm} t = \frac{2}{3} \sqrt{\frac{3}{8 \pi G \rho_{M}}} \hspace{1cm} \Rightarrow \hspace{1cm} L_{\rm s} = \underbrace{\sqrt{\frac{\pi c_{\rm s}^{2}}{G \rho_{M}}}}_{\lambda_{J}} \; \cdot \; \sqrt{\frac{3}{2 \pi^{2}}}$$
 ##### Bringing it All Together...
 
 Given that for some perturbation with length scale $L$, we have found that the system will remain stabilized if...

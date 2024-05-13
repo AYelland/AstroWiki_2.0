@@ -56,22 +56,22 @@ $$
 
 If the "true source angle" is zero ($\theta_{S} = 0$) such that the source and lens are aligned along the line-of-sight, then we see a perfect ring of images of the source around the lensing object called the **Einstein Ring** with radius ($r=R_{E}$) and angular size ($\theta_{E}$, "Einstein angle"). Through some geometry, we can define these quantities in terms of distance parameters.
 
-$$\theta_{1} = \fpar{D_{LS}}{D_{S}} \alpha = \fpar{D_{LS}}{D_{S}}\frac{4 G M}{r \, c^{2}} = \fpar{D_{LS}}{D_{S} \, D_{L}}\frac{4 G M}{c^{2}} \frac{1}{\theta}$$
+$$\theta_{1} = \left(\frac{D_{LS}}{D_{S}}\right) \alpha = \left(\frac{D_{LS}}{D_{S}}\right)\frac{4 G M}{r \, c^{2}} = \left(\frac{D_{LS}}{D_{S} \, D_{L}}\right)\frac{4 G M}{c^{2}} \frac{1}{\theta}$$
 
 $$
-\theta = \cancelto{0}{\theta_{S}} + \theta_{1} \equiv \theta_{E}\hRightarrow \theta_{E}= \fpar{D_{LS}}{D_{S} \, D_{L}}\frac{4 G M}{c^{2}} \frac{1}{\theta_{E}}
+\theta = \cancelto{0}{\theta_{S}} + \theta_{1} \equiv \theta_{E}\hspace{1cm} \Rightarrow \hspace{1cm} \theta_{E}= \left(\frac{D_{LS}}{D_{S} \, D_{L}}\right)\frac{4 G M}{c^{2}} \frac{1}{\theta_{E}}
 $$
-$$\boxed{ \; \theta_{E} \equiv \sqrt{\fpar{D_{LS}}{D_{S} \, D_{L}}\frac{4 G M}{c^{2}}} \; } \hspace{2cm} R_{E} = \theta_{E} D_{L}$$
+$$\boxed{ \; \theta_{E} \equiv \sqrt{\left(\frac{D_{LS}}{D_{S} \, D_{L}}\right)\frac{4 G M}{c^{2}}} \; } \hspace{2cm} R_{E} = \theta_{E} D_{L}$$
 
 We can also express an approximation of the Einstein angle as... 
 
-$$\theta_{E} \; {\rm [mas]} \simeq \sqrt{\frac{M \; {\rm [M_{\odot}]}}{10 \, D \; {\rm [kpc]}}} \hWhere D = \fpar{D_{L}D_{S}}{D_{LS}} \equiv \text{effective lensing distance}$$
+$$\theta_{E} \; {\rm [mas]} \simeq \sqrt{\frac{M \; {\rm [M_{\odot}]}}{10 \, D \; {\rm [kpc]}}} \hspace{1cm} \text{where} \hspace{1cm} D = \left(\frac{D_{L}D_{S}}{D_{LS}}\right) \equiv \text{effective lensing distance}$$
 
 If we re-write the lens equation in terms of $\theta_{E}$ ...
 
 $$
-\frac{\theta_{E}^{2}}{\theta_{1}} = \left[ \; \frac{\fpar{D_{LS}}{D_{S} \, D_{L}}\frac{4 G M}{c^{2}}}{\fpar{D_{LS}}{D_{S} \, D_{L}}\frac{4 G M}{c^{2}} \frac{1}{\theta}} \; \right] = \theta
-\hRightarrow
+\frac{\theta_{E}^{2}}{\theta_{1}} = \left[ \; \frac{\left(\frac{D_{LS}}{D_{S} \, D_{L}}\right)\frac{4 G M}{c^{2}}}{\left(\frac{D_{LS}}{D_{S} \, D_{L}}\right)\frac{4 G M}{c^{2}} \frac{1}{\theta}} \; \right] = \theta
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \boxed{ \; \theta_{S} = \left( 1 - \frac{\theta_{E}^{2}}{\theta^{2}} \right) \,\theta \; }
 $$
 
@@ -164,7 +164,7 @@ Strong lensing can also produce rings and arcs such as:
 
 The lensing "power" of a system can be thought of in terms of a mass density projected along the line of sight (like a column density). When the lens is thin compared to the observer-lens distance ($D_{L}$) and the lens-source distance ($D_{LS}$), we can define this projected, surface mass density ($\Sigma$) as...
 
-$$\Sigma(\vec{r}) = \int \rho(\vec{r}, z) \; \rd z \hWhere 
+$$\Sigma(\vec{r}) = \int \rho(\vec{r}, z) \; \mathrm{d} z \hspace{1cm} \text{where} \hspace{1cm} 
 \begin{aligned}
 	\left[ \Sigma \right] &\equiv \text{surface mass density} = {\rm kg\ m^{-2}} \\
 	\vec{r} &\equiv \text{radius from center of lens} \\
@@ -173,15 +173,15 @@ $$\Sigma(\vec{r}) = \int \rho(\vec{r}, z) \; \rd z \hWhere
 
 The deflection angle (see [[#How does it work?|geometric diagram]]) is then expressed as...
 
-$$\vec{\alpha}(\vec{r}\,) = \frac{4 G}{c^{2}} \int \frac{\left( \vec{r} - \vec{r}^{\ \prime} \right) \; \Sigma \left( \vec{r}^{\ \prime} \right)}{\left| \vec{r} - \vec{r}^{\ \prime} \right|^{2}} \; \rd^{2} r^{\prime}$$
+$$\vec{\alpha}(\vec{r}\,) = \frac{4 G}{c^{2}} \int \frac{\left( \vec{r} - \vec{r}^{\ \prime} \right) \; \Sigma \left( \vec{r}^{\ \prime} \right)}{\left| \vec{r} - \vec{r}^{\ \prime} \right|^{2}} \; \mathrm{d}^{2} r^{\prime}$$
 
 ...where the angle is represented as a vector ($\vec{\alpha}$) because lensing effect is not only dependent on size of the lens ($\vec{r}$) by its magnitude, but by its direction. This expression becomes a scalar when assuming more symmetry.
 
 It is common to discuss discuss the surface density ($\Sigma$) relative to some critical density ($\Sigma_{\rm crit}$), above which, "we expect lensing" and below which, "we don't expect lensing". *This critical density is the mean surface density enclosed within the Einstein radius.* 
 
 $$
-\Sigma_{\rm crit} = \frac{c^{2}}{4 \pi G} \fpar{D_{S}}{D_{LS} D_{L}}
-\hRightarrow
+\Sigma_{\rm crit} = \frac{c^{2}}{4 \pi G} \left(\frac{D_{S}}{D_{LS} D_{L}}\right)
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{cases}
 	\Sigma > \Sigma_{\rm crit} &\quad \text{expect lensing} \\
 	\Sigma < \Sigma_{\rm crit} &\quad \text{don't expect lensing}
@@ -192,7 +192,7 @@ The relative mass density is called the *"convergence"*.
 
 $$
 \kappa(\vec{\theta}) = \frac{\Sigma(\vec{\theta})}{\Sigma_{\rm crit}}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{cases}
 	\kappa > 1 &\quad \text{expect lensing} \\
 	\kappa < 1 &\quad \text{don't expect lensing}

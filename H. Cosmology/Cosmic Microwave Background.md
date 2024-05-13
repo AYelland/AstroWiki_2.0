@@ -131,7 +131,7 @@ To study the angular scales of these fluctuations one decomposes the temperature
 
 To measure the effective weight of a specific harmonic's contribution to the [[#Anisotropies|CMB anisotropies]], we can calculate the coefficients ($C_{l}$) of the signal $\delta T = \Delta T/T$ in this orthonormal basis.
 
-$$\delta T(\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{+l} a_{ml} Y_{ml}(\theta,\phi) \hRightarrow a_{ml} = \int_{\rm{sky}} \rd \Omega\, Y_{ml}^\star(\theta,\phi)\, \delta T(\theta,\phi)$$
+$$\delta T(\theta,\phi) = \sum_{l=0}^{\infty}\sum_{m=-l}^{+l} a_{ml} Y_{ml}(\theta,\phi) \hspace{1cm} \Rightarrow \hspace{1cm} a_{ml} = \int_{\rm{sky}} \mathrm{d} \Omega\, Y_{ml}^\star(\theta,\phi)\, \delta T(\theta,\phi)$$
 
 From the orthogonality of the basis we have...
 
@@ -189,7 +189,7 @@ If we compare different curvatures ($k$) for open/flat/closed universes ($\theta
 
 That is, $l_{c} < l_{f} < l_{o}$. We can think of it like "in an open universe, a cone opens up between you and the object, so the cone angle at the tip where you are is thinner" and converse for a closed universe.
 
-$$\ell \; \propto \; \frac{180^{\circ}}{\theta} \hWhere \theta_{\rm open} < \theta_{\rm flat} < \theta_{\rm closed}$$
+$$\ell \; \propto \; \frac{180^{\circ}}{\theta} \hspace{1cm} \text{where} \hspace{1cm} \theta_{\rm open} < \theta_{\rm flat} < \theta_{\rm closed}$$
 
 ![[CMB_omegaK.png|align:center|650]]
 ![[curvature_observation_shape.jpg|align:center|550]]
@@ -299,17 +299,17 @@ $$\frac{\delta T}{T} = - \frac{v_p}{c}\tau$$
 
 Here, we are calculating of the size of the sound horizon relating to the [[#CMB power spectrum]]. Before [[Cosmological Timeline#Recombination|recombination]], the photon-baryon fluid was dominated by [[Stellar Structure#Radiative Energy Transport|radiation pressure]] (but not necessarily a radiation-dominated universe), so the sound speed is...
 
-$$P_{rad} = \frac{1}{3}\rho c^2 \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \frac{c}{\sqrt{3}}$$
+$$P_{rad} = \frac{1}{3} \rho c^2 \implies c_s = \sqrt{\frac{\partial P}{\partial \rho}} = \frac{c}{\sqrt{3}}$$
 
 However, this ignores a factor of the ratio of baryon and radiation energy densities that makes it really $\sim c/\sqrt{6}$. 
 
 We can estimate the [[Distances#Comoving distance|comoving size]] of the sound horizon ($\chi_{\rm s}$) by the distance that sound can travel from the Big Bang ($t = 0$) to the time of recombination ($t_{\rm rec}$). Here, we substitute the [[Friedmann Equation]] into the relation.
 
-$$\chi_{\rm s} \simeq \int_{0} ^{t_{\rm rec}} \frac{\rd t}{a(t)} \, c_{\rm s} \simeq \int_{0}^{t_{\rm rec}} \frac{\rd t}{a(t)} \fpar{c}{\sqrt{3}} = \frac{d_{H}}{\sqrt{3}} \int_{z_{\rm rec}}^{\infty} \frac{\rd z}{E(z)}$$
+$$\chi_{\rm s} \simeq \int_{0} ^{t_{\rm rec}} \frac{\mathrm{d} t}{a(t)} \, c_{\rm s} \simeq \int_{0}^{t_{\rm rec}} \frac{\mathrm{d} t}{a(t)} \left(\frac{c}{\sqrt{3}}\right) = \frac{d_{H}}{\sqrt{3}} \int_{z_{\rm rec}}^{\infty} \frac{\mathrm{d} z}{E(z)}$$
 
 If we assume the early universe is matter-dominated ($\Omega_{M}=1$ and $\Omega_{\Lambda}=\Omega_{r}=\Omega_{k}=0$), this results in the following comoving size of the sound horizon.
 
-$$\chi_{\rm s} \simeq \frac{d_{H}}{\sqrt{3}} \int_{z_{\rm rec}}^\infty \frac{\rd z}{\sqrt{\Omega_{M}}}(1+z)^{-3/2} = \frac{2 d_{H}}{\sqrt{3 \Omega_{M}}} (1 + z_{\rm rec})^{-1/2}$$
+$$\chi_{\rm s} \simeq \frac{d_{H}}{\sqrt{3}} \int_{z_{\rm rec}}^\infty \frac{\mathrm{d} z}{\sqrt{\Omega_{M}}}(1+z)^{-3/2} = \frac{2 d_{H}}{\sqrt{3 \Omega_{M}}} (1 + z_{\rm rec})^{-1/2}$$
 
 The [[Distances#Proper Distance|proper length]] of the sound horizon at recombination is then...
 
@@ -317,7 +317,7 @@ $$L_{\rm s}(z_{\rm rec}) = a(z_{\rm rec})\chi_{\rm s}(z_{\rm rec}) = \frac{2 d_{
 
 ...where the associated angular size that could be measured today (at $z=0$) is given in terms of the [[Distances#Angular diameter distance|angular diameter distance]].  $d_{\rm sls}$ is the [[Distances#Comoving distance|comoving distance]] to the *surface of last scattering* at $z_{\rm rec}$.
 
-$$\theta_{\rm s} = \frac{L_{\rm s}}{d_{A}(z_{\rm rec})} = \frac{L_{\rm s} (1+z_{\rm rec})}{d_{\rm sls}} \hRightarrow d_{\rm sls}(z_{\rm rec}) =  \frac{c}{H_{0}} \int_{0}^{z_{\rm rec}} \frac{\rd z}{E(z)}$$
+$$\theta_{\rm s} = \frac{L_{\rm s}}{d_{A}(z_{\rm rec})} = \frac{L_{\rm s} (1+z_{\rm rec})}{d_{\rm sls}} \hspace{1cm} \Rightarrow \hspace{1cm} d_{\rm sls}(z_{\rm rec}) =  \frac{c}{H_{0}} \int_{0}^{z_{\rm rec}} \frac{\mathrm{d} z}{E(z)}$$
 
 This yields an angular size of (see [this](https://physics.stackexchange.com/questions/54124/relation-between-multipole-moment-and-angular-scale-of-cmb) for relationship between $l$ and $\theta$)...
 

@@ -42,7 +42,7 @@ where $N$ is the number of lines.
 > 
 > We can define our uncertainty of central position of our spectral lines through the distribution of the data points.
 > 
-> $$\sigma_{v} \approx \frac{{\rm FWHM}}{{\rm SNR}} \hWhere {\rm SNR} \sim \sqrt{N} \text{ for photon noise}$$
+> $$\sigma_{v} \approx \frac{{\rm FWHM}}{{\rm SNR}} \hspace{1cm} \text{where} \hspace{1cm} {\rm SNR} \sim \sqrt{N} \text{ for photon noise}$$
 > 
 > For a single spectral line:
 > 
@@ -53,7 +53,7 @@ where $N$ is the number of lines.
 > $$\sigma_{v} \approx  \frac{c}{R \cdot {\rm SNR} \cdot \sqrt{N}}$$
 > 
 > Therefore, for a radial velocity measurement of $R \sim 3 \times 10^{9}$ for $N \sim 1000$ spectral lines to achieve the $\Delta v \sim 10 \; {\rm cm/s}$ precision...
-> $$R \cdot {\rm SNR} \cdot \sqrt{N} \sim 3 \times 10^{9} \hRightarrow R \cdot {\rm SNR} \sim 10^{8} \hRightarrow SNR \sim 10^{3}$$
+> $$R \cdot {\rm SNR} \cdot \sqrt{N} \sim 3 \times 10^{9} \hspace{1cm} \Rightarrow \hspace{1cm} R \cdot {\rm SNR} \sim 10^{8} \hspace{1cm} \Rightarrow \hspace{1cm} SNR \sim 10^{3}$$
 > ...we would need a signal-noise-ratio of about 1000 using today's technology (with $R\sim 10^{5}$).
 
 ##### Describe some practical challenges with calibration and stability, and how they are addressed for such instruments. Why have we not yet achieved this precision in RV measurements of real stars?

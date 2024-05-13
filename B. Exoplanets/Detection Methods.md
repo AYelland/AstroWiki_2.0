@@ -66,7 +66,8 @@ Measure the wobble of star (caused by gravitational influence of the planets) th
 
 | ![[direct_imaging_method1.gif\|300]] | ![[direct_imaging_method2.gif\|300]] |
 | :----------------------------------: | ------------------------------------ |
- *(\*\*\The two GIFs are of different systems)*
+ 
+ *(\*\* The two GIFs are of different systems)*
 
 Directly observing the reflected light from a planet (coronagraphy). We assume that the star and planet emit as a [[Blackbody Radiation|blackbody]]. Then, we can then subtract the star's light from the image to observe the planet's spectrum (+ temperature).
 
@@ -87,6 +88,7 @@ Directly observing the reflected light from a planet (coronagraphy). We assume t
 
 | ![[microlensing_magnifcation.gif\|https://www.astronomy.ohio-state.edu/gaudi.1/movies.html\|250]] | ![[microlensing_lightcurve.gif\|https://www.astronomy.ohio-state.edu/gaudi.1/movies.html\|400]] |
 | :--------------------------------: | :-------------------------: |
+
 ![[microlensing_method.jpg|align:center|550]]
 
 > [!image] Image Caption

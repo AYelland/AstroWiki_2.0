@@ -46,13 +46,13 @@ $$F_{\rm t} \approx - \frac{2 G M_{1} m R_{2}}{a^{3}}$$
 
 Setting the tidal forces equal to the self-gravitational forces...
 
-$$\left| F_{\rm g} \right| = \left| F_{\rm t} \right| \hRightarrow \frac{G M_{2} m}{R_{2}^{2}} = \frac{2 G M_{1} m R_{2}}{a^{3}}$$
-$$a^{3} = \fpar{2 M_{1}}{M_{2}} R_{2}^{3}$$
-$$a_{\rm roche} = \fpar{2 M_{1}}{M_{2}}^{1/3} R_{2} \hspace{1cm} \Longleftrightarrow \hspace{1cm} a_{\rm roche} = \fpar{2 \rho_{1}}{\rho_{2}}^{1/3} R_{1}$$
+$$\left| F_{\rm g} \right| = \left| F_{\rm t} \right| \hspace{1cm} \Rightarrow \hspace{1cm} \frac{G M_{2} m}{R_{2}^{2}} = \frac{2 G M_{1} m R_{2}}{a^{3}}$$
+$$a^{3} = \left(\frac{2 M_{1}}{M_{2}}\right) R_{2}^{3}$$
+$$a_{\rm roche} = \left(\frac{2 M_{1}}{M_{2}}\right)^{1/3} R_{2} \hspace{1cm} \Longleftrightarrow \hspace{1cm} a_{\rm roche} = \left(\frac{2 \rho_{1}}{\rho_{2}}\right)^{1/3} R_{1}$$
 
 This calculation assumes that the orbiting bodies are rigid and represent by point masses. In reality, these bodies are fluid and they are disrupted "easier" than rigid bodies. Accounting for the fluid mechanics, the leading coefficient $\alpha \equiv 2^{1/3} \simeq 1.3$ changes to $\alpha \simeq 2.4$.
 
-$$\boxed{\; a_{\rm roche} = \alpha \, \fpar{M_{1}}{M_{2}}^{1/3} R_{2} \hspace{1cm} \Longleftrightarrow \hspace{1cm} a_{\rm roche} = \alpha \, \fpar{\rho_{1}}{\rho_{2}}^{1/3} R_{1} \;} \hWhere \alpha \simeq 2.4$$
+$$\boxed{\; a_{\rm roche} = \alpha \, \left(\frac{M_{1}}{M_{2}}\right)^{1/3} R_{2} \hspace{1cm} \Longleftrightarrow \hspace{1cm} a_{\rm roche} = \alpha \, \left(\frac{\rho_{1}}{\rho_{2}}\right)^{1/3} R_{1} \;} \hspace{1cm} \text{where} \hspace{1cm} \alpha \simeq 2.4$$
 
 Physically, this means if the satellite mass is at $a = a_{\rm roche}$, then it will begin to disrupt. The material closer to the primary body will orbit faster than the material further away, causing the material to spread out and create a ring-like structure. (planetary ring formation?)
 

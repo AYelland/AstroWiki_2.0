@@ -15,11 +15,11 @@ In this situation, we can calculated the limit for which the companion star can 
 
 We will assume that the two stars had masses ($M_{1}$ and $M_{2}$) before the [[Stellar Explosions#Supernova|SNe]], and that they were bound in a circular orbit, separated by the distance $a$. The total initial energy of the binary system is then: *(see [[Kepler's Laws of Planetary Motion#Conservation of Energy|Keplerian Orbit Energy]])*
 
-$$E_{0} = - \frac{G M_{1} M_{2}}{2 a} = - \frac{G M_{\rm 0} \mu_{0}}{2 a} \hWhere M_{0} \equiv M_{1} + M_{2} \quad , \quad \mu_{0} \equiv \frac{M_{1} M_{2}}{M_{0}}$$
+$$E_{0} = - \frac{G M_{1} M_{2}}{2 a} = - \frac{G M_{\rm 0} \mu_{0}}{2 a} \hspace{1cm} \text{where} \hspace{1cm} M_{0} \equiv M_{1} + M_{2} \quad , \quad \mu_{0} \equiv \frac{M_{1} M_{2}}{M_{0}}$$
 
 Using [[Center of Mass & Relative Coordinates|center of mass]] coordinates, we can also consider the effective one-body problem of reduced mass ($\mu_{0}$) and relative velocity ($v_{0}$). With the [[Virial Theorem]], we can express the initial orbital energy as...
 
-$$2 T + U = 0 \hRightarrow E_{0} = -T = - \left( \frac{1}{2} \mu_{0} v_{0}^{2} \right)$$
+$$2 T + U = 0 \hspace{1cm} \Rightarrow \hspace{1cm} E_{0} = -T = - \left( \frac{1}{2} \mu_{0} v_{0}^{2} \right)$$
 
 ...such that we can express the relative velocity in terms of the total mass ($M_{0}$).
 $$v_{0}^{2} = \frac{G M_{0}}{a}$$
@@ -42,17 +42,17 @@ Plugging in the expression for $v_{0}^{2}$ into our limit such that...
 
  $$
 \begin{align}
-	E < 0 \hRightarrow \hspace{3cm} \frac{1}{2} \mu v_{0}^{2} &- \frac{G (q M_{1}) M_{2}}{a} < 0 \\
+	E < 0 \hspace{1cm} \Rightarrow \hspace{1cm} \hspace{3cm} \frac{1}{2} \mu v_{0}^{2} &- \frac{G (q M_{1}) M_{2}}{a} < 0 \\
 	\\\
 	\frac{1}{2} \mu v_{0}^{2} &< \frac{G q M_{1} M_{2}}{a} \\
-	\frac{1}{2} \fpar{(q M_{1}) M_{2}}{M} \fpar{G M_{0}}{a} &< \frac{G q M_{1} M_{2}}{a} \\
-	\frac{1}{2} &< \fpar{M}{M_{0}}
+	\frac{1}{2} \left(\frac{(q M_{1}) M_{2}}{M}\right) \left(\frac{G M_{0}}{a}\right) &< \frac{G q M_{1} M_{2}}{a} \\
+	\frac{1}{2} &< \left(\frac{M}{M_{0}}\right)
 \end{align}
 $$
 
 ...the masses will remain in a bound orbit after the SN if....
 
-$$\boxed{\; \frac{M_{\rm final}}{M_{\rm initial}} > \frac{1}{2} \; } \hWhere M_{i} \equiv \text{total mass}$$
+$$\boxed{\; \frac{M_{\rm final}}{M_{\rm initial}} > \frac{1}{2} \; } \hspace{1cm} \text{where} \hspace{1cm} M_{i} \equiv \text{total mass}$$
  
 Meaning, if we don't lose more than half of the total mass of the system, the binary system will persist and the masses will remain bound.
 

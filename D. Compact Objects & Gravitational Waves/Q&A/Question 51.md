@@ -10,7 +10,7 @@ Describe the various stages of evolution of a supernova remnant. What are the re
 **(1) Free Expansion Phase**:  |  $R\propto t$  |  lasts $\sim 100-200$ years  |  $v$ constant 
 
 - When [[Stellar Explosions#Supernova|SN]] first explodes, material ejected at [[Fluid Mechanics#Supersonic|supersonic]] speeds where the initial [[Stellar Explosions#Supernova|SN]] mass is much greater than the [[Interstellar Medium|ISM]] gas enclosed by the expanding sphere. $$M_{\rm S} \gg \left( \frac{4}{3} \pi R_{\rm S}^{3} \right) \, \rho_{0}$$
-- This renders the [[Interstellar Medium|ISM]] pressure is negligible, such that the shock front has no deceleration and it expands with constant velocity. $$v = \text{constant} \hRightarrow R_{\rm S} = v_{\rm S} t \hRightarrow \boxed{\; r \propto t \;}$$
+- This renders the [[Interstellar Medium|ISM]] pressure is negligible, such that the shock front has no deceleration and it expands with constant velocity. $$v = \text{constant} \hspace{1cm} \Rightarrow \hspace{1cm} R_{\rm S} = v_{\rm S} t \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{\; r \propto t \;}$$
 - Shock waves sweeps up and collects material from the [[Interstellar Medium|ISM]], eventually slowing down
 - Ejected gas is [[Optical depth#Optical thickness|optically thick]] and kept hot by radioactive decay of isotopes created by the supernova. (powers the light curve)
 - This expansion continues until the mass collected from ISM is about equal to the initial mass of the ejecta. \[ $M_{\rm S} \simeq \left( \frac{4}{3} \pi R_{\rm S}^{3} \right) \, \rho_{0}$ \] $\implies$ $t \sim 100 - 200 \; {\rm yr}$
@@ -37,12 +37,12 @@ Describe the various stages of evolution of a supernova remnant. What are the re
 > 
 > Combining with the initial SN energy ($E_{\rm SN} \equiv constant$)
 > 
-> $$E_{\rm SN} = E_{\rm kin} + E_{\rm th} \hRightarrow R^{3} v^{2} = R^{3} \dot{R}^{2} \propto \text{constant}$$
+> $$E_{\rm SN} = E_{\rm kin} + E_{\rm th} \hspace{1cm} \Rightarrow \hspace{1cm} R^{3} v^{2} = R^{3} \dot{R}^{2} \propto \text{constant}$$
 > 
 > Integrate the differential equation for how radius scales with time...
 > 
 > $$
-> \left( \td{R}{t} \right)^{2} \, R^{3} \propto {\rm constant} \hRightarrow \int \rd t \propto \int R^{3/2} \; \rd R  \hRightarrow t \propto R^{5/2}
+> \left( \frac{\mathrm{d} R}{\mathrm{d} t} \right)^{2} \, R^{3} \propto {\rm constant} \hspace{1cm} \Rightarrow \hspace{1cm} \int \mathrm{d} t \propto \int R^{3/2} \; \mathrm{d} R  \hspace{1cm} \Rightarrow \hspace{1cm} t \propto R^{5/2}
 > $$
 >
 > Such that the time-dependence on the radius is:
@@ -58,7 +58,7 @@ Describe the various stages of evolution of a supernova remnant. What are the re
 - Since the medium is less ionized and has a lower opacity (more transparent to light), energy is lost to radiation and the thermal pressure decreases, slowing the expansion
 	- Energy is no longer conserved.
 - Momentum is conserved (since no thermal expansion) and shock wave collects more material from ISM. The swept-up mass is pushed along "like a snowplow".
-- Assuming the radius scales with a power-law ($R \propto t^{q}$)... $$p = M_{\rm S} v_{\rm S} = \left( \frac{4}{3} \pi R^{3} \right) \rho \dot{R} = \text{const} \hRightarrow R \propto t^{1/4}$$
+- Assuming the radius scales with a power-law ($R \propto t^{q}$)... $$p = M_{\rm S} v_{\rm S} = \left( \frac{4}{3} \pi R^{3} \right) \rho \dot{R} = \text{const} \hspace{1cm} \Rightarrow \hspace{1cm} R \propto t^{1/4}$$
 - This phase last until $v_{\rm S} \simeq c_{\rm s}$ and the expanding gas becomes apart of the hot coronal phase of the [[Interstellar Medium|ISM]]
 
 

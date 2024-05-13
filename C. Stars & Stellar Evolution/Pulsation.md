@@ -23,14 +23,14 @@ A pulsating star is thus not in equilibrium, but is always trying to regain it. 
 
 Pulsations in a star are effectively the equivalent of sound waves resonating through the medium. Through this comparison, we can estimate pulsation period from the [[Fluid Mechanics#Speed of Sound|sound crossing time]] by assuming the star can be represented through a [[Polytropes|polytropic]] equation of state.
 
-$$P = \kappa \rho^{\gamma} \hRightarrow c_{s} = \sqrt{\pd{P}{\rho}} = \sqrt{\kappa \gamma \rho^{\gamma -1}} = \sqrt{\frac{\gamma P}{\rho}}$$
+$$P = \kappa \rho^{\gamma} \hspace{1cm} \Rightarrow \hspace{1cm} c_{s} = \sqrt{\frac{\partial P}{\partial \rho}} = \sqrt{\kappa \gamma \rho^{\gamma -1}} = \sqrt{\frac{\gamma P}{\rho}}$$
 
 If we assume our star has a constant density ($\rho$) in [[Stellar Structure#Hydrostatic Equilibrium|hydrostatic equilibrium]] for a rough approximation, then we integrate to find an expression for pressure.
 
 $$
-\td{P}{r} = -\frac{G M_{r} \rho}{r^{2}} \simeq - \frac{4 \pi G \rho^{2} r}{3} \hRightarrow
+\frac{\mathrm{d} P}{\mathrm{d} r} = -\frac{G M_{r} \rho}{r^{2}} \simeq - \frac{4 \pi G \rho^{2} r}{3} \hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
-	\int_{P(r)}^{P(R)=0} \rd P' &= - \frac{4 \pi G \rho^{2}}{3} \int_{r}^{R} r \; \rd r \\
+	\int_{P(r)}^{P(R)=0} \mathrm{d} P' &= - \frac{4 \pi G \rho^{2}}{3} \int_{r}^{R} r \; \mathrm{d} r \\
 	P(r) &= \frac{2 \pi G \rho^{2}}{3} \left( R^{2} - r^{2} \right) \\
 \end{aligned}
 $$
@@ -38,9 +38,9 @@ $$
 Applying this to the [[Fluid Mechanics#Speed of Sound|speed of sound]]...  
 
 $$
-c_{s}(r) = \td{r}{t} \simeq \sqrt{\frac{2 \pi G \gamma \rho^{2}}{3} \left( R^{2} - r^{2} \right)} \hRightarrow
+c_{s}(r) = \frac{\mathrm{d} r}{\mathrm{d} t} \simeq \sqrt{\frac{2 \pi G \gamma \rho^{2}}{3} \left( R^{2} - r^{2} \right)} \hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
-	T = \int_{0}^{T} \rd t = \int_{0}^{R} \frac{1}{c_{\rm s}} \; \rd r \approx \sqrt{\frac{3 \pi}{2 G \gamma \rho}}
+	T = \int_{0}^{T} \mathrm{d} t = \int_{0}^{R} \frac{1}{c_{\rm s}} \; \mathrm{d} r \approx \sqrt{\frac{3 \pi}{2 G \gamma \rho}}
 \end{aligned}
 $$
 

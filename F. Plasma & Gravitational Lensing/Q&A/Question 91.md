@@ -13,7 +13,7 @@ What is "Faraday rotation"? How is it used in astronomy?
 
 **Faraday rotation** occurs when light propagates in the presence of a magnetic field (aligned with the direction of propagation) and the polarization vector rotates. The angle of rotation ($\beta$) of the polarization vector depends linearly on propagation length in the magnetic field ($d$) and the strength of the magnetic field ($B$). 
 
-$$\beta = \mathcal{V} B d \hWhere \mathcal{V} \equiv \mathcal{V}(\lambda) = \underbrace{\fpar{e}{2 m_{\rm e} c} \lambda \td{n}{\lambda}}_{\rm constant}$$
+$$\beta = \mathcal{V} B d \hspace{1cm} \text{where} \hspace{1cm} \mathcal{V} \equiv \mathcal{V}(\lambda) = \underbrace{\left(\frac{e}{2 m_{\rm e} c}\right) \lambda \frac{\mathrm{d} n}{\mathrm{d} \lambda}}_{\rm constant}$$
 
 The proportionality constant (known as *Verdet Constant*) is dependent in the light's wavelength ($\lambda$) and change in the medium's refractive index ($n$) with respect to the wavelength. It is usually is measured empirically for a given medium.
 
@@ -49,8 +49,8 @@ We use Faraday rotation to measure the strength of magnetic fields between an em
 To do this, we use the **rotation measure** ($\mathcal{R}$) defined in SI units as...
 
 $$
-\mathcal{R} = \underbrace{\frac{e^{3}}{8 \pi^{2} \epsilon_{0} m_{\rm e}^{2} c^{4}}}_{\simeq \; 2.62 \times 10^{-13} \; {\rm \left[ T^{-1} \right]}} \int_{0}^{d} n_{\rm e}(z) B_{\parallel}(z) \; \rd z
-\hWhere
+\mathcal{R} = \underbrace{\frac{e^{3}}{8 \pi^{2} \epsilon_{0} m_{\rm e}^{2} c^{4}}}_{\simeq \; 2.62 \times 10^{-13} \; {\rm \left[ T^{-1} \right]}} \int_{0}^{d} n_{\rm e}(z) B_{\parallel}(z) \; \mathrm{d} z
+\hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	z &\equiv \text{path of propagation} \\
 	n_{\rm e}(z) &\equiv {\rm e^{-}\ number\ density\ at\ } z \\
@@ -60,7 +60,7 @@ $$
 
 ...which is related to the Faraday rotation angle ($\beta$) by the squared-wavelength.
 
-$$\beta = \beta_{\rm 0} + \mathcal{R} \lambda^{2} \hRightarrow \Delta \beta = \mathcal{R} \lambda^{2}$$
+$$\beta = \beta_{\rm 0} + \mathcal{R} \lambda^{2} \hspace{1cm} \Rightarrow \hspace{1cm} \Delta \beta = \mathcal{R} \lambda^{2}$$
 
 Meaning, the longer the wavelength, the greater the Faraday effect is. That said, if we can measure $\Delta \beta$ at different wavelengths, we can disentangle the Faraday rotation from the intrinsic polarization angle ($\beta_{0}$). This gives us a proxy for the magnetic field strength ($B$).
 

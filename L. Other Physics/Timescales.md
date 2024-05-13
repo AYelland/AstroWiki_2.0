@@ -20,7 +20,7 @@ aliases:
 
 The timescale needed for radiation and matter to reach a thermal equilibrium.
 
-$$t_{\gamma} \sim \frac{\ell}{c} \hWhere \ell = \frac{1}{\alpha} = \frac{1}{n \sigma} \hspace{2cm}
+$$t_{\gamma} \sim \frac{\ell}{c} \hspace{1cm} \text{where} \hspace{1cm} \ell = \frac{1}{\alpha} = \frac{1}{n \sigma} \hspace{2cm}
 \begin{align}
 	\ell &= \text{mean free path} \\
 	n &= \text{\# density of absorptions/scattering} \\
@@ -28,13 +28,13 @@ $$t_{\gamma} \sim \frac{\ell}{c} \hWhere \ell = \frac{1}{\alpha} = \frac{1}{n \s
 \end{align}$$
 For the full ionization inside the [[Sun|sun]], the density of protons is $\rho \sim 1 \; {\rm g/cm^{3}}$, such that the mean-free-path (MFP) is $\ell \sim 1 \; {\rm cm}$.
 
-$$\textbf{For the Sun:} \quad \ell \approx \frac{m_{\rm p}}{\rho \, \sigma_{\rm T}} \sim 1 \; {\rm cm} \hRightarrow t_{\gamma} \approx 10^{-10} \; {\rm s}$$
+$$\textbf{For the Sun:} \quad \ell \approx \frac{m_{\rm p}}{\rho \, \sigma_{\rm T}} \sim 1 \; {\rm cm} \hspace{1cm} \Rightarrow \hspace{1cm} t_{\gamma} \approx 10^{-10} \; {\rm s}$$
 
 ## Dynamical Timescale
 *(Also known as the **free-fall timescale**)*
 
 The timescale necessary for a pressureless fluid in a homogeneous sphere to gravitationally collapse and reach a mechanical, pressure equilibrium (initially released from rest).
-$$t_{\rm dyn} \equiv  t_{\rm ff} = \sqrt{\frac{3 \pi}{32 G \rho}} \sim \frac{1}{\sqrt{G \rho}} \hRightarrow \textbf{For the Sun:} \quad t_{\rm dyn} \sim 30 \; {\rm min}$$
+$$t_{\rm dyn} \equiv  t_{\rm ff} = \sqrt{\frac{3 \pi}{32 G \rho}} \sim \frac{1}{\sqrt{G \rho}} \hspace{1cm} \Rightarrow \hspace{1cm} \textbf{For the Sun:} \quad t_{\rm dyn} \sim 30 \; {\rm min}$$
 
 > [!derivation]-
 > In the initial state of the system, the fluid is at rest and under the influence of a central gravitational force. After the fluid it released, the fluid will all start moving towards the center of the sphere until it cannot be compressed any further. *(In this problem, we will ignore any Fermi and Boltzmann statistics and assume all of the gas can be compressed into a central point at $r=0$.)*
@@ -42,26 +42,26 @@ $$t_{\rm dyn} \equiv  t_{\rm ff} = \sqrt{\frac{3 \pi}{32 G \rho}} \sim \frac{1}{
 > The rate at which the fluid collapses can be described by analyzing the acceleration of a test mass at the edge of the sphere, $r = R$.
 > 
 > Using Newton's Gravity relationship...
-> $$F_{\rm G} = m \vec{a} = - \frac{G M m}{r^{2}} \hat{r} \hRightarrow a = - \frac{G M}{r^{2}}$$
+> $$F_{\rm G} = m \vec{a} = - \frac{G M m}{r^{2}} \hat{r} \hspace{1cm} \Rightarrow \hspace{1cm} a = - \frac{G M}{r^{2}}$$
 > ...and the chain-rule with respect to the acceleration, ...
-> $$a = \tdd{r}{t} = \td{}{t} \left( \td{r}{t} \right) = \td{r}{t} \td{}{r} \left( \td{r}{t} \right) = v \, \td{v}{r}$$
+> $$a = \frac{\mathrm{d}^{2} r}{\mathrm{d} t^{2}} = \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{\mathrm{d} r}{\mathrm{d} t} \right) = \frac{\mathrm{d} r}{\mathrm{d} t} \frac{\mathrm{d} }{\mathrm{d} r} \left( \frac{\mathrm{d} r}{\mathrm{d} t} \right) = v \, \frac{\mathrm{d} v}{\mathrm{d} r}$$
 > ...we can perform the separation of variables to find $t_{\rm ff}$.
 > $$
 > \begin{align}
-> 	v \, \td{v}{r} = - \frac{G M}{r^{2}} \hRightarrow \int_{0}^{v} v' \, \rd v' &= - \int_{R}^{r} \frac{G M}{r'^{2}}  \, \rd r' \\
+> 	v \, \frac{\mathrm{d} v}{\mathrm{d} r} = - \frac{G M}{r^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} \int_{0}^{v} v' \, \mathrm{d} v' &= - \int_{R}^{r} \frac{G M}{r'^{2}}  \, \mathrm{d} r' \\
 > 	\frac{1}{2} \left( v^{2} - 0 \right) &= - G M \left( - \frac{1}{r} + \frac{1}{R} \right) \\
-> 	\td{r}{t} = |v| &= \sqrt{\frac{2 G M}{R} \left( \frac{R}{r} - 1\right)}
+> 	\frac{\mathrm{d} r}{\mathrm{d} t} = |v| &= \sqrt{\frac{2 G M}{R} \left( \frac{R}{r} - 1\right)}
 > \end{align}
 > $$
 > $$
 > \begin{align}
-> 	\int_{0}^{t_{\rm ff}} \; \rd t &= \int_{R}^{0} \frac{\rd r}{\sqrt{\frac{2 G M}{R} \left( \frac{R}{r} - 1\right)}} \\
-> 	\int_{0}^{t_{\rm ff}} \; \rd t &= \int_{0}^{R} \frac{\rd r}{\sqrt{\frac{2 G M}{R} \left( \frac{R}{r} - 1\right)}} \\
-> 	t_{\rm ff} &= \sqrt{\frac{R}{2 G M}} \; \int_{0}^{R} \left(\frac{R}{r} - 1\right)^{-1/2} \; \rd r \\
-> 	t_{\rm ff} &= \sqrt{\frac{R^{3}}{2 G M}} \; \int_{0}^{1} \left(\frac{1}{u} - 1\right)^{-1/2} \; \rd u \\
-> 	t_{\rm ff} &= \sqrt{\frac{R^{3}}{2 G M}} \; \int_{0}^{\pi/2} \left( \frac{\sin^{2} \theta}{1 - \sin^{2} \theta} \right)^{1/2} \; \left(2 \sin \theta \cos \theta \right) \; \rd \theta \\
-> 	t_{\rm ff} &= \sqrt{\frac{R^{3}}{2 G M}} \; \int_{0}^{\pi/2} 2 \sin^{2} \theta \; \rd \theta \\
-> 	t_{\rm ff} &= \sqrt{\frac{R^{3}}{2 G M}} \fpar{\pi}{2} \\
+> 	\int_{0}^{t_{\rm ff}} \; \mathrm{d} t &= \int_{R}^{0} \frac{\mathrm{d} r}{\sqrt{\frac{2 G M}{R} \left( \frac{R}{r} - 1\right)}} \\
+> 	\int_{0}^{t_{\rm ff}} \; \mathrm{d} t &= \int_{0}^{R} \frac{\mathrm{d} r}{\sqrt{\frac{2 G M}{R} \left( \frac{R}{r} - 1\right)}} \\
+> 	t_{\rm ff} &= \sqrt{\frac{R}{2 G M}} \; \int_{0}^{R} \left(\frac{R}{r} - 1\right)^{-1/2} \; \mathrm{d} r \\
+> 	t_{\rm ff} &= \sqrt{\frac{R^{3}}{2 G M}} \; \int_{0}^{1} \left(\frac{1}{u} - 1\right)^{-1/2} \; \mathrm{d} u \\
+> 	t_{\rm ff} &= \sqrt{\frac{R^{3}}{2 G M}} \; \int_{0}^{\pi/2} \left( \frac{\sin^{2} \theta}{1 - \sin^{2} \theta} \right)^{1/2} \; \left(2 \sin \theta \cos \theta \right) \; \mathrm{d} \theta \\
+> 	t_{\rm ff} &= \sqrt{\frac{R^{3}}{2 G M}} \; \int_{0}^{\pi/2} 2 \sin^{2} \theta \; \mathrm{d} \theta \\
+> 	t_{\rm ff} &= \sqrt{\frac{R^{3}}{2 G M}} \left(\frac{\pi}{2}\right) \\
 > 	t_{\rm ff} &= \sqrt{\frac{\pi ^{2} R^{3}}{8 G M}}
 > \end{align}
 > $$
@@ -75,23 +75,23 @@ $$t_{\rm dyn} \equiv  t_{\rm ff} = \sqrt{\frac{3 \pi}{32 G \rho}} \sim \frac{1}{
 
 The timescale for radiation energy transportation for a single proton (repeatedly absorbed and emitted by other particles in a random walk) to travel from the center of a star to the surface.
 
-$$t_{\rm rad} \approx \frac{N \ell}{c} \sim \frac{R^{2}}{\ell c} \hRightarrow \textbf{For the Sun:} \quad t_{\rm rad} \sim 10^{4} \; {\rm year\ for\ Sun}$$
+$$t_{\rm rad} \approx \frac{N \ell}{c} \sim \frac{R^{2}}{\ell c} \hspace{1cm} \Rightarrow \hspace{1cm} \textbf{For the Sun:} \quad t_{\rm rad} \sim 10^{4} \; {\rm year\ for\ Sun}$$
 
 > [!derivation]-
 > If the photons were free-streamed in an unimpeded path, then they could travel from the center of the sun to the surface in $\sim 2 \; {\rm s}$.
 > 
-> $$c \, t_{\rm rad} = R_{\odot} \hRightarrow t_{\rm rad} = \frac{R_{\odot}}{c} \approx 2.32 \; {\rm s}$$
+> $$c \, t_{\rm rad} = R_{\odot} \hspace{1cm} \Rightarrow \hspace{1cm} t_{\rm rad} = \frac{R_{\odot}}{c} \approx 2.32 \; {\rm s}$$
 > 
 > However, the mean-free-path (MFP) of the photon in the sun is $\ell \sim 1 \; {\rm cm}$, such that under a random walk, the photon will take $N$ steps (of absorption and emittion) before it can reach the surface.
 > 
-> $$\ell \sqrt{N} \sim R_{\odot} \hRightarrow N \sim \fpar{R}{\ell}^{2}$$
-> $$c \, t_{\rm rad}  = N \ell = \frac{R^{2}}{\ell} \hRightarrow t_{\rm rad} = \frac{R^{2}}{\ell c}$$
+> $$\ell \sqrt{N} \sim R_{\odot} \hspace{1cm} \Rightarrow \hspace{1cm} N \sim \left(\frac{R}{\ell}\right)^{2}$$
+> $$c \, t_{\rm rad}  = N \ell = \frac{R^{2}}{\ell} \hspace{1cm} \Rightarrow \hspace{1cm} t_{\rm rad} = \frac{R^{2}}{\ell c}$$
 
 ## Thermal Timescale
 *(Also known as **Kelvin-Helmholtz Timescale**)*
 
 The timescale it would take for a star to radiate away its gravitational binding energy, given the current luminosity of the star.
-$$t_{\rm KH} \sim \frac{G M^{2}}{R L} \hRightarrow \textbf{For the Sun:} \quad t_{\rm KH} \sim \frac{G M_{\odot}^{2}}{R_{\odot}L_{\odot}} \sim 10^{7} \; {\rm yr}$$
+$$t_{\rm KH} \sim \frac{G M^{2}}{R L} \hspace{1cm} \Rightarrow \hspace{1cm} \textbf{For the Sun:} \quad t_{\rm KH} \sim \frac{G M_{\odot}^{2}}{R_{\odot}L_{\odot}} \sim 10^{7} \; {\rm yr}$$
 
 > [!derivation]-
 > Beginning with the average gravitational binding energy...
@@ -112,7 +112,7 @@ $$t_{\rm KH} \sim \frac{G M^{2}}{R L} \hRightarrow \textbf{For the Sun:} \quad t
 
 The timescale that an average star spends on the main sequence, which is directly correlated to how long a star’s nuclear fuel will last under a constant burn rate.
 
-$$t_{\rm nuc} \approx \frac{\eta \, (f X_{*} M_{*}) \, c^{2}}{L_{*}} \hRightarrow \textbf{For the Sun:} \quad t_{\rm nuc} \sim \frac{0.007 \, (0.1 \times 0.7 \times M_{\odot}) \,  c^{2}}{L_{\odot}} \sim 10^{10} \; {\rm year}$$
+$$t_{\rm nuc} \approx \frac{\eta \, (f X_{*} M_{*}) \, c^{2}}{L_{*}} \hspace{1cm} \Rightarrow \hspace{1cm} \textbf{For the Sun:} \quad t_{\rm nuc} \sim \frac{0.007 \, (0.1 \times 0.7 \times M_{\odot}) \,  c^{2}}{L_{\odot}} \sim 10^{10} \; {\rm year}$$
 
 > [!derivation]-
 > Using the helium production processes ([[Alpha Process|alpha process]], [[Triple-Alpha Process|triple-alpha process]]), we can use the  mass difference between the reactants and product of the nuclear reaction to determine the energy produced, according to $E = m c^{2}$. 
@@ -131,7 +131,7 @@ $$t_{\rm nuc} \approx \frac{\eta \, (f X_{*} M_{*}) \, c^{2}}{L_{*}} \hRightarro
 
 ## Crossing Timescale
 
-$$t_{\rm cross} = \frac{R}{\sigma_{v}} \sim \frac{G N m}{\sigma_{v}^{3}} \hWhere \sigma_{v} \equiv \text{velocity dispersion}$$
+$$t_{\rm cross} = \frac{R}{\sigma_{v}} \sim \frac{G N m}{\sigma_{v}^{3}} \hspace{1cm} \text{where} \hspace{1cm} \sigma_{v} \equiv \text{velocity dispersion}$$
 
 The crossing-timescale is defined as the time it roughly takes a star to travel across the scale radius/size of a galaxy.
 
@@ -144,13 +144,13 @@ This is the most efficient way for a self-gravitating system, as it is comparabl
 **The General Picture:**
 If the potential is time-varying ($\phi(t)$), then "particles" (i.e. stars) can gain or lose energy. Consider the change in specific energy of an individual star.
 
-$$\mathcal{E} = \frac{1}{2} v^{2} + \phi(t) \hRightarrow 
+$$\mathcal{E} = \frac{1}{2} v^{2} + \phi(t) \hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
-	\td{\mathcal{E}}{t} &= \pd{\mathcal{E}}{\vec{v}} \td{\vec{v}}{t} + \pd{\mathcal{E}}{\phi} \td{\phi}{t} \\
-	&= - \vec{v} \, \vec{\nabla} \phi + \td{\phi}{t} \\
-	&= - \vec{v} \, \vec{\nabla} \phi + \left( \pd{\phi}{t} + \pd{\phi}{\vec{x}} \td{\vec{x}}{t} \right) \\
-	&= - \vec{v} \, \vec{\nabla} \phi + \pd{\phi}{t} + \vec{v} \, \vec{\nabla} \phi \\
-	&= \pd{\phi}{t}
+	\frac{\mathrm{d} \mathcal{E}}{\mathrm{d} t} &= \frac{\partial \mathcal{E}}{\partial \vec{v}} \frac{\mathrm{d} \vec{v}}{\mathrm{d} t} + \frac{\partial \mathcal{E}}{\partial \phi} \frac{\mathrm{d} \phi}{\mathrm{d} t} \\
+	&= - \vec{v} \, \vec{\nabla} \phi + \frac{\mathrm{d} \phi}{\mathrm{d} t} \\
+	&= - \vec{v} \, \vec{\nabla} \phi + \left( \frac{\partial \phi}{\partial t} + \frac{\partial \phi}{\partial \vec{x}} \frac{\mathrm{d} \vec{x}}{\mathrm{d} t} \right) \\
+	&= - \vec{v} \, \vec{\nabla} \phi + \frac{\partial \phi}{\partial t} + \vec{v} \, \vec{\nabla} \phi \\
+	&= \frac{\partial \phi}{\partial t}
 \end{aligned}$$
 
 More intuitively...
@@ -162,7 +162,7 @@ More intuitively...
 
 This leads to the spreading out of particle energy distributions. By taking the average across all particles and using the time-dependent virial theorem ([Lynden-Bell 1967](https://articles.adsabs.harvard.edu/pdf/1967MNRAS.136..101L)), we can express the violent relaxation time as the same timescale as the [[Timescales#Dynamical Timescale|dynamical/free-fall timescale]].
 
-$$t_{\rm vr} = \expval{\frac{\mathcal{E}^{2}}{\left( \td{\mathcal{E}}{t} \right)^{2}}}^{1/2} \sim \expval{\frac{\phi^{2}}{\dot{\phi}^{2}}}^{1/2} \sim t_{\rm ff}$$
+$$t_{\rm vr} = \left\langle \frac{\mathcal{E}^{2}}{\left( \frac{\mathrm{d} \mathcal{E}}{\mathrm{d} t} \right)^{2}} \right\rangle^{1/2} \sim \left\langle \frac{\phi^{2}}{\dot{\phi}^{2}} \right\rangle^{1/2} \sim t_{\rm ff}$$
 
 ## Two-Body Relaxation
 *(Also known as the **Collision Timescale**)*
@@ -173,15 +173,15 @@ To calculated the frequency of two-body interactions and the associated relaxati
 
 ![[two-body-relaxation.png|align:center|350]]
 
-$$\vec{F} = \frac{G m^{2}}{b^{2} + (v t)^{2}} \; \hat{r} \hRightarrow F_{\perp} = \frac{G m^{2} \cos \theta}{b^{2} + (v t)^{2}} = \frac{G m^{2} b}{\left( b^{2} + (v t)^{2} \right)^{3/2}}$$
+$$\vec{F} = \frac{G m^{2}}{b^{2} + (v t)^{2}} \; \hat{r} \hspace{1cm} \Rightarrow \hspace{1cm} F_{\perp} = \frac{G m^{2} \cos \theta}{b^{2} + (v t)^{2}} = \frac{G m^{2} b}{\left( b^{2} + (v t)^{2} \right)^{3/2}}$$
 
 By the definition of our relaxation, we are concerned with the change in velocity of the subject star due to the field star. From [[Newton's Laws of Motion#Newton's 2nd Law]]...
 
-$$\vec{F} = m \vec{a} = m \td{v}{t} \hRightarrow
+$$\vec{F} = m \vec{a} = m \frac{\mathrm{d} v}{\mathrm{d} t} \hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
-	\delta v &= \frac{1}{m} \intInfty F_{\perp} \; \rd t \\
-	\delta v &= \frac{G m}{b^{2}} \intInfty \frac{\rd t}{\left[ 1 + \fpar{v t}{b}^{2} \right]^{3/2}} \\
-	\delta v &= \frac{G m}{b v} \intInfty \frac{\rd s}{\left[ 1 + s^{2} \right]^{3/2}} \\
+	\delta v &= \frac{1}{m} \int_{-\infty}^{+\infty} F_{\perp} \; \mathrm{d} t \\
+	\delta v &= \frac{G m}{b^{2}} \int_{-\infty}^{+\infty} \frac{\mathrm{d} t}{\left[ 1 + \left(\frac{v t}{b}\right)^{2} \right]^{3/2}} \\
+	\delta v &= \frac{G m}{b v} \int_{-\infty}^{+\infty} \frac{\mathrm{d} s}{\left[ 1 + s^{2} \right]^{3/2}} \\
 	\delta v &= \frac{2G m}{b v}
 \end{aligned}$$
 
@@ -194,11 +194,11 @@ From this, we can see the change in velocity is roughly equal to the acceleratio
 
 If the star's change in trajectory involves a change in momentum roughly equal to the original momentum of the star ($v\sim \delta v$), then we regard it as a collision or a "**strong interaction**" and the deflection of the star is $\sim 90 \degree$. The associated impact parameter and cross-section for a strong interaction is then...
 
-$$v \sim \delta v \hRightarrow v \sim \frac{2 G m}{v \, b_{\rm strong}} \hRightarrow b_{\rm strong} \sim \frac{2G m}{v^{2}} \hspace{0.5cm} , \hspace{0.5cm} \sigma_{\rm strong} = \pi b_{\rm strong}^{2}$$
+$$v \sim \delta v \hspace{1cm} \Rightarrow \hspace{1cm} v \sim \frac{2 G m}{v \, b_{\rm strong}} \hspace{1cm} \Rightarrow \hspace{1cm} b_{\rm strong} \sim \frac{2G m}{v^{2}} \hspace{0.5cm} , \hspace{0.5cm} \sigma_{\rm strong} = \pi b_{\rm strong}^{2}$$
 
 From the [[Virial Theorem]] of the spherical body of field stars...
 
-$$ 2 \expval{T} + \expval{U} =2 \fpar{m v^{2}}{2} + \fpar{G M m}{R} = 0 \hRightarrow R = \frac{G M}{v^{2}} = \frac{G N m}{v^{2}}\sim \frac{N b_{\rm strong}}{2}$$
+$$ 2 \left\langle T \right\rangle + \left\langle U \right\rangle =2 \left(\frac{m v^{2}}{2}\right) + \left(\frac{G M m}{R}\right) = 0 \hspace{1cm} \Rightarrow \hspace{1cm} R = \frac{G M}{v^{2}} = \frac{G N m}{v^{2}}\sim \frac{N b_{\rm strong}}{2}$$
 
 ...we find that the interaction cross-section (for strong interactions) is very small for large $N$ values. 
 $$\sigma_{\rm strong} = \pi b_{\rm strong}^{2} \sim \frac{4 \pi R^{2}}{N^{2}}$$
@@ -211,9 +211,9 @@ The expected number of expected collisions is...
 ![[strong-interactions.png|align:center|350]]
 
 $$\begin{align}
-	\text{\# of collisions} = n \cdot (v t) \cdot \sigma_{\rm strong} &= \fpar{3 N}{4 \pi R^{3}} \cdot (v t) \cdot \left( \pi b_{\rm strong}^{2} \right) \\
+	\text{\# of collisions} = n \cdot (v t) \cdot \sigma_{\rm strong} &= \left(\frac{3 N}{4 \pi R^{3}}\right) \cdot (v t) \cdot \left( \pi b_{\rm strong}^{2} \right) \\
 	\\
-	&= \frac{3 N}{4 \pi} \fpar{v^{2}}{G N m}^{3} \cdot (v t) \cdot \pi \fpar{2 G m}{v^{2}}^{2} \\
+	&= \frac{3 N}{4 \pi} \left(\frac{v^{2}}{G N m}\right)^{3} \cdot (v t) \cdot \pi \left(\frac{2 G m}{v^{2}}\right)^{2} \\
 	\\
 	&=\frac{3 v^{3} t}{G N^{2} m}
 \end{align}$$
@@ -225,7 +225,7 @@ $$\boxed{\;t_{\rm strong} = \frac{\rm \#\ of\ collisions}{\rm time} = \frac{G m 
 > [!note]- Similar Approach - Mean Free Path
 > 
 > If we think about the [[Optical Depth#Mean Free Path]] ($l$) of the system, then can define the relaxation time in a very similar way.
-> $$l \equiv \frac{1}{n \left( \pi b_{\rm strong}^{2} \right)} \hRightarrow 
+> $$l \equiv \frac{1}{n \left( \pi b_{\rm strong}^{2} \right)} \hspace{1cm} \Rightarrow \hspace{1cm} 
 > \begin{aligned}[t]
 > 	t_{\rm strong} = \frac{l}{v} &= \frac{1}{n \left( \pi b_{\rm strong}^{2} \right) v} \\
 > 	&= \frac{4 \pi R^{3}}{3 N} \cdot \frac{N^{2}}{4 \pi R^{2}} \cdot \frac{1}{v} \\
@@ -236,7 +236,7 @@ $$\boxed{\;t_{\rm strong} = \frac{\rm \#\ of\ collisions}{\rm time} = \frac{G m 
 
 > [!math] Comparison to [[#Crossing Timescale]]
 > 
-> $$t_{\rm strong} \approx \frac{G m N^{2}}{3 v^{3}} \hspace{1.5cm} t_{\rm cross} \approx \frac{G N m}{v^{3}} \hRightarrow \boxed{t_{\rm strong} \sim N t_{\rm cross}}$$
+> $$t_{\rm strong} \approx \frac{G m N^{2}}{3 v^{3}} \hspace{1.5cm} t_{\rm cross} \approx \frac{G N m}{v^{3}} \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{t_{\rm strong} \sim N t_{\rm cross}}$$
 
 > [!space]- For Different Astronomical Objects
 > 
@@ -262,29 +262,29 @@ Instead of the star's trajectory changing dramatically due to a single interacti
 We assume the star will undergo small velocities kicks in a random walk, such that cumulative $\delta v$ is zero, but the square of the velocity changes is nonzero.
 
 $$\begin{align}
-	(\delta v )^{2} = \sum_{i}^{N} \left( \delta v_{i} \right)^{2} &= \int_{b_{\rm min}}^{b_{\rm max}} \underbrace{\left[ \, (2 \pi b \; \rd b) \times (v t) \times n \, \right]}_{\text{\# of encounters within $\rd b$}} \times \underbrace{\left[ \fpar{2 G m}{bv}^{2} \right]}_{\delta v \text{ for each encounter}} \\
-	&= \fpar{8 \pi G^{2} m^{2} n \,t}{v} \int_{b_{\rm min}}^{b_{\rm max}} \frac{\rd b}{b} \\
-	&= \fpar{8 \pi G^{2} m^{2} n \,t}{v} \ln \fpar{b_{\rm max}}{b_{\rm min}}
+	(\delta v )^{2} = \sum_{i}^{N} \left( \delta v_{i} \right)^{2} &= \int_{b_{\rm min}}^{b_{\rm max}} \underbrace{\left[ \, (2 \pi b \; \mathrm{d} b) \times (v t) \times n \, \right]}_{\text{\# of encounters within $\mathrm{d} b$}} \times \underbrace{\left[ \left(\frac{2 G m}{bv}\right)^{2} \right]}_{\delta v \text{ for each encounter}} \\
+	&= \left(\frac{8 \pi G^{2} m^{2} n \,t}{v}\right) \int_{b_{\rm min}}^{b_{\rm max}} \frac{\mathrm{d} b}{b} \\
+	&= \left(\frac{8 \pi G^{2} m^{2} n \,t}{v}\right) \ln \left(\frac{b_{\rm max}}{b_{\rm min}}\right)
 \end{align}$$
 
 The bounds for this integration come from the size of the field ($b_{\rm max} \approx R$) and the impact parameter for a strong interaction ($b_{\rm min} \approx b_{\rm strong} = 2R/N$). 
 
 The relaxation time for weak interactions is then:
 
-$$(\delta v )^{2} \approx \fpar{8 \pi G^{2} m^{2} n \,t}{v} \ln \fpar{N}{2} \sim \fpar{8 \pi G^{2} m^{2} n \,t}{v} \ln N \hWhere N \gg 2$$
-$$v^{2} \sim (\delta v)^{2} \hRightarrow t_{\rm weak} \approx \fpar{v^{3}}{8 \pi G^{2} m^{2} n} \frac{1}{\ln N}$$
+$$(\delta v )^{2} \approx \left(\frac{8 \pi G^{2} m^{2} n \,t}{v}\right) \ln \left(\frac{N}{2}\right) \sim \left(\frac{8 \pi G^{2} m^{2} n \,t}{v}\right) \ln N \hspace{1cm} \text{where} \hspace{1cm} N \gg 2$$
+$$v^{2} \sim (\delta v)^{2} \hspace{1cm} \Rightarrow \hspace{1cm} t_{\rm weak} \approx \left(\frac{v^{3}}{8 \pi G^{2} m^{2} n}\right) \frac{1}{\ln N}$$
 
 > [!math] Comparison to [[#Crossing Timescale]]
 > 
 > If we take the velocity of the subject star to be comparable to the velocity dispersion of the field, then we can apply the [[Virial Theorem]] to the velocity.
 > 
 > $$\begin{align}
-> 	\frac{t_{\rm weak}}{t_{\rm cross}} &\approx \left[ \fpar{v^{3}}{8 \pi G^{2} m^{2} n} \frac{1}{\ln N} \right] \cdot \left[ \frac{v}{R} \right] \\
-> 	t_{\rm weak} &\approx \left[ \fpar{1}{8 \pi G^{2} m^{2}} \fpar{v^{4}}{n R} \frac{1}{\ln N} \right] \cdot t_{\rm cross} \\
-> 	t_{\rm weak} &\approx \left[ \fpar{1}{8 \pi G^{2} m^{2}} \fpar{G N m}{R}^{2} \fpar{4 \pi R^{3}}{3 N} \fpar{1}{R} \frac{1}{\ln N} \right] \cdot t_{\rm cross} \\
+> 	\frac{t_{\rm weak}}{t_{\rm cross}} &\approx \left[ \left(\frac{v^{3}}{8 \pi G^{2} m^{2} n}\right) \frac{1}{\ln N} \right] \cdot \left[ \frac{v}{R} \right] \\
+> 	t_{\rm weak} &\approx \left[ \left(\frac{1}{8 \pi G^{2} m^{2}}\right) \left(\frac{v^{4}}{n R}\right) \frac{1}{\ln N} \right] \cdot t_{\rm cross} \\
+> 	t_{\rm weak} &\approx \left[ \left(\frac{1}{8 \pi G^{2} m^{2}}\right) \left(\frac{G N m}{R}\right)^{2} \left(\frac{4 \pi R^{3}}{3 N}\right) \left(\frac{1}{R}\right) \frac{1}{\ln N} \right] \cdot t_{\rm cross} \\
 > 	t_{\rm weak} &\approx \left[ \frac{N}{6 \ln N} \right] \cdot t_{\rm cross} \\
 > \end{align}$$
-> $$\boxed{\; t_{\rm weak} \approx \fpar{N}{6 \ln N} \fpar{G N m}{v^{3}} \approx \fpar{N}{6 \ln N} \; t_{\rm cross} \;}$$
+> $$\boxed{\; t_{\rm weak} \approx \left(\frac{N}{6 \ln N}\right) \left(\frac{G N m}{v^{3}}\right) \approx \left(\frac{N}{6 \ln N}\right) \; t_{\rm cross} \;}$$
 
 > [!space]- For Different Astronomical Objects
 > 
@@ -302,14 +302,14 @@ $$v^{2} \sim (\delta v)^{2} \hRightarrow t_{\rm weak} \approx \fpar{v^{3}}{8 \pi
 
 The Hubble time is the age of the universe assuming that it has expanded at a constant rate since the beginning of time. This rate of expansion is the [[#Hubble Law|Hubble flow]] we measure today with $H_{0}$.
 
-$$d = v \, t_{\rm H} = (H_{0} \, d) \,t_{H} \hRightarrow t_{H} = \frac{1}{H_{0}} \sim 14 \; {\rm Gyr} \quad \text{for} \quad H_{0} = 70 \; \pu{km s^{-1} Mpc^{-1}}$$
+$$d = v \, t_{\rm H} = (H_{0} \, d) \,t_{H} \hspace{1cm} \Rightarrow \hspace{1cm} t_{H} = \frac{1}{H_{0}} \sim 14 \; {\rm Gyr} \quad \text{for} \quad H_{0} = 70 \; \pu{km s^{-1} Mpc^{-1}}$$
 
 ## Cooling Time
 *(See [[Question 84]] for cooling function. Also a good source [here](http://www.astro.yale.edu/vdbosch/astro610_lecture15.pdf))*
 
 The **cooling timescale** is the time it takes the gas to radiate away its internal energy.
 
-$$t_{\rm cool} \equiv \frac{\varepsilon}{\mathcal{C}} = \frac{\varepsilon}{n^{2} \, \Lambda(T)} \propto \frac{k_{\rm B} T}{n \Lambda (T)} \hWhere \varepsilon = \fpar{d}{2} nk_{\rm B} T =\text{energy of ideal gas}$$
+$$t_{\rm cool} \equiv \frac{\varepsilon}{\mathcal{C}} = \frac{\varepsilon}{n^{2} \, \Lambda(T)} \propto \frac{k_{\rm B} T}{n \Lambda (T)} \hspace{1cm} \text{where} \hspace{1cm} \varepsilon = \left(\frac{d}{2}\right) nk_{\rm B} T =\text{energy of ideal gas}$$
 
 Based on how the cooling time scales with density ($t_{\rm cool} \propto n^{-1} \propto \rho^{-1}$), denser mediums cool faster.
 
@@ -318,8 +318,8 @@ Based on how the cooling time scales with density ($t_{\rm cool} \propto n^{-1} 
 > When considering a gas cloud collapsing, we can compare the Hubble time at $z$ (in a  matter-dominated universe, $\Omega_{M}=1$) and the free-fall timescale for a halo with 200 times the [[Friedmann Equation#Critical Density|critical density]] (in association with [[Dark Matter#CDM]]).
 > 
 > $$\begin{alignat}{3}
-> 	t_{H} &= \frac{1}{H(z)} \propto \frac{1}{\sqrt{G \bar{\rho}}} &&\hWhere \bar{\rho} &&= \Omega_{M} \, \rho_{\rm crit} =  \rho_{\rm crit} \\
-> 	t_{\rm ff} &\propto \frac{1}{\sqrt{G \bar{\rho}_{\rm vir}}} &&\hWhere \bar{\rho}_{\rm vir} &&= \rho_{200} = 200 \rho_{\rm crit}
+> 	t_{H} &= \frac{1}{H(z)} \propto \frac{1}{\sqrt{G \bar{\rho}}} &&\hspace{1cm} \text{where} \hspace{1cm} \bar{\rho} &&= \Omega_{M} \, \rho_{\rm crit} =  \rho_{\rm crit} \\
+> 	t_{\rm ff} &\propto \frac{1}{\sqrt{G \bar{\rho}_{\rm vir}}} &&\hspace{1cm} \text{where} \hspace{1cm} \bar{\rho}_{\rm vir} &&= \rho_{200} = 200 \rho_{\rm crit}
 > \end{alignat}$$
 > $$t_{\rm ff} \sim \frac{t_{H}}{10}$$
 > 

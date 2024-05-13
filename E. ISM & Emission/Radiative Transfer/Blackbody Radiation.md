@@ -16,17 +16,17 @@ aliases:
 ## Stefan-Boltzmann Law
 
 The [[flux]] emitted from a blackbody is directly proportional to the fourth power of the temperature times the Stefan-Boltzmann constant ($\sigma$).
-$$F_{\rm BB} = \sigma T^{4} \hWhere \sigma \equiv \frac{2 \pi^{5} k_{\rm B}^{4}}{15 h^{3} c^{2}} \quad \textcolor{gray}{\simeq 5.67 \times 10^{-8} \; \frac{{\rm J}}{\rm m^{2} \, s \, K^{4}}}$$
+$$F_{\rm BB} = \sigma T^{4} \hspace{1cm} \text{where} \hspace{1cm} \sigma \equiv \frac{2 \pi^{5} k_{\rm B}^{4}}{15 h^{3} c^{2}} \quad \textcolor{gray}{\simeq 5.67 \times 10^{-8} \; \frac{{\rm J}}{\rm m^{2} \, s \, K^{4}}}$$
 
 ### Blackbody Luminosity
 
 The associated [[Luminosity|luminosity]] of a blackbody emitting isotropically is then:
-$$\rd L = \rd A \; \sigma T^{4} \hRightarrow L = A \sigma T^{4} = \left( 4 \pi R^{2} \right) \sigma T^{4}$$
+$$\mathrm{d} L = \mathrm{d} A \; \sigma T^{4} \hspace{1cm} \Rightarrow \hspace{1cm} L = A \sigma T^{4} = \left( 4 \pi R^{2} \right) \sigma T^{4}$$
 
 ### Effective Temperature
 
 If we map the observed luminosity of an astrophysical body (i.e. star) to a blackbody, then we can define a non-physical temperature called the **effective temperature** of that body.
-$$T_{\rm eff} \equiv \fpar{L}{4 \pi \sigma R^{2}}^{1/4} \hWhere L = 4 \pi d^{2} F_{\rm obs}$$
+$$T_{\rm eff} \equiv \left(\frac{L}{4 \pi \sigma R^{2}}\right)^{1/4} \hspace{1cm} \text{where} \hspace{1cm} L = 4 \pi d^{2} F_{\rm obs}$$
 
 ## Blackbody Specific Intensity
 *(Also known as **Blackbody Spectral Density**)*
@@ -37,7 +37,7 @@ $$T_{\rm eff} \equiv \fpar{L}{4 \pi \sigma R^{2}}^{1/4} \hWhere L = 4 \pi d^{2} 
 Through **Planck's Law**, we can define the spectral density of electromagnetic radiation emitted by a blackbody in thermal equilibrium at a given temperature. This is equivalent to defining the spectral density energy and the [[Intensity#Specific Intensity|specific intensity]] of a blackbody.
 
 $$u_{\nu}(\nu,T) = \frac{2 h \nu^{3}}{c^{2}} \frac{1}{e^{h \nu / k_{\rm B} T} -1}$$
-$$\boxed{ \; B_{\nu}(\nu,T) = \frac{2 h \nu^{3}}{c^{2}} \fpar{1}{e^{h \nu / k_{\rm B} T} - 1} \; } \hWhere [ \, B_{\nu} \, ] \equiv \fpar{{\rm energy}}{{\rm area} \times {\rm time} \times {\rm steradian} \times {\rm Hertz}}$$
+$$\boxed{ \; B_{\nu}(\nu,T) = \frac{2 h \nu^{3}}{c^{2}} \left(\frac{1}{e^{h \nu / k_{\rm B} T} - 1}\right) \; } \hspace{1cm} \text{where} \hspace{1cm} [ \, B_{\nu} \, ] \equiv \left(\frac{{\rm energy}}{{\rm area} \times {\rm time} \times {\rm steradian} \times {\rm Hertz}}\right)$$
 
 In terms of other units:
 ![[blackbody_specificIntensity.png|align:center]]
@@ -59,11 +59,11 @@ $$\lambda_{peak} \propto \frac{1}{T}$$
 
 The constant of proportionality (*Wien's Displacement Constant*) depends on the solution of an implicit equation. It is usually quoted as...
 
-$$\lambda_{peak} \simeq \frac{b}{T} \hWhere b \approx 2.89777 \times 10^{-3} \; {\rm m \, K} \textcolor{gray}{\simeq 3 \times 10^{-3} \; {\rm m \, K}}$$
+$$\lambda_{peak} \simeq \frac{b}{T} \hspace{1cm} \text{where} \hspace{1cm} b \approx 2.89777 \times 10^{-3} \; {\rm m \, K} \textcolor{gray}{\simeq 3 \times 10^{-3} \; {\rm m \, K}}$$
 
 Expressing this peak as energy through the energy-wavelength relation.
 
-$$E_{\rm peak} = h \nu_{\rm peak} = \frac{h c}{\lambda_{\rm peak}} = \fpar{h c}{b} T \simeq \fpar{10^{-6} \; {\rm eV \ m}}{3 \times 10^{-3} \; {\rm m\ K}} T \simeq \left(3 \times 10^{-4} \; T \right)\,\pu{eV}$$
+$$E_{\rm peak} = h \nu_{\rm peak} = \frac{h c}{\lambda_{\rm peak}} = \left(\frac{h c}{b}\right) T \simeq \left(\frac{10^{-6} \; {\rm eV \ m}}{3 \times 10^{-3} \; {\rm m\ K}}\right) T \simeq \left(3 \times 10^{-4} \; T \right)\,\pu{eV}$$
 
 > [!temperature] At room temperature... 
 > If we take room temperature as ($T \sim 300 \; {\rm K}$), peak of the distribution is at:
@@ -72,9 +72,9 @@ $$E_{\rm peak} = h \nu_{\rm peak} = \frac{h c}{\lambda_{\rm peak}} = \fpar{h c}{
 > [!derivation]- Derivation of Wien's Law from Plank's Law
 > We us a wavelength parameterization of the [[#Blackbody Specific Intensity|spectral density energy]] and find the maximum of the distribution by differentiating with respect to the wavelength, $\lambda$.
 > $$u_{\lambda}(\lambda,T) = \frac{2 h c^{2}}{\lambda^{5}} \frac{1}{e^{h c / \lambda k_{\rm B} T} -1}$$
-> $$\pd{u_{\lambda}}{\lambda} = 2 h c^{2} \left( \frac{h c}{k_{\rm B} T \lambda^{7}} \frac{e^{h c / \lambda k_{\rm B} T}}{\left( e^{h c / \lambda k_{\rm B} T} - 1 \right)^{2}} - \frac{1}{\lambda^{6}} \frac{5}{e^{h c / \lambda k_{\rm B} T} - 1} \right) = 0$$
+> $$\frac{\partial u_{\lambda}}{\partial \lambda} = 2 h c^{2} \left( \frac{h c}{k_{\rm B} T \lambda^{7}} \frac{e^{h c / \lambda k_{\rm B} T}}{\left( e^{h c / \lambda k_{\rm B} T} - 1 \right)^{2}} - \frac{1}{\lambda^{6}} \frac{5}{e^{h c / \lambda k_{\rm B} T} - 1} \right) = 0$$
 > This is solved by:
-> $$\frac{x e^{x}}{e^{x} - 1} - 5 = 0 \hRightarrow x = 5 + W_{0}(-5 e^{-5})$$
+> $$\frac{x e^{x}}{e^{x} - 1} - 5 = 0 \hspace{1cm} \Rightarrow \hspace{1cm} x = 5 + W_{0}(-5 e^{-5})$$
 > where
 > $$x \equiv \frac{h c}{\lambda k_{\rm B} T} \hspace{2cm} W_{0}(z) \equiv \textit{Lambert W function}$$
 > $$\Downarrow$$
@@ -92,14 +92,14 @@ The Rayleigh–Jeans law agrees with experimental results at large wavelengths (
 
 ### Blackbody Specific Flux Density
 
-$$F_{\nu} = \int_{\Omega} I_{\nu} \cos \theta \; \rd \Omega = \int_{\Omega} B_{\nu} \cos \theta \; \rd \Omega$$
+$$F_{\nu} = \int_{\Omega} I_{\nu} \cos \theta \; \mathrm{d} \Omega = \int_{\Omega} B_{\nu} \cos \theta \; \mathrm{d} \Omega$$
 
 *(See [[Intensity#Specific Flux Density]] for more details...)*
 
 ### Blackbody Specific Mean Intensity
 
 Given that a blackbody emits isotropically, the **specific mean intensity** ($J_{\nu}$) is...
-$$J_{\nu} = \frac{\int_{\Omega} I_{\nu} \; \rd \Omega}{\int_{\Omega} \rd \Omega} = \frac{1}{4 \pi} \int_{\Omega} I_{\nu} \; \rd \Omega = B_{\nu}(T)$$
+$$J_{\nu} = \frac{\int_{\Omega} I_{\nu} \; \mathrm{d} \Omega}{\int_{\Omega} \mathrm{d} \Omega} = \frac{1}{4 \pi} \int_{\Omega} I_{\nu} \; \mathrm{d} \Omega = B_{\nu}(T)$$
 
 *(See [[Intensity#Specific Mean Intensity]] for more details...)*
 
@@ -107,7 +107,7 @@ $$J_{\nu} = \frac{\int_{\Omega} I_{\nu} \; \rd \Omega}{\int_{\Omega} \rd \Omega}
 
 Given that a blackbody emits isotropically, the **specific mean energy** ($U_{\nu}$) is...
 
-$$U_{\nu} = \frac{1}{c} \int_{\Omega} I_{\nu} \; \rd \Omega = \frac{4 \pi}{c} B_{\nu}(T)$$
+$$U_{\nu} = \frac{1}{c} \int_{\Omega} I_{\nu} \; \mathrm{d} \Omega = \frac{4 \pi}{c} B_{\nu}(T)$$
 
 *(See [[Intensity#Specific Energy Density]] for more details...)*
 
@@ -116,26 +116,26 @@ $$U_{\nu} = \frac{1}{c} \int_{\Omega} I_{\nu} \; \rd \Omega = \frac{4 \pi}{c} B_
 Given that a blackbody emits isotropically, the **specific radiation pressure** ($P_{\nu}$) is...
 
 $$
-P_{\nu} = \frac{1}{c} \int_{\Omega} I_{\nu} \, \cos^{2} \theta\; \rd \Omega = \frac{4 \pi}{3 c} B_{\nu}(T)
+P_{\nu} = \frac{1}{c} \int_{\Omega} I_{\nu} \, \cos^{2} \theta\; \mathrm{d} \Omega = \frac{4 \pi}{3 c} B_{\nu}(T)
 $$
 
 *(See [[Intensity#Specific Radiation Pressure]] for more details...)*
 
 ## Frequency-Wavelength Conversion
 
-$$\nu = \frac{c}{\lambda} \hRightarrow \rd \nu = -\frac{c}{\lambda^{2}} \; \rd \lambda$$
+$$\nu = \frac{c}{\lambda} \hspace{1cm} \Rightarrow \hspace{1cm} \mathrm{d} \nu = -\frac{c}{\lambda^{2}} \; \mathrm{d} \lambda$$
 
 We can convert all of the prior relationships into terms of wavelength by using the above relationship between $\lambda$ and $\nu$. To do the conversion, we need to remember that to convert *densities*, such that we perform a change of variables under an integral sign.
 
 $$
 \begin{aligned}[b]
-	B &= \int_{\nu_{\rm A}}^{\nu_{\rm B}} B_{\nu}(\nu,T) \; \rd \nu \\
-	&= \int_{\nu_{\rm A}}^{\nu_{\rm B}} B_{\nu}(\nu,T) \; \left(\td{\nu}{\lambda}\right) \; \rd \lambda \\
-	&= \int_{\lambda_{\rm A}}^{\lambda_{\rm B}} B_{\nu}(\nu,T) \left(-\frac{c}{\lambda^{2}}\right) \; \rd \lambda \\
-	&= - \int_{\lambda_{\rm A}}^{\lambda_{\rm B}} B_{\lambda}(\lambda,T) \; \rd \lambda \\
-	&= \int_{\lambda_{\rm B}}^{\lambda_{\rm A}} B_{\lambda}(\lambda,T) \; \rd \lambda \\
+	B &= \int_{\nu_{\rm A}}^{\nu_{\rm B}} B_{\nu}(\nu,T) \; \mathrm{d} \nu \\
+	&= \int_{\nu_{\rm A}}^{\nu_{\rm B}} B_{\nu}(\nu,T) \; \left(\frac{\mathrm{d} \nu}{\mathrm{d} \lambda}\right) \; \mathrm{d} \lambda \\
+	&= \int_{\lambda_{\rm A}}^{\lambda_{\rm B}} B_{\nu}(\nu,T) \left(-\frac{c}{\lambda^{2}}\right) \; \mathrm{d} \lambda \\
+	&= - \int_{\lambda_{\rm A}}^{\lambda_{\rm B}} B_{\lambda}(\lambda,T) \; \mathrm{d} \lambda \\
+	&= \int_{\lambda_{\rm B}}^{\lambda_{\rm A}} B_{\lambda}(\lambda,T) \; \mathrm{d} \lambda \\
 \end{aligned}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 B_\lambda(\lambda,T) = \frac{c}{\lambda^{2}} B_{\nu} \left(\frac{c}{\lambda},T\right)
 $$
 

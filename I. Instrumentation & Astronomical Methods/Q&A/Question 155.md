@@ -46,9 +46,9 @@ $${\rm SNR} \equiv \frac{\rm{Signal}}{\rm{Noise}}= \frac{R_{\rm s} t}{\sqrt{R_{\
 Such that everything except readout noise-dominated, it scales as $\sqrt{t}$. 
 
 > [!derivation] Limiting Cases
-> 1) Bright Source/Object Limited: $${\rm SNR} \sim \fpar{R_{\rm s}}{\sqrt{R_{\rm s}}} \sqrt{t}\quad \propto \sqrt{t}$$
-> 2) Background/Sky Source Limited: $${\rm SNR} \sim \fpar{R_{\rm s}}{\sqrt{n R_{\rm b}}} \sqrt{t} \quad\propto \sqrt{t}$$
-> 3) Dark Noise Limited: $${\rm SNR} \sim \fpar{R_{\rm s}}{\sqrt{n R_{\rm d}}} \sqrt{t} \quad\propto \sqrt{t}$$
-> 4) Read-Out Noise Limited: $${\rm SNR} \sim \fpar{R_{\rm s}}{\sqrt{n R_{\rm r}^{2}/t}} \sqrt{t} \quad\propto t$$
+> 1) Bright Source/Object Limited: $${\rm SNR} \sim \left(\frac{R_{\rm s}}{\sqrt{R_{\rm s}}}\right) \sqrt{t}\quad \propto \sqrt{t}$$
+> 2) Background/Sky Source Limited: $${\rm SNR} \sim \left(\frac{R_{\rm s}}{\sqrt{n R_{\rm b}}}\right) \sqrt{t} \quad\propto \sqrt{t}$$
+> 3) Dark Noise Limited: $${\rm SNR} \sim \left(\frac{R_{\rm s}}{\sqrt{n R_{\rm d}}}\right) \sqrt{t} \quad\propto \sqrt{t}$$
+> 4) Read-Out Noise Limited: $${\rm SNR} \sim \left(\frac{R_{\rm s}}{\sqrt{n R_{\rm r}^{2}/t}}\right) \sqrt{t} \quad\propto t$$
 ^9367ad
 

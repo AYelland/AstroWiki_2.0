@@ -9,7 +9,7 @@ aliases:
 > [!key-idea]
 > Kepler's Law's of Planetary Motion are:
 > 1) Bound motion of two body systems move in elliptical orbits. $$r(\phi) = \frac{a \, (1 - \varepsilon^{2})}{1 + \varepsilon \cos \phi} \hspace{1.5cm} a (1 - \varepsilon^{2}) = \frac{L^{2}}{\mu k} \hspace{1.5cm} \varepsilon = \sqrt{1 + \frac{2 E L^{2}}{\mu^{2} k^{2}}}$$
-> 2) The radius vector of the orbiting body sweeps out equal areas during equal intervals of time. $$\td{A}{t} = \frac{L}{2 \mu} \hWhere L = \mu r^{2} \dot{\phi}$$
+> 2) The radius vector of the orbiting body sweeps out equal areas during equal intervals of time. $$\frac{\mathrm{d} A}{\mathrm{d} t} = \frac{L}{2 \mu} \hspace{1cm} \text{where} \hspace{1cm} L = \mu r^{2} \dot{\phi}$$
 > 3) Period-Radius Relationship: $$P^{2} \propto a^{3}$$
 
 ## Parameters for Orbits
@@ -79,11 +79,11 @@ $$
 > 
 > $$
 \begin{align}
-> 	\td{}{t} \left( \pd{\mathcal{L}}{\dot{\phi}} \right) - \pd{\mathcal{L}}{\phi} &= 0 \\
-> 	\td{}{t} \left( \mu r^{2} \dot{\phi} \right) &= 0
-> 	\hRightarrow
-> 	\td{L}{t} = 0
-> 	\hWhere
+> 	\frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{\partial \mathcal{L}}{\partial \dot{\phi}} \right) - \frac{\partial \mathcal{L}}{\partial \phi} &= 0 \\
+> 	\frac{\mathrm{d} }{\mathrm{d} t} \left( \mu r^{2} \dot{\phi} \right) &= 0
+> 	\hspace{1cm} \Rightarrow \hspace{1cm}
+> 	\frac{\mathrm{d} L}{\mathrm{d} t} = 0
+> 	\hspace{1cm} \text{where} \hspace{1cm}
 > 	L \equiv \mu r^{2} \dot{\phi}
 > \end{align}
 > $$
@@ -96,21 +96,21 @@ $$
 > 
 > $$
 \begin{align}
-> 	\td{}{t} \left( \pd{\mathcal{L}}{\dot{r}} \right) - \pd{\mathcal{L}}{r} &= 0 \\
-> 	\td{}{t} \left( \mu \dot{r} \right) - \left( \mu r \dot{\phi}^{2} - \frac{k}{r^{2}} \right) &= 0 \\
-> 	\td{}{t} \left( \mu \dot{r} \right) - \mu r \dot{\phi}^{2} + \frac{k}{r^{2}} &= 0 \\
+> 	\frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{\partial \mathcal{L}}{\partial \dot{r}} \right) - \frac{\partial \mathcal{L}}{\partial r} &= 0 \\
+> 	\frac{\mathrm{d} }{\mathrm{d} t} \left( \mu \dot{r} \right) - \left( \mu r \dot{\phi}^{2} - \frac{k}{r^{2}} \right) &= 0 \\
+> 	\frac{\mathrm{d} }{\mathrm{d} t} \left( \mu \dot{r} \right) - \mu r \dot{\phi}^{2} + \frac{k}{r^{2}} &= 0 \\
 > 	\mu \ddot{r} - \frac{L^{2}}{\mu r^{3}} + \frac{k}{r^{2}} &= 0
 > \end{align}
 > $$
 > $$
 > \left[ \hspace{1cm}
 \begin{align}
-> 	\dot{r} = \td{r}{t} &= \td{\phi}{t} \td{r}{\phi} \hspace{1cm} \textcolor{gray}{\left\{ \dot{\phi} = \td{\phi}{t} = \frac{L}{\mu r^{2}} \right\}} \\
-> 	&= \frac{L}{\mu r^{2}} \td{r}{\phi} \\
+> 	\dot{r} = \frac{\mathrm{d} r}{\mathrm{d} t} &= \frac{\mathrm{d} \phi}{\mathrm{d} t} \frac{\mathrm{d} r}{\mathrm{d} \phi} \hspace{1cm} \textcolor{gray}{\left\{ \dot{\phi} = \frac{\mathrm{d} \phi}{\mathrm{d} t} = \frac{L}{\mu r^{2}} \right\}} \\
+> 	&= \frac{L}{\mu r^{2}} \frac{\mathrm{d} r}{\mathrm{d} \phi} \\
 > 	\\
-> 	\ddot{r} = \tdd{r}{t} &= \td{}{t} \left( \td{r}{t} \right) \\
-> 	&= \td{\phi}{t} \td{}{\phi} \left( \td{\phi}{t} \td{r}{\phi}  \right) \\
-> 	&= \frac{L^{2}}{\mu^{2} r^{2}} \td{}{\phi} \left( \frac{1}{r^{2}} \td{r}{\phi} \right)
+> 	\ddot{r} = \frac{\mathrm{d}^{2} r}{\mathrm{d} t^{2}} &= \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{\mathrm{d} r}{\mathrm{d} t} \right) \\
+> 	&= \frac{\mathrm{d} \phi}{\mathrm{d} t} \frac{\mathrm{d} }{\mathrm{d} \phi} \left( \frac{\mathrm{d} \phi}{\mathrm{d} t} \frac{\mathrm{d} r}{\mathrm{d} \phi}  \right) \\
+> 	&= \frac{L^{2}}{\mu^{2} r^{2}} \frac{\mathrm{d} }{\mathrm{d} \phi} \left( \frac{1}{r^{2}} \frac{\mathrm{d} r}{\mathrm{d} \phi} \right)
 > \end{align}
 > \hspace{1cm} \right]
 > $$
@@ -118,22 +118,22 @@ $$
 > $$
 \begin{align}
 > 	\mu \ddot{r} - \frac{L^{2}}{\mu r^{3}} + \frac{k}{r^{2}} &= 0 \\
-> 	\mu \left[ \frac{L^{2}}{\mu^{2} r^{2}} \td{}{\phi} \left( \frac{1}{r^{2}} \td{r}{\phi} \right) \right] - \frac{L^{2}}{\mu r^{3}} + \frac{k}{r^{2}} &= 0 \\
-> 	\td{}{\phi} \left( \frac{1}{r^{2}} \td{r}{\phi} \right) - \frac{1}{r} + \frac{\mu k}{L^{2}} &= 0 \\
-> 	\td{}{\phi} \left( - \td{(\tfrac{1}{r})}{\phi} \right) - \frac{1}{r} + \frac{\mu k}{L^{2}} &= 0 \\
-> 	- \tdd{W}{\phi} - W + C &= 0 \hWhere 
+> 	\mu \left[ \frac{L^{2}}{\mu^{2} r^{2}} \frac{\mathrm{d} }{\mathrm{d} \phi} \left( \frac{1}{r^{2}} \frac{\mathrm{d} r}{\mathrm{d} \phi} \right) \right] - \frac{L^{2}}{\mu r^{3}} + \frac{k}{r^{2}} &= 0 \\
+> 	\frac{\mathrm{d} }{\mathrm{d} \phi} \left( \frac{1}{r^{2}} \frac{\mathrm{d} r}{\mathrm{d} \phi} \right) - \frac{1}{r} + \frac{\mu k}{L^{2}} &= 0 \\
+> 	\frac{\mathrm{d} }{\mathrm{d} \phi} \left( - \frac{\mathrm{d} (\tfrac{1}{r})}{\mathrm{d} \phi} \right) - \frac{1}{r} + \frac{\mu k}{L^{2}} &= 0 \\
+> 	- \frac{\mathrm{d}^{2} W}{\mathrm{d} \phi^{2}} - W + C &= 0 \hspace{1cm} \text{where} \hspace{1cm} 
 > 			W(r) = \frac{1}{r} \hspace{1cm}
 > 			C = \frac{\mu k}{L^{2}} \\
-> 	\tdd{W}{\phi} + W - C &= 0 \\
-> 	\tdd{Y}{\phi} + Y &= 0 \hWhere Y(r) = W(r) - C \\
+> 	\frac{\mathrm{d}^{2} W}{\mathrm{d} \phi^{2}} + W - C &= 0 \\
+> 	\frac{\mathrm{d}^{2} Y}{\mathrm{d} \phi^{2}} + Y &= 0 \hspace{1cm} \text{where} \hspace{1cm} Y(r) = W(r) - C \\
 > \end{align}
 > $$
 > This  is the differential equation for the simple harmonic oscillator equation. After simplifying the solution form...
 > $$
 > Y(r) = B \cos (\phi - \phi_{0}) = \frac{1}{r} - \frac{\mu k}{L^{2}}
-> \hRightarrow
+> \hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
-> 	\frac{1}{r} \fpar{L^{2}}{\mu k} &= 1 + \fpar{L^{2} B}{\mu k} \cos (\phi - \phi_{0})
+> 	\frac{1}{r} \left(\frac{L^{2}}{\mu k}\right) &= 1 + \left(\frac{L^{2} B}{\mu k}\right) \cos (\phi - \phi_{0})
 > \end{aligned}
 > $$
 > ...we can correlate the equation structure to a conic section with the focus at the origin.
@@ -146,11 +146,11 @@ $$
 > 4) If $\varepsilon > 1$, then we have unbounded hyperbolic motion.
 > 
 > $$
-> \frac{\alpha}{r} = 1 - \varepsilon \cos (\phi - \phi_{0}) \hTherefore \varepsilon = \frac{L^{2} B}{\mu k} \hspace{0.5cm} , \hspace{0.5cm} \boxed{\alpha = a (1 - \varepsilon^{2}) = \frac{L^{2}}{\mu k} = \frac{L^{2}}{G M \mu^{2}}}
+> \frac{\alpha}{r} = 1 - \varepsilon \cos (\phi - \phi_{0}) \hspace{0.5cm} \therefore \hspace{0.5cm} \varepsilon = \frac{L^{2} B}{\mu k} \hspace{0.5cm} , \hspace{0.5cm} \boxed{\alpha = a (1 - \varepsilon^{2}) = \frac{L^{2}}{\mu k} = \frac{L^{2}}{G M \mu^{2}}}
 > $$
 > $$
-> r(\phi) = \frac{L^{2} /\mu k}{1 + \tfpar{L^{2} B}{\mu k} \cos \phi} 
-> \hRightarrow
+> r(\phi) = \frac{L^{2} /\mu k}{1 + \left(\tfrac{L^{2} B}{\mu k}\right) \cos \phi} 
+> \hspace{1cm} \Rightarrow \hspace{1cm}
 > \boxed{r(\phi) = \frac{a \, (1 - \varepsilon^{2})}{1 + \varepsilon \cos \phi}}
 > $$
 
@@ -158,7 +158,7 @@ $$
 > With the [[#Conservation of Energy]], we can express the *eccentricity ($\varepsilon$)* in terms of total energy ($E$).
 > $$
 > \begin{align}
-> 	a (1 - \varepsilon^{2}) = \frac{L^{2}}{\mu k} \hRightarrow E &= - \frac{\mu k}{2 a} = - \frac{\mu^{2} k^{2} (1 - \varepsilon^{2})}{2 L^{2}} \\
+> 	a (1 - \varepsilon^{2}) = \frac{L^{2}}{\mu k} \hspace{1cm} \Rightarrow \hspace{1cm} E &= - \frac{\mu k}{2 a} = - \frac{\mu^{2} k^{2} (1 - \varepsilon^{2})}{2 L^{2}} \\
 > 	& \\
 > 	&\boxed{\varepsilon = \sqrt{1 + \frac{2 E L^{2}}{\mu^{2} k^{2}}}}
 > \end{align}
@@ -167,17 +167,17 @@ $$
 ## Kepler's 2nd Law
 
 The radius vector of the orbiting body sweeps out equal areas during equal intervals of time.
-$$\td{A}{t} = \frac{L}{2 \mu} \hWhere L = \mu r^{2} \dot{\phi}$$
+$$\frac{\mathrm{d} A}{\mathrm{d} t} = \frac{L}{2 \mu} \hspace{1cm} \text{where} \hspace{1cm} L = \mu r^{2} \dot{\phi}$$
 
 ![[kepler2a.png|300]] ![[kepler2b.png|300]]
 
 > [!derivation] Proof of Statement (2)
-> We look at a small period of time ($\rd t$) and take the time derivative of the area of a the created triangle...
+> We look at a small period of time ($\mathrm{d} t$) and take the time derivative of the area of a the created triangle...
 > $$
 > \begin{align}
-> 	\rd A &= \frac{1}{2} r \, (r \, \rd \phi) + \cancelto{\rm \; 0, \; second \ order}{\frac{1}{2} (r \, \rd \phi) \, \rd r} \\
+> 	\mathrm{d} A &= \frac{1}{2} r \, (r \, \mathrm{d} \phi) + \cancelto{\rm \; 0, \; second \ order}{\frac{1}{2} (r \, \mathrm{d} \phi) \, \mathrm{d} r} \\
 > 	\\
-> 	\td{A}{t} &= \td{}{t} \left( \frac{1}{2} r^{2} \, \rd \phi \right) = \frac{1}{2} r^{2} \dot{\phi} = \frac{L}{2 \mu} \; \boxed{= \text{constant}}
+> 	\frac{\mathrm{d} A}{\mathrm{d} t} &= \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{1}{2} r^{2} \, \mathrm{d} \phi \right) = \frac{1}{2} r^{2} \dot{\phi} = \frac{L}{2 \mu} \; \boxed{= \text{constant}}
 > 	\end{align}
 > $$
 
@@ -186,25 +186,25 @@ $$\td{A}{t} = \frac{L}{2 \mu} \hWhere L = \mu r^{2} \dot{\phi}$$
 The square of a planet's orbital period ($P$) is proportional to the cubed-length of the semi-major axis ($a$) of the orbit.
 
 $$
-\text{Period-Radius Relationship:} \hspace{1cm} P^{2} = \frac{4 \pi^{2} a^{3}}{G M_{\rm tot}} \hRightarrow P^{2} \propto a^{3}
+\text{Period-Radius Relationship:} \hspace{1cm} P^{2} = \frac{4 \pi^{2} a^{3}}{G M_{\rm tot}} \hspace{1cm} \Rightarrow \hspace{1cm} P^{2} \propto a^{3}
 $$
 
 > [!derivation] Proof of Statement (3)
-We compare the area of an ellipse ($A = \pi a b$) to the rate of change in the area ($\td{A}{t}$). 
+We compare the area of an ellipse ($A = \pi a b$) to the rate of change in the area ($\frac{\mathrm{d} A}{\mathrm{d} t}$). 
 >
 > $$
 > \begin{align}
-> 	\pi a b &= \int_{0}^{P} \left( \td{A}{t} \right) \; \rd t
+> 	\pi a b &= \int_{0}^{P} \left( \frac{\mathrm{d} A}{\mathrm{d} t} \right) \; \mathrm{d} t
 	> 	\hspace{1.4cm}
 	> 	\textcolor{gray}{\left[ b = a \sqrt{1 - \varepsilon^{2}} \right]} \\
-	> \pi a^{2} \sqrt{1 - \varepsilon^{2}} &= \int_{0}^{P} \left( \frac{L}{2 \mu} \right) \; \rd t \\
-> 	\pi a^{2}\sqrt{1 - \varepsilon^{2}} &= \fpar{L}{2 \mu} \int_{0}^{P} \rd t 
+	> \pi a^{2} \sqrt{1 - \varepsilon^{2}} &= \int_{0}^{P} \left( \frac{L}{2 \mu} \right) \; \mathrm{d} t \\
+> 	\pi a^{2}\sqrt{1 - \varepsilon^{2}} &= \left(\frac{L}{2 \mu}\right) \int_{0}^{P} \mathrm{d} t 
 	> 	\hspace{1.5cm}
 	> 	\textcolor{gray}{\left[ a (1 - \varepsilon^{2}) = \frac{L^{2}}{k \mu} = \frac{L^{2}}{G M \mu^{2}} \right]} \\
 	> \\
 	> \pi a^{2}\sqrt{1 - \varepsilon^{2}} &= \frac{P}{2} \sqrt{G M a (1 - \varepsilon^{2})} \\
 > 	\\
-> 	P^{2} &= \frac{4 \pi^{2} a^{3}}{G M} \hRightarrow \boxed{ \;P^{2} \propto a^{3} \;}
+> 	P^{2} &= \frac{4 \pi^{2} a^{3}}{G M} \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{ \;P^{2} \propto a^{3} \;}
 > \end{align}
 > $$
 
@@ -217,12 +217,12 @@ In a bound Keplerian Orbit, energy is conserved.
 > Instead of using Lagrangian Mechanics ($\mathcal{L} = T - U$), we will look at the total energy of the system ($E = T + U$) and its time derivative.
 >
 > $$
-> E = T + U  = \frac{1}{2} \mu \dot{r}^{2} + \frac{L^{2}}{2 \mu r^{2}} - \frac{k}{r} \hWhere k = G M \mu
+> E = T + U  = \frac{1}{2} \mu \dot{r}^{2} + \frac{L^{2}}{2 \mu r^{2}} - \frac{k}{r} \hspace{1cm} \text{where} \hspace{1cm} k = G M \mu
 > $$
 > 
 > Taking the time-derivative, we can prove that energy is conserved. 
 > $$
-> \td{E}{t} = \td{}{t} \left( \frac{1}{2} \mu \dot{r}^{2} + \frac{L^{2}}{2 \mu r^{2}} - \frac{k}{r} \right) = \mu \dot{r} \ddot{r} - \frac{L^{2} \dot{r}}{\mu r^{3}} + \frac{k \dot{r}}{r^{2}}
+> \frac{\mathrm{d} E}{\mathrm{d} t} = \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{1}{2} \mu \dot{r}^{2} + \frac{L^{2}}{2 \mu r^{2}} - \frac{k}{r} \right) = \mu \dot{r} \ddot{r} - \frac{L^{2} \dot{r}}{\mu r^{3}} + \frac{k \dot{r}}{r^{2}}
 > $$
 > $$
 > \left[ \hspace{1cm}
@@ -232,8 +232,8 @@ In a bound Keplerian Orbit, energy is conserved.
 > \hspace{1cm} \right]
 > $$
 > $$
-> \td{E}{t} = \left( \frac{L^{2} \dot{r}}{\mu r^{3}} - \frac{k \dot{r}}{r^{2}} \right) - \frac{L^{2} \dot{r}}{\mu r^{3}} + \frac{k \dot{r}}{r^{2}} = 0
-> \hRightarrow Conserved.
+> \frac{\mathrm{d} E}{\mathrm{d} t} = \left( \frac{L^{2} \dot{r}}{\mu r^{3}} - \frac{k \dot{r}}{r^{2}} \right) - \frac{L^{2} \dot{r}}{\mu r^{3}} + \frac{k \dot{r}}{r^{2}} = 0
+> \hspace{1cm} \Rightarrow \hspace{1cm} Conserved.
 > $$
 
 **Energy in Terms of the Semi-Major Axis:**
@@ -241,7 +241,7 @@ In a bound Keplerian Orbit, energy is conserved.
 With energy conserved throughout the orbit, we can write the energy in terms of of the semi-major axis ($a$) by choosing to specifically look at one position of the orbit. By convention, we take the initial position of $m_{2}$ to be at the pericenter.
 $$
 \begin{align}
-	\phi_{0} \equiv \phi(t_{0} = 0) = 0 &\hRightarrow r(\phi_{0}) = \frac{a (1 - \varepsilon^{2})}{1 + \varepsilon}  = a (1 - \varepsilon) \\
+	\phi_{0} \equiv \phi(t_{0} = 0) = 0 &\hspace{1cm} \Rightarrow \hspace{1cm} r(\phi_{0}) = \frac{a (1 - \varepsilon^{2})}{1 + \varepsilon}  = a (1 - \varepsilon) \\
 	\\
 	E &= \frac{1}{2} \mu \dot{r}^{2} + \frac{L^{2}}{2 \mu r^{2}} - \frac{k}{r} 
 		\hspace{2.5cm} 

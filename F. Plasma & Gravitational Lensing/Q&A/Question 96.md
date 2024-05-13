@@ -18,7 +18,7 @@ There are two sources for this time delay:
 
 The overall net delay can be expressed as...
 
-$$\Delta t = \underbrace{\frac{1 + z_{\rm lens}}{c} \fpar{D_{L} D_{LS}}{D_{S}}}_{D_{\Delta t} \, \propto \, H_{0}^{-1}} \bigg( \; \underbrace{\frac{1}{2} \left(\theta - \theta_{S} \right)^{2}}_{\rm geometric} - \psi_{\rm 2D} \bigg)$$
+$$\Delta t = \underbrace{\frac{1 + z_{\rm lens}}{c} \left(\frac{D_{L} D_{LS}}{D_{S}}\right)}_{D_{\Delta t} \, \propto \, H_{0}^{-1}} \bigg( \; \underbrace{\frac{1}{2} \left(\theta - \theta_{S} \right)^{2}}_{\rm geometric} - \psi_{\rm 2D} \bigg)$$
 
 ...where $\psi_{2D}$ is the 2D lensing potential related to the Shapiro time delay ([[Question 97]]). The term outside the parentheses is related to the [[Redshift#Cosmological Expansion|cosmological redshift]] where the "effective luminosity distance" a similar to the [[Distances#Angular diameter distance|angular diameter distance]], which depends on the Hubble Constant ($H_{0}$).
 

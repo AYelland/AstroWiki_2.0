@@ -12,7 +12,7 @@ $$
 	\\
 	&P = \rho \frac{R T}{M} = \frac{\rho}{\mu m_{\rm u}} k_{\rm B} T
 \end{aligned}
- \hWhere \left \{ \; \; 
+ \hspace{1cm} \text{where} \hspace{1cm} \left \{ \; \; 
 \begin{aligned}
 	P &\equiv \text{pressure} \\
 	V &\equiv \text{volume} \\
@@ -44,11 +44,11 @@ $$
 ![[thermoLaw1.png|align:center|400]]
 
 $$
-\rd U = \rdbar Q + \rdbar W
-\hWhere
-\rdbar Q = \sum_{i} T_{i} \, \rd S_{i}
+\mathrm{d} U = \rm d \hspace{-0.16em}\bar{}\hspace{0.2em} Q + \rm d \hspace{-0.16em}\bar{}\hspace{0.2em} W
+\hspace{1cm} \text{where} \hspace{1cm}
+\rm d \hspace{-0.16em}\bar{}\hspace{0.2em} Q = \sum_{i} T_{i} \, \mathrm{d} S_{i}
 \hspace{1cm}
-\rdbar W = \sum_{i} J_{i} \, \rd x_{i}
+\rm d \hspace{-0.16em}\bar{}\hspace{0.2em} W = \sum_{i} J_{i} \, \mathrm{d} x_{i}
 $$
 
 *Energy cannot be created or destroyed in an adiabatically isolated system. For any transfer of energy in or out of the system (as work, heat, or matter), the system's internal energy changes in accordance with the law of conservation of energy.*
@@ -63,7 +63,7 @@ Above, $J_{i}$ and $x_{i}$ represent generalized forces and displacements, respe
 
 *The sum of the entropies of the interacting thermodynamic systems never decreases in an adiabatically isolated universe.*
 
-$$\Delta Q = T \; \Delta S \hRightarrow \rd Q = T \; \rd S$$
+$$\Delta Q = T \; \Delta S \hspace{1cm} \Rightarrow \hspace{1cm} \mathrm{d} Q = T \; \mathrm{d} S$$
 
 **Common Corollaries:**
 - A common corollary is that heat does not spontaneously pass from a colder body to a warmer body.
@@ -83,10 +83,10 @@ $$S(T = 0 \; {\rm K}) = 0$$
 > [!key-idea] Thermodynamic Identities
 > $$
 > \begin{align}
-> 	&\textbf{Total Energy ($U$):} &\hspace{1cm} \rd U &= T \, \rd S + J \, \rd x \\
-> 	&\textbf{Enthalpy Energy ($H$):} &\hspace{1cm} \rd H &= T \, \rd S - x \, \rd J \\
-> 	&\textbf{Helmholtz Energy ($F$):} &\hspace{1cm} \rd F &= - S \, \rd T + J \, \rd x \\
-> 	&\textbf{Gibbs Energy ($G$):} &\hspace{1cm} \rd G &= - S \, \rd T - x \, \rd J 
+> 	&\textbf{Total Energy ($U$):} &\hspace{1cm} \mathrm{d} U &= T \, \mathrm{d} S + J \, \mathrm{d} x \\
+> 	&\textbf{Enthalpy Energy ($H$):} &\hspace{1cm} \mathrm{d} H &= T \, \mathrm{d} S - x \, \mathrm{d} J \\
+> 	&\textbf{Helmholtz Energy ($F$):} &\hspace{1cm} \mathrm{d} F &= - S \, \mathrm{d} T + J \, \mathrm{d} x \\
+> 	&\textbf{Gibbs Energy ($G$):} &\hspace{1cm} \mathrm{d} G &= - S \, \mathrm{d} T - x \, \mathrm{d} J 
 > \end{align}
 > $$
 ^thermoIDs
@@ -94,22 +94,22 @@ $$S(T = 0 \; {\rm K}) = 0$$
 **Total Energy ($U$):** *(See [[#2nd Law of Thermodynamics]])*
 
 $$
-\rd U = \rdbar Q + \rdbar W = T \, \rd S  + J \, \rd x \quad \textcolor{gray}{( + \mu \, \rd N + \dots)} 
+\mathrm{d} U = \rm d \hspace{-0.16em}\bar{}\hspace{0.2em} Q + \rm d \hspace{-0.16em}\bar{}\hspace{0.2em} W = T \, \mathrm{d} S  + J \, \mathrm{d} x \quad \textcolor{gray}{( + \mu \, \mathrm{d} N + \dots)} 
 $$
 
 $$
 \begin{alignat}{4}
-	&\textbf{Enthalpy ($H$):} &\hspace{1cm} H &= U - J x &\hRightarrow \rd H &= \rd U - x \, \rd J - J \, \rd x \\
-		&&&& \rd H &= \left( T \, \rd S + J \, \rd x \right) - x \, \rd J - J \, \rd x \\
-		&&&& \rd H &= T \, \rd S - x \, \rd J \quad \textcolor{gray}{( + \mu \, \rd N + \dots)} \\
+	&\textbf{Enthalpy ($H$):} &\hspace{1cm} H &= U - J x &\hspace{1cm} \Rightarrow \hspace{1cm} \mathrm{d} H &= \mathrm{d} U - x \, \mathrm{d} J - J \, \mathrm{d} x \\
+		&&&& \mathrm{d} H &= \left( T \, \mathrm{d} S + J \, \mathrm{d} x \right) - x \, \mathrm{d} J - J \, \mathrm{d} x \\
+		&&&& \mathrm{d} H &= T \, \mathrm{d} S - x \, \mathrm{d} J \quad \textcolor{gray}{( + \mu \, \mathrm{d} N + \dots)} \\
 		\\
-	&\textbf{Helmholtz ($F$):} &\hspace{1cm} F &= U - T S &\hRightarrow \rd F &= \rd U - S \, \rd T - T \, \rd S \\
-		&&&& \rd F &= \left( T \, \rd S + J \, \rd x \right) - S \, \rd T - T \, \rd S \\
-		&&&& \rd F &= - S \, \rd T + J \, \rd x \quad \textcolor{gray}{( + \mu \, \rd N + \dots)} \\
+	&\textbf{Helmholtz ($F$):} &\hspace{1cm} F &= U - T S &\hspace{1cm} \Rightarrow \hspace{1cm} \mathrm{d} F &= \mathrm{d} U - S \, \mathrm{d} T - T \, \mathrm{d} S \\
+		&&&& \mathrm{d} F &= \left( T \, \mathrm{d} S + J \, \mathrm{d} x \right) - S \, \mathrm{d} T - T \, \mathrm{d} S \\
+		&&&& \mathrm{d} F &= - S \, \mathrm{d} T + J \, \mathrm{d} x \quad \textcolor{gray}{( + \mu \, \mathrm{d} N + \dots)} \\
 		\\
-	&\textbf{Gibbs ($G$):} &\hspace{1cm} G &= U - J x - T S &\hRightarrow \rd G &= \rd U - x \, \rd J - J \, \rd x - S \, \rd T - T \, \rd S \\
-		&&&& \rd G &= \left( T \, \rd S + J \, \rd x \right) - x \, \rd J - J \, \rd x - S \, \rd T - T \, \rd S \\
-		&&&& \rd G &= - S \, \rd T - x \, \rd J \quad \textcolor{gray}{( + \mu \, \rd N + \dots)} \\
+	&\textbf{Gibbs ($G$):} &\hspace{1cm} G &= U - J x - T S &\hspace{1cm} \Rightarrow \hspace{1cm} \mathrm{d} G &= \mathrm{d} U - x \, \mathrm{d} J - J \, \mathrm{d} x - S \, \mathrm{d} T - T \, \mathrm{d} S \\
+		&&&& \mathrm{d} G &= \left( T \, \mathrm{d} S + J \, \mathrm{d} x \right) - x \, \mathrm{d} J - J \, \mathrm{d} x - S \, \mathrm{d} T - T \, \mathrm{d} S \\
+		&&&& \mathrm{d} G &= - S \, \mathrm{d} T - x \, \mathrm{d} J \quad \textcolor{gray}{( + \mu \, \mathrm{d} N + \dots)} \\
 		\\
 \end{alignat}
 $$
@@ -119,10 +119,10 @@ $$
 > By rearranging the **Thermodynamic Identities**, you can find the relationships between the partial derivatives of the various free energies ($U$, $F$, $H$, $G$) w.r.t. the natural variables ($S$, $T$, $J$, $x$, $N$, $\mu$, $\dots$). By choosing to keep certain values constant, you can find the following relationships.
 > $$
 > \begin{alignat}{3}
-> 	\left( \pd{U}{S} \right)_{x, N, \dots} &= T &\hspace{1.5cm} \left( \pd{U}{x} \right)_{S, N, \dots} &= J \\
-> 	\left( \pd{H}{S} \right)_{J, N, \dots} &= T &\hspace{1.5cm} \left( \pd{H}{J} \right)_{S, N, \dots} &= -x \\
-> 	\left( \pd{F}{T} \right)_{x, N, \dots} &= -S &\hspace{1.5cm} \left( \pd{F}{x} \right)_{T, N, \dots} &= J\\
-> 	\left( \pd{G}{T} \right)_{J, N, \dots} &= -S &\hspace{1.5cm} \left( \pd{G}{J} \right)_{T, N, \dots} &= -x
+> 	\left( \frac{\partial U}{\partial S} \right)_{x, N, \dots} &= T &\hspace{1.5cm} \left( \frac{\partial U}{\partial x} \right)_{S, N, \dots} &= J \\
+> 	\left( \frac{\partial H}{\partial S} \right)_{J, N, \dots} &= T &\hspace{1.5cm} \left( \frac{\partial H}{\partial J} \right)_{S, N, \dots} &= -x \\
+> 	\left( \frac{\partial F}{\partial T} \right)_{x, N, \dots} &= -S &\hspace{1.5cm} \left( \frac{\partial F}{\partial x} \right)_{T, N, \dots} &= J\\
+> 	\left( \frac{\partial G}{\partial T} \right)_{J, N, \dots} &= -S &\hspace{1.5cm} \left( \frac{\partial G}{\partial J} \right)_{T, N, \dots} &= -x
 > \end{alignat}
 > $$
 
@@ -135,13 +135,13 @@ By reordering the second derivatives of each free energy value, we can find the 
 
 $$
 \begin{alignat}{3}
-	&\circled{1} &\hspace{1cm} \left( \pd{T}{x} \right)_{S} &= \left( \pd{J}{S} \right)_{x} \\
+	&\require{enclose}\enclose{circle}{1} &\hspace{1cm} \left( \frac{\partial T}{\partial x} \right)_{S} &= \left( \frac{\partial J}{\partial S} \right)_{x} \\
 	\\
-	&\circled{2} &\hspace{1cm} \left( \pd{J}{T} \right)_{x} &= - \left( \pd{S}{x} \right)_{T} \\
+	&\require{enclose}\enclose{circle}{2} &\hspace{1cm} \left( \frac{\partial J}{\partial T} \right)_{x} &= - \left( \frac{\partial S}{\partial x} \right)_{T} \\
 	\\
-	&\circled{3} &\hspace{1cm} \left( \pd{T}{J} \right)_{S} &= - \left( \pd{x}{S} \right)_{J} \\
+	&\require{enclose}\enclose{circle}{3} &\hspace{1cm} \left( \frac{\partial T}{\partial J} \right)_{S} &= - \left( \frac{\partial x}{\partial S} \right)_{J} \\
 	\\
-	&\circled{4} &\hspace{1cm} \left( \pd{x}{T} \right)_{J} &= \left( \pd{S}{J} \right)_{T} \\
+	&\require{enclose}\enclose{circle}{4} &\hspace{1cm} \left( \frac{\partial x}{\partial T} \right)_{J} &= \left( \frac{\partial S}{\partial J} \right)_{T} \\
 \end{alignat}
 $$
 
@@ -149,28 +149,28 @@ $$
 > Beginning with the free energy relationships, we can rearrange the expressions for the first partial derivatives with respect to constant natural variables. *(See [[#^partialDerivativeRelationships|Partial Derivative Relationships]])*
 > $$
 > \begin{alignat}{3}
-> 	\left( \pd{U}{S} \right)_{x} &= T &\hspace{1.5cm} \left( \pd{U}{x} \right)_{S} &= J \\
-> 	\left( \pd{H}{S} \right)_{J} &= T &\hspace{1.5cm} \left( \pd{H}{J} \right)_{S} &= -x \\
-> 	\left( \pd{F}{T} \right)_{x} &= -S &\hspace{1.5cm} \left( \pd{F}{x} \right)_{T} &= J\\
-> 	\left( \pd{G}{T} \right)_{J} &= -S &\hspace{1.5cm} \left( \pd{G}{J} \right)_{T} &= -x
+> 	\left( \frac{\partial U}{\partial S} \right)_{x} &= T &\hspace{1.5cm} \left( \frac{\partial U}{\partial x} \right)_{S} &= J \\
+> 	\left( \frac{\partial H}{\partial S} \right)_{J} &= T &\hspace{1.5cm} \left( \frac{\partial H}{\partial J} \right)_{S} &= -x \\
+> 	\left( \frac{\partial F}{\partial T} \right)_{x} &= -S &\hspace{1.5cm} \left( \frac{\partial F}{\partial x} \right)_{T} &= J\\
+> 	\left( \frac{\partial G}{\partial T} \right)_{J} &= -S &\hspace{1.5cm} \left( \frac{\partial G}{\partial J} \right)_{T} &= -x
 > \end{alignat}
 > $$
 > Taking the second derivative of these expressions, we can compare their resulting answers by using the *commutative property of partial derivative* (i.e. the order in which partial derivatives act doesn't matter).
 > $$
 > \begin{alignat}{3}
-> 	\left( \pd{U}{S \, \partial x} \right)_{x, S} &= \left( \pd{T}{x} \right)_{S} &\hspace{1.5cm} \left( \pd{U}{x \, \partial S} \right)_{S, x} &= \left( \pd{J}{S} \right)_{x} \\
-> 	\left( \pd{H}{S \, \partial J} \right)_{J, S} &= \left( \pd{T}{J} \right)_{S} &\hspace{1.5cm} \left( \pd{H}{J \, \partial S} \right)_{S, J} &= -\left( \pd{x}{S} \right)_{J} \\
-> 	\left( \pd{F}{T \, \partial x} \right)_{x, T} &= -\left( \pd{S}{x} \right)_{T} &\hspace{1.5cm} \left( \pd{F}{x \, \partial T} \right)_{T, x} &= \left( \pd{J}{T} \right)_{x}\\
-> 	\left( \pd{G}{T \, \partial J} \right)_{J, T} &= -\left( \pd{S}{J} \right)_{T} &\hspace{1.5cm} \left( \pd{G}{J \, \partial T} \right)_{T, J} &= -\left( \pd{x}{T} \right)_{J}
+> 	\left( \frac{\partial U}{\partial S \, \partial x} \right)_{x, S} &= \left( \frac{\partial T}{\partial x} \right)_{S} &\hspace{1.5cm} \left( \frac{\partial U}{\partial x \, \partial S} \right)_{S, x} &= \left( \frac{\partial J}{\partial S} \right)_{x} \\
+> 	\left( \frac{\partial H}{\partial S \, \partial J} \right)_{J, S} &= \left( \frac{\partial T}{\partial J} \right)_{S} &\hspace{1.5cm} \left( \frac{\partial H}{\partial J \, \partial S} \right)_{S, J} &= -\left( \frac{\partial x}{\partial S} \right)_{J} \\
+> 	\left( \frac{\partial F}{\partial T \, \partial x} \right)_{x, T} &= -\left( \frac{\partial S}{\partial x} \right)_{T} &\hspace{1.5cm} \left( \frac{\partial F}{\partial x \, \partial T} \right)_{T, x} &= \left( \frac{\partial J}{\partial T} \right)_{x}\\
+> 	\left( \frac{\partial G}{\partial T \, \partial J} \right)_{J, T} &= -\left( \frac{\partial S}{\partial J} \right)_{T} &\hspace{1.5cm} \left( \frac{\partial G}{\partial J \, \partial T} \right)_{T, J} &= -\left( \frac{\partial x}{\partial T} \right)_{J}
 > \end{alignat}
 > $$
 > This directly yield the **Maxwell Equations**, by reading each line...
 > $$
 > \begin{align}
-> 	\left( \pd{T}{x} \right)_{S} &= \left( \pd{J}{S} \right)_{x} \\
-> 	\left( \pd{J}{T} \right)_{x} &= - \left( \pd{S}{x} \right)_{T} \\
-> 	\left( \pd{T}{J} \right)_{S} &= - \left( \pd{x}{S} \right)_{J} \\
-> 	\left( \pd{x}{T} \right)_{J} &= \left( \pd{S}{J} \right)_{T}
+> 	\left( \frac{\partial T}{\partial x} \right)_{S} &= \left( \frac{\partial J}{\partial S} \right)_{x} \\
+> 	\left( \frac{\partial J}{\partial T} \right)_{x} &= - \left( \frac{\partial S}{\partial x} \right)_{T} \\
+> 	\left( \frac{\partial T}{\partial J} \right)_{S} &= - \left( \frac{\partial x}{\partial S} \right)_{J} \\
+> 	\left( \frac{\partial x}{\partial T} \right)_{J} &= \left( \frac{\partial S}{\partial J} \right)_{T}
 > \end{align}
 > $$
 
@@ -187,9 +187,9 @@ To quickly recall all of the thermodynamic relationships, we can use the magic s
 1. Choose one of the free-energy quantities (i.e. $U$, $H$, $F$, $G$) on the magic square.
 	- *Example: Let us choose the Helmholtz Free Energy ($F$)*
 2. The all of the variables sharing the same side of the magic square as the free-energy become differential. 
-	- *Example: The free-energy variable ($F$), along with the two natural variables ($x$ and $T$) become differential variables.* $$F \to \rd F \hspace{1cm} x \to \rd x \hspace{1cm} T \to \rd T$$
+	- *Example: The free-energy variable ($F$), along with the two natural variables ($x$ and $T$) become differential variables.* $$F \to \mathrm{d} F \hspace{1cm} x \to \mathrm{d} x \hspace{1cm} T \to \mathrm{d} T$$
 3. The opposite corners of the differential natural variables are the paired together. Following the positive-negative axis, you can determine the sign of the term.
-	- *Example: Pairing up the terms, we can construct the final identity relationship.* $$\rd x \to J \, \rd x \hspace{1cm} \rd T \to -S \, \rd T \hRightarrow \boxed{\rd F = J \, \rd x - S \, \rd T}$$
+	- *Example: Pairing up the terms, we can construct the final identity relationship.* $$\mathrm{d} x \to J \, \mathrm{d} x \hspace{1cm} \mathrm{d} T \to -S \, \mathrm{d} T \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{\mathrm{d} F = J \, \mathrm{d} x - S \, \mathrm{d} T}$$
 
 **For the [[#Maxwell Relations]]:**
 
@@ -198,29 +198,29 @@ To quickly recall all of the thermodynamic relationships, we can use the magic s
 1. Choose one side of the magic square and a direction.
 	- *Example: Let us choose the left-side of the square and the top-to-bottom direction*
 2. Drawing the arrow from one corner to the other, we construct the partial derivative on left-hand-side of the equality. (first term = numerator, second term = denominator) Drawing another arrow from the starting corner to the opposite corner, we can determine which natural variable is constant w.r.t the partial derivative.
-	- *Example: Starting in the top-left corner ($T$), we draw an arrow to the bottom-left corner ($x$). The second arrow is drawn from the top-left corner ($T$) to the bottom-right corner ($S$). This creates the left-hand-side of the equality.* $$\left( \pd{T}{x} \right)_{S} = \; ?$$
+	- *Example: Starting in the top-left corner ($T$), we draw an arrow to the bottom-left corner ($x$). The second arrow is drawn from the top-left corner ($T$) to the bottom-right corner ($S$). This creates the left-hand-side of the equality.* $$\left( \frac{\partial T}{\partial x} \right)_{S} = \; ?$$
 3. Repeat this on the opposite side of the magic square, where we keep the same initial direction. This will construct the right-hand-side of the equality.
-	- *Example: Starting on the top-right corner ($J$), we draw an arrow to the bottom-right corner ($S$). The second arrow is drawn from the top-right corner ($J$) to the bottom-left corner ($x$). This creates the right-hand-side of the equality.* $$\left( \pd{T}{x} \right)_{S} = \left( \pd{J}{S} \right)_{x}$$
-4. If $S$ and $x$ are both within the partial derivative (i.e. $\pd{S}{x}$ or $\pd{x}{S}$), then we add a negative sign into the equation. **(This additional rule is represented on the Magic Square by the circled bottom row)**
+	- *Example: Starting on the top-right corner ($J$), we draw an arrow to the bottom-right corner ($S$). The second arrow is drawn from the top-right corner ($J$) to the bottom-left corner ($x$). This creates the right-hand-side of the equality.* $$\left( \frac{\partial T}{\partial x} \right)_{S} = \left( \frac{\partial J}{\partial S} \right)_{x}$$
+4. If $S$ and $x$ are both within the partial derivative (i.e. $\frac{\partial S}{\partial x}$ or $\frac{\partial x}{\partial S}$), then we add a negative sign into the equation. **(This additional rule is represented on the Magic Square by the circled bottom row)**
 	- *Example: This is not needed in this example; therefore, both sides of the equality are positive.*
 
 ## Negative Heat Capacity
 
-$$\text{Heat Capacity} \equiv C = \td{Q}{T} \hRightarrow C_{\rm V} = \left. \td{Q}{T} \right|_{V} \quad , \quad \left. C_{\rm P} = \td{Q}{T} \right|_{P}$$
+$$\text{Heat Capacity} \equiv C = \frac{\mathrm{d} Q}{\mathrm{d} T} \hspace{1cm} \Rightarrow \hspace{1cm} C_{\rm V} = \left. \frac{\mathrm{d} Q}{\mathrm{d} T} \right|_{V} \quad , \quad \left. C_{\rm P} = \frac{\mathrm{d} Q}{\mathrm{d} T} \right|_{P}$$
 
 Most physical systems exhibit a *positive heat capacity*; however, there are some systems for which the heat capacity is negative. This includes some inhomogeneous systems that are not in thermodynamic equilibrium, such as gravitating objects like stars, black holes, and galaxies.
 
 According to the [[virial theorem]], the energy for a self-gravitating body (like a star or an interstellar gas cloud) can be expressed by...
 
-$$\expval{E} = \expval{T} + \expval{U} \quad , \quad \expval{E} = \frac{1}{2} \expval{U} \hRightarrow \expval{E} = - \expval{T}$$
+$$\left\langle E \right\rangle = \left\langle T \right\rangle + \left\langle U \right\rangle \quad , \quad \left\langle E \right\rangle = \frac{1}{2} \left\langle U \right\rangle \hspace{1cm} \Rightarrow \hspace{1cm} \left\langle E \right\rangle = - \left\langle T \right\rangle$$
 
-Therefore, if the system loses energy ($\expval{E} \downarrow$), the average kinetic energy actually increases ($\expval{K} \uparrow$). If a temperature is defined by the average kinetic energy, then the system can be said to have a *negative heat capacity* and get hotter.
+Therefore, if the system loses energy ($\left\langle E \right\rangle \downarrow$), the average kinetic energy actually increases ($\left\langle K \right\rangle \uparrow$). If a temperature is defined by the average kinetic energy, then the system can be said to have a *negative heat capacity* and get hotter.
 
 More specifically for self-gravitating systems...
-- If $\expval{E}$ goes **down** by $1 \varepsilon$
-- then $\expval{E_{\rm therm}} \equiv \expval{T}$ goes **up** by $1 \varepsilon$
-- and $\expval{E_{\rm grav}} \equiv \expval{U}$ goes **down** by $2 \varepsilon$ 
-...such that as a star loses energy, it grows hotter and becomes more gravitationally bound (i.e. $\expval{E_{\rm grav}}$ becomes more negative).
+- If $\left\langle E \right\rangle$ goes **down** by $1 \varepsilon$
+- then $\left\langle E_{\rm therm} \right\rangle \equiv \left\langle T \right\rangle$ goes **up** by $1 \varepsilon$
+- and $\left\langle E_{\rm grav} \right\rangle \equiv \left\langle U \right\rangle$ goes **down** by $2 \varepsilon$ 
+...such that as a star loses energy, it grows hotter and becomes more gravitationally bound (i.e. $\left\langle E_{\rm grav} \right\rangle$ becomes more negative).
 
 > [!example] **For black holes...**
 > A more extreme version of this occurs with black holes. The more mass and energy a black hole absorbs, the colder it becomes. In contrast, if it is a net emitter of energy (i.e. Hawking radiation), it will become hotter and hotter until it boils away.

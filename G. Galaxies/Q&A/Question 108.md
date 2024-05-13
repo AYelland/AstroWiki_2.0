@@ -11,14 +11,14 @@ What is the "Schechter luminosity function"? What is the luminosity of a typical
 
 The **Schechter luminosity function** is the empirical relationship that describes the observed galaxy [[Luminosity|luminosity]] function (i.e. the distribution of number of galaxies with different luminosities). 
 
-$$\Phi(L) = \frac{\Phi_{*}}{L_{*}} \left( \frac{L}{L_{*}} \right)^{\alpha} e^{-L/L_{*}} \hWhere 
+$$\Phi(L) = \frac{\Phi_{*}}{L_{*}} \left( \frac{L}{L_{*}} \right)^{\alpha} e^{-L/L_{*}} \hspace{1cm} \text{where} \hspace{1cm} 
 \begin{aligned}
 	\Phi_{*} &\simeq 0.02 \, h^{3} \; {\rm Mpc^{-3}} \\
 	\alpha &\simeq -1.09 \\
 	L_{*} &\simeq 10^{10} \; L_{\odot} \, h^{-2} \sim \text{MW luminosity}
 \end{aligned}$$
 
-...where $\Phi(L)$ has dimensions "galaxies per volume per luminosity", such that $\Phi(L) \, \rd L$ is the number of galaxies with luminosity between $L$ and $L+dL$ per unit volume.
+...where $\Phi(L)$ has dimensions "galaxies per volume per luminosity", such that $\Phi(L) \, \mathrm{d} L$ is the number of galaxies with luminosity between $L$ and $L+dL$ per unit volume.
 -  $\Phi_{*} \equiv$ normalization factor
 - $\alpha \equiv$  faint-end slope 
 - $L_{*} \equiv$ characteristic $L$ at normalization point

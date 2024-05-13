@@ -39,17 +39,17 @@ Radio - tends to use frequency
 Optical - tends to use wavelength
 X-ray / Gamma-Ray - measure in
 - photon number density ($F = dN/dE$) in units of $\left[ \pu{photons cm^{-2} s^{-1} keV^{-1}} \right]$
-- energy flux ($F_{E} = E \td{N}{E}$) in units off $\left[ \pu{ erg cm^{-2} s^{-1} keV^{-1}} \right]$
+- energy flux ($F_{E} = E \frac{\mathrm{d} N}{\mathrm{d} E}$) in units off $\left[ \pu{ erg cm^{-2} s^{-1} keV^{-1}} \right]$
 
 Astronomers tend to plot $\log(\nu)$- $\log(\nu F_{\nu})$  (called a spectral energy distribution in x-ray astronomy, other fields use this term more loosely)
 - the area under the curve is directly assocaited to the energy within the system
 - For wavelength:  $\log(\lambda)$ - $\log(\lambda F_{\lambda})$ 
-- For energy:  $\log(E)$ - $\log(E^{2} \td{N}{E})$
+- For energy:  $\log(E)$ - $\log(E^{2} \frac{\mathrm{d} N}{\mathrm{d} E})$
 
 With astronomical photometry, we work with integrated flux over some bandpass
 $$
-F_{\rm bandpass}^{\rm obs} = \int_{\nu_{1}}^{\nu_{2}} F_{\nu}(\nu) R(\nu) \; \rd \nu 
-\hWhere 
+F_{\rm bandpass}^{\rm obs} = \int_{\nu_{1}}^{\nu_{2}} F_{\nu}(\nu) R(\nu) \; \mathrm{d} \nu 
+\hspace{1cm} \text{where} \hspace{1cm} 
 \begin{aligned}
 	F_{\nu}(\nu) &\equiv \text{source spectrum} \\
 	R(\nu) &\equiv \text{instrument response} = \prod {\rm efficencies}

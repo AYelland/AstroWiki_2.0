@@ -19,8 +19,8 @@ Newton's laws of motion break down when objects move at very high speeds (specia
 ![[newtonLaw2.jpeg|align:center|360]]
 
 $$
-\vec{F} = m \vec{a} = m \left(\tdd{\vec{r}}{t} \right) = \td{\vec{p}}{t}
-\hWhere
+\vec{F} = m \vec{a} = m \left(\frac{\mathrm{d}^{2} \vec{r}}{\mathrm{d} t^{2}} \right) = \frac{\mathrm{d} \vec{p}}{\mathrm{d} t}
+\hspace{1cm} \text{where} \hspace{1cm}
 m \equiv {\rm constant}
 $$
 *The net force on a body is equal to the body's acceleration multiplied by its mass or, equivalently, the rate at which the body's momentum changes with time.*

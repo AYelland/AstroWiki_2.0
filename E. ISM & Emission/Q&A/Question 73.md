@@ -30,9 +30,9 @@ $$\text{Recombination Rate} \; \equiv \; \alpha \, n_{\rm e} n_{\rm H} \cdot \le
 
 The boundary where the ionization rate and recombination rate are equal is then...
 
-$$N = \alpha \, n^{2} \cdot \left( \frac{4}{3} \pi R_{s}^{3} \right) \hRightarrow R_{s} = \left( \frac{3 N}{4 \pi \alpha \, n^{2}} \right)^{1/3}$$
+$$N = \alpha \, n^{2} \cdot \left( \frac{4}{3} \pi R_{s}^{3} \right) \hspace{1cm} \Rightarrow \hspace{1cm} R_{s} = \left( \frac{3 N}{4 \pi \alpha \, n^{2}} \right)^{1/3}$$
 We can now relate the ionization rate ($N$) to the [[Luminosity|specific luminosity]] ($L_{\nu}$) and the energy of a photon with frequency ($h \nu$)...
 
-$$N = \int_{E_{\rm th}}^{\infty} \frac{L_{\nu}}{h \nu} \; \rd \nu \hWhere E_{\rm th} \equiv 13.6 \; {\rm eV}$$
+$$N = \int_{E_{\rm th}}^{\infty} \frac{L_{\nu}}{h \nu} \; \mathrm{d} \nu \hspace{1cm} \text{where} \hspace{1cm} E_{\rm th} \equiv 13.6 \; {\rm eV}$$
 
 ...where $E_{\rm th}$ is the minimum ionization energy for hydrogen. Any photons with energy less than this will not contribute to our analysis. Assuming we can measure the luminosity ($L$), we can then find $N \propto L$ , and thus, $R_{s} \propto L^{1/3}$.

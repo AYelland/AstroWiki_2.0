@@ -28,7 +28,7 @@ By [[Larmor Formula]], we can determine that this type of radiation is more prom
 
 The spectrum is divided into three regimes:
 - **Optically thick** (low-frequency) - self-absorption becomes important as the radiation acts more like a [[Blackbody Radiation|blackbody]] (blackbody = perfect emitter/absorber = most efficient radiator). The emission is then blackbody limited by the [[Blackbody Radiation#Rayleigh-Jeans Law]]. ( $F_{\nu} \propto \nu^{2}$ ).
-- **Constant Emission Rate** (mid-frequencies) - constant emissivity. (Why?) $$\text{Emissivity:} \hspace{1cm} \varepsilon \sim Z^{2} \, n_{e} n_{i} \,T^{-1/2} \hRightarrow \varepsilon_{\nu} \propto g(\nu, T) \varepsilon \, e^{-h\nu / k_{\rm B} T}$$
+- **Constant Emission Rate** (mid-frequencies) - constant emissivity. (Why?) $$\text{Emissivity:} \hspace{1cm} \varepsilon \sim Z^{2} \, n_{e} n_{i} \,T^{-1/2} \hspace{1cm} \Rightarrow \hspace{1cm} \varepsilon_{\nu} \propto g(\nu, T) \varepsilon \, e^{-h\nu / k_{\rm B} T}$$
 - **Optically thin** (high-frequency) - photons escape before the electrons can re-absorb them, but there is a thermal cut-off where you can't emit photon with much higher energy than $\nu \sim k_{\rm B} T / h$. (see [[Blackbody Radiation#Blackbody Specific Intensity|blackbody spectrum]])
 
 ![[scattering_bremsstrahlung_spectrum.png|align:center]]

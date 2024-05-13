@@ -26,8 +26,8 @@ The minimum mean density is then achieved when these forces are balanced at the 
 
 $$
 \frac{G M m}{R^{2}} = m \Omega^{2} R
-\hRightarrow
-\Omega^{2} = G \fpar{M}{R^{3}} = \frac{4 \pi G}{3} \underbrace{\fpar{M}{\frac{4}{3} \pi R^{3}}}_{\rho} = \frac{4 \pi G \rho}{3}
+\hspace{1cm} \Rightarrow \hspace{1cm}
+\Omega^{2} = G \left(\frac{M}{R^{3}}\right) = \frac{4 \pi G}{3} \underbrace{\left(\frac{M}{\frac{4}{3} \pi R^{3}}\right)}_{\rho} = \frac{4 \pi G \rho}{3}
 $$
 which implies 
 

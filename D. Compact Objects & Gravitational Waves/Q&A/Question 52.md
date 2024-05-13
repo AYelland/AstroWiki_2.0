@@ -16,11 +16,11 @@ Instead of working with pressure relationships directly, we can make an energy m
 $$E_{\rm grav} = - \frac{G M}{R}$$
 ...to the non-relativistic, degenerate kinetic energy (per unit mass) generated through the motion the electrons.
 
-$$E_{\rm deg} = N_{\rm e} \,\frac{p^{2}}{2 m_{\rm e}} \hWhere [N_{\rm e}] \equiv \frac{\text{\# of electrons}}{\rm mass}$$
+$$E_{\rm deg} = N_{\rm e} \,\frac{p^{2}}{2 m_{\rm e}} \hspace{1cm} \text{where} \hspace{1cm} [N_{\rm e}] \equiv \frac{\text{\# of electrons}}{\rm mass}$$
 
 Since the matter is degenerate, we can take the momentum ($p$) to be the [[Degeneracy Pressure|Fermi momentum]] ($p_{\rm F}$), defined by the saturated Heisenberg Uncertainty Principle ($\Delta x \; \Delta p \simeq \hbar$).
 
-$$p \equiv p_{\rm F} \sim \left( 3 \pi^{2} \hbar^{3} \bar{n}_{\rm e} \right)^{1/3} \sim \hbar \,\left( \bar{n}_{\rm e} \right)^{1/3} \hWhere \bar{n}_{\rm e} \equiv \text{electron number density}$$
+$$p \equiv p_{\rm F} \sim \left( 3 \pi^{2} \hbar^{3} \bar{n}_{\rm e} \right)^{1/3} \sim \hbar \,\left( \bar{n}_{\rm e} \right)^{1/3} \hspace{1cm} \text{where} \hspace{1cm} \bar{n}_{\rm e} \equiv \text{electron number density}$$
 
 The total number of electrons in the white dwarf can be expressed as $(N_{\rm e} M)$, where the $N_{\rm e}$ quantity is related to the [[Mean Molecular Weight|mean molecular weight]] per electron, $N_{\rm e} \simeq 1 / (\mu_{\rm e} m_{\rm p})$. With the volume of the white dwarf scaling as $V\propto R^{3}$,  the electron number density can be expressed as...
 
@@ -28,14 +28,14 @@ $$\bar{n}_{\rm e} = \frac{N_{\rm e} M}{V} \sim \frac{N_{\rm e} M}{R^{3}}$$
 
 Combining these, this allows us to express the electron [[Degeneracy Pressure|degenerate energy]] as:
 
-$$E_{\rm deg} \simeq N_{\rm e} \,\frac{p_{\rm F}^{2}}{2 m_{\rm e}} \simeq \frac{\hbar^{2} N_{\rm e}}{2 m_{\rm e}} (\bar{n}_{\rm e})^{2/3} \simeq \frac{\hbar^{2}}{2 m_{\rm e}} \fpar{N_{\rm e}^{5/3} \, M^{2/3}}{R^{2}}$$
+$$E_{\rm deg} \simeq N_{\rm e} \,\frac{p_{\rm F}^{2}}{2 m_{\rm e}} \simeq \frac{\hbar^{2} N_{\rm e}}{2 m_{\rm e}} (\bar{n}_{\rm e})^{2/3} \simeq \frac{\hbar^{2}}{2 m_{\rm e}} \left(\frac{N_{\rm e}^{5/3} \, M^{2/3}}{R^{2}}\right)$$
 
 The limit at which the gravitational energy is balanced with the electron degeneracy energy is then...
 
 $$
 E_{\rm grav} + E_{\rm deg} = 0
-\hRightarrow 
-\frac{G M}{R} \simeq \frac{\hbar^{2}}{2 m_{\rm e}} \fpar{N_{\rm e}^{5/3} \, M^{2/3}}{R^{2}} \hRightarrow \boxed{R \propto M^{-1/3}}
+\hspace{1cm} \Rightarrow \hspace{1cm} 
+\frac{G M}{R} \simeq \frac{\hbar^{2}}{2 m_{\rm e}} \left(\frac{N_{\rm e}^{5/3} \, M^{2/3}}{R^{2}}\right) \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{R \propto M^{-1/3}}
 $$
 
 **Therefore as mass is added to the white dwarf, the radius decreases.** Larger masses simply "push more" against the electron degeneracy pressure, which is eventually overcome at the [[Chandrasekhar Limit|Chandrasekhar Mass]] ($\sim 1.4\,M_\odot$). *(see below)*
@@ -47,18 +47,18 @@ As the mass of a white dwarf increases, the degeneracy pressure on the electrons
 Following the same process as [[Question 52#Why is the radius of a white dwarf a decreasing function of its mass?|before]], we can calculate the *relativistic* limit of the kinetic energy (per unit mass) as...
 
 $$
-E_{\rm deg} \simeq N_{\rm e} \, p \, c \hRightarrow E_{\rm deg} \simeq N_{\rm e} \, p_{\rm F} \, c \simeq N_{\rm e} \; \hbar c \; (\bar{n}_{\rm e})^{1/3} \simeq \hbar c \fpar{M^{1/3} N_{\rm e}^{4/3}}{R}
+E_{\rm deg} \simeq N_{\rm e} \, p \, c \hspace{1cm} \Rightarrow \hspace{1cm} E_{\rm deg} \simeq N_{\rm e} \, p_{\rm F} \, c \simeq N_{\rm e} \; \hbar c \; (\bar{n}_{\rm e})^{1/3} \simeq \hbar c \left(\frac{M^{1/3} N_{\rm e}^{4/3}}{R}\right)
 $$
 
 Equating with the gravitational energy, we find $R$ drops out completely. That means that the relativistic limit occurs when the white dwarf reaches the critical mass ($M$) of...
 
 $$
 E_{\rm grav} + E_{\rm deg} = 0
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
-	\frac{G M_{\rm crit}}{R} &\simeq \hbar c \fpar{M_{\rm crit}^{1/3} N_{\rm e}^{4/3}}{R} \\
-	M_{\rm crit} &\simeq N_{\rm e}^{2} \fpar{\hbar c}{G}^{3/2} \\
-	M_{\rm crit} &\simeq \fpar{1}{\mu_{\rm e} m_{\rm p}}^{2} \fpar{\hbar c}{G}^{3/2} \approx 1.8 \; {\rm M_{\odot}}
+	\frac{G M_{\rm crit}}{R} &\simeq \hbar c \left(\frac{M_{\rm crit}^{1/3} N_{\rm e}^{4/3}}{R}\right) \\
+	M_{\rm crit} &\simeq N_{\rm e}^{2} \left(\frac{\hbar c}{G}\right)^{3/2} \\
+	M_{\rm crit} &\simeq \left(\frac{1}{\mu_{\rm e} m_{\rm p}}\right)^{2} \left(\frac{\hbar c}{G}\right)^{3/2} \approx 1.8 \; {\rm M_{\odot}}
 \end{aligned}
 $$
 

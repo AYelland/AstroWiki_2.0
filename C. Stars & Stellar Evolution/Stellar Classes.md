@@ -168,7 +168,7 @@ There are two classes of Cepheids:
 The [[Pulsation|pulsations]] are driven through the [[Pulsation#Kappa Opacity Mechanism]] and act as sound waves resonating in the stellar interior. From this mechanism, **denser stars resonate and pulse faster.**
 
 $$
-T \; \propto \; \frac{1}{\sqrt{\rho}} \hWhere 
+T \; \propto \; \frac{1}{\sqrt{\rho}} \hspace{1cm} \text{where} \hspace{1cm} 
 \begin{aligned}
 T &= \text{Period} \\
 \rho &= \text{density}
@@ -183,7 +183,7 @@ $$
 > Henrietta Swan Leavitt established a period-luminosity relation (**Leavitt's Law**) in Cepheids by studying thousands of stars in the LMC and SMC. 
 > 
 > $$
-> M_{V} = -2.81 \log_{10} P - 1.43 \hWhere 
+> M_{V} = -2.81 \log_{10} P - 1.43 \hspace{1cm} \text{where} \hspace{1cm} 
 > \begin{aligned}
 > 	&M_{V} = \text{magnitude in V-band} \\
 > 	&P = \text{period in days}

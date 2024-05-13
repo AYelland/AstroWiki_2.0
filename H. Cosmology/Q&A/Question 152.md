@@ -11,13 +11,13 @@ Linear structure growth (see [[Question 132]]) breaks down when overdensities be
 
 From the [[Spherical Top Hat Model|spherical top-hat model]] at [[Spherical Top Hat Model#At turnaround...|turnaround]], we found the overdensity parameter of a perturbation to be...
 
-$$\delta = \xi - 1 \hRightarrow \xi_{\rm ta} \equiv \frac{\rho_{\rm max}}{\bar{\rho}} = \frac{\rho_{\rm max}}{\rho_{\rm crit}(z)} = \fpar{r_{\rm crit}}{r_{\rm max}}^{3} = \fpar{3 \pi}{4}^{2} \simeq 5$$
+$$\delta = \xi - 1 \hspace{1cm} \Rightarrow \hspace{1cm} \xi_{\rm ta} \equiv \frac{\rho_{\rm max}}{\bar{\rho}} = \frac{\rho_{\rm max}}{\rho_{\rm crit}(z)} = \left(\frac{r_{\rm crit}}{r_{\rm max}}\right)^{3} = \left(\frac{3 \pi}{4}\right)^{2} \simeq 5$$
 
 ...where $\rho_{\rm max} \equiv \rho(t_{max})$, $r_{\rm max} \equiv r(t_{max})$ and $t_{\rm max}$ is the time at which the overdensity decouples from the Hubble flow.
 
 Thus, the transition to non-linearity occurs at approximately...
 
-$$\rho \simeq 5 \bar{\rho} = 5 \bar{\rho_{0}} (1+z)^{3} = \fpar{15 \Omega_{M} H_{0}^{2}}{8 \pi G}(1+z)^{3}$$
+$$\rho \simeq 5 \bar{\rho} = 5 \bar{\rho_{0}} (1+z)^{3} = \left(\frac{15 \Omega_{M} H_{0}^{2}}{8 \pi G}\right)(1+z)^{3}$$
 
 We can convert this to a (mass-dependent) radius via $\rho = 3M/4\pi r^3$ and end up with a nonlinear scale that gives something like 10s of $\pu{Mpc}$. 
 

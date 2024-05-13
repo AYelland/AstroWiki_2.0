@@ -21,7 +21,7 @@ In an [[Binary Stars#X-Ray Binary]] containing a [[Neutron Star|neutron star]], 
 In a radio [[Neutron Star#Pulsar]], the magnetic field can be inferred from the exchange between magnetic dipole energy and the rotational energy. Meaning, if we can determine the period ($P$) and how it changes ($\dot{P}$), then we can directly infer how the strength of the magnetic field.
 
 $$
-\dot{E}_{\rm B} = \dot{E}_{\rm rot} \hWhere \dot{E}_{\rm B} = \frac{2}{3 c^{2}} \fpar{4 \pi}{\mu_{0}} |\ddot{m}|^{2} \hspace{1cm} \dot{E}_{\rm rot} = I \Omega \dot{\Omega}
+\dot{E}_{\rm B} = \dot{E}_{\rm rot} \hspace{1cm} \text{where} \hspace{1cm} \dot{E}_{\rm B} = \frac{2}{3 c^{2}} \left(\frac{4 \pi}{\mu_{0}}\right) |\ddot{m}|^{2} \hspace{1cm} \dot{E}_{\rm rot} = I \Omega \dot{\Omega}
 $$
 
 The magnetic moment is  $|m| \propto B R^{3}$ , such that $|\ddot{m}| \propto B R^{3} \Omega$ . Therefore, bringing them together...

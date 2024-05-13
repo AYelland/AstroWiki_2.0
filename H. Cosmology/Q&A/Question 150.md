@@ -20,11 +20,11 @@ $$\rho_{\nu} = \Omega_{\rm DM} \, \rho_{\rm crit} = \frac{3 \,\Omega_{\rm DM} H_
 
 To work out the mass, we need the number density of neutrinos in the universe. One can calculate the neutrino-to-photon temperature ratio via conservation of neutrino entropy (I guess it's conserved because they don't interact with other things, so their thermal properties don't change).
 
-$$\frac{T_{\nu}}{T_{\gamma}} = \left(\frac{4}{11}\right)^{1/3} \simeq 0.7\hRightarrow T_{\nu,0} \simeq 2\,\pu{K}$$
+$$\frac{T_{\nu}}{T_{\gamma}} = \left(\frac{4}{11}\right)^{1/3} \simeq 0.7\hspace{1cm} \Rightarrow \hspace{1cm} T_{\nu,0} \simeq 2\,\pu{K}$$
 
 Converting to the neutrino-to-photon density where  $\rho \propto T^{4}$...
 
-$$\frac{\rho_{\nu}}{\rho_{\gamma}} \simeq \frac{7}{8} \, N_{\rm eff}\left(\frac{4}{11}\right)^{4/3} \hRightarrow \rho_{\nu} \simeq 0.7 \, \rho_{\gamma} \hspace{1.5cm} n_{\nu} \simeq 0.7 \, n_{\gamma}$$
+$$\frac{\rho_{\nu}}{\rho_{\gamma}} \simeq \frac{7}{8} \, N_{\rm eff}\left(\frac{4}{11}\right)^{4/3} \hspace{1cm} \Rightarrow \hspace{1cm} \rho_{\nu} \simeq 0.7 \, \rho_{\gamma} \hspace{1.5cm} n_{\nu} \simeq 0.7 \, n_{\gamma}$$
 
 ...where $N_{eff} =  3$ comes from the greater number of degrees of freedom of neutrinos relative to photons since 3 neutrino flavors, and the factor of $7/8$ comes from the fermion vs. boson integral.
 

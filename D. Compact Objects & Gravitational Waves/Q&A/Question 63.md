@@ -10,7 +10,7 @@ As with any accretion disk formation, matter loses angular momentum and losses i
 
 The easiest way to do that is by finding the temperature of the accretion disk. If we assume that disk radiates like a [[Blackbody Radiation|blackbody]], then we can apply the [[Blackbody Radiation#Stefan-Boltzmann Law]] to find a relationship between power of the emission ([[Luminosity|luminosity]]) for a two-sided disk and the temperature.
 
-$$L = F \cdot A = \left( \sigma T_{\rm eff}^{4} \right) \cdot \left( 2 \pi R^{2} \right) = 2 \pi \sigma R^{2} T_{\rm eff}^{4} \hRightarrow T_{\rm eff} = \fpar{L}{2 \pi \sigma R^{2}}^{1/4}$$
+$$L = F \cdot A = \left( \sigma T_{\rm eff}^{4} \right) \cdot \left( 2 \pi R^{2} \right) = 2 \pi \sigma R^{2} T_{\rm eff}^{4} \hspace{1cm} \Rightarrow \hspace{1cm} T_{\rm eff} = \left(\frac{L}{2 \pi \sigma R^{2}}\right)^{1/4}$$
 
 If we further assume this is accretion is [[Luminosity#Eddington Limit|Eddington-limited]], then we can calculate $L$ using the typical [[Neutron Star|neutron star]] mass of $1.4 \; {\rm M_{\odot}}$. 
 
@@ -22,7 +22,7 @@ $$T = \left( \frac{L}{2 \pi R^{2} \sigma}\right)^{1/4} \simeq 10^{7} \; {\rm K}$
 
 By [[Blackbody Radiation#Wien's Displacement Law]], the temperature of the radiation peaks at...
 
-$$T \simeq 10^{7} \; {\rm K} \hRightarrow \lambda \sim 0.3 \; {\rm nm} \hspace{1cm} \nu \sim 1 \; {\rm Hz} \hspace{1cm} E \sim {\rm keV}$$
+$$T \simeq 10^{7} \; {\rm K} \hspace{1cm} \Rightarrow \hspace{1cm} \lambda \sim 0.3 \; {\rm nm} \hspace{1cm} \nu \sim 1 \; {\rm Hz} \hspace{1cm} E \sim {\rm keV}$$
 
 This energy, wavelength, frequency, and temperature correlate to [[Electromagnetic Spectrum|x-ray]] values.
 

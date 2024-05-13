@@ -23,7 +23,7 @@ The non-relativistic counterpart to this is [[Cyclotron Radiation]].
 > It is very similar to the **cyclotron frequency** ($\omega_{\rm c}$), with a relativistic correction.
 > 
 > $$F_{\rm B} = \frac{q}{c} \, \left( \vec{v} \times \vec{B} \right) = \frac{q B v}{c} \hspace{2.5cm} F_{\rm circ} = \left( \gamma \, m_{0} \right) \frac{v^{2}}{r} = \gamma \, m_{0} \, \omega_{\rm c} \, v$$
-> $$\gamma \, m_{0} \, \omega_{\rm c} \, v = \frac{q B v}{c} \hRightarrow \omega_{\rm s} = \frac{\omega_{\rm c}}{\gamma} = \frac{q B}{\gamma \,m_{0} c}$$
+> $$\gamma \, m_{0} \, \omega_{\rm c} \, v = \frac{q B v}{c} \hspace{1cm} \Rightarrow \hspace{1cm} \omega_{\rm s} = \frac{\omega_{\rm c}}{\gamma} = \frac{q B}{\gamma \,m_{0} c}$$
 > 
 > *Note: The mass ($m_{0}$) is the rest mass.*
 
@@ -31,8 +31,8 @@ The non-relativistic counterpart to this is [[Cyclotron Radiation]].
 
 Similar to the cyclotron radiation, the power emitted from synchrotron radiation is:
 
-$$P = \fpar{q^{2}}{6 \pi \epsilon_{0} c^{3}} \, \alpha^{2} = \fpar{q^{2}}{6 \pi \epsilon_{0} c^{3}} \, (\gamma^{2} a)^{2} = \fpar{q^{4} B}{6 \pi \epsilon_{0} c^{3}} \frac{\gamma^{4} \beta^{2}}{m_{0}^{2}}$$
-$$P = \frac{4}{3} \sigma_{\rm T} \beta^{2} \gamma^{2} c \, U_{\rm B} \hWhere \begin{aligned}
+$$P = \left(\frac{q^{2}}{6 \pi \epsilon_{0} c^{3}}\right) \, \alpha^{2} = \left(\frac{q^{2}}{6 \pi \epsilon_{0} c^{3}}\right) \, (\gamma^{2} a)^{2} = \left(\frac{q^{4} B}{6 \pi \epsilon_{0} c^{3}}\right) \frac{\gamma^{4} \beta^{2}}{m_{0}^{2}}$$
+$$P = \frac{4}{3} \sigma_{\rm T} \beta^{2} \gamma^{2} c \, U_{\rm B} \hspace{1cm} \text{where} \hspace{1cm} \begin{aligned}
 	\sigma_{\rm T} &\equiv \text{Thompson cross section} \\
 	U_{\rm B} &\equiv \text{B-field energy density} = B^{2}/2 \mu_{0}
 \end{aligned}$$
@@ -74,33 +74,33 @@ The net outcome is that the spectra is spread out into two regimes:
 > Going a step further, we can express this time duration ($\Delta t'$) in Lorentz factors ($\gamma$) for when $v \sim c$.
 > $$\left( 1 - \frac{v}{c} \right) = \frac{\left( 1 - \frac{v}{c} \right) \left( 1 + \frac{v}{c} \right)}{\left( 1 + \frac{v}{c} \right)} = \frac{\left( 1 - \frac{v^{2}}{c^{2}} \right)}{\left( 1 + \frac{v}{c} \right)} \approx \frac{1}{2 \gamma^{2}}$$
 > This means the time between the observed pulses and the associated (peak) pulse frequency is...
-> $$\Delta t' = \frac{1}{2 \gamma^{2} \nu_{c}} \hRightarrow \nu_{peak} = \frac{1}{\Delta t'} = 2 \gamma^{2} \nu_{c}$$
+> $$\Delta t' = \frac{1}{2 \gamma^{2} \nu_{c}} \hspace{1cm} \Rightarrow \hspace{1cm} \nu_{peak} = \frac{1}{\Delta t'} = 2 \gamma^{2} \nu_{c}$$
 ^peak-frequency
 
 For *optically thin* (high-frequency) regime, we consider a power-law energy distribution of an electron population.
 
-$$n(E) \; \rd E \; \propto \; E^{-P} \; \rd E$$
+$$n(E) \; \mathrm{d} E \; \propto \; E^{-P} \; \mathrm{d} E$$
 
 Looking at the proportionality between [[#^peak-frequency|peak frequency]] ($\nu \equiv \nu_{peak}$) and (mean?) electron energy...
 
 $$E = \gamma \, m_{e} c^{2} \hspace{1cm}  
-\nu = \gamma^{2} \,\nu_{c} = \gamma^{2} \fpar{q B}{2 \pi m c}\hRightarrow
+\nu = \gamma^{2} \,\nu_{c} = \gamma^{2} \left(\frac{q B}{2 \pi m c}\right)\hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
 	E^{2} &\propto \gamma^{2} \propto \nu \\
 	\\
 	&\Downarrow \\
 	\\
-	2 E \; \rd E &\propto \rd \nu \\
-	\rd E &\propto \frac{\rd \nu}{E} \\
-	\rd E &\propto \nu^{-1/2} \; \rd \nu \\
+	2 E \; \mathrm{d} E &\propto \mathrm{d} \nu \\
+	\mathrm{d} E &\propto \frac{\mathrm{d} \nu}{E} \\
+	\mathrm{d} E &\propto \nu^{-1/2} \; \mathrm{d} \nu \\
 \end{aligned}$$
 
 ...we can relate the energy distribution to the spectrum, $f(\nu)$.
 
 $$
 \begin{aligned}[t]
-	F_{\nu} \propto \; f(\nu) \; \rd \nu \; &\propto \; \nu \; n(E) \; \rd E \\
-	&\propto \; \Big( E^{2} \Big) \, \Big( E^{-P} \Big) \Big( \rd E \Big)  \\
+	F_{\nu} \propto \; f(\nu) \; \mathrm{d} \nu \; &\propto \; \nu \; n(E) \; \mathrm{d} E \\
+	&\propto \; \Big( E^{2} \Big) \, \Big( E^{-P} \Big) \Big( \mathrm{d} E \Big)  \\
 	&\propto \; \Big( \nu \Big) \, \Big( \nu^{-P/2} \Big) \Big( \nu^{-1/2} \Big) \\
 	&\propto \nu^{-(P-1)/2}
 \end{aligned}$$
@@ -108,12 +108,12 @@ $$\boxed{F_{\nu} \propto \nu^{-(P-1)/2}}$$
 
 For *optically thick* (low-frequency) regime, self-absorption becomes important such that the spectrum becomes [[Blackbody Radiation|blackbody]] limited. Following [[Blackbody Radiation#Rayleigh-Jeans Law]], the energy of the emission (i.e. photons) will be proportional to the frequency-squared and the temperature.
 
-$$F_{\nu} \propto B_{\nu} = \frac{2 h}{c^{2}} \fpar{\nu^{3}}{e^{h \nu / k_{\rm B} T} - 1} \propto \fpar{\nu^{3}}{h \nu / k_{\rm B} T} \propto \nu^{2} \, k_{\rm B} T$$
+$$F_{\nu} \propto B_{\nu} = \frac{2 h}{c^{2}} \left(\frac{\nu^{3}}{e^{h \nu / k_{\rm B} T} - 1}\right) \propto \left(\frac{\nu^{3}}{h \nu / k_{\rm B} T}\right) \propto \nu^{2} \, k_{\rm B} T$$
 
 Similarly, the electron energy will also be temperature dependent, because it's a blackbody. This allows us to relate the [[#^peak-frequency|peak frequency]] back to the spectrum, like before.
 
-$$E \propto k_{\rm B} T \quad , \quad E^{2} \propto \nu \hRightarrow k_{\rm B} T \propto \nu^{1/2}$$
-$$F_{\nu} \propto \nu^{2} \, k_{\rm B} T \propto \nu^{2} \Big( \nu^{1/2} \Big) \propto \nu^{5/2} \hRightarrow \boxed{F_{\nu} \propto \nu^{5/2}}$$
+$$E \propto k_{\rm B} T \quad , \quad E^{2} \propto \nu \hspace{1cm} \Rightarrow \hspace{1cm} k_{\rm B} T \propto \nu^{1/2}$$
+$$F_{\nu} \propto \nu^{2} \, k_{\rm B} T \propto \nu^{2} \Big( \nu^{1/2} \Big) \propto \nu^{5/2} \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{F_{\nu} \propto \nu^{5/2}}$$
 
 >[!cian]- Why is it a spectrum and not a spike?
 > 

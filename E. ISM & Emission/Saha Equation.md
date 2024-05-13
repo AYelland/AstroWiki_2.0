@@ -5,9 +5,9 @@ aliases:
 ---
 The **Saha Equation** uses the Boltzmann factor to calculate the ratio of the particle's population in some specific ionized state to the population in the next ionized state (i.e. after losing one electron) based on their relative energies in a gas at equilibrium. 
 
-$$\frac{n_{r+1}}{n_{r}} = \fpar{g_{e} \, g_{r+1}}{g_{r}} \fpar{n_{Q,e}}{n_{e}} \,e^{-\chi_{r} / k_{\rm B} T} \hWhere n_{Q,e} \equiv \fpar{2 \pi m_{e} k_{\rm B} T}{h^{2}}^{3/2}$$
+$$\frac{n_{r+1}}{n_{r}} = \left(\frac{g_{e} \, g_{r+1}}{g_{r}}\right) \left(\frac{n_{Q,e}}{n_{e}}\right) \,e^{-\chi_{r} / k_{\rm B} T} \hspace{1cm} \text{where} \hspace{1cm} n_{Q,e} \equiv \left(\frac{2 \pi m_{e} k_{\rm B} T}{h^{2}}\right)^{3/2}$$
 or
-$$\frac{n_{r+1}}{n_{r}} = \fpar{g_{e}\,g_{r+1}}{g_{r}} \fpar{1}{\lambda^{3} \, n_{e}} \,e^{-\chi_{r} / k_{\rm B} T} \hWhere \lambda \equiv \fpar{h^{2}}{2 \pi m_{e} k_{\rm B} T}^{1/2}$$
+$$\frac{n_{r+1}}{n_{r}} = \left(\frac{g_{e}\,g_{r+1}}{g_{r}}\right) \left(\frac{1}{\lambda^{3} \, n_{e}}\right) \,e^{-\chi_{r} / k_{\rm B} T} \hspace{1cm} \text{where} \hspace{1cm} \lambda \equiv \left(\frac{h^{2}}{2 \pi m_{e} k_{\rm B} T}\right)^{1/2}$$
 
 where 
 - $n_{r}$ is the number density of atoms in the $r^{th}$ ionization state, that is with $r$ electrons removed.
@@ -30,8 +30,8 @@ where
 > Beginning with [[Statistical Mechanics#Fermi-Dirac & Bose-Einstein|Fermi-Dirac & Bose-Einstein Statistics]], the particle number density in phase space is defined as...
 > 
 > $$
-> \frac{\rd N}{\rd^{3}x \, \rd^{3}p} = \frac{g}{h^{3}} \fpar{1}{e^{(E-\mu)/k_{\rm B}T} \pm 1}
-> \hWhere
+> \frac{\mathrm{d} N}{\mathrm{d}^{3}x \, \mathrm{d}^{3}p} = \frac{g}{h^{3}} \left(\frac{1}{e^{(E-\mu)/k_{\rm B}T} \pm 1}\right)
+> \hspace{1cm} \text{where} \hspace{1cm}
 > \begin{aligned}
 > 	h &\equiv \text{Planck's constant} \\
 > 	h^{3} &\equiv \text{volume in phase space} \\
@@ -45,20 +45,20 @@ where
 > 2) The population can be represented by [[Statistical Mechanics#Maxwell-Boltzmann]] distribution, such that we can neglect the $\pm 1$.
 > 
 > $$\begin{align}
-> 	n &= \int \frac{\rd N}{\rd^{3} x \, \rd^{3} p} \\
-> 	&= \frac{4 \pi g}{h^{3}} \int_{0}^{\infty} p^{2} \, e^{-(E-\mu)/k_{\rm B}T} \; \rd p \\
-> 	&= \frac{4 \pi g}{h^{3}} e^{\mu / k_{\rm B} T} e^{- m c^{2} / k_{\rm B} T} \int_{0}^{\infty} p^{2} e^{-p^{2}/2 m k_{\rm B} T}\; \rd p \\
+> 	n &= \int \frac{\mathrm{d} N}{\mathrm{d}^{3} x \, \mathrm{d}^{3} p} \\
+> 	&= \frac{4 \pi g}{h^{3}} \int_{0}^{\infty} p^{2} \, e^{-(E-\mu)/k_{\rm B}T} \; \mathrm{d} p \\
+> 	&= \frac{4 \pi g}{h^{3}} e^{\mu / k_{\rm B} T} e^{- m c^{2} / k_{\rm B} T} \int_{0}^{\infty} p^{2} e^{-p^{2}/2 m k_{\rm B} T}\; \mathrm{d} p \\
 > 	&= \frac{g}{h^{3}} \left( 2 \pi m k_{\rm B} T \right)^{3/2} e^{(\mu - m c^{2}) / k_{\rm B} T}
 > \end{align}$$
-> $$\exp \left[ \frac{\mu - m c^{2}}{k_{\rm B} T} \right] = \frac{1}{g} \fpar{n}{n_{\rm Q}} \hWhere n_{\rm Q} \equiv \fpar{2 \pi mk_{\rm B} T}{h^{2}}^{3/2}$$
+> $$\exp \left[ \frac{\mu - m c^{2}}{k_{\rm B} T} \right] = \frac{1}{g} \left(\frac{n}{n_{\rm Q}}\right) \hspace{1cm} \text{where} \hspace{1cm} n_{\rm Q} \equiv \left(\frac{2 \pi mk_{\rm B} T}{h^{2}}\right)^{3/2}$$
 > 
 > Here, we define the quantum density ($n_{\rm Q}$). It is directly correlated with the thermal DeBroglie wavelength ($\lambda$), such that we can use it to determine with degeneracy effects become important.
 > 
-> $$\lambda \equiv n_{\rm Q}^{-1/3} \hRightarrow\lambda  = \sqrt{\frac{h^2}{2 \pi \,m_{\rm e} k_{\rm B} T}}$$
+> $$\lambda \equiv n_{\rm Q}^{-1/3} \hspace{1cm} \Rightarrow \hspace{1cm}\lambda  = \sqrt{\frac{h^2}{2 \pi \,m_{\rm e} k_{\rm B} T}}$$
 > 
 > We now use thermodynamics to write the chemical potential ($\mu$) in terms of other quantities, for a specific particles species ($i$).
 > 
-> $$\mu_{i} = m_{i} c^{2} + k_{\rm B} T \; \ln \left( \frac{1}{g_{i}} \frac{n_{i}}{n_{Q,i}} \right) = \left( \pd{U}{n_{i}} \right)_{S,V}$$
+> $$\mu_{i} = m_{i} c^{2} + k_{\rm B} T \; \ln \left( \frac{1}{g_{i}} \frac{n_{i}}{n_{Q,i}} \right) = \left( \frac{\partial U}{\partial n_{i}} \right)_{S,V}$$
 > 
 > For a chemical reaction in thermal equilibrium, we know that...
 > 
@@ -72,7 +72,7 @@ where
 > 
 > Specifically, we are interested in the ionization chemical reaction for some element $X$ in the $r^{th}$ state of ionization, such that $r$ electrons are lost.
 > 
-> $$p + e^{-} \; \longleftrightarrow \; H + \gamma \hRightarrow X_{r+1} + e^{-} \; \longleftrightarrow X_{r} + \gamma$$
+> $$p + e^{-} \; \longleftrightarrow \; H + \gamma \hspace{1cm} \Rightarrow \hspace{1cm} X_{r+1} + e^{-} \; \longleftrightarrow X_{r} + \gamma$$
 > 
 > With $\chi_{r}$ representing the **energy necessary to remove the next electron** from the $X_{r}$ ion, the chemical potential balance equation becomes:
 > 
@@ -80,14 +80,14 @@ where
 > $$m_{r+1} c^{2} + m_{e} c^{2} + k_{\rm B} T \left[ \ln \left( \frac{1}{g_{r+1}} \frac{n_{r+1}}{n_{Q,r+1}} \right) + \ln \left( \frac{1}{g_{e}} \frac{n_{e}}{n_{Q,e}} \right) \right] = m_{r} c^{2} + k_{\rm B} T \left[ \ln \left( \frac{1}{g_{r}} \frac{n_{r}}{n_{Q,r}} \right) \right]$$
 > $$\underbrace{m_{r+1} c^{2} + m_{e} c^{2} - m_{r} c^{2}}_{\left( m_{r+1} \, c^{2} \right) + \left( m_{e} \, c^{2} \right) = \left( m_{r}\, c^{2} \right) + \chi_{r}} = k_{\rm B} T \, \ln \left( \frac{g_{e} \, g_{r+1}}{g_{r}} \frac{n_{r}}{n_{r+1} n_{e}}  \frac{n_{Q,r+1} n_{Q,e}}{n_{Q,r}} \right)$$
 > $$\chi_{r} = k_{\rm B} T \, \ln \left( \frac{g_{e} \, g_{r+1}}{g_{r}} \frac{n_{r}}{n_{r+1} n_{e}}  \frac{n_{Q,r+1} n_{Q,e}}{n_{Q,r}} \right)$$
-> $$e^{-\chi_{r} / k_{\rm B} T} = \fpar{g_{r}}{g_{e} \, g_{r+1}} \fpar{n_{r+1} n_{e}}{n_{r}} \fpar{n_{Q,r}}{n_{Q,r+1} n_{Q,e}}$$
-> $$\frac{n_{r+1}}{n_{r}} = \fpar{g_{e} \, g_{r+1}}{g_{r}} \underbrace{\fpar{n_{Q,r+1}}{n_{Q,r}}}_{\approx 1} \fpar{n_{Q,e}}{n_{e}} \,e^{-\chi_{r} / k_{\rm B} T}$$
-> $$\boxed{ \; \frac{n_{r+1}}{n_{r}} = \fpar{g_{e} \, g_{r+1}}{g_{r}} \fpar{n_{Q,e}}{n_{e}} \,e^{-\chi_{r} / k_{\rm B} T} \; } \hWhere n_{Q,e} \equiv \fpar{2 \pi m_{e} k_{\rm B} T}{h^{2}}^{3/2}$$
+> $$e^{-\chi_{r} / k_{\rm B} T} = \left(\frac{g_{r}}{g_{e} \, g_{r+1}}\right) \left(\frac{n_{r+1} n_{e}}{n_{r}}\right) \left(\frac{n_{Q,r}}{n_{Q,r+1} n_{Q,e}}\right)$$
+> $$\frac{n_{r+1}}{n_{r}} = \left(\frac{g_{e} \, g_{r+1}}{g_{r}}\right) \underbrace{\left(\frac{n_{Q,r+1}}{n_{Q,r}}\right)}_{\approx 1} \left(\frac{n_{Q,e}}{n_{e}}\right) \,e^{-\chi_{r} / k_{\rm B} T}$$
+> $$\boxed{ \; \frac{n_{r+1}}{n_{r}} = \left(\frac{g_{e} \, g_{r+1}}{g_{r}}\right) \left(\frac{n_{Q,e}}{n_{e}}\right) \,e^{-\chi_{r} / k_{\rm B} T} \; } \hspace{1cm} \text{where} \hspace{1cm} n_{Q,e} \equiv \left(\frac{2 \pi m_{e} k_{\rm B} T}{h^{2}}\right)^{3/2}$$
 > 
 > If we replace the statistical weight / degeneracy ($g_{r}$) with the partition function ($Z_{r}$), then we can express this relation as:
 > 
 > $$Z_{r} = \sum_{s} g_{r,s} \; e^{-(E_{r,s} - E_{r,0})/k_{\rm B} T}$$
-> $$\boxed{ \; \frac{n_{r+1}}{n_{r}} = \fpar{Z_{e} \, Z_{r+1}}{Z_{r}} \fpar{n_{Q,e}}{n_{e}} \,e^{-\chi_{r} / k_{\rm B} T} \; } \hWhere n_{Q,e} \equiv \fpar{2 \pi m_{e} k_{\rm B} T}{h^{2}}^{3/2}$$
+> $$\boxed{ \; \frac{n_{r+1}}{n_{r}} = \left(\frac{Z_{e} \, Z_{r+1}}{Z_{r}}\right) \left(\frac{n_{Q,e}}{n_{e}}\right) \,e^{-\chi_{r} / k_{\rm B} T} \; } \hspace{1cm} \text{where} \hspace{1cm} n_{Q,e} \equiv \left(\frac{2 \pi m_{e} k_{\rm B} T}{h^{2}}\right)^{3/2}$$
 
 If only the first excited state matters and $r$ represents the ground state, then $n_1 = n_e$ and defining the total non-electron density $n = n_0 + n_1$ we have $$\frac{n_{e}^{2}}{n - n_{e}} = \frac{2}{\lambda^{3}} \frac{g_{1}}{g_{0}} \, \exp \left[-\frac{\chi_{0}}{k_{\rm B} T}\right]$$for first ionization energy $\chi_{0}$.
 

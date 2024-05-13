@@ -7,7 +7,7 @@ aliases:
 
 Th **Oort Constants** are empirically derived parameters used to characterize the circular and noncircular components of the stellar motion in the solar neighborhood.
 
-$$A \equiv \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] \hspace{2cm} B \equiv - \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} + \left( \td{\Theta}{R} \right)_{R_{0}} \right]$$
+$$A \equiv \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] \hspace{2cm} B \equiv - \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} + \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right]$$
 
 They are defined in terms of the rotational velocity ($\Theta$) and radial position ($R$) of stars in the solar neighborhood, where $\Theta_{0}$ and $R_{0}$ are for the Sun's rotational velocity and position. 
 - The Oort $A$ constant is associated to the shearing motion of the LSR.
@@ -43,15 +43,15 @@ $$A = (15.3 \pm 0.4) \; {\rm km\,s^{-1}\,kpc^{-1}} \hspace{2cm} B= (-11.9 \pm 0.
 
 ### Rotational Velocity of Sun around Galactic Center
 
-$$A - B = \frac{\Theta_{0}}{R_{0}} \hRightarrow \Theta_{0} = R_{0} (A-B) \quad \textcolor{gray}{\simeq 230 \; {\rm km/s}}$$
+$$A - B = \frac{\Theta_{0}}{R_{0}} \hspace{1cm} \Rightarrow \hspace{1cm} \Theta_{0} = R_{0} (A-B) \quad \textcolor{gray}{\simeq 230 \; {\rm km/s}}$$
 
 ### Period of Sun around Galactic Center
 
-$$\Theta_{0} = \omega_{0} R_{0} \hRightarrow T_{0} = \frac{2 \pi}{\omega_{0}} = \frac{2 \pi R_{0}}{\Theta_{0}} \quad \textcolor{gray}{\simeq  7.13 \times 10^{15 \; {\rm s}} \simeq 226 \; {\rm Myr}}$$
+$$\Theta_{0} = \omega_{0} R_{0} \hspace{1cm} \Rightarrow \hspace{1cm} T_{0} = \frac{2 \pi}{\omega_{0}} = \frac{2 \pi R_{0}}{\Theta_{0}} \quad \textcolor{gray}{\simeq  7.13 \times 10^{15 \; {\rm s}} \simeq 226 \; {\rm Myr}}$$
 
 ### Local Velocity Shear
 
-$$A + B = - \left( \td{\Theta}{R} \right)_{R_{0}} \hRightarrow \left( \td{\Theta}{R} \right)_{R_{0}} = -(A+B) \quad \textcolor{gray}{\simeq -2.45 \; {\rm km\,s^{-1}\,kpc^{-1}}}$$
+$$A + B = - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \hspace{1cm} \Rightarrow \hspace{1cm} \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} = -(A+B) \quad \textcolor{gray}{\simeq -2.45 \; {\rm km\,s^{-1}\,kpc^{-1}}}$$
 
 ### Local Epicyclic Frequency
 
@@ -61,7 +61,7 @@ $$\kappa^{2} = - 4 B \left( A - B \right) \quad \textcolor{gray}{\simeq 1.18 \ti
 
 Over the duration of a single orbit around the galactic center ([[#Period of Sun around Galactic Center]]), there are $N_{0}$ oscillations about the guiding center.
 
-$$N_{0} = T_{0} \kappa = \fpar{2 \pi R_{0}}{\Theta_{0}} \left( - 4 B (A-B) \right)\quad \textcolor{gray}{\simeq 8.5 \; {\rm oscillations}}$$
+$$N_{0} = T_{0} \kappa = \left(\frac{2 \pi R_{0}}{\Theta_{0}}\right) \left( - 4 B (A-B) \right)\quad \textcolor{gray}{\simeq 8.5 \; {\rm oscillations}}$$
 
 ## Derivation
 
@@ -100,28 +100,28 @@ $$R_{0} - R\simeq d \cos \ell$$
 
 This assumption allows us to take the Taylor expansion of the angular velocity. $\left[ \omega \equiv \omega(R) = \frac{\Theta(R)}{R} \right]$
 
-$$\omega(R) \approx \omega(R_{0}) + \left. \td{\omega}{R} \right|_{R_{0}} (R - R_{0}) + \underbrace{\left. \tdd{\omega}{R} \right|_{R_{0}} (R - R_{0})^{2} + \dots}_{\text{drop higher order terms}}$$
+$$\omega(R) \approx \omega(R_{0}) + \left. \frac{\mathrm{d} \omega}{\mathrm{d} R} \right|_{R_{0}} (R - R_{0}) + \underbrace{\left. \frac{\mathrm{d}^{2} \omega}{\mathrm{d} R^{2}} \right|_{R_{0}} (R - R_{0})^{2} + \dots}_{\text{drop higher order terms}}$$
 
 $$\begin{align}
-    \omega - \omega_{0} = \omega(R) - \omega(R_{0}) &= \left. \td{\omega}{R} \right|_{R_{0}} (R - R_{0}) \\
-    &= \left[ \frac{1}{R} \td{\Theta}{R} - \frac{\Theta}{R^{2}} \right]_{R_{0}} (R - R_{0}) \\
-    &= \left[ \left( \td{\Theta}{R} \right)_{R_{0}} - \frac{\Theta_{0}}{R_{0}} \right] \frac{(R - R_{0})}{R_{0}} \\
-    &= \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] \frac{d}{R_{0}} \cos \ell \\
+    \omega - \omega_{0} = \omega(R) - \omega(R_{0}) &= \left. \frac{\mathrm{d} \omega}{\mathrm{d} R} \right|_{R_{0}} (R - R_{0}) \\
+    &= \left[ \frac{1}{R} \frac{\mathrm{d} \Theta}{\mathrm{d} R} - \frac{\Theta}{R^{2}} \right]_{R_{0}} (R - R_{0}) \\
+    &= \left[ \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} - \frac{\Theta_{0}}{R_{0}} \right] \frac{(R - R_{0})}{R_{0}} \\
+    &= \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] \frac{d}{R_{0}} \cos \ell \\
 \end{align}$$
 
 Plugging this back into our relative velocities ($v_{\rm r,rel}$, $v_{\rm \theta,rel}$), we can re-express these relationships in terms of $\Theta$ and its derivatives. These relationships define our **Oort Constants**.
 $$\begin{align}
     v_{\rm r, rel} &= \left( \omega - \omega_{0} \right) R_{0} \sin \ell \\
-        &= \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] d \sin \ell \cos \ell \\
-        &= \underbrace{\frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right]}_{\rm \equiv \; A} \; d \sin 2 \ell
+        &= \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] d \sin \ell \cos \ell \\
+        &= \underbrace{\frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right]}_{\rm \equiv \; A} \; d \sin 2 \ell
 \end{align}$$
 $$\begin{align}
     v_{\rm \theta, rel} &= \left( \omega - \omega_{0} \right) R_{0} \cos \ell - \omega d \\
-        &= \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] d \cos^{2} \ell - \left( \frac{\Theta_{0}}{R_{0}} + \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] \frac{d}{R_{0}} \cos \ell \right) d \\
-        &= \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] d (\cos 2\ell + 1) - \left( \frac{\Theta_{0}}{R_{0}} + \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] \frac{d}{R_{0}} \cos \ell \right) d \\
-        &= \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] d \cos 2\ell + \frac{\Theta_{0}}{R_{0}} \left( \frac{d}{2} - d - \frac{d^{2}}{R_{0}} \cos \ell \right) + \left( \td{\Theta}{R} \right)_{R_{0}} \left( - \frac{d}{2} + \frac{d^{2}}{R_{0}} \cos \ell \right) \\
-        &= \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] d \cos 2\ell - \frac{d}{2} \frac{\Theta_{0}}{R_{0}} \underbrace{\left( 1 + \frac{2 d}{R_{0}} \cos \ell \right)}_{\approx 1} - \frac{d}{2} \left( \td{\Theta}{R} \right)_{R_{0}} \underbrace{\left( 1 - \frac{2 d}{R_{0}} \cos \ell \right)}_{\approx 1} \\
-        &= \underbrace{\left( \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] \right)}_{\equiv \; A} \,d \cos 2\ell + \underbrace{\left( - \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} + \left( \td{\Theta}{R} \right)_{R_{0}} \right] \right)}_{\equiv \, B} d
+        &= \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] d \cos^{2} \ell - \left( \frac{\Theta_{0}}{R_{0}} + \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] \frac{d}{R_{0}} \cos \ell \right) d \\
+        &= \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] d (\cos 2\ell + 1) - \left( \frac{\Theta_{0}}{R_{0}} + \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] \frac{d}{R_{0}} \cos \ell \right) d \\
+        &= \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] d \cos 2\ell + \frac{\Theta_{0}}{R_{0}} \left( \frac{d}{2} - d - \frac{d^{2}}{R_{0}} \cos \ell \right) + \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \left( - \frac{d}{2} + \frac{d^{2}}{R_{0}} \cos \ell \right) \\
+        &= \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] d \cos 2\ell - \frac{d}{2} \frac{\Theta_{0}}{R_{0}} \underbrace{\left( 1 + \frac{2 d}{R_{0}} \cos \ell \right)}_{\approx 1} - \frac{d}{2} \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \underbrace{\left( 1 - \frac{2 d}{R_{0}} \cos \ell \right)}_{\approx 1} \\
+        &= \underbrace{\left( \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] \right)}_{\equiv \; A} \,d \cos 2\ell + \underbrace{\left( - \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} + \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] \right)}_{\equiv \, B} d
 \end{align}$$
 
 In summary, the relative radial and tangential velocities can be expressed in terms of the Oort Constants ($A$ and $B$).
@@ -131,10 +131,10 @@ $$
 	v_{\rm r,rel} &= A d \cos 2 \ell \\
 	v_{\rm \theta, rel} &= A d \cos 2 \ell + B d
 \end{aligned}
-\hWhere
+\hspace{1cm} \text{where} \hspace{1cm}
 \boxed{ \;
 \begin{aligned}
-	A &\equiv ~~~\frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \td{\Theta}{R} \right)_{R_{0}} \right] \\
-	B &\equiv - \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} + \left( \td{\Theta}{R} \right)_{R_{0}} \right]
+	A &\equiv ~~~\frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} - \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right] \\
+	B &\equiv - \frac{1}{2} \left[ \frac{\Theta_{0}}{R_{0}} + \left( \frac{\mathrm{d} \Theta}{\mathrm{d} R} \right)_{R_{0}} \right]
 \end{aligned} \;}
 $$

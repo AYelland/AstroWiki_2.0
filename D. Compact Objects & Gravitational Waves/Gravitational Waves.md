@@ -41,24 +41,24 @@ Similar to how an [accelerating point charge will emit electromagnetic radiation
 
 > [!atom] Electromagnetic Radiation
 > With electromagnetic radiation (change is charge or magnetic moment with respect to time) can only be emitted with a dipole moment or higher. This can be seen with a given charge density ($\rho_{e}(r)$) that we expand into the moments.
-> - The charge **monopole** moment is $\int \rho_{e}(r) \rd^{3} r$. It represents the total charge ($Q$), which cannot vary. *(conserved in time)*.
+> - The charge **monopole** moment is $\int \rho_{e}(r) \mathrm{d}^{3} r$. It represents the total charge ($Q$), which cannot vary. *(conserved in time)*.
 > 	- *Electromagnetic monopole radiation is not possible.* 
-> - The **electric dipole** moment is $\int r \, \rho_{e}(r) \rd^{3} r$. There is no applicable conservation law. *(not conserved in time)*
+> - The **electric dipole** moment is $\int r \, \rho_{e}(r) \mathrm{d}^{3} r$. There is no applicable conservation law. *(not conserved in time)*
 > 	- *Electric dipole radiation is possible.* 
-> - Using the variation of currents, the lowest order correction probes the **magnetic dipole**, represented by $\int r \left[ \rho_{e}(r) \times v(r) \right] \rd^{3} r$. There is no applicable conservation law. *(not conserved in time)*
+> - Using the variation of currents, the lowest order correction probes the **magnetic dipole**, represented by $\int r \left[ \rho_{e}(r) \times v(r) \right] \mathrm{d}^{3} r$. There is no applicable conservation law. *(not conserved in time)*
 > 	- *Magnetic dipole radiation is possible.* 
 > 	- The lower order moments will typically dominate the field unless their variation is reduced or eliminated by some special symmetry.
 
 Gravitational radiation (change in mass with respect to time) can only be emitted from a quadrupole moment or higher. This can be seen with a given mass density ($\rho(r)$) that we expand into the moments.
 
-- The mass **monopole** is $\int \rho_{e}(r) \rd^{3} r$. It represents the total mass-energy in the system, which is constant. *(conserved in time)*
+- The mass **monopole** is $\int \rho_{e}(r) \mathrm{d}^{3} r$. It represents the total mass-energy in the system, which is constant. *(conserved in time)*
 	- *Mass monopole radiation is not possible.*
-- The mass **dipole** is $\int r \, \rho_{e}(r) \rd^{3} r$. It represents the [[Center of Mass & Relative Coordinates|center-of-mass]] energy of a system, and in the center-of-mass references frame, this moment does not change as it effectively is a one-body problem. *(conserved in time)*
+- The mass **dipole** is $\int r \, \rho_{e}(r) \mathrm{d}^{3} r$. It represents the [[Center of Mass & Relative Coordinates|center-of-mass]] energy of a system, and in the center-of-mass references frame, this moment does not change as it effectively is a one-body problem. *(conserved in time)*
 	- *Mass dipole radiation is not possible.*
 	- The existence of radiation is frame-independent, the lack of radiation in the center-of-mass frame means there is no radiation in any other reference frame
-- The equivalent of the **magnetic dipole** moment is $\int r \left[ \rho(r) \times v(r) \right] \rd^{3} r$. This, however, is simply the total angular momentum of the system, which is also conserved in the center-of-mass frame.
+- The equivalent of the **magnetic dipole** moment is $\int r \left[ \rho(r) \times v(r) \right] \mathrm{d}^{3} r$. This, however, is simply the total angular momentum of the system, which is also conserved in the center-of-mass frame.
 	- *There is no magnetic dipolar (equivalent) gravitational radiation.*
-- The mass **quadruple** moment is $I_{ij} = \int \rho(r) \, r_{i} r_{j} \, \rd^{3} r$. This is the moment of inertia, which is not conserved in time.
+- The mass **quadruple** moment is $I_{ij} = \int \rho(r) \, r_{i} r_{j} \, \mathrm{d}^{3} r$. This is the moment of inertia, which is not conserved in time.
 	- *Mass quadruple radiation is possible*
 
 As a result, the mass **quadruple** -- and higher -- is the first/lowest order contribution to gravitational radiation.
@@ -76,7 +76,7 @@ As a result, the mass **quadruple** -- and higher -- is the first/lowest order c
 > 
 > **The Radiation of Gravitational Waves:**
 > 
-> $$L_{\rm GW} \equiv \td{{E}_{\rm GW}}{t} = \frac{G}{5 c^{5}} \expval{\dddot{I}^{ij} \dddot{I}_{ij}}$$
+> $$L_{\rm GW} \equiv \frac{\mathrm{d} {E}_{\rm GW}}{\mathrm{d} t} = \frac{G}{5 c^{5}} \left\langle \dddot{I}^{ij} \dddot{I}_{ij} \right\rangle$$
 > 
 > ---
 > If we look at the specific case of a **binary black hole** system, we can use a pair of equal point masses ($M_{1} = M_{2} = M$) on a circular orbit (place origin at center-of-mass). This yields the quadruple tensor of...

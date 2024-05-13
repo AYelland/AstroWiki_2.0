@@ -38,7 +38,7 @@ At high redshifts (early times), radiation is the dominate process that drives t
 > 
 > $$H^{2}(z) = H_{0}^{2} \Big[ \underbrace{\Omega_{M} \, (1+z)^{3}}_{\rm matter} + \underbrace{\Omega_{r} \, (1+z)^{4}}_{\rm radiation} + \Omega_{k} \, (1+z)^{2} + \Omega_{\Lambda} \Big]$$
 > 
-> $$\Omega_{r} (1+z)^{4} = \Omega_{M} (1+z)^{3} \hRightarrow z = \left( \frac{\Omega_{M}}{\Omega_{r}} -1 \right) \simeq \left( \frac{0.3}{10^{-4}} - 1 \right) \simeq 3000$$
+> $$\Omega_{r} (1+z)^{4} = \Omega_{M} (1+z)^{3} \hspace{1cm} \Rightarrow \hspace{1cm} z = \left( \frac{\Omega_{M}}{\Omega_{r}} -1 \right) \simeq \left( \frac{0.3}{10^{-4}} - 1 \right) \simeq 3000$$
 ^MR-z
 
 > [!derivation] Temperature Calculation
@@ -59,11 +59,11 @@ Recombination is the epoch during which the universe had expanded and cooled eno
 > [!derivation] Redshift Calculation
 > If we model the universe as system composed purely of "one level hydrogen atoms" (that is only protons and electrons and a 1-level H atom with ionization energy $\chi_{\rm II} = 13.6\,\pu{eV}$), then we can use the [[Saha Equation]] to determine the ratio of ionized to neutral hydrogen.
 > 
-> $$\frac{n_{\rm II} \, n_{e}}{n_{\rm I}} = \fpar{g_{e}\,g_{\rm II}}{g_{\rm I}} \fpar{2 \pi m_{e} k_{\rm B} T}{h^{2}}^{3/2} \,e^{-\chi_{r} / k_{\rm B} T}$$
+> $$\frac{n_{\rm II} \, n_{e}}{n_{\rm I}} = \left(\frac{g_{e}\,g_{\rm II}}{g_{\rm I}}\right) \left(\frac{2 \pi m_{e} k_{\rm B} T}{h^{2}}\right)^{3/2} \,e^{-\chi_{r} / k_{\rm B} T}$$
 > 
 > ...where $T = T_{0} (1 + z)$ from the [[Friedmann Equation]] where $\rho_{rad} \propto (1+z)^4$ and the equation of state follows [[Stellar Structure#Radiative Energy Transport|radiation energy transport]] mechanism.
 > 
-> $$P = \frac{4\sigma}{3c}T^{4} = \frac{1}{3} a T^{4} \hRightarrow \rho_{rad} \propto P_{rad} \propto T^{4}$$
+> $$P = \frac{4\sigma}{3c}T^{4} = \frac{1}{3} a T^{4} \hspace{1cm} \Rightarrow \hspace{1cm} \rho_{rad} \propto P_{rad} \propto T^{4}$$
 > 
 > Number density of ionized hydrogen (protons) is given by...
 > 
@@ -71,7 +71,7 @@ Recombination is the epoch during which the universe had expanded and cooled eno
 > 
 > ...such that we can get the redshift when the medium is half ionized ($n_{\rm I} \equiv n_{\rm II} \equiv n_{\rm e}$).
 > 
-> $$n_{\rm II} = \frac{n_{\rm II}^{2}}{n_{\rm II}} = \frac{n_{\rm II} \, n_{e}}{n_{\rm I}} = \fpar{g_{e}\,g_{\rm II}}{g_{\rm I}} \fpar{2 \pi m_{e} k_{\rm B} T}{h^{2}}^{3/2}  \exp \left[-\frac{\chi_{r}}{k_{\rm B} T_{0}(1+z)}\right]$$
+> $$n_{\rm II} = \frac{n_{\rm II}^{2}}{n_{\rm II}} = \frac{n_{\rm II} \, n_{e}}{n_{\rm I}} = \left(\frac{g_{e}\,g_{\rm II}}{g_{\rm I}}\right) \left(\frac{2 \pi m_{e} k_{\rm B} T}{h^{2}}\right)^{3/2}  \exp \left[-\frac{\chi_{r}}{k_{\rm B} T_{0}(1+z)}\right]$$
 > 
 > By solving numerically for $z$, we find $z_{rec}\simeq 1500$, but this is an overestimate. Why?
 > - There are other elements which will recombine earlier due to higher ionization energies
@@ -114,13 +114,13 @@ The epoch of reionization ended when the majority of the universe became ionized
 **How are these measurements made?**
 - [[Lyman-Alpha Forest]] measurements of high $z$ [[Active Galactic Nuclei#Quasar / Quasi-Stellar Object (QSO)|quasars]]
 - [[Spectral Features#21cm line|21cm]] $\ce{H}$ intensity mapping
-- [[Optical Depth]] of the [[Cosmic Microwave Background|CMB]] $$\tau(z) = \int \sigma_{T} \, n_{e} \; \rd s = \int \sigma_{T} \, n_{e} (1+z)^{3} \; \left( c \; \rd t \right)$$
+- [[Optical Depth]] of the [[Cosmic Microwave Background|CMB]] $$\tau(z) = \int \sigma_{T} \, n_{e} \; \mathrm{d} s = \int \sigma_{T} \, n_{e} (1+z)^{3} \; \left( c \; \mathrm{d} t \right)$$
 
 > [!note] How does the hydrogen get ionized?
 > 
 > Ionization can occur in hot temperatures. We can estimate the temperature of the early universe from absorption line widths in [[Active Galactic Nuclei#Quasar / Quasi-Stellar Object (QSO)|quasar]] spectra (see [[Lyman-Alpha Forest]]); however, we find that this temperature is not high enough to ionize hydrogen.
 > 
-> $$\frac{1}{2} m v^{2} \sim k_{\rm B} T \hRightarrow	\Delta v \sim 20\; {\rm km/s} \sim \sqrt{\frac{2 k_{\rm B} T}{m}} \hRightarrow T \sim 30,000 \; {\rm K} \sim 3 \; {\rm eV}$$
+> $$\frac{1}{2} m v^{2} \sim k_{\rm B} T \hspace{1cm} \Rightarrow \hspace{1cm}	\Delta v \sim 20\; {\rm km/s} \sim \sqrt{\frac{2 k_{\rm B} T}{m}} \hspace{1cm} \Rightarrow \hspace{1cm} T \sim 30,000 \; {\rm K} \sim 3 \; {\rm eV}$$
 > 
 > Another option is photoionization. 
 > - The integrated light from galaxies and quasars is emitted at a rate of $\Gamma\sim10^{-12}$ ionizing photons per second. The ionization rate is then $n_{\rm HI} \cdot \Gamma$, such that the ionization timescale is...
@@ -135,7 +135,7 @@ The epoch of reionization ended when the majority of the universe became ionized
 > 
 > To establish the predicted ionization fraction, we find equilibrium by setting the ionization and recombination timescales equal, and assume that $n_{\rm HII} \sim n_{\rm e} \sim n_{\rm H}$ and $n_{\rm HI}\ll n_{\rm HII}$. 
 > 
-> $$R \,n_{\rm HII} \,n_{\rm e} = \Gamma \,n_{\rm HI} \hRightarrow R \,n_{\rm H}^2 = X_{\rm HI} \,n_{\rm H} \,\Gamma$$
+> $$R \,n_{\rm HII} \,n_{\rm e} = \Gamma \,n_{\rm HI} \hspace{1cm} \Rightarrow \hspace{1cm} R \,n_{\rm H}^2 = X_{\rm HI} \,n_{\rm H} \,\Gamma$$
 > 
 > This gives a neutral fraction of...
 > 
@@ -155,4 +155,4 @@ Using rough [[Instruments#Planck]] numbers, the time of Matter-$\Lambda$ equalit
 
 $$H^{2}(z) = H_{0}^{2} \Big[ \Omega_{M} \, (1+z)^{3} + \Omega_{r} \, (1+z)^{4} + \Omega_{k} \, (1+z)^{2} + \Omega_{\Lambda} \Big]$$
 
-$$\Omega_{\Lambda} = \Omega_{M} (1+z)^{3} \hRightarrow z = \left( \frac{\Omega_{M}}{\Omega_{\Lambda}} -1 \right)^{1/3} \simeq 0.33$$
+$$\Omega_{\Lambda} = \Omega_{M} (1+z)^{3} \hspace{1cm} \Rightarrow \hspace{1cm} z = \left( \frac{\Omega_{M}}{\Omega_{\Lambda}} -1 \right)^{1/3} \simeq 0.33$$

@@ -6,7 +6,7 @@ If a typical interstellar dust grain is 0.2 microns in size, and starlight suffe
 ---
 We will assume the interstellar dust has [[Radiative Transfer Equation|only absorption and no emission]], such that by [[Optical Depth#Mean Free Path|Lambert-Beer Law]], the light is attenuation is scaled by the [[Optical Depth#Optical Depth|optical depth]].
 
-$$F_{\nu} = F_{\nu,0} \;e^{-\tau_{\nu}} \hWhere \begin{aligned}
+$$F_{\nu} = F_{\nu,0} \;e^{-\tau_{\nu}} \hspace{1cm} \text{where} \hspace{1cm} \begin{aligned}
 	F_{0} &\equiv \text{incident flux} \\
 	\tau_{\nu} &\equiv \text{optical depth}
 \end{aligned}
@@ -15,7 +15,7 @@ $$
 The **extinction of light** ($A_{\lambda}$) can be defined as the different in [[Magnitude#Apparent Magnitude|apparent magnitude]] from the emitted/incident flux ($F_{\rm 0}$) and the observed flux at a distance $d$ ($F_{d}$).
 
 $$\begin{align}
-	A_{\nu} \equiv \underbrace{m_{\nu,d} - m_{\nu,0}}_{\Delta m_{\nu}} = -2.5 \log_{10} \fpar{F_{\nu,d}}{F_{\nu,0}} = -2.5 \log_{10} \left( e^{-\tau_{\nu}} \right) &= 2.5 \,\tau_{\nu} \log_{10} (e) \simeq \tau_{\nu}\\
+	A_{\nu} \equiv \underbrace{m_{\nu,d} - m_{\nu,0}}_{\Delta m_{\nu}} = -2.5 \log_{10} \left(\frac{F_{\nu,d}}{F_{\nu,0}}\right) = -2.5 \log_{10} \left( e^{-\tau_{\nu}} \right) &= 2.5 \,\tau_{\nu} \log_{10} (e) \simeq \tau_{\nu}\\
 	&= 2.5 \left( n \sigma d \right)\log _{10}(e)
 \end{align}$$
 

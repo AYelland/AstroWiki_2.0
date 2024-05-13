@@ -7,12 +7,12 @@ How does the orbital frequency of the innermost stable circular orbit around a b
 For a [[Black Hole|black hole]] of mass $M_{\rm BH}$, we can use [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] to calculate the orbital frequency through balancing the gravitational force and the centripetal force at the radius of the [[Black Hole#Innermost Stable Circular Orbit (ISCO)]], using some test mass ($m$).
 
 $$
-m (\Omega^{2} R) = \frac{G M m}{R^{2}} \hRightarrow \Omega_{\rm ISCO} = \sqrt{\frac{G M}{R_{\rm ISCO}^{3}}}
+m (\Omega^{2} R) = \frac{G M m}{R^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} \Omega_{\rm ISCO} = \sqrt{\frac{G M}{R_{\rm ISCO}^{3}}}
 $$
 
 The [[Black Hole#Innermost Stable Circular Orbit (ISCO)|ISCO]] radius can be expressed with the $\alpha$ [[Black Hole#Spin|spin-parameter]] such that...
 
-$$R_{\rm{ISCO}} = \alpha \frac{GM}{c^{2}} \hWhere \alpha \equiv \text{spin-parameter}$$
+$$R_{\rm{ISCO}} = \alpha \frac{GM}{c^{2}} \hspace{1cm} \text{where} \hspace{1cm} \alpha \equiv \text{spin-parameter}$$
 
 > [!note] About the $\alpha$ Spin-Parameter
 > 
@@ -27,7 +27,7 @@ $$R_{\rm{ISCO}} = \alpha \frac{GM}{c^{2}} \hWhere \alpha \equiv \text{spin-param
 > 	~~~0 &\text{(Schwarzschild, zero spin)} \\ 
 > 	+1 &\text{(prograde, maximal spin)}
 > }
-> \hRightarrow
+> \hspace{1cm} \Rightarrow \hspace{1cm}
 > \alpha = \begin{cases}
 > 	9 &\text{when } a=-1 \\
 > 	6 &\text{when } a=~~~0 \\
@@ -38,7 +38,7 @@ $$R_{\rm{ISCO}} = \alpha \frac{GM}{c^{2}} \hWhere \alpha \equiv \text{spin-param
 
 Combining the two, we find...
 
-$$\Omega_{\rm ISCO} = \sqrt{\frac{G M (c^{2})^{3}}{(\alpha G M)^{3}}} = \frac{c^{3}}{G M \alpha^{3/2}} \hRightarrow \Omega_{\rm ISCO} \sim \frac{1}{M \alpha^{3/2}}$$
+$$\Omega_{\rm ISCO} = \sqrt{\frac{G M (c^{2})^{3}}{(\alpha G M)^{3}}} = \frac{c^{3}}{G M \alpha^{3/2}} \hspace{1cm} \Rightarrow \hspace{1cm} \Omega_{\rm ISCO} \sim \frac{1}{M \alpha^{3/2}}$$
 
 By this relationships, we know:
 - As $\alpha$ (and $R_{\rm ISCO}$) increases, the relative spin decreases and $\Omega_{\rm ISCO}$ decreases

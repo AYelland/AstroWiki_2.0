@@ -11,7 +11,7 @@ To identify the effects of light trying to propagate through a plasma, we can co
 $$
 \textcolor{gray}{ \left[ \; 
 \text{Dispersion Relation:} \hspace{1cm} \omega^{2} = \omega_{\rm p}^{2} + c^{2} k^{2}
-\hWhere
+\hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	\omega &\equiv \text{wave ang. frequency} \\
 	\omega_{\rm p} &\equiv \text{plasma ang. frequency} \\
@@ -20,7 +20,7 @@ $$
 \; \right]}
 $$
 
-$$v_{\rm g} = c \; \sqrt{1 - \fpar{\omega_{\rm p}}{\omega}^{2}} \quad \simeq \begin{cases}
+$$v_{\rm g} = c \; \sqrt{1 - \left(\frac{\omega_{\rm p}}{\omega}\right)^{2}} \quad \simeq \begin{cases}
 	\; c &\quad {\rm for} \quad \omega_{\rm p} \gg \omega \\
 	\; c \sqrt{1 - (\omega_{\rm p}/\omega)^{2}} &\quad {\rm for} \quad \omega_{\rm p} \gt \omega \\
 	\; \text{imaginary} &\quad {\rm for} \quad \omega_{\rm p} \lt \omega \\
@@ -40,7 +40,7 @@ $$\omega_{\rm p} = \sqrt{\frac{n_{\rm e} e^{2}}{\epsilon_{0} m_{\rm e}}} \hspace
 > 
 > Let us imagine a box (with equal-area sides) consisting of particle species with positive and negative charges ($\pm q$), each with an equal number density ($n$). If we then displace one particle species in the box by some distance $\delta x$ in the $\hat{x}$-direction, then we will create a charge imbalance forcing one side of the box have a net negative charge and the other side an equal and opposite net positive charge...
 > 
-> $$Q = \fpar{\text{charge}}{\text{particle}} \times \fpar{\text{particles}}{\text{volume}} \times \text{volume} = q\,n\, (A\delta x)$$
+> $$Q = \left(\frac{\text{charge}}{\text{particle}}\right) \times \left(\frac{\text{particles}}{\text{volume}}\right) \times \text{volume} = q\,n\, (A\delta x)$$
 > 
 > ...and thus, each has a surface charge density of...
 > 
@@ -52,7 +52,7 @@ $$\omega_{\rm p} = \sqrt{\frac{n_{\rm e} e^{2}}{\epsilon_{0} m_{\rm e}}} \hspace
 > 
 > Applying [[Newton's Laws of Motion#Newton's 2nd Law]] to a test particle in the box, we can define the *plasma frequency* ($\omega_{\rm p}$).
 > 
-> $$m \tdd{(\delta x)}{t} = q E = - m \fpar{q^{2} n}{\epsilon_{0} m} \, \delta x = - m \, \omega_{\rm p}^{2} \, \delta x \hRightarrow \omega_{\rm p} \equiv \sqrt{\frac{q^{2} n}{\epsilon_{0} m}}$$
+> $$m \frac{\mathrm{d}^{2} (\delta x)}{\mathrm{d} t^{2}} = q E = - m \left(\frac{q^{2} n}{\epsilon_{0} m}\right) \, \delta x = - m \, \omega_{\rm p}^{2} \, \delta x \hspace{1cm} \Rightarrow \hspace{1cm} \omega_{\rm p} \equiv \sqrt{\frac{q^{2} n}{\epsilon_{0} m}}$$
 > 
 > This is just a simple harmonic oscillation for the displacement of charges from quasi-neutrality at a frequency ($\omega_{\rm p}$). We can thus think of this frequency as the (inverse) timescale over which charges in a perturbed quasi-neutral plasma return themselves to quasi-neutrality.
 

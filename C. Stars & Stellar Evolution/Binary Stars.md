@@ -123,8 +123,8 @@ This mass accretion is not enough to exceed the [[Chandrasekhar Limit]] and caus
 ![[ellipse.png|align:center|500]]
 
 Using [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] and necessary [[Kepler's Laws of Planetary Motion#Parameters for Orbits|parameters]], we can find the following relations
-$$\theta_{1} = \frac{a_{1}}{d} \hspace{1cm} \theta_{2} = \frac{a_{2}}{d} \hRightarrow \frac{m_{1}}{m_{2}} = \frac{\theta_{2}}{\theta_{1}}$$
-$$P^{2} = \frac{4 \pi^{2} a^{3}}{G M} = \frac{4 \pi^{2} (\theta \, d)^{3}}{G M} \hWhere M = m_{1} + m_{2}$$
+$$\theta_{1} = \frac{a_{1}}{d} \hspace{1cm} \theta_{2} = \frac{a_{2}}{d} \hspace{1cm} \Rightarrow \hspace{1cm} \frac{m_{1}}{m_{2}} = \frac{\theta_{2}}{\theta_{1}}$$
+$$P^{2} = \frac{4 \pi^{2} a^{3}}{G M} = \frac{4 \pi^{2} (\theta \, d)^{3}}{G M} \hspace{1cm} \text{where} \hspace{1cm} M = m_{1} + m_{2}$$
 
 Complications:
 1) Need the distance to the system
@@ -132,7 +132,7 @@ Complications:
 3) The inclination of the orbital plane is non-zero in the sky. So, we observing, we are not observing pure circles about the center of mass
 
 To address this, we introduce the [[Kepler's Laws of Planetary Motion#Parameters for Orbits|Euler Angles]] such that we can measure the projected angles: $\widetilde{\theta}$, $\widetilde{\theta}_{1}$, $\widetilde{\theta}_{2}$ . These are projections of the actual angles onto the plane of the sky.
-$$\widetilde{\theta}_{1} = \theta_{1} h(i, \omega, \Omega) \hspace{1cm} \widetilde{\theta}_{2} = \theta_{2} h(i, \omega, \Omega) \hRightarrow \frac{m_{1}}{m_{2}} = \frac{\theta_{2}}{\theta_{1}} = \frac{\widetilde{\theta}_{2} h}{\widetilde{\theta}_{1} h} = \frac{\widetilde{\theta}_{2}}{\widetilde{\theta}_{1}}$$
+$$\widetilde{\theta}_{1} = \theta_{1} h(i, \omega, \Omega) \hspace{1cm} \widetilde{\theta}_{2} = \theta_{2} h(i, \omega, \Omega) \hspace{1cm} \Rightarrow \hspace{1cm} \frac{m_{1}}{m_{2}} = \frac{\theta_{2}}{\theta_{1}} = \frac{\widetilde{\theta}_{2} h}{\widetilde{\theta}_{1} h} = \frac{\widetilde{\theta}_{2}}{\widetilde{\theta}_{1}}$$
 
 ### For a [[#Spectroscopic Binary]]
 
@@ -142,7 +142,7 @@ $$\widetilde{\theta}_{1} = \theta_{1} h(i, \omega, \Omega) \hspace{1cm} \widetil
 
 When observing the binary system, we can measure the radial velocity of the independents stars through their Doppler Shifts ($\Delta \lambda$) in the non-relativistic limit. If the binary system is inclined ($i \ne 0 \degree$), this allows us to measure these radial displacements such that we can find the true velocity ($v$) through the observed, radial velocity ($v_{\rm r}$).
 
-$$\frac{\Delta \lambda}{\lambda} = \frac{v}{c} \hWhere v_{\rm r} = v \sin(i)$$
+$$\frac{\Delta \lambda}{\lambda} = \frac{v}{c} \hspace{1cm} \text{where} \hspace{1cm} v_{\rm r} = v \sin(i)$$
 
 If the binary system is face-on ($i = 0 \degree$), then there is no detectable motion.
 
@@ -153,16 +153,16 @@ With the true velocity measured of both stars ($v_{1}$, $v_{2}$), we can then fi
 $$
 v_{1} = \omega a_{1} = \frac{2 \pi a_{1}}{P} \hspace{1cm} v_{2} = \omega a_{2} = \frac{2 \pi a_{2}}{P}  
 \begin{aligned}[t]
-	&\hRightarrow \frac{m_{1}}{m_{2}} = \frac{a_{2}}{a_{1}} = \frac{v_{2}}{v_{1}} = \frac{v_{\rm r,2}}{v_{\rm r,1}} \\
+	&\hspace{1cm} \Rightarrow \hspace{1cm} \frac{m_{1}}{m_{2}} = \frac{a_{2}}{a_{1}} = \frac{v_{2}}{v_{1}} = \frac{v_{\rm r,2}}{v_{\rm r,1}} \\
 	& \\
-	&\hRightarrow a = a_{1} + a_{2} = \frac{P}{2 \pi} \left( v_{1} + v_{2} \right)
+	&\hspace{1cm} \Rightarrow \hspace{1cm} a = a_{1} + a_{2} = \frac{P}{2 \pi} \left( v_{1} + v_{2} \right)
 \end{aligned}
 $$
 
 Here, we can see that the inclination of the system is irrelevant for the binary mass ratio. From [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]], we can then find the total mass for the system.
 
 $$
-P^{2} = \frac{4 \pi^{2} a^{3}}{G M} \hRightarrow 
+P^{2} = \frac{4 \pi^{2} a^{3}}{G M} \hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
 	M = m_{1} + m_{2} &= \frac{4 \pi^{2} a^{3}}{G P^{2}} \\
 	&= \frac{P}{2 \pi G} \left( v_{1} + v_{2} \right)^{3} \\
@@ -176,20 +176,20 @@ $$\boxed{ \; M = \frac{P}{2 \pi G} \frac{\left( v_{\rm r,1} + v_{\rm r,2} \right
 
 We can  measure $v_{\rm r,1}$, but we cannot measure $v_{\rm r,2}$. Using the mass ratio, we can re-express the velocity of one object into terms of the velocity of the other. Then, we can immediately apply it to our "double-lined" relationships.
 
-$$v_{2} = \fpar{m_{1}}{m_{2}} \, v_{1} = \fpar{m_{1}}{m_{2}} \, \frac{v_{\rm r,1}}{\sin(i)} \hRightarrow M = m_{1}+m_{2} = \frac{P}{2 \pi G} \frac{v_{\rm r,1}^{3}}{\sin^{3}i} \left( 1 + \frac{m_{1}}{m_{2}} \right)^{3}$$
+$$v_{2} = \left(\frac{m_{1}}{m_{2}}\right) \, v_{1} = \left(\frac{m_{1}}{m_{2}}\right) \, \frac{v_{\rm r,1}}{\sin(i)} \hspace{1cm} \Rightarrow \hspace{1cm} M = m_{1}+m_{2} = \frac{P}{2 \pi G} \frac{v_{\rm r,1}^{3}}{\sin^{3}i} \left( 1 + \frac{m_{1}}{m_{2}} \right)^{3}$$
 
 The resulting expression can be re-organized for the **Binary Mass Function**. 
 
 $$
 \begin{aligned}[b]
 	m_{1}+m_{2} &= \frac{P}{2 \pi G} \frac{v_{\rm r,1}^{3}}{\sin^{3}i} \left( 1 + \frac{m_{1}}{m_{2}} \right)^{3} \\
-	m_{1}+m_{2} &= \frac{P}{2 \pi G} v_{\rm r,1}^{3} \fpar{m_{1} + m_{2}}{m_{2} \sin i}^{3} \\
+	m_{1}+m_{2} &= \frac{P}{2 \pi G} v_{\rm r,1}^{3} \left(\frac{m_{1} + m_{2}}{m_{2} \sin i}\right)^{3} \\
 	v_{\rm r,1}^{3} &= \frac{2 \pi G}{P} \frac{(m_{2} \sin i)^{3}}{(m_{1} + m_{2})^{2}} \\
-	v_{\rm r,1} &= \fpar{2 \pi G}{P}^{1/3} \underbrace{\fpar{m_{2} \sin i}{(m_{1} + m_{2})^{2/3}}}_{f \equiv (\text{binary mass function})^{1/3}} = \frac{2 \pi a_{1} \sin i}{P}
+	v_{\rm r,1} &= \left(\frac{2 \pi G}{P}\right)^{1/3} \underbrace{\left(\frac{m_{2} \sin i}{(m_{1} + m_{2})^{2/3}}\right)}_{f \equiv (\text{binary mass function})^{1/3}} = \frac{2 \pi a_{1} \sin i}{P}
 \end{aligned}
 $$
 $$
-\boxed{f(m_{1}, m_{2}) \equiv \frac{(m_{2} \sin i)^{3}}{(m_{1} + m_{2})^{2}} = \frac{4 \pi^{2} (a_{1} \sin i)^{3}}{G P^{2}} = \fpar{P}{2 \pi G}  v_{\rm r,1}^{3}} \hRightarrow G \Omega f = v_{\rm r,1}^{3}
+\boxed{f(m_{1}, m_{2}) \equiv \frac{(m_{2} \sin i)^{3}}{(m_{1} + m_{2})^{2}} = \frac{4 \pi^{2} (a_{1} \sin i)^{3}}{G P^{2}} = \left(\frac{P}{2 \pi G}\right)  v_{\rm r,1}^{3}} \hspace{1cm} \Rightarrow \hspace{1cm} G \Omega f = v_{\rm r,1}^{3}
 $$
 
 The left-hand-side is the relationship between masses, while the right-hand-side is computed from purely observables. 
@@ -197,7 +197,7 @@ The left-hand-side is the relationship between masses, while the right-hand-side
 This function represents the minimum companion mass ($m_{2} \ge f(m)$) in a binary star system, given that $i \in \left[ 0, \pi/2 \right]$ such that $\sin i \in \left[ 0 , 1 \right]$.
 
 $$
-f = \frac{(m_{2} \sin i)^{3}}{(m_{1} + m_{2})^{2}} \hRightarrow m_{2}^{3} = \frac{f (m_{1} + m_{2})^{2}}{\sin^{3} i} \gt \frac{f \, m_{2}^{2}}{\sin^{3} i} \ge f \, m_{2}^{2} \hRightarrow \boxed{\, m_{2} \gt f(m_{1}, m_{2}) \,}
+f = \frac{(m_{2} \sin i)^{3}}{(m_{1} + m_{2})^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} m_{2}^{3} = \frac{f (m_{1} + m_{2})^{2}}{\sin^{3} i} \gt \frac{f \, m_{2}^{2}}{\sin^{3} i} \ge f \, m_{2}^{2} \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{\, m_{2} \gt f(m_{1}, m_{2}) \,}
 $$
 
 > [!note] This is also re-derived in [[Question 8]] using a stellar mass $m_{1} \equiv M_{*}$) and a planetary mass ($m_{2} \equiv M_{\rm p}$).
@@ -233,8 +233,8 @@ $$
 	a &= a_{1} + a_{2} \\
 	M_{1}& a_{1} = M_{2} a_{2} \\
 \end{aligned} \right\}
-\hRightarrow
-a_{1} = \fpar{M_{2}}{M_{1}} a_{2} = \fpar{M_{2}}{M_{1}} \left( a - a_{1} \right) = \fpar{\mu}{M_{1}} a
+\hspace{1cm} \Rightarrow \hspace{1cm}
+a_{1} = \left(\frac{M_{2}}{M_{1}}\right) a_{2} = \left(\frac{M_{2}}{M_{1}}\right) \left( a - a_{1} \right) = \left(\frac{\mu}{M_{1}}\right) a
 $$
 
 $$

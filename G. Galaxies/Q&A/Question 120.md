@@ -12,7 +12,7 @@ The.**biased galaxy formation** refers to the fact that galaxies are not perfect
 
 The "bias factor" ($b$) is defined as a metric between the galaxy mass distribution (overdensities) and that of all matter, or very similarly, between the [[Question 122|two-point correlation functions]] of galaxies and all matter.
 
-$$b = \frac{\delta_{\rm gal}}{\delta_{\rm m}} \hspace{1cm} \text{or} \hspace{1cm} b^{2} = \frac{\xi_{\rm gal}}{\xi_{\rm m}} \hWhere
+$$b = \frac{\delta_{\rm gal}}{\delta_{\rm m}} \hspace{1cm} \text{or} \hspace{1cm} b^{2} = \frac{\xi_{\rm gal}}{\xi_{\rm m}} \hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	\delta_{\rm gal} &\equiv \text{overdensity of galaxies' mass} \\
 	\delta_{\rm m} &\equiv \text{overdensity of underlying mass}
@@ -37,7 +37,7 @@ where
 > 
 > ![[DMpowerspectrum.jpeg|align:center|450]]
 > 
-> $$P(k) = A k^{n} \hRightarrow \sigma^{2} = \frac{V}{2 \pi^{2}} \int_{0}^{\infty} P(k) k^{2} \; \rd k \quad \propto k^{n+3}$$
+> $$P(k) = A k^{n} \hspace{1cm} \Rightarrow \hspace{1cm} \sigma^{2} = \frac{V}{2 \pi^{2}} \int_{0}^{\infty} P(k) k^{2} \; \mathrm{d} k \quad \propto k^{n+3}$$
 > 
 > When $n=1$, the spectrum is "scale invariant", meaning that all perturbations enter the horizon at the same time.
 > 

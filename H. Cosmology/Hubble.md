@@ -7,7 +7,7 @@ aliases:
 
 As defined in the [[Friedmann Equation]], the **Hubble constant** represents the rate of expansion of the universe in the present day ($z=0$ || $a=1$).
 
-$$H_{0} = H(z=0) = \frac{\dot{a}}{a}\Bigg|_{z=0} = \dot a(z=0) \hWhere a = \frac{1}{1+z}$$
+$$H_{0} = H(z=0) = \frac{\dot{a}}{a}\Bigg|_{z=0} = \dot a(z=0) \hspace{1cm} \text{where} \hspace{1cm} a = \frac{1}{1+z}$$
 
 > [!derivation]- Derivation from Expanding Sphere
 > 
@@ -15,10 +15,10 @@ $$H_{0} = H(z=0) = \frac{\dot{a}}{a}\Bigg|_{z=0} = \dot a(z=0) \hWhere a = \frac
 > 
 > ![[hubble_expandingSphere.png|align:center|350]]
 > 
-> $$\vec{r} = \underbrace{\fpar{R(t)}{R_{0}}}_{a(t)} \, \vec{r}_{0} = a(t) \, \vec{r}_{0} \hWhere a(t) \equiv \text{cosmic scale factor (today's value = 1)}$$
+> $$\vec{r} = \underbrace{\left(\frac{R(t)}{R_{0}}\right)}_{a(t)} \, \vec{r}_{0} = a(t) \, \vec{r}_{0} \hspace{1cm} \text{where} \hspace{1cm} a(t) \equiv \text{cosmic scale factor (today's value = 1)}$$
 > 
 > Using the time-derivative to only focus on the scale factors, we can define the Hubble parameter.
-> $$\vec{r} = a(t) \, \vec{r}_{0} \hspace{1.5cm} \dot{\vec{r}} = \dot{a}(t) \, \vec{r}_{0} \hRightarrow H(t) = \left| \frac{\dot{\vec{r}}}{\vec{r}} \right| = \frac{\dot{a}(t)}{a(t)}$$
+> $$\vec{r} = a(t) \, \vec{r}_{0} \hspace{1.5cm} \dot{\vec{r}} = \dot{a}(t) \, \vec{r}_{0} \hspace{1cm} \Rightarrow \hspace{1cm} H(t) = \left| \frac{\dot{\vec{r}}}{\vec{r}} \right| = \frac{\dot{a}(t)}{a(t)}$$
 
 ## Hubble Law
 
@@ -94,7 +94,7 @@ Measuring the apparent (radial) velocity is the easy part: you measure the [[Red
 
 Measuring the distance is the tricky part; using the power emitted and the waveform of the merger, we can find the [[Gravitational Waves#Chirp Mass|chirp mass]],  [[Question 43#Give a qualitative description of the frequency and amplitude evolution of the gravitational wave signal from a binary compact star system.|chirp frequency & scaling amplitude]]. This is done through applying "standard" waveform templates (derived from GR) to a GW event. Then we can find the [[Distances#Luminosity Distance|luminosity distance]] ($R = d_{\rm L}$) to a GW merger.
 
-$$h_{0} \propto \frac{\left[ M_{\rm c} (1+z) \right]^{5/3}\omega^{2/3}}{R} \hWhere R \equiv d_{L} = (1+z) \, d_{C}$$
+$$h_{0} \propto \frac{\left[ M_{\rm c} (1+z) \right]^{5/3}\omega^{2/3}}{R} \hspace{1cm} \text{where} \hspace{1cm} R \equiv d_{L} = (1+z) \, d_{C}$$
 
 Bringing both the distance and velocity together, we can estimate $H_{0}$.
 

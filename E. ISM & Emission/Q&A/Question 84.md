@@ -16,7 +16,7 @@ Sketch a typical cooling function $\Lambda(T)$ for diffuse interstellar gas and 
 
 The **cooling function** $\Lambda (T)$ is the functional dependence on temperature for the "cooling rate" ($\mathcal{C}$) of the [[Interstellar Medium|interstellar medium]], where the cooling rate represents by a power (radiation) density of the energy released by the gas. 
 
-$$\mathcal{C} = n^{2} \Lambda(T) \hWhere 
+$$\mathcal{C} = n^{2} \Lambda(T) \hspace{1cm} \text{where} \hspace{1cm} 
 \begin{aligned}
 	\mathcal{C} &\equiv \text{cooling rate} \; {\rm \left[ erg \, cm^{-3} \, s^{-1} \right]} \\
 	n &\equiv \text{number density} \; {\rm \left[ cm^{-3} \right]} \\
@@ -60,7 +60,7 @@ To summarize what processes and features are dominant in the cooling function at
 
 Similar to the cooling function, there is a **heating function** $\Gamma(T)$ responsible for temperature dependence of "heating rate" ($\mathcal{H}$), where the heating rate represents power density of the energy injected into the gas.
 
-$$\mathcal{H} = n^{2} \, \Gamma(T) \hWhere 
+$$\mathcal{H} = n^{2} \, \Gamma(T) \hspace{1cm} \text{where} \hspace{1cm} 
 \begin{aligned}
 	\mathcal{H} &\equiv \text{heating rate} \; {\rm \left[ erg \, cm^{-3} \, s^{-1} \right]} \\
 	n &\equiv \text{number density} \; {\rm \left[ cm^{-3} \right]} \\
@@ -85,8 +85,8 @@ $$\mathcal{L}(T) =  n^{2} \, \Lambda(T) - n^{2} \, \Gamma(T)$$
 However, we are interested in the *stability* of these thermal equilibrium points. This is dependent on the derivative (turning points) of the loss function.
 
 $$\begin{align}
-	&\left. \pd{\mathcal{L}}{T} \right|_{T'} > 0 \hRightarrow \text{stable equilibrium} \\ 
-	&\left. \pd{\mathcal{L}}{T} \right|_{T'} <0 \hRightarrow \text{unstable equilibrium}
+	&\left. \frac{\partial \mathcal{L}}{\partial T} \right|_{T'} > 0 \hspace{1cm} \Rightarrow \hspace{1cm} \text{stable equilibrium} \\ 
+	&\left. \frac{\partial \mathcal{L}}{\partial T} \right|_{T'} <0 \hspace{1cm} \Rightarrow \hspace{1cm} \text{unstable equilibrium}
 \end{align}$$
 
 ![[ISM_stability.png|align:center|600]]

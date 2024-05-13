@@ -22,7 +22,7 @@ An **Active Galactic Nucleus (AGN)** is the highly compact region in a galactic 
 **Invalid Alternative Sources:**
 - For a collection of stars to be this bright ($L_{\odot} \sim 10^{26} \; {\rm W}$), there would have to be $\sim 10^{9}$ [[Spectral Classes#G]] stars within $10^{-2} \; {\rm pc}$ $\implies$ unstable as stellar density is too high.
 - For a supernovae ($E_{SN} \sim 10^{52} \; {\rm erg}$), they would need to occur a rate of $\sim 3 SN/yr$, requiring continual star production $\implies$ same problem as the source being stars (too dense and unstable).
-- For a black hole, the nearby gas is gravitationally pulled into an accretion disk, heating up to temperatures $T \sim 10^{8} \; {\rm K}$. Assuming the accretion is [[Luminosity#Eddington Limit|Eddington-limited]]... $$L_{\rm Edd} \equiv \fpar{4 \pi G M c}{\kappa} \simeq 3.2 \times 10^{4} \; \fpar{M_{\rm BH}}{M_{\odot}} \, L_{\odot}$$
+- For a black hole, the nearby gas is gravitationally pulled into an accretion disk, heating up to temperatures $T \sim 10^{8} \; {\rm K}$. Assuming the accretion is [[Luminosity#Eddington Limit|Eddington-limited]]... $$L_{\rm Edd} \equiv \left(\frac{4 \pi G M c}{\kappa}\right) \simeq 3.2 \times 10^{4} \; \left(\frac{M_{\rm BH}}{M_{\odot}}\right) \, L_{\odot}$$
 
 ## Unified AGN Model
 

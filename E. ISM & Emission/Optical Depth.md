@@ -10,7 +10,7 @@ aliases:
 > - https://www.astro.uvic.ca/~tatum/stellatm/atm5.pdf
 > 
 > You'll notice many of the things below are just describing the same thing in different ways. In the end, all of them tie back to this core relationship.
-> $$\alpha = \frac{1}{l} = \rho\kappa = n \sigma = \td{\tau}{z}$$
+> $$\alpha = \frac{1}{l} = \rho\kappa = n \sigma = \frac{\mathrm{d} \tau}{\mathrm{d} z}$$
 
 ## Kirchoff's Law of Radiation
 
@@ -18,30 +18,30 @@ aliases:
 
 1. A perfect black body in thermodynamic equilibrium is the perfect insulator (absorbs all light that strikes it) and radiator (emits energy according to [[Blackbody Radiation#Stefan-Boltzmann Law]], universal for all perfect black bodies).
 
-2. For an arbitrary body emitting and absorbing thermal radiation in thermodynamic equilibrium, the emissivity is equal to the absorptivity. (see [[Radiative Transfer Equation|RTE]]) $$\td{I_{\nu}}{z} = j_{\nu} - \alpha_{\nu} I_{\nu} = 0 \hRightarrow j_{\nu} = \alpha_{\nu} I_{\nu} = \alpha_{\nu} B_{\nu}(T)$$
+2. For an arbitrary body emitting and absorbing thermal radiation in thermodynamic equilibrium, the emissivity is equal to the absorptivity. (see [[Radiative Transfer Equation|RTE]]) $$\frac{\mathrm{d} I_{\nu}}{\mathrm{d} z} = j_{\nu} - \alpha_{\nu} I_{\nu} = 0 \hspace{1cm} \Rightarrow \hspace{1cm} j_{\nu} = \alpha_{\nu} I_{\nu} = \alpha_{\nu} B_{\nu}(T)$$
 3. The emissivity of a source cannot exceed one (because the absorptivity cannot exceed one by conservation of energy), and thus, it is not possible to thermally radiate more energy than a black body, at equilibrium.
 
 ## Mean Free Path
 
-$$l = \frac{1}{n \sigma} \hWhere 
+$$l = \frac{1}{n \sigma} \hspace{1cm} \text{where} \hspace{1cm} 
 \begin{align}
 	n &\equiv \text{number (volume) density} \\
 	\sigma &\equiv \text{scattering cross sectional area} \\
 \end{align}$$
 
-The **Mean Free Path** is the scale length for a scattering process. For a material of size $L$, the probability of a particle scattering while traveling some distance ($\rd x$)...
+The **Mean Free Path** is the scale length for a scattering process. For a material of size $L$, the probability of a particle scattering while traveling some distance ($\mathrm{d} x$)...
 
 ![[Mean_free_path.png|align:center]]
 
-$$\mathcal{P} = \int \fpar{\text{area of scatterers}}{\text{area of target}} = \int\frac{\sigma \left( n \times L^{2} \; \rd x\right)}{L^{2}} = \int n \sigma \; \rd x$$
+$$\mathcal{P} = \int \left(\frac{\text{area of scatterers}}{\text{area of target}}\right) = \int\frac{\sigma \left( n \times L^{2} \; \mathrm{d} x\right)}{L^{2}} = \int n \sigma \; \mathrm{d} x$$
 
 For incident flux ($F$) on the differential length of material, we have...
 
-$$\rd F = - F n \sigma \, \rd x$$
+$$\mathrm{d} F = - F n \sigma \, \mathrm{d} x$$
 
 ...which we can solve to get **Lambert-Beer Law**, which relates the incident flux from a source ($F_{0}$) to the [[#Optical Depth]] ($\tau$).
 
-$$\int \frac{\rd F}{F} = - n \sigma \int \rd x \hRightarrow F = F_{0} e^{-x/l} = F_{0} e^{-\tau}$$^lambert-beer-law
+$$\int \frac{\mathrm{d} F}{F} = - n \sigma \int \mathrm{d} x \hspace{1cm} \Rightarrow \hspace{1cm} F = F_{0} e^{-x/l} = F_{0} e^{-\tau}$$^lambert-beer-law
 
 > [!note]
 > We use [[Flux|flux]] instead of [[Intensity|intensity]] as one might see on wikipedia. This is done to avoid confusion with the prevalent astronomy usage of these terms.
@@ -55,7 +55,7 @@ The **Optical Thickness** is a loosely defined notion of "how difficult it is fo
 
 ## Extinction Coefficient
 
-$$\alpha = \frac{1}{l} \hWhere l \equiv \text{mean free path}$$
+$$\alpha = \frac{1}{l} \hspace{1cm} \text{where} \hspace{1cm} l \equiv \text{mean free path}$$
 
 The **Extinction Coefficient** is the inverse of the [[#Mean Free Path|mean free path]], and has dimensions of inverse length. It is a combination of the effects of absorption and scattering. 
 
@@ -66,7 +66,7 @@ A high extinction corresponds to short mean free path, and thus, light has a "ha
 
 **Rosseland Mean Opacity** ($\kappa$) is the frequency-independent efficiency at which a particular medium absorbs and scatters light, with dimensions of "cross section per mass". It can be defined as:
 
-$$\alpha = \frac{1}{l} = \rho\kappa = n \sigma = \td{\tau}{z}$$
+$$\alpha = \frac{1}{l} = \rho\kappa = n \sigma = \frac{\mathrm{d} \tau}{\mathrm{d} z}$$
 
 where
 - $\kappa \equiv$ Rosseland Mean Opacity $\in [0,1]$ ($0=\text{transparent}$, $1=\text{opaque}$)
@@ -78,7 +78,7 @@ where
 
 **Opacity** is usually frequency-dependent though, and thus, the Rosseland Mean Opacity is typically defined terms of the frequency-dependent opacity ($\kappa_{\nu}$).
 
-$$\frac{1}{\kappa} = \frac{\int_{0}^{\infty} \frac{1}{\kappa_{\nu}} \pd{B_{\nu}}{T} \; \rd \nu}{\int_{0}^{\infty} \pd{B_{\nu}}{T} \; \rd \nu} \hWhere B_{\nu} \equiv \text{blackbody spectral density}$$
+$$\frac{1}{\kappa} = \frac{\int_{0}^{\infty} \frac{1}{\kappa_{\nu}} \frac{\partial B_{\nu}}{\partial T} \; \mathrm{d} \nu}{\int_{0}^{\infty} \frac{\partial B_{\nu}}{\partial T} \; \mathrm{d} \nu} \hspace{1cm} \text{where} \hspace{1cm} B_{\nu} \equiv \text{blackbody spectral density}$$
 
 > [!note]
 > In principle, $\kappa$, $\sigma$ and $\alpha$ are all frequency-dependent.
@@ -88,7 +88,7 @@ $$\frac{1}{\kappa} = \frac{\int_{0}^{\infty} \frac{1}{\kappa_{\nu}} \pd{B_{\nu}}
 **Kramer's Opacity Law** directly correlates the density and temperature of the medium to the average opacity. It can be derived from the Rosseland Mean Opacity for [[Bremsstrahlung Radiation|bremsstrahlung radiation]]. (skipped)
 
 $$
-\bar{\kappa} \propto \rho T^{-7/2} \hWhere
+\bar{\kappa} \propto \rho T^{-7/2} \hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	\bar{\kappa} &\equiv \text{average opacity} \\
 	\rho &\equiv \text{density of medium} \\
@@ -102,7 +102,7 @@ Here, we can see that the opacity higher (more opaque) at lower temperatures.
 
 The **Optical Depth** ($\tau \equiv \tau_{\nu}$) is a frequency-dependent measurement that relates a physical distance to the absorptivity of a material over that distance. It can be thought of as the number of [[#Mean Free Path|mean free paths]] transversed in the given medium.
 
-$$\tau(z) = \int_{0}^{z} \alpha \; \rd z = \int_{0}^{z} \kappa \rho \; \rd z = \int_{0}^{z} \sigma n \; \rd z \underbrace{= \; \sigma N}_{\text{uniform material}}$$
+$$\tau(z) = \int_{0}^{z} \alpha \; \mathrm{d} z = \int_{0}^{z} \kappa \rho \; \mathrm{d} z = \int_{0}^{z} \sigma n \; \mathrm{d} z \underbrace{= \; \sigma N}_{\text{uniform material}}$$
 
 where
 - $\alpha \equiv$ [[#Extinction Coefficient]]
@@ -117,14 +117,14 @@ For a uniform material, the optical depth is just the length of the material tra
 
 People often define the optical depth using the Rosseland mean [[#Opacity|opacity]], whereby $\alpha = \kappa \rho$ (as above) is frequency-independent. For the **frequency-dependent** optical depth:
 
-$$\tau_{\nu}(z) = \int_{0}^{z} \alpha_{\nu} \; \rd z = \int_{0}^{z} \kappa_{\nu} \, \rho \; \rd z$$
+$$\tau_{\nu}(z) = \int_{0}^{z} \alpha_{\nu} \; \mathrm{d} z = \int_{0}^{z} \kappa_{\nu} \, \rho \; \mathrm{d} z$$
 
 > [!note]- From the Radiative Transfer Equation
 > If we only consider the absorption term in the [[Radiative Transfer Equation|RTE]], then we can define optical depth ($\tau_{\nu}(z)$) as the exponential index.
 > 
-> $$\td{I_{\nu}}{z} = - \alpha_{\nu} I_{\nu} \hRightarrow I_{\nu}(z) = I_{\nu,0} \exp \underbrace{\left[ - \int_{0}^{z} \alpha_{\nu}(z') \; \rd z' \right]}_{- \tau_{\nu}(z) \equiv \text{optical depth}} = = I_{\nu,0} e^{- \tau_{\nu}(z)}$$
+> $$\frac{\mathrm{d} I_{\nu}}{\mathrm{d} z} = - \alpha_{\nu} I_{\nu} \hspace{1cm} \Rightarrow \hspace{1cm} I_{\nu}(z) = I_{\nu,0} \exp \underbrace{\left[ - \int_{0}^{z} \alpha_{\nu}(z') \; \mathrm{d} z' \right]}_{- \tau_{\nu}(z) \equiv \text{optical depth}} = = I_{\nu,0} e^{- \tau_{\nu}(z)}$$
 > $$\Downarrow$$
-> $$\text{optical depth} \equiv \quad \tau_{\nu}(z) = \int_{0}^{z} \alpha_{\nu}(z') \; \rd z' \hRightarrow \rd \tau_{\nu} = \alpha_{\nu} \; \rd z$$
+> $$\text{optical depth} \equiv \quad \tau_{\nu}(z) = \int_{0}^{z} \alpha_{\nu}(z') \; \mathrm{d} z' \hspace{1cm} \Rightarrow \hspace{1cm} \mathrm{d} \tau_{\nu} = \alpha_{\nu} \; \mathrm{d} z$$
 
 
 

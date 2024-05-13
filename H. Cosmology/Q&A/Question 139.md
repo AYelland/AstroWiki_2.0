@@ -14,7 +14,7 @@ When (or at what redshift) did the universe become (i) matter dominated? (ii) op
 
 ##### What temperature was the CMB at these times?
 
-$$T = T_{0} (1+z) \hWhere T_{0} = 2.7 \; \pu{K}$$
+$$T = T_{0} (1+z) \hspace{1cm} \text{where} \hspace{1cm} T_{0} = 2.7 \; \pu{K}$$
 
 - [[Cosmological Timeline#^MR-T|Matter-Radiation Equality Temperature]]: $T \sim 8500 \; {\rm K}$
 - [[Cosmological Timeline#^rec-T|Recombination Temperature]]: $T \sim 3000 \; {\rm K}$

@@ -7,7 +7,7 @@ aliases:
 The **Schönberg-Chandrasekhar Limit** is the maximum mass of a non-fusing, isothermal core that can support an enclosing envelope.
 
 $$
-P_{\rm max}(r_{\rm c}) \ge P_{\rm env}(r_{\rm c}) \hRightarrow \frac{m_{\rm c}}{M} \lesssim 0.37 \fpar{\mu_{\rm env}}{\mu_{\rm c}}
+P_{\rm max}(r_{\rm c}) \ge P_{\rm env}(r_{\rm c}) \hspace{1cm} \Rightarrow \hspace{1cm} \frac{m_{\rm c}}{M} \lesssim 0.37 \left(\frac{\mu_{\rm env}}{\mu_{\rm c}}\right)
 $$
 
 This limit is the upper bound on the ratio between the mass of a stellar core ($m_{\rm c}$) and the total stellar mass ($M$) such that [[Stellar Structure#Hydrostatic Equilibrium|hydrostatic equilibrium]] of the core is maintained. 

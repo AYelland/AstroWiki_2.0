@@ -1,6 +1,8 @@
+![[dashboard_screenshot.png|align:center|450]]
+
 The [[Dashboard.canvas|Dashboard]] is an Obsidian Canvas constructed to help keep track of the progress you have made during your studying experience. 
 
-To get the maximum usage out of the Dashboard, it will require you to download the AstroWiki repository to your local machine and work within the Obsidian application. In the following steps, I outline the necessary changes you will need to make to your local version.
+To utilize the Dashboard, you will be required to download the [AstroWiki 2.0 repository](https://github.com/AYelland/AstroWiki_2.0) to your local machine and work within the Obsidian application. In the following steps, I outline the necessary changes you will need to make to your local version.
 
 ## Changing the Homepage:
 

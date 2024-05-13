@@ -139,15 +139,15 @@ The speed the solar wind is emitted from the Sun is [[Fluid Mechanics#Supersonic
 If we assume that the solar wind is composed of purely ionized hydrogen acting like and ideal gas, we can use the hydrostatic equilibrium between the solar wind and ISM (instead of mass continuity as in [[Question 3]]) to find the solar wind pressure.
 $$
 \begin{align}
-	P = \frac{n k_{\rm B} T}{\mu}  = 2 \, n \, k_{\rm B} T \hspace{1cm} \left( \mu = \frac{1}{2} \; , \; \rho = n m_{\rm p} \right) \hRightarrow \td{P}{r} &= - \frac{G M_{\odot} \rho}{r^{2}} \\
-	\td{(2 n k_{\rm B} T)}{r} &= - \frac{G M_{\odot} (n m_{\rm p})}{r^{2}} \\
-	\td{n}{r} &= - \fpar{G M_{\odot} m_{\rm p}}{2 k_{\rm B} T} \frac{n}{r^{2}} \\
-	\int \frac{\rd n}{n} &= - \lambda \int \frac{\rd r}{r^{2}} \\
-	\ln \fpar{n}{n_{0}} &= - \fpar{G M_{\odot} m_{\rm p}}{2 k_{\rm B} T} \left( \frac{1}{r_{0}} - \frac{1}{r} \right) \\
-	\ln \fpar{n}{n_{0}} &= - \underbrace{\fpar{G M_{\odot} m_{\rm p}}{2 k_{\rm B} T r_{0}}}_{\lambda} \left( 1 - \frac{r_{0}}{r} \right)
+	P = \frac{n k_{\rm B} T}{\mu}  = 2 \, n \, k_{\rm B} T \hspace{1cm} \left( \mu = \frac{1}{2} \; , \; \rho = n m_{\rm p} \right) \hspace{1cm} \Rightarrow \hspace{1cm} \frac{\mathrm{d} P}{\mathrm{d} r} &= - \frac{G M_{\odot} \rho}{r^{2}} \\
+	\frac{\mathrm{d} (2 n k_{\rm B} T)}{\mathrm{d} r} &= - \frac{G M_{\odot} (n m_{\rm p})}{r^{2}} \\
+	\frac{\mathrm{d} n}{\mathrm{d} r} &= - \left(\frac{G M_{\odot} m_{\rm p}}{2 k_{\rm B} T}\right) \frac{n}{r^{2}} \\
+	\int \frac{\mathrm{d} n}{n} &= - \lambda \int \frac{\mathrm{d} r}{r^{2}} \\
+	\ln \left(\frac{n}{n_{0}}\right) &= - \left(\frac{G M_{\odot} m_{\rm p}}{2 k_{\rm B} T}\right) \left( \frac{1}{r_{0}} - \frac{1}{r} \right) \\
+	\ln \left(\frac{n}{n_{0}}\right) &= - \underbrace{\left(\frac{G M_{\odot} m_{\rm p}}{2 k_{\rm B} T r_{0}}\right)}_{\lambda} \left( 1 - \frac{r_{0}}{r} \right)
 \end{align}
 $$
-$$n(r) = n_{0} e^{- \lambda \left( 1 - \frac{r_{0}}{r} \right)} \hWhere \lambda \equiv \fpar{G M_{\odot} m_{\rm p}}{2 k_{\rm B} T r_{0}}$$
+$$n(r) = n_{0} e^{- \lambda \left( 1 - \frac{r_{0}}{r} \right)} \hspace{1cm} \text{where} \hspace{1cm} \lambda \equiv \left(\frac{G M_{\odot} m_{\rm p}}{2 k_{\rm B} T r_{0}}\right)$$
 
 #### Current Sheet
 

@@ -19,10 +19,10 @@ Eratosthenes (c.276–196 BCE) found the [[Units & Conversions#Earth Radius]] by
 $$
 \text{arclength} = \text{fractional angle} \times \text{circumference}
 \hRightarrow
-L = \fpar{\theta}{360^{\circ}} \times \left( 2 \pi R_{\oplus} \right)
+L = \left(\frac{\theta}{360^{\circ}}\right) \times \left( 2 \pi R_{\oplus} \right)
 $$
 $$
-R_{\oplus} = \fpar{360}{\theta} \times \frac{L}{2 \pi} \approx 6548 \; {\rm km}
+R_{\oplus} = \left(\frac{360}{\theta}\right) \times \frac{L}{2 \pi} \approx 6548 \; {\rm km}
 \hspace{1cm}
 \text{(3\% error)}
 $$
@@ -51,13 +51,13 @@ $$
 	2 R_{\oplus} &= 2 R_{\rm umbral} + 2 D_{\rm EM} \tan \theta \\
 	R_{\oplus} &= R_{\rm umbral} + D_{\rm EM} \tan \theta \\
 	R_{\oplus} &= \left( f \cdot R_{\rm moon} \right) + \left( R_{\oplus} + \frac{R_{\rm moon}}{\theta} \right) \left( \theta \right) \hRightarrow
-	R_{\rm moon} \approx \fpar{1 - \theta}{1 + f} R_{\oplus}
+	R_{\rm moon} \approx \left(\frac{1 - \theta}{1 + f}\right) R_{\oplus}
 \end{align}
 $$
 
 From here, we can immediately get the earth-moon distance.
 
-$$R_{\rm moon} \approx \fpar{1 - \theta}{1 + f} R_{\oplus} \hspace{3cm}D_{\rm EM} \approx R_{\oplus} + \frac{R_{\rm moon}}{\theta} \approx \fpar{1 + f \theta}{\theta + f \theta} R_{\oplus}$$
+$$R_{\rm moon} \approx \left(\frac{1 - \theta}{1 + f}\right) R_{\oplus} \hspace{3cm}D_{\rm EM} \approx R_{\oplus} + \frac{R_{\rm moon}}{\theta} \approx \left(\frac{1 + f \theta}{\theta + f \theta}\right) R_{\oplus}$$
 
 > [!today] Today's Value
 > $$R_{\rm moon} \approx 1737.4 \; {\rm km} \hspace{2cm} D_{\rm EM} \approx 384400 \; {\rm km}$$
@@ -95,23 +95,23 @@ There are two ways to easily find a value for the solar mass:
 	\begin{aligned}[b]
 	F_{\rm centripetal} &= F_{\rm graviational} \\
 	M_{\oplus} \omega^{2} r &= \frac{G M_{\oplus} M_{\odot}}{r^{2}} \\
-	M_{\oplus} \fpar{2 \pi}{P_{\oplus}}^{2} (D_{\rm ES}) &= \frac{G M_{\oplus} M_{\odot}}{(D_{\rm ES})^{2}}
+	M_{\oplus} \left(\frac{2 \pi}{P_{\oplus}}\right)^{2} (D_{\rm ES}) &= \frac{G M_{\oplus} M_{\odot}}{(D_{\rm ES})^{2}}
 	\end{aligned}
 	\hRightarrow
-	M_{\odot} = \fpar{4 \pi^{2}}{G P_{\oplus}^{2}} (D_{\rm ES})^{3}
+	M_{\odot} = \left(\frac{4 \pi^{2}}{G P_{\oplus}^{2}}\right) (D_{\rm ES})^{3}
 	$$
 
 2) **Using [[Kepler's Laws of Planetary Motion]]**
 	Beginning with the area of an ellipse and [[Kepler's Laws of Planetary Motion#Kepler's 2nd Law]], we approximate that the sun is much bigger than Earth ($M_{\oplus} \ll M_{\odot}$) where $a \equiv$ the sun-earth distance$\equiv D_{\rm ES}$.
 	$$
 	\begin{aligned}[b]
-		\pi a^{2} \sqrt{1 - \varepsilon^{2}} &= \int_{0}^{P_{\oplus}} \td{A}{t} \; \rd t \\
+		\pi a^{2} \sqrt{1 - \varepsilon^{2}} &= \int_{0}^{P_{\oplus}} \frac{\mathrm{d} A}{\mathrm{d} t} \; \mathrm{d} t \\
 		\pi a^{2} \sqrt{1 - \varepsilon^{2}} &= \frac{L P_{\oplus}}{2 \mu} \\
 		\left( \pi a^{2} \right)^{2} &= \frac{P_{\oplus}}{2 \mu} \sqrt{G M \mu^{2} a} \\
-		\fpar{2 \pi}{P_{\oplus}}^{2} &= \frac{G M \mu}{a^{3}}
+		\left(\frac{2 \pi}{P_{\oplus}}\right)^{2} &= \frac{G M \mu}{a^{3}}
 	\end{aligned}
 	\hRightarrow
-	M_{\odot} = \fpar{4 \pi^{2} a^{3}}{G P_{\oplus}^{2}} - M_{\oplus} \approx \frac{4 \pi^{2} a^{3}}{G P_{\oplus}^{2}}
+	M_{\odot} = \left(\frac{4 \pi^{2} a^{3}}{G P_{\oplus}^{2}}\right) - M_{\oplus} \approx \frac{4 \pi^{2} a^{3}}{G P_{\oplus}^{2}}
 	$$
 
 > [!today] Today's Value

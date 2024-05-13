@@ -47,7 +47,7 @@ Most of the basic models for these objects imply that neutron stars are composed
 > [!note] **Size of Neutron Star Approximation:**
 > For a relativistic neutron degenerate core, we can use the DeBroglie wavelength for a good approximation for how separated the neutrons are. Relating this to number density and mass density...
 > 
-> $$\lambda_{\rm D} = \frac{h}{m_{\rm n} c^{2}} \hRightarrow N \simeq \fpar{R}{\lambda_{\rm D}}^{3} \sim \fpar{1.4 \; M_{\odot}}{m_{\rm n}} \sim 10^{57}$$
+> $$\lambda_{\rm D} = \frac{h}{m_{\rm n} c^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} N \simeq \left(\frac{R}{\lambda_{\rm D}}\right)^{3} \sim \left(\frac{1.4 \; M_{\odot}}{m_{\rm n}}\right) \sim 10^{57}$$
 > $$R \simeq \frac{N^{1/3}}{\lambda_{\rm D}} \simeq \frac{h N^{1/3}}{m_{\rm n} c} \sim 12 \; {\rm km}$$
 
 ## Types of Neutron Stars
@@ -121,7 +121,7 @@ A **millisecond pulsar (MSP)** is a pulsar with a very short rotation period ($P
 
 ![[NS_pBplot_MSPs.png|align:center]]
 
-1. An isolated or non-accreting pulsar will spin down over time due to the loss of rotational energy. $$E_{\rm rot} = \frac{1}{2} I \Omega^{2} \hRightarrow \dot{E} = I \Omega \dot{\Omega} = \text{power from mag. dipole} < 0$$ $$\therefore \quad\dot{\Omega} < 0 \quad \text{(rot. freq. decreasing)} \hspace{1cm} \dot{P} > 0 \quad \text{(period increasing)}$$
+1. An isolated or non-accreting pulsar will spin down over time due to the loss of rotational energy. $$E_{\rm rot} = \frac{1}{2} I \Omega^{2} \hspace{1cm} \Rightarrow \hspace{1cm} \dot{E} = I \Omega \dot{\Omega} = \text{power from mag. dipole} < 0$$ $$\therefore \quad\dot{\Omega} < 0 \quad \text{(rot. freq. decreasing)} \hspace{1cm} \dot{P} > 0 \quad \text{(period increasing)}$$
 2. When period is long enough, there is no longer enough voltage to accelerate particles and produce $e^{\pm}$ pairs to power the radio emission. This leads to the pulsar activity becoming undetectable.
 3. If they pulsar is in a binary or captures a companion, then as the younger star ages and overflows its [[Binary Stars#Roche Lobe]], it will accrete matter onto the NS (dead pulsar). This accretion also transfers angular momentum from the donor, increasing the spin of the NS until it co-rotates with the inner edge of the accretion disk and can begin pulsing again.
 
@@ -192,11 +192,11 @@ Basically, a [[#Magnetar]] and [[#Pulsar]] combined into a single object. We hav
 > 
 > Using the rotational energy for the pulsar *(see [[Question 62]])*...
 > $$
-> -\dot{E} = \td{E}{t} = \td{}{t} \left( \frac{I \Omega^{2}}{2} \right) = I \Omega \dot{\Omega} = - 4 \pi^{2} I \fpar{\dot{P}}{P^{3}} \hWhere \Omega = \frac{2 \pi}{P}
+> -\dot{E} = \frac{\mathrm{d} E}{\mathrm{d} t} = \frac{\mathrm{d} }{\mathrm{d} t} \left( \frac{I \Omega^{2}}{2} \right) = I \Omega \dot{\Omega} = - 4 \pi^{2} I \left(\frac{\dot{P}}{P^{3}}\right) \hspace{1cm} \text{where} \hspace{1cm} \Omega = \frac{2 \pi}{P}
 > $$
 > If we set $\dot{E}$ as a constant, then we can plot the loss rate with linear lines on the $P$-$\dot{P}$ diagram.
 > $$
-> \dot{E} = 4 \pi^{2} I \fpar{\dot{P}}{P^{3}} \hRightarrow \dot{P} = \fpar{\dot{E}}{4 \pi^{2} I} P^{3}
+> \dot{E} = 4 \pi^{2} I \left(\frac{\dot{P}}{P^{3}}\right) \hspace{1cm} \Rightarrow \hspace{1cm} \dot{P} = \left(\frac{\dot{E}}{4 \pi^{2} I}\right) P^{3}
 > $$
 > $$
 > \log_{10} \left( \dot{P} \right) = 3 \log_{10} P + {\rm constant} \hspace{2cm} \textcolor{gray}{\left[ y = m x + b \right]}
@@ -209,8 +209,8 @@ Basically, a [[#Magnetar]] and [[#Pulsar]] combined into a single object. We hav
 > A rotating dipole will radiate energy at the rate of...
 > 
 > $$
-> \dot{E} = \td{E}{t} = - \fpar{2 \pi B_{\rm p}^{2} \Omega^{4} R^{6} \sin^{2} \alpha}{3 \mu_{0} c^{3}}
-> \hWhere
+> \dot{E} = \frac{\mathrm{d} E}{\mathrm{d} t} = - \left(\frac{2 \pi B_{\rm p}^{2} \Omega^{4} R^{6} \sin^{2} \alpha}{3 \mu_{0} c^{3}}\right)
+> \hspace{1cm} \text{where} \hspace{1cm}
 > \begin{aligned}
 > 	B_{\rm p} &\equiv \text{polar B-field strength} \\
 > 	\Omega &\equiv \text{rotational frequency} \\
@@ -222,21 +222,21 @@ Basically, a [[#Magnetar]] and [[#Pulsar]] combined into a single object. We hav
 > Setting this equal to the change in rotational energy, we can find how the magnetic field strength is dependent on $P$ and $\dot{P}$.
 > 
 > $$
-> I \Omega \dot{\Omega} = - \fpar{2 \pi B_{\rm p}^{2} \Omega^{4} R^{6} \sin^{2} \alpha}{3 \mu_{0} c^{3}}
-> \hRightarrow
-> \dot{\Omega} = - \fpar{2 \pi B_{\rm p}^{2} R^{6} \sin^{2} \alpha}{3 \mu_{0} c^{3} \, I} \Omega^{3} = - k \Omega^{3}
+> I \Omega \dot{\Omega} = - \left(\frac{2 \pi B_{\rm p}^{2} \Omega^{4} R^{6} \sin^{2} \alpha}{3 \mu_{0} c^{3}}\right)
+> \hspace{1cm} \Rightarrow \hspace{1cm}
+> \dot{\Omega} = - \left(\frac{2 \pi B_{\rm p}^{2} R^{6} \sin^{2} \alpha}{3 \mu_{0} c^{3} \, I}\right) \Omega^{3} = - k \Omega^{3}
 > $$
 > Using $\Omega = 2 \pi / P$ such that $\dot{\Omega} = - 2 \pi \dot{P} / P^{2}$ ...
 > $$
-> - \frac{2 \pi \dot{P}}{P^{2}} = - \fpar{2 \pi B_{\rm p}^{2} R^{6} \sin^{2} \alpha}{3 \mu_{0} c^{3} \, I} \fpar{8 \pi^{3}}{P^{3}}
-> \hRightarrow
+> - \frac{2 \pi \dot{P}}{P^{2}} = - \left(\frac{2 \pi B_{\rm p}^{2} R^{6} \sin^{2} \alpha}{3 \mu_{0} c^{3} \, I}\right) \left(\frac{8 \pi^{3}}{P^{3}}\right)
+> \hspace{1cm} \Rightarrow \hspace{1cm}
 > B_{\rm p} = \underbrace{\sqrt{\frac{3 \mu_{0} c^{3} \, I}{8 \pi^{3} R^{6} \sin^{2} \alpha}}}_{\rm constant} \; \left( P \dot{P} \right)^{1/2}
 > $$
 > $$B_{\rm p} \propto \left( P \dot{P} \right)^{1/2}$$
 > 
 > Quickly rearranging, we see that this relation yields linear lines on the $P$-$\dot{P}$ diagram (with a negative slope) for constant $B_{\rm p}$ values.
 > 
-> $$\frac{B_{\rm p}^{2}}{\rm constant} = P \dot{P} \hRightarrow \log_{10} \dot{P} = - \log_{10} P + {\rm constant} \hspace{2cm} \textcolor{gray}{\left[ y = m x + b \right]}$$
+> $$\frac{B_{\rm p}^{2}}{\rm constant} = P \dot{P} \hspace{1cm} \Rightarrow \hspace{1cm} \log_{10} \dot{P} = - \log_{10} P + {\rm constant} \hspace{2cm} \textcolor{gray}{\left[ y = m x + b \right]}$$
 ^constant-bfield
 
 > [!math] Lines of Constant Characteristic Age
@@ -247,22 +247,22 @@ Basically, a [[#Magnetar]] and [[#Pulsar]] combined into a single object. We hav
 > 
 > $$
 > \dot{\Omega} = - k \Omega^{n}
-> \hRightarrow
+> \hspace{1cm} \Rightarrow \hspace{1cm}
 > \begin{aligned}[t]
-> 	k \; \rd t &= - \frac{\rd \Omega}{\Omega^{n}} \\
-> 	\int_{t_{i} = 0}^{t_{f}=\tau} k \; \rd t &= - \int_{\Omega_{i}}^{\Omega_{f}} \frac{\rd \Omega}{\Omega^{n}} \\
+> 	k \; \mathrm{d} t &= - \frac{\mathrm{d} \Omega}{\Omega^{n}} \\
+> 	\int_{t_{i} = 0}^{t_{f}=\tau} k \; \mathrm{d} t &= - \int_{\Omega_{i}}^{\Omega_{f}} \frac{\mathrm{d} \Omega}{\Omega^{n}} \\
 > 	k \tau &= \frac{1}{n - 1} \left( \frac{1}{\Omega_{f}^{n-1}} - \frac{1}{\Omega_{i}^{n-1}} \right) \\
 > 	\left( - \frac{1}{\Omega_{f}^{n-1}} \frac{\dot{\Omega}_{f}}{\Omega_{f}} \right) \tau &= \frac{1}{n - 1} \left( \frac{1}{\Omega_{f}^{n-1}} - \frac{1}{\Omega_{i}^{n-1}} \right) \\
-> 	\left( - \frac{\dot{\Omega}_{f}}{\Omega_{f}} \right) \tau &= \frac{1}{n - 1} \left[ 1 - \fpar{\Omega_{f}}{\Omega_{i}}^{n-1} \right] \\
-> 	\left( \frac{\dot{P}_{f}}{P_{f}} \right) \tau &= \frac{1}{n - 1} \left[ 1 - \fpar{P_{i}}{P_{f}}^{n-1} \right]
+> 	\left( - \frac{\dot{\Omega}_{f}}{\Omega_{f}} \right) \tau &= \frac{1}{n - 1} \left[ 1 - \left(\frac{\Omega_{f}}{\Omega_{i}}\right)^{n-1} \right] \\
+> 	\left( \frac{\dot{P}_{f}}{P_{f}} \right) \tau &= \frac{1}{n - 1} \left[ 1 - \left(\frac{P_{i}}{P_{f}}\right)^{n-1} \right]
 > \end{aligned}
 > $$
-> $$\tau = \frac{1}{n - 1} \left( \frac{P_{f}}{\dot{P}_{f}} \right) \left[ 1 - \fpar{P_{i}}{P_{f}}^{n-1} \right]$$
+> $$\tau = \frac{1}{n - 1} \left( \frac{P_{f}}{\dot{P}_{f}} \right) \left[ 1 - \left(\frac{P_{i}}{P_{f}}\right)^{n-1} \right]$$
 > 
 > If we now approximate that $P_{i} \ll P_{f}$ , $n \approx 3$ , and $P_{f} \equiv P$ , then for constant $\tau$ values...
 > 
-> $$\tau = \frac{1}{n - 1} \left( \frac{P_{f}}{\dot{P}_{f}} \right) \left[ 1 - \fpar{P_{i}}{P_{f}}^{n-1} \right] \quad \approx \quad\frac{1}{2} \fpar{P}{\dot{P}}$$
-> $$\dot{P} \approx \fpar{1}{2 \tau} P  \hRightarrow \log_{10} \dot{P} \approx \log_{10} P + {\rm constant} \hspace{2cm} \textcolor{gray}{\left[ y = m x + b \right]}$$
+> $$\tau = \frac{1}{n - 1} \left( \frac{P_{f}}{\dot{P}_{f}} \right) \left[ 1 - \left(\frac{P_{i}}{P_{f}}\right)^{n-1} \right] \quad \approx \quad\frac{1}{2} \left(\frac{P}{\dot{P}}\right)$$
+> $$\dot{P} \approx \left(\frac{1}{2 \tau}\right) P  \hspace{1cm} \Rightarrow \hspace{1cm} \log_{10} \dot{P} \approx \log_{10} P + {\rm constant} \hspace{2cm} \textcolor{gray}{\left[ y = m x + b \right]}$$
 ^constant-age
 
 ### P-B Diagram
@@ -275,8 +275,8 @@ Similar plot as the [[#P-Pdot Diagram]], but with magnetic field strength on the
 > Use the final equation from [[#^constant-Edot|Lines of Constant Energy Loss]] and rearrange for lines with constant $\dot{P}$.
 > $$
 > B_{\rm p} = {\rm constant} \times (P \dot{P})^{1/2}
-> \hRightarrow
-> \dot{E} = 4 \pi^{2} I \fpar{\dot{P}}{P^{3}} = 4 \pi^{2} I \fpar{B_{\rm p}}{\rm constant}^{2} \frac{1}{P^{4}}
+> \hspace{1cm} \Rightarrow \hspace{1cm}
+> \dot{E} = 4 \pi^{2} I \left(\frac{\dot{P}}{P^{3}}\right) = 4 \pi^{2} I \left(\frac{B_{\rm p}}{\rm constant}\right)^{2} \frac{1}{P^{4}}
 > $$
 > $$B_{\rm p} = \left( {\rm constant} \times \sqrt{\frac{\dot{E}}{4 \pi^{2} I}} \right) P^{2}$$
 > $$\log_{10} B_{\rm p} = 2 \log_{10} P + {\rm constant} \hspace{2cm} \textcolor{gray}{\left[ y = m x + b \right]}$$
@@ -294,10 +294,10 @@ Similar plot as the [[#P-Pdot Diagram]], but with magnetic field strength on the
 > Use the final equation from [[#^constant-age|Lines of Constant Characteristic Age]] and rearrange for lines with constant $\dot{P}$.
 > $$
 > B_{\rm p} = {\rm constant} \times (P \dot{P})^{1/2}
-> \hRightarrow
-> \dot{P} = \fpar{B_{\rm p}}{\rm constant}^{2} \frac{1}{P} = \frac{P}{2 \tau}
+> \hspace{1cm} \Rightarrow \hspace{1cm}
+> \dot{P} = \left(\frac{B_{\rm p}}{\rm constant}\right)^{2} \frac{1}{P} = \frac{P}{2 \tau}
 > $$
-> $$B_{\rm p} = \fpar{\rm constant}{\sqrt{2 \tau}} P$$
+> $$B_{\rm p} = \left(\frac{\rm constant}{\sqrt{2 \tau}}\right) P$$
 > $$\log_{10} B_{\rm p} = \log_{10} P + {\rm constant} \hspace{2cm} \textcolor{gray}{\left[ y = m x + b \right]}$$
 
 

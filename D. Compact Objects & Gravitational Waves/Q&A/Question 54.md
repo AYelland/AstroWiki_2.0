@@ -6,11 +6,11 @@ Show from a simple dimensional analysis how the effective temperature of an accr
 ---
 To find the effective temperature ($T_{\rm eff}$), we need to relate it to the [[Luminosity|luminosity]] of the accretion disk. We will assume that the accretion disk is a flat disk that emits as a [[Blackbody Radiation|blackbody]] ($F = \sigma T_{\rm eff}^{4}$) from both sides ($A = 2 A_{\rm circle} = 2 \pi R^{2}$).
 
-$$L = F \cdot A = (\sigma T_{\rm eff}^{4}) \cdot (2 \pi R^{2}) \hRightarrow T_{\rm eff} = \fpar{L}{2 \pi \sigma R^{2}}^{1/4}$$
+$$L = F \cdot A = (\sigma T_{\rm eff}^{4}) \cdot (2 \pi R^{2}) \hspace{1cm} \Rightarrow \hspace{1cm} T_{\rm eff} = \left(\frac{L}{2 \pi \sigma R^{2}}\right)^{1/4}$$
 
 If we assume the gas in the disk is [[Virial Theorem|virialized]] ($2T + U = 0 \implies T = - U/2$), then The power (same units as luminosity) of the accretion disk comes from the releasing the gravitational potential energy of particles/gas migrating inwards from the edge of the disk ($r=R$). 
 
-$$L_{\rm acc} \propto \underbrace{\td{T}{t} = - \frac{1}{2} \td{U}{t}}_{\rm Virial\ Theorem} = - \frac{1}{2} \td{}{t} \left( - \frac{G M \; \rd M}{R} \right) = \frac{G M \dot{M}}{2 R} \hRightarrow L_{\rm acc} = \frac{G M \dot{M}}{2 R}$$
+$$L_{\rm acc} \propto \underbrace{\frac{\mathrm{d} T}{\mathrm{d} t} = - \frac{1}{2} \frac{\mathrm{d} U}{\mathrm{d} t}}_{\rm Virial\ Theorem} = - \frac{1}{2} \frac{\mathrm{d} }{\mathrm{d} t} \left( - \frac{G M \; \mathrm{d} M}{R} \right) = \frac{G M \dot{M}}{2 R} \hspace{1cm} \Rightarrow \hspace{1cm} L_{\rm acc} = \frac{G M \dot{M}}{2 R}$$
 
 Applying this to the effective temperature equation...
 

@@ -23,7 +23,7 @@ This implies an incredibly fine tuning of the universe at early times to be incr
 > Using that $\Omega(z) = \rho(z) / \rho_{\rm c}(z)$ and the definition of the [[Friedmann Equation#Critical Density|critical density]], this can be written (using $\rho(z)\propto a^{-3}$) as...
 > 
 > $$\begin{align}
-> \rho(z) \left( \frac{\rho_{c}(z)}{\rho(z)} - 1 \right) a^{2} &= \text{const} \hRightarrow 
+> \rho(z) \left( \frac{\rho_{c}(z)}{\rho(z)} - 1 \right) a^{2} &= \text{const} \hspace{1cm} \Rightarrow \hspace{1cm} 
 > \Omega^{-1} - 1 \propto a
 > \end{align}$$
 > 
@@ -45,7 +45,7 @@ The blackbody spectrum infers that the universe was in thermal equilibrium, and 
 
 > [!derivation]
 > To calculate the size of the light horizon, see the calculation for the [[Cosmic Microwave Background#Sound Horizon|sound horizon size]]. In that derivation, we assumed sound speed was proportional to the speed of light by $c_{\rm s} = c/\sqrt{3}$. Therefore, using the results, we can just multiply that answer of about $1^{\circ}$ by $\sqrt{3}$.
-> $$l \sim \frac{\pi}{\theta} \hRightarrow \theta \sim \theta_{\rm s} \sqrt{3} \sim \fpar{\pi}{l_{\rm s}} \sqrt{3} \sim 2 \degree$$
+> $$l \sim \frac{\pi}{\theta} \hspace{1cm} \Rightarrow \hspace{1cm} \theta \sim \theta_{\rm s} \sqrt{3} \sim \left(\frac{\pi}{l_{\rm s}}\right) \sqrt{3} \sim 2 \degree$$
 
 Inflation solves this by whole universe being in causal contact close to Big Bang.
 

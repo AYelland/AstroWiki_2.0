@@ -11,7 +11,7 @@ Explain how interstellar dust grains can result in linear polarization of transm
 
 This alignment is *not ferromagnetic*, but instead *paramagnetic* due to the very weak spin-spin interactions within a given dust grain. The net alignment of the magnetic dipole moments ($\vec{\mu}$) of the grain population will be parallel to the magnetic field ($\vec{B}$) (a lower energy configuration, $\theta=0$), but this is an average of independent, randomly spinning grains, each weakly attracted to the magnetic field.
 
-$$\text{Magnetic Potential Energy:} \quad U = - \vec{\mu} \cdot \vec{B} = - \mu B \,\cos \theta \hWhere \theta \in [0, \pi]$$
+$$\text{Magnetic Potential Energy:} \quad U = - \vec{\mu} \cdot \vec{B} = - \mu B \,\cos \theta \hspace{1cm} \text{where} \hspace{1cm} \theta \in [0, \pi]$$
 
 In addition to this, there are other mechanisms assist with the grain alignment over time through energy minimization, including Radiative Torque Alignment (RTA), but I won't go into details. *(see [here](https://ntrs.nasa.gov/api/citations/20200001522/downloads/20200001522.pdf))*
 

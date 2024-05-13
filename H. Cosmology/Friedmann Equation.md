@@ -55,7 +55,7 @@ $$\Omega(t) = \Omega_{M}(t) + \Omega_{r}(t) + \Omega_{k}(t) + \Omega_{\Lambda}(t
 The current day values are evaluated at $z=0$ ($a=1$).
 
 $$\begin{alignat}{3}
-	\Omega_{M,0} &= \frac{\rho_{M,0}}{\rho_{c,0}} = \fpar{8 \pi G}{3 H_{0}^{2}} \rho_{M,0} &\hspace{2cm} \Omega_{r,0} &= \frac{\rho_{r,0}}{\rho_{c,0}} = \fpar{8 \pi G}{3 H_{0}^{2}} \rho_{r,0} \\
+	\Omega_{M,0} &= \frac{\rho_{M,0}}{\rho_{c,0}} = \left(\frac{8 \pi G}{3 H_{0}^{2}}\right) \rho_{M,0} &\hspace{2cm} \Omega_{r,0} &= \frac{\rho_{r,0}}{\rho_{c,0}} = \left(\frac{8 \pi G}{3 H_{0}^{2}}\right) \rho_{r,0} \\
 	\Omega_{k,0} &= \frac{\rho_{k,0}}{\rho_{c,0}} = \frac{- k c^{2}}{H_{0}^{2}} &\hspace{2cm} \Omega_{\Lambda,0} &= \frac{\rho_{\Lambda,0}}{\rho_{c,0}} = \frac{\Lambda c^{2}}{3 H_{0}^{2}}
 \end{alignat}$$
 
@@ -70,11 +70,11 @@ $$H(a)^{2} = \frac{8 \pi G}{3} \bigg( \rho_{M} + \rho_{r} + \underbrace{\frac{3}
 
 ...we can can compare it to today's values ($z=0$) with the current critical density to re-express the Hubble parameter in terms of these cosmological density parameters. Here, we will define a new function $E(a)$. 
 
-$$E^{2}(a) \equiv \frac{H^{2}(a)}{H_{0}^{2}} = \frac{\rho_{M}(a) + \rho_{r}(a) + \rho_{k}(a) + \rho_{\Lambda}(a)}{\rho_{c,0}} \hWhere H_{0}^{2} = \fpar{8 \pi G}{3} \rho_{c,0}$$
-$$E^{2}(a) = \underbrace{\fpar{\rho_{M,0}}{\rho_{c,0}}}_{\Omega_{M,0}} (1+z)^{3} 
-+ \underbrace{\fpar{\rho_{r,0}}{\rho_{c,0}}}_{\Omega_{r,0}} (1+z)^{4} 
-+ \underbrace{\fpar{\rho_{k,0}}{\rho_{c,0}}}_{\Omega_{k,0}} (1+z)^{2} 
-+ \underbrace{\fpar{\rho_{\Lambda,0}}{\rho_{c,0}}}_{\Omega_{\Lambda,0}}$$
+$$E^{2}(a) \equiv \frac{H^{2}(a)}{H_{0}^{2}} = \frac{\rho_{M}(a) + \rho_{r}(a) + \rho_{k}(a) + \rho_{\Lambda}(a)}{\rho_{c,0}} \hspace{1cm} \text{where} \hspace{1cm} H_{0}^{2} = \left(\frac{8 \pi G}{3}\right) \rho_{c,0}$$
+$$E^{2}(a) = \underbrace{\left(\frac{\rho_{M,0}}{\rho_{c,0}}\right)}_{\Omega_{M,0}} (1+z)^{3} 
++ \underbrace{\left(\frac{\rho_{r,0}}{\rho_{c,0}}\right)}_{\Omega_{r,0}} (1+z)^{4} 
++ \underbrace{\left(\frac{\rho_{k,0}}{\rho_{c,0}}\right)}_{\Omega_{k,0}} (1+z)^{2} 
++ \underbrace{\left(\frac{\rho_{\Lambda,0}}{\rho_{c,0}}\right)}_{\Omega_{\Lambda,0}}$$
 
 $$\boxed{\; \begin{align}
 	H^{2}(a) &= H_{0}^{2} E^{2}(a) \\
@@ -98,7 +98,7 @@ $$\boxed{\; \begin{align}
 
 The scale factor $a$ evolves differently over time depending on the "type" of universe (choices of the different $\Omega$) and some common examples are shown in the figure below.
 
-$$H^{2}(a) = H_{0}^{2} \Big( \Omega_{M,0} \, a^{-3} + \Omega_{r,0} \, a^{-4} + \Omega_{k,0} \, a^{-2} + \Omega_{\Lambda,0} \Big) = \fpar{\dot{a}}{a}^{2}$$
+$$H^{2}(a) = H_{0}^{2} \Big( \Omega_{M,0} \, a^{-3} + \Omega_{r,0} \, a^{-4} + \Omega_{k,0} \, a^{-2} + \Omega_{\Lambda,0} \Big) = \left(\frac{\dot{a}}{a}\right)^{2}$$
 
 ![[scale_factor_universe_types.png|align:center|500]]
 
@@ -107,12 +107,12 @@ Different terms in the Friedmann equation dominate at different times.
 
 - **Radiation Regime** - radiation term $\propto a^{-4} \Longrightarrow$ dominates at very early times
 
-$$H^{2} = \fpar{\dot{a}}{a}^{2} \propto a^{-4} \hRightarrow \begin{aligned}[t]
+$$H^{2} = \left(\frac{\dot{a}}{a}\right)^{2} \propto a^{-4} \hspace{1cm} \Rightarrow \hspace{1cm} \begin{aligned}[t]
 	\dot{a} &\propto a^{-1} \\
-	a \; \rd a &\propto \rd t \\
+	a \; \mathrm{d} a &\propto \mathrm{d} t \\
 	a &\propto t^{1/2}
 \end{aligned}
-\hRightarrow 
+\hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
 	&H(t) = \frac{1}{2t} \\
 	&t_{0} = \frac{1}{2 H_{0}}
@@ -120,12 +120,12 @@ $$H^{2} = \fpar{\dot{a}}{a}^{2} \propto a^{-4} \hRightarrow \begin{aligned}[t]
 
 - **Matter Regime** - matter term $\propto a^{-3} \Longrightarrow$ dominates at early times
 
-$$H^{2} = \fpar{\dot{a}}{a}^{2} \propto a^{-3} \hRightarrow \begin{aligned}[t]
+$$H^{2} = \left(\frac{\dot{a}}{a}\right)^{2} \propto a^{-3} \hspace{1cm} \Rightarrow \hspace{1cm} \begin{aligned}[t]
 	\dot{a} &\propto a^{-1/2} \\
-	\sqrt{a} \; \rd a &\propto \rd t \\
+	\sqrt{a} \; \mathrm{d} a &\propto \mathrm{d} t \\
 	a &\propto t^{2/3}
 \end{aligned}
-\hRightarrow 
+\hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
 	&H(t) = \frac{2}{3t} \\
 	&t_{0} = \frac{2}{3 H_{0}}
@@ -133,12 +133,12 @@ $$H^{2} = \fpar{\dot{a}}{a}^{2} \propto a^{-3} \hRightarrow \begin{aligned}[t]
 
 - **Curvature Regime** - curvature term $\propto a^{-2} \Longrightarrow$ dominates at medium times
 
-$$H^{2} = \fpar{\dot{a}}{a}^{2} \propto a^{-2} \hRightarrow \begin{aligned}[t]
+$$H^{2} = \left(\frac{\dot{a}}{a}\right)^{2} \propto a^{-2} \hspace{1cm} \Rightarrow \hspace{1cm} \begin{aligned}[t]
 	\dot{a} &\propto {\rm constant} \\
-	\rd a &\propto \rd t \\
+	\mathrm{d} a &\propto \mathrm{d} t \\
 	a &\propto t
 \end{aligned}
-\hRightarrow 
+\hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
 	&H(t) = \frac{1}{t} \\
 	&t_{0} = \frac{1}{H_{0}}
@@ -146,15 +146,15 @@ $$H^{2} = \fpar{\dot{a}}{a}^{2} \propto a^{-2} \hRightarrow \begin{aligned}[t]
 
 - **$\Lambda$ Regime** - $\Lambda$ term $\propto {\rm constant} \Longrightarrow$ dominates at late times
 
-$$H^{2} = \fpar{\dot{a}}{a}^{2} \propto \fpar{\Lambda}{3} \hRightarrow \begin{aligned}[t]
+$$H^{2} = \left(\frac{\dot{a}}{a}\right)^{2} \propto \left(\frac{\Lambda}{3}\right) \hspace{1cm} \Rightarrow \hspace{1cm} \begin{aligned}[t]
 	\dot{a} &\propto a \sqrt{\frac{\Lambda}{3}} \\
-	\frac{\rd a}{a} &\propto \sqrt{\frac{\Lambda}{3}} \;\rd t \\
+	\frac{\mathrm{d} a}{a} &\propto \sqrt{\frac{\Lambda}{3}} \;\mathrm{d} t \\
 	a &\propto e^{\sqrt{\frac{\Lambda}{3}t}}
 \end{aligned}
-\hRightarrow 
+\hspace{1cm} \Rightarrow \hspace{1cm} 
 \begin{aligned}[t]
 	&H(t) = \frac{1}{2} \sqrt{\frac{\Lambda}{3 t}} \\
-	&t_{0} = \frac{1}{4 H_{0}^{2}} \fpar{\Lambda}{3}
+	&t_{0} = \frac{1}{4 H_{0}^{2}} \left(\frac{\Lambda}{3}\right)
 \end{aligned}$$
 
 As the universe evolves, it expands at different rates depending on the regime (radiation/matter/$\Lambda$).
