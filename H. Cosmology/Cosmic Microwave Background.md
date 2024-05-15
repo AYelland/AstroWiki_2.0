@@ -5,7 +5,7 @@ aliases:
   - cosmic microwave background
   - CMB
 ---
-	## General Information
+## General Information
 
 The **Cosmic Microwave Background** is the most prominent peak of the [[Question 82#^EBL|Extragalactic Background Light (EBL)]]. More specifically, it is the remnant *microwave radiation* from when photons and baryonic matter decoupled during [[Cosmological Timeline#Recombination|recombination]] in the early universe. 
 

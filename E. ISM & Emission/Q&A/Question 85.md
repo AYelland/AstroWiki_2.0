@@ -11,12 +11,12 @@ What is "brightness temperature"? What is a “Jansky”? How are these differen
 Rearranging the [[Blackbody Radiation|blackbody]] spectrum for temperature in terms of wavelength $(T_{\lambda})$ and frequency $(T_{\nu})$, we find the relationship the "brightness temperature" the [[Blackbody Radiation#Blackbody Specific Intensity|blackbody specific intensity]]...
 
 $$
-I_{\nu} = B_{\nu}=  \frac{2 h \nu^{3}}{c^{2}} \left(\frac{1}{\exp \left[ \frac{h \nu}{k_{\rm B} T}\right) \right] - 1}
+I_{\nu} = B_{\nu} = \frac{2 h \nu^{3}}{c^{2}} \left(\frac{1}{\exp \left[ \frac{h \nu}{k_{\rm B} T} \right] - 1}\right)
 \hspace{1cm} \Rightarrow \hspace{1cm} 
 T_{\nu} = \frac{h \nu}{k_{\rm B} \ln \left( 1 + \frac{2 h \nu^{3}}{c^{2} I_{\nu}} \right)}
 $$
 $$
-I_{\lambda} = B_{\lambda}=  \frac{2 h c^{2}}{\lambda^{5}} \left(\frac{1}{\exp \left[ \frac{h c}{\lambda k_{\rm B} T}\right) \right] - 1}
+I_{\lambda} = B_{\lambda}=  \frac{2 h c^{2}}{\lambda^{5}} \left(\frac{1}{\exp \left[ \frac{h c}{\lambda k_{\rm B} T} \right] - 1}\right)
 \hspace{1cm} \Rightarrow \hspace{1cm} 
 T_{\lambda} = \frac{h c}{\lambda \, k_{\rm B} \ln \left( 1 + \frac{2 h c^{2}}{\lambda^{5} I_{\lambda}} \right)}
 $$

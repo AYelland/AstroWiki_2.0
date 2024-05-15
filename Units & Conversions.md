@@ -33,7 +33,7 @@ The mass of Earth.
 **SI Units:**
 - $1 \; {\rm M_{\oplus}} = 5.972 \times 10^{24} \; {\rm kg}$
 
-- [ ] **CGS Units:**
+-  **CGS Units:**
 - $1 \; {\rm M_{\oplus}} = 5.972 \times 10^{27} \; {\rm g}$
 
 **Astro Community Units:**

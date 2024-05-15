@@ -9,7 +9,7 @@ By [[Blackbody Radiation#Wien's Displacement Law]], we know that the [[Flux|flux
 ![[wiens_displacementLaw.png|aling:center|500]]
 
 $$
-B_{\nu}(\nu,T) = \frac{2 h \nu^{3}}{c^{2}} \left(\frac{1}{\exp \left[ \frac{h \nu}{k_{\rm B} T}\right) \right] - 1} \hspace{1cm} \Rightarrow \hspace{1cm} \lambda_{\rm peak} \simeq \frac{b}{T_{\rm eff}}
+B_{\nu}(\nu,T) = \frac{2 h \nu^{3}}{c^{2}} \left(\frac{1}{\exp \left[ \frac{h \nu}{k_{\rm B} T} \right] - 1}\right) \hspace{1cm} \Rightarrow \hspace{1cm} \lambda_{\rm peak} \simeq \frac{b}{T_{\rm eff}}
 $$
 
 By assuming the stellar surface emits as a [[Blackbody Radiation|blackbody]], we can measure the flux output of a star in the [[Photometry#UBVRI Filters|B and V bands]] , take their difference, and find the [[Hertzsprung-Russell Diagram#Color Index|color index (B-V)]]. 

@@ -150,5 +150,6 @@ This mechanism is important for:
 
 ---
 ## Resources
+
 - http://www.scholarpedia.org/article/Planetary_formation_and_migration
 - https://en.wikipedia.org/wiki/Planetary_migration

@@ -28,7 +28,7 @@ $${\rm SNR} = \frac{R_{\rm s} \sqrt{t}}{\sqrt{R_{\rm s} + n (R_{\rm b} + R_{\rm 
 
 For ground-based observations of a *faint* source in the [[Electromagnetic Spectrum|IR]], we will be in the counting regime (making this calculation valid) and [[Question 155#^9367ad|sky limited]], such that the SNR will scale with $\sqrt{t}$ (see [[Question 158]]). 
 
-$${\rm SNR} = \left(\frac{R_{\rm s}}{\sqrt{n R_{\rm b}}\right)}\sqrt{t}$$
+$${\rm SNR} = \left(\frac{R_{\rm s}}{\sqrt{n R_{\rm b}}}\right)\sqrt{t}$$
 
 We can now look at how the source photon rate ($R_{\rm s}$), the background photon rate ($R_{\rm b}$), and the number of pixels covered by our source and background ($n$) scales with the diameter of the aperture.
 

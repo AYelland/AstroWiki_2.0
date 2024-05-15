@@ -104,4 +104,4 @@ A body with characteristics similar to those of a classical planet with a nearly
 
 ---
 ## Resources
-- [Wikipeda - List of Planets Types](https://en.wikipedia.org/wiki/List_of_planet_types)
+- [Wikipedia - List of Planets Types](https://en.wikipedia.org/wiki/List_of_planet_types)

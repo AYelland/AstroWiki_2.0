@@ -42,7 +42,7 @@ $$
 Then taking the time-average of a steady state system ($\tau$ is large)
 $$\left\langle \frac{\mathrm{d} L}{\mathrm{d} t} \right\rangle_{\tau} = \frac{1}{\tau} \int_{0}^{\tau} \frac{\mathrm{d} L}{\mathrm{d} t} \mathrm{d} t = \frac{L(\tau) - L(0)}{\tau} \approx 0$$
 ...we find the **Virial Theorem**.
-$$\left\langle\frac{\mathrm{d} L}{\mathrm{d} t}\right\rangle = \left\langle \sum_{i} \vec{F}_{i} \cdot \vec{r}_{i} \right\rangle + \left\langle 2 \, T \right\rangle = 0 \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{\left\langle T \right\rangle = - \frac{1}{2} \left\langle \sum_{i} \vec{F}_{i} \cdot \vec{r}_{i}} \right\rangle$$
+$$\left\langle\frac{\mathrm{d} L}{\mathrm{d} t}\right\rangle = \left\langle \sum_{i} \vec{F}_{i} \cdot \vec{r}_{i} \right\rangle + \left\langle 2 \, T \right\rangle = 0 \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{\left\langle T \right\rangle = - \frac{1}{2} \left\langle \sum_{i} \vec{F}_{i} \cdot \vec{r}_{i} \right\rangle}$$
 
 ### For a Pairwise Force...
 

@@ -21,7 +21,7 @@ aliases:
 - Radius (eclipsing)
 
 For internal structures:
-- Helioseismology - the study of virbtational modes in the [[Sun|sun]]
+- Helioseismology - the study of vibrational modes in the [[Sun|sun]]
 - Solar Neutrinos - a direct probe of the nuclear interaction regions
 
 ## Important Examples
@@ -29,4 +29,3 @@ For internal structures:
 - the [[Sun]]
 - Polaris
 - Sirius A/B
-- 

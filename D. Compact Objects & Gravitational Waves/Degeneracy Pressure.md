@@ -26,7 +26,7 @@ $$
 ...we will assume some homogenous, isotropic system composed of fermions. (using [[Statistical Mechanics#Fermi-Dirac & Bose-Einstein|Fermi Statistics]]).
 
 $$
-f(p) = \frac{g}{h^{3}} \, (n_{\rm occ}) = \frac{2}{h^{3}} \left(\frac{1}{e^{[E(p) - \mu] / k_{\rm B} T}\right) + 1}
+f(p) = \frac{g}{h^{3}} \, (n_{\rm occ}) = \frac{2}{h^{3}} \left(\frac{1}{e^{[E(p) - \mu] / k_{\rm B} T} + 1}\right)
 $$
 
 The number density ($\bar{n}_{s}$) and pressure ($P$) are then defined by:

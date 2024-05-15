@@ -19,7 +19,7 @@ When these conditions are met, then the three $\alpha$ particles ($\ce{^{4}He}$)
 **More Details:**
 - Two helium-4 nuclei can fuse and produce beryllium-8 ($\ce{^{8}Be}$); however, it is highly unstable with a half-life $= 8.19 \times 10^{−17} \; {\rm s}$.
 	- Very quickly decays back into smaller nuclei (i.e. two $\alpha$ particles, see [[Proton-Proton Chain#PP III]])
-- If a third $\alpha$ particle can overcome the Coulomb barrier and fuse with the $\ce{^{8}Be}$ nuclei before it decays, then it can create an excited resonance state of carbon-12 *(the Hoyle state)*.
+- If a third $\alpha$ particle can overcome the Coulomb barrier and fuse with the $\ce{^{8}Be}$ nuclei before it decays, then it can create an excited resonance state of carbon-12 *(**the Hoyle state**)*.
 	- Typically, the Hoyle state will still decays into 3 $\alpha$ particles
 	- $1/2421.3$ times, the Hoyle state relaxes to it stable, ground-state configuration of carbon-12, giving off the extra energy through [[Gamma Decay|gamma decay]]
 
