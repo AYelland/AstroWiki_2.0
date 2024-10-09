@@ -8,6 +8,28 @@ aliases:
 > [!note] Spectral Lines Notation
 > The spectral lines are notated according to the level of ionization of a chemical element. Neutral atoms are denoted with the Roman numeral $I$, singly ionized atoms with $II$, and so on. (i.e. $\ce{HI}$, $\ce{HII}$, $\ce{HeI}$)
 
+## Parts of a Stellar Spectrum
+
+### Absorption Lines
+
+A [[Bound-Bound Absorption|bound-bound transition]] between two sharply defined states of energy. These are the distinguishing features in a stellar spectrum we call "spectral lines" that we use to determine a variety of stellar parameters. ([[Metallicity|metallicity]], radial velocity, chemical composition, temperature, surface gravity, etc.)
+
+These spectral lines only pertain to a small range of energies, but can generate large changes in [[Intensity#Specific Intensity|specific intensity]] within this narrow energy range.
+
+In a star, the a given nuclear fusion releases photons at a specific temperature. From there, the photon has to travel to the surface of the star before it is emitted and traveled to an observer. Similar to the photosphere of the Sun, we define the “surface” at the depth into the star where it becomes completely opaque. Based on the temperature of the star, the surface of the star is associated with different radial distances from the fusion reactions (in other words, height from the core). From there, the remainder of the star creates the stellar atmosphere. 
+
+Thus, these absorption lines come from the atoms in the star itself, not the atmosphere. The strength of the spectral line is directly proportional to chemical abundance.
+
+![[absorption_lines.png|align:center|500]]
+
+> [!example] Considering two stars of equal mass and in the same stage in evolution...
+> - For two stars with equal temperatures, the star with a higher metallicity will have more absorption lines, since the metals can absorb more photons at various energy levels.
+> - For two stars with equal metallicity, a higher temperature (smaller photospheric shell and closer to the fusion reactions), the star would have less absorption lines since there is less physical area the light is traveling through before escaping the star.
+
+### Continuum
+
+Ions (such as $\ce{H^{-}}$) can capture free electrons in a [[Free-Bound Emission|free-bound transition]], emitting a photon. The energy of the photon is the difference between the original energy of the electron and its new energy in its bound state. This difference can have any value, and the cumulative effect of many of these [[Free-Bound Emission|free-bound transition]] is a continuous spectrum.
+
 ## Profile Effects
 ### P Cygni Line Profile
 

@@ -427,7 +427,7 @@ Here are the [[168 Questions.pdf|168 Questions]] in the PDF format.
 ### Question 43
 
 > [!question] Question
-> Give a qualitative description of the frequency and amplitude evolution of the gravitational wave signal from a binary compact star system. Compute actual numbers for a 30-30M_solar binary black hole system.
+> Give a qualitative description of the frequency and amplitude evolution of the gravitational wave signal from a binary compact star system. Compute actual numbers for a $30 - 30 \pu{M_{\odot}}$ binary black hole system.
 > 
 > > [!answer]-
 > > 

@@ -146,7 +146,7 @@
 
 > [!tip] Open or Closed?
 > 
-> To remember whether $\Omega_{k}$ positive or negative means an open or closed universe in the context of the [[Friedmann Equation|FLRW]] metric, just remember that a sphere is closed because I'm trapped inside it, and I have very **negative** feelings about this trapping (so $\Omega_{k} < 0$ is **closed**). We talk about $\Omega_{k}$ more than $k$, but just remember that they have a minus sign relative to one another so a negative $\Omega_{k}$ means a positive $k $ and vice versa.
+> To remember whether $\Omega_{k}$ positive or negative means an open or closed universe in the context of the [[Friedmann Equation|FLRW]] metric, just remember that a sphere is closed because I'm trapped inside it, and I have very **negative** feelings about this trapping (so $\Omega_{k} < 0$ is **closed**). We talk about $\Omega_{k}$ more than $k$, but just remember that they have a minus sign relative to one another so a negative $\Omega_{k}$ means a positive $k$ and vice versa.
 > 
 > ![[trapped_man.jpg|align:center|300]]
 

@@ -34,7 +34,8 @@ There are also plenty of [[#Other Galaxy Types|other]] galaxy classifications th
 > - $r_{\rm halflight}$
 
 > [!measure] Typical Galaxy Mass
-> Mass: 
+> Mass: $\sim 10^{9} - 10^{13} \, \pu{M_{\odot}}$
+
 ## Hubble Morphological Sequence
 *(Also known as the **Hubble tuning-fork diagram**)*
 
@@ -168,15 +169,33 @@ The presence of a disk in a galaxy is determined more by its formation history a
 
 ### Dwarf Galaxy
 
-Dwarf galaxies are very similar to [[Stellar Clusters#Globular Cluster|globular clusters]] in mass, but are significantly less compact, and thus, less luminous. Additionally, they are thought to have a higher dark matter content relative to GCs.
+Dwarf galaxies are very similar to [[Stellar Clusters#Globular Cluster|globular clusters]] in mass, but are significantly less compact, and thus, less luminous. This is possible because they are thought to have a higher dark matter content, relative to [[Stellar Clusters#Globular Cluster|globular clusters]], that allows them to remain gravitationally bound.
 
 $$R_{\rm glob} \sim \mathcal{O}(10 \; {\rm pc}) \hspace{2cm} R_{\rm dwarf} \sim \mathcal{O}(100 \; {\rm pc})$$
 
+Often, the challenge with dwarf galaxies is identifying the membership stars. Observationally, this is done by comparing their radial velocity with the systemic velocity of the dwarf galaxy itself. Similarly, it could also be done through the star's proper motion compared to background stars. Relative to [[#Ultra-Faint Dwarf (UFD) Galaxy|UFDs]], the membership stars can be seen as overdensities on the sky, making member star identification straightforward in comparison.
+
+Regarding the stellar composition, these systems showcase all characteristic signs of galactic evolution, including multiple bursts of star formation and chemical evolution (i.e. from metal-poor to metal-rich stars). Stars can be found with [[Metallicity|metallicities]] of $\ce{[Fe/H]} \sim -4.0$ up to solar levels ($\ce{[Fe/H]} \sim 0$). 
+
 > [!measure] Typical Parameters
-> - Mass Range: $\sim 10^{3} - 10^{6} \; {\rm M_{\odot}}$ 
+> - Mass Range: $\sim 10^{6} - 10^{9} \; {\rm M_{\odot}}$ 
 > - Size Range: $\sim \mathcal{O}(100 \; {\rm pc})$ 
 
 ![[globularCluster_dwarfGalaxy_distribution.png|align:center]]
+
+#### Dwarf Spheroidal
+
+A **dwarf spheroidal galaxies (dSph)** are small, low-luminosity galaxies with very little dust and an older stellar population. While similar to *dwarf elliptical galaxies* in appearance and properties (such as little to no gas or dust or recent star formation), they are approximately spheroidal in shape and generally have lower luminosity.
+
+They are found in the Local Group as companions to the Milky Way and the Andromeda Galaxy (M31) -- the two most observable areas for faint/low-luminosity systems.
+
+#### Ultra-Faint Dwarf (UFD) Galaxy
+
+A **ultra-faint dwarf galaxy (UFD)** are the smallest and faintest galaxies with very small stellar populations of only a few of thousand of stars ($M \sim 10^{4} - 10^{6} \; \pu{M_{\odot}}$). They are the oldest, most dark matter-dominated, most metal-poor, and least chemically evolved stellar systems known.
+
+The stellar composition of these UFDs has [[Metallicity|metallicities]] ranging from $-4.0 \lesssim \ce{[Fe/H]} \lesssim -1.0$, with more metal-rich stars being completely absent from the system, due to star formation quenching early on during the reionization process. Thus, after the first couple generations of star formation took place, chemical evolution stopped such that they metal-poor system was preserved over time.
+
+The observed UFDs are relatively nearby (within $150 - 250 \, \pu{kpc}$), though their low-luminosity makes them hard to find. Some of the more nearby systems are beginning to undergo tidal disruption, though some remain intact as well.
 
 ### Starburst Galaxy (SBG)
 
