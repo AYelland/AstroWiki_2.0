@@ -20,7 +20,7 @@ $$\mathcal{C} = n^{2} \Lambda(T) \hspace{1cm} \text{where} \hspace{1cm}
 \begin{aligned}
 	\mathcal{C} &\equiv \text{cooling rate} \; {\rm \left[ erg \, cm^{-3} \, s^{-1} \right]} \\
 	n &\equiv \text{number density} \; {\rm \left[ cm^{-3} \right]} \\
-	\Lambda(T) &\equiv \text{cooling function} \; {\rm \left[ erg \, cm^{3} \, s^{-1} \right]} 
+	\Lambda(T) &\equiv \text{cooling function} \; {\rm \left[ erg \, s^{-1} \right]} 
 \end{aligned}$$
 
 The energy loss by cooling can be caused a variety of processes, most importantly...
@@ -60,7 +60,7 @@ To summarize what processes and features are dominant in the cooling function at
 
 Similar to the cooling function, there is a **heating function** $\Gamma(T)$ responsible for temperature dependence of "heating rate" ($\mathcal{H}$), where the heating rate represents power density of the energy injected into the gas.
 
-$$\mathcal{H} = n^{2} \, \Gamma(T) \hspace{1cm} \text{where} \hspace{1cm} 
+$$\mathcal{H} = n \, \Gamma(T) \hspace{1cm} \text{where} \hspace{1cm} 
 \begin{aligned}
 	\mathcal{H} &\equiv \text{heating rate} \; {\rm \left[ erg \, cm^{-3} \, s^{-1} \right]} \\
 	n &\equiv \text{number density} \; {\rm \left[ cm^{-3} \right]} \\
@@ -78,7 +78,7 @@ The energy gain from heating can be caused a variety of processes, including...
 
 Thermal equilibrium is found by balancing of the cooling and heating processes. If we define a **Generalized Loss Function** based on the heating and cooling rates...
 
-$$\mathcal{L}(T) =  n^{2} \, \Lambda(T) - n^{2} \, \Gamma(T)$$
+$$\mathcal{L}(T) =  n^{2} \, \Lambda(T) - n \, \Gamma(T)$$
 
 ...then we know when there is no energy loss when $\mathcal{L}(T')=0$, and the interstellar gas will be in thermal equilibrium. (Thus, thermal equilibrium is dependent on the function's zeros.)
 

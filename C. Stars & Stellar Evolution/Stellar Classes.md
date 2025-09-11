@@ -202,7 +202,7 @@ $$
 > 
 > This relationship allowed the measurement of [[Magnitude#Absolute Magnitude|absolute magnitudes]] from pulse periods and distances by comparisons with the [[Magnitude#Apparent magnitude|apparent magnitude]]. The relationship was further calibrated with Cepheids that had known distances via parallax. Biggest source of uncertainty in the calibration comes from metallicity dependence and obscuration in the interstellar [[Interstellar Medium#Dust|dust]]. 
 > 
-> This [[Cosmic Distance Ladder|standard candle]] acts as a relatively local distance estimator, because you need to be able to resolve a single star and reliably measure period. Furthest such object is NGC 3370 at $\sim 29 \; {\rm Mpc}$. 
+> This *standard candle* acts as a relatively local distance estimator in the [[Cosmic Distance Ladder]], because you need to be able to resolve a single star and reliably measure period. Furthest such object is NGC 3370 at $\sim 29 \; {\rm Mpc}$. 
 
 ### RR Lyrae
 

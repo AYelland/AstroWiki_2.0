@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5823dbea048815d4",
+        "id": "b2bde01903cfe3fd",
         "type": "tabs",
         "children": [
           {
-            "id": "7ee854cf48ac9bf8",
+            "id": "6d04a3dc4051e47d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,7 +16,9 @@
                 "file": "AstroWiki Homepage.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "AstroWiki Homepage"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +53,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "abso",
+                "query": "align}",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,14 +69,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 274.5024719238281
+    "width": 255.50247192382812
   },
   "right": {
     "id": "5f41c9b4880f5913",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AstroWiki Homepage"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroWiki Homepage.md",
+                "file": "D. Compact Objects & Gravitational Waves/Q&A/Question 58.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Question 58"
             }
           },
           {
@@ -116,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroWiki Homepage.md"
-              }
+                "file": "AstroWiki Homepage.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of AstroWiki Homepage"
             }
           }
         ],
@@ -134,57 +154,64 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "publish:Publish changes...": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
+      "custom-sort:Toggle custom sorting": false,
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
-      "custom-sort:Toggle custom sorting": false
+      "canvas:Create new canvas": false
     }
   },
-  "active": "7ee854cf48ac9bf8",
+  "active": "6d04a3dc4051e47d",
   "lastOpenFiles": [
-    "x. Other/DashboardResources/Deadlines.md",
-    "x. Other/How to Use the Dashboard.md",
+    "C. Stars & Stellar Evolution/Stellar Populations.md",
+    "C. Stars & Stellar Evolution/Metallicity.md",
+    "C. Stars & Stellar Evolution/Stellar Classes.md",
     "AstroWiki Homepage.md",
+    "E. ISM & Emission/Radiative Transfer/Flux.md",
+    "E. ISM & Emission/Radiative Transfer/Fluence.md",
     "Dashboard.canvas",
+    "x. Other/DashboardResources/Deadlines.md",
+    "Untitled.canvas",
+    "J. Lightning Round/Q&A/Question 166.md",
+    "Units & Conversions.md",
+    "B. Exoplanets/Bonus.md",
+    "H. Cosmology/Big Bang Nucleosynthesis.md",
+    "D. Compact Objects & Gravitational Waves/Q&A/Question 53.md",
+    "D. Compact Objects & Gravitational Waves/Neutron Star.md",
+    "C. Stars & Stellar Evolution/Q&A/Question 22.md",
+    "J. Lightning Round/Q&A/Question 165.md",
+    "J. Lightning Round/Q&A/Question 167.md",
+    "J. Lightning Round/Q&A/Question 168.md",
+    "J. Lightning Round/Q&A/Question 164.md",
+    "H. Cosmology/Cosmic Microwave Background.md",
+    "H. Cosmology/Dark Matter.md",
+    "G. Galaxies/Q&A/Question 112.md",
+    "G. Galaxies/Q&A/Question 111.md",
+    "G. Galaxies/Q&A/Question 113.md",
+    "168 Flashcards.md",
     "G. Galaxies/Galaxy Profiles.md",
-    "E. ISM & Emission/Spectral Features.md",
+    "K. Bonus Questions/P-Pdot Diagram.md",
+    "x. Images/Atmospheric_Transmission.svg",
+    "168 Questions.pdf",
+    "x. Images/RossiterMcLaughlin_spin.png",
+    "x. Images/RossiterMcLaughlin_lines.png",
+    "x. Images/transit_method.gif",
+    "x. Images/planck_PS.png",
+    "x. Images/galaxy_diagram.png",
     "x. Images/absorption_lines.png",
     "x. Images/absorption_lines 1.png",
-    "E. ISM & Emission/Light-Matter Interactions/Free-Bound Emission.md",
-    "G. Galaxies/Galaxy Classification.md",
-    "G. Galaxies/Q&A/Question 102.md",
-    "168 Flashcards.md",
-    "D. Compact Objects & Gravitational Waves/Q&A/Question 43.md",
-    "Mnemonics.md",
-    "B. Exoplanets/Detection Methods.md",
-    "B. Exoplanets/Exoplanets - General.md",
-    "B. Exoplanets/Bonus.md",
-    "x. Other/Templates/File Templates/Q&A Template.md",
-    "test.md",
-    "x. Other/Templates/File Templates/Colloquium Notes Template.md",
-    "Units & Conversions.md",
-    "L. Other Physics/Virial Theorem.md",
-    "L. Other Physics/Timescales.md",
-    "L. Other Physics/Thermodynamics.md",
-    "L. Other Physics/Strength of Electromagnetic Force.md",
-    "L. Other Physics/Statistical Mechanics.md",
-    "L. Other Physics/Spherical Harmonics.md",
-    "L. Other Physics/Newton's Laws of Motion.md",
-    "L. Other Physics/Kepler's Laws of Planetary Motion.md",
     "H. Cosmology/Cosmic Distance Ladder.pdf",
     "E. ISM & Emission/Radiative Transfer/radiation_basics.pdf",
     "README.txt",
-    "168 Questions.pdf",
     "x. Other/Latex_168Questions.tex",
     "x. Other/main.tex",
     "ASTRO_Oral_Qualification_Exam_Questions.pdf",
@@ -192,12 +219,6 @@
     "Latex_168Questions.tex",
     "Latex_Preamble.sty",
     "x. Images/dashboard_screenshot.png",
-    "dashboard_screenshot.png",
-    "Screen Shot 2024-05-13 at 10.41.56 AM.png",
-    "x. Images/lensing_weak.png",
-    "x. Images/astrowiki_icon.png",
-    "x. Images/HowToDashboard.png",
-    "x. Images/astrowiki_icon_orange.png",
-    "x. Images/android-chrome-512x512.png"
+    "dashboard_screenshot.png"
   ]
 }

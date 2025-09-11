@@ -84,6 +84,9 @@ The x-rays are generated as matter from the donor star releases gravitational po
 - The mass ratio between the stellar components
 - Their orbital separation.
 
+> [!note] How many in Milky Way?
+> Roughly ~100 observed?
+
 #### Low Mass X-Ray Binary (LMXB)
 
 A **low-mass X-ray binary (LMXB)** is composed of a [[Black Hole|black hole]] or [[Neutron Star|neutron star]] with a donor star that usually fills its [[#Roche Lobe]] and accretes mass to the compact object. The donor is less massive and younger than the compact object, such that it can be a [[Hertzsprung-Russell Diagram#Main Sequence (MS)|main sequence]], a degenerate dwarf ([[Stellar Classes#White Dwarf|white dwarf]]), or an evolved star ([[Stellar Classes#Red Giant|red giant]]).

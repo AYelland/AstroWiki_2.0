@@ -31,7 +31,7 @@ The primary production mechanism for solar neutrinos is through the [[Proton-Pro
 	- It was placed underground to avoid cosmic ray pollution in their measurements.
 	- After running the experiment for 24 years, they were only able to measure (consistently) *one third* of the neutrino flux they expected to detect. 
 
-- Other like **Super-Kamiokande** (Cherenkov detector using $e^{-}$ - $\nu_{e}$ scattering), **SAGE**, **GALLEX** confirmed the deficit.
+- Others like **Super-Kamiokande** (Cherenkov detector using $e^{-}$ - $\nu_{e}$ scattering), **SAGE**, **GALLEX** confirmed the deficit.
 
 ##### What was the solar neutrino problem and how was it solved?
 

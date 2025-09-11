@@ -57,6 +57,6 @@ Cian Roche, Alexander Yelland, and Meredith Neyer, using and often copying direc
 > - [[168 Flashcards|The ASTRO Oral Exam Answers]]
 > - [AstroWiki 1.0 GitHub Repository - Cian Roche's Notes](https://github.com/CianMRoche/AstroWiki/tree/main)
 > - [AstroWiki 2.0 GitHub Repository - Alex Yelland's Notes](https://github.com/AYelland/AstroWiki_2.0)
-> - [Michael Reefe's Notes - Meme Edition](https://www.mit.edu/~mreefe/MIT_Astro_168_MAR_meme_edition.pdf)
+> - [Michael Reefe's Notes - Meme Edition](https://www.michaelreefe.space/MIT_Astro_168_MAR_meme_edition.pdf)
 > 
 > *(There is also a Google Drive containing other ASTRO graduate student notes and a list of questions asked in previous oral exams, but this is not linked due to privacy reasons.)*

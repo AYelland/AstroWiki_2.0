@@ -160,12 +160,12 @@ $$
 \lambda_{\rm short} - \lambda_{\rm long} \quad \equiv \quad M_{\rm short \lambda} - M_{\rm long \lambda} = -2.5\log_{10} \left(\frac{F_{\rm short \lambda}}{F_{\rm long \lambda}}\right)
 $$
 
-$$$$
 
 > [!recall] 
 > Magnitudes **decreases** when brightness **increases**. 
 > - If a source object is **brighter** (higher flux) than a reference object (lower flux), then is has a **lower** apparent magnitude.
 > - If a source object is **dimmer** (lower flux) than a reference object (higher flux), then is has a **higher** apparent magnitude.
+>
 
 The value of this index tells us how the star is emitting, relative to the different frequency bands.
 - If $m_{\rm short \lambda} - m_{\rm long \lambda} < 0$ :

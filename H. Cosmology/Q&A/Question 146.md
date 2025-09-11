@@ -10,7 +10,7 @@ Describe, qualitatively, the synthesis of light elements in the Big Bang. What i
 
 ##### What is the deuterium bottleneck, and how does it help produce the right helium abundance? 
 
-![[Big Bang Nucleosynthesis#Deuterium Bottleneck]]
+![[Big Bang Nucleosynthesis#Deuteron/Deuterium Bottleneck]]
 
 ##### What role does radiation play in Big Bang nucleosynthesis?
 

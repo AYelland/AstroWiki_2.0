@@ -33,7 +33,7 @@ This color index represents a crude estimate of the slope of the distribution be
 	- The filters transmit light equally.
 - If $m_{\rm short \lambda} - m_{\rm long \lambda} > 0$ :
 	- The longer-wavelength filter is transmitting more light than the shorter-wavelength filter, and we will see more of the longer-wavelength radiation.
-	- This correlates to seeing **cooler** and **whiter** stars.
+	- This correlates to seeing **cooler** and **redder** stars.
 
 
 

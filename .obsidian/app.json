@@ -5,7 +5,7 @@
   "rightToLeft": false,
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",

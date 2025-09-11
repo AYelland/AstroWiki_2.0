@@ -18,6 +18,9 @@ Here, the negative sign refers to the energy lost by the system and $1 \; {\rm f
 
 This is a lot of energy released in $\sim 1 \; {\rm s}$; however, the light curves can be visible over much longer durations. For example, a [[Stellar Explosions#Type Ia]] can have significant light curves over the period of months.
 
+> [!bonus] What is a "foe"?
+> "**foe**" is an acronym for "**fifty-one ergs**".
+> $$1 \; {\rm foe} \equiv 10^{51} \; {\rm erg} = {\rm E51} \equiv 1 \; {\rm Bethe}$$
 ##### What fractions of that energy are in the forms of neutrinos, visible light, gas kinetic energy and gravitational radiation?
 
 See the table below. The take-home is that neutrinos are incredibly efficient at carrying away energy from the system.

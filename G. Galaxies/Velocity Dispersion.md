@@ -69,7 +69,7 @@ The very large deficit in escape velocity resulting from the baryons can only be
 
 ## Tully-Fisher Relation
 
-The **Tully-Fisher Relation** (1977) is an empirical relationship between the circular/rotational velocity of a [[Galaxy Classification#Spiral Galaxy|spiral galaxy]] and its [[Luminosity|luminosity]]. *(Analogue to [[Velocity Dispersion#Faber-Jackson Relation|Faber-Jackson]] for spiral galaxies.)*
+The **Tully-Fisher Relation** (1977) is an empirical relationship between the circular/rotational velocity of a [[Galaxy Classification#Spiral Galaxy|spiral galaxy]] and its [[Luminosity|luminosity]]. *(Analogue to [[Velocity Dispersion#Faber-Jackson Relation|Faber-Jackson]] for elliptical galaxies.)*
 
 $$L \propto v_{\rm rot}^{\gamma} \hspace{1cm} \text{where} \hspace{1cm} \gamma \simeq 4$$
 

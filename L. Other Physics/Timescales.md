@@ -123,7 +123,12 @@ $$t_{\rm nuc} \approx \frac{\eta \, (f X_{*} M_{*}) \, c^{2}}{L_{*}} \hspace{1cm
 > > We can use this number as a general rule for Helium fusion: it always produces $\sim 0.7\%$ energy from the original mass. For heavier element fusion in larger stars, ($\ce{He} \to \ce{C}$ and $\ce{C} \to \ce{Fe}$) each produces another $\sim 0.1 \%$ of energy.
 > 
 > The nuclear timescale relationship is dependent on the stellar mass fraction of hydrogen ($M_{\rm H} \equiv X M_{*}$ where $X =$ mass fraction of $H$ in the star), the stellar luminosity ($L$), and a factor ($f \sim 10 \%$) to account for the amount of hydrogen burned before the star undergoes significant evolutionary changes that alter its energy production processes. Therefore, expressing it all together...
-> $$t_{\rm nuc} \approx \frac{\eta \, M_{\rm H, burning} \, c^{2}}{L_{*}} \approx \frac{\eta \, (f X M_{*}) \, c^{2}}{L_{*}}$$
+> $$t_{\rm nuc} \approx \frac{\eta \, M_{\rm H, burning} \, c^{2}}{L_{*}} \approx \frac{\eta \, (f X M_{*}) \, c^{2}}{L_{*}} \hspace{1cm}
+> \begin{aligned}
+> \eta &= \text{fusion efficiency} \\
+> f &= H \text{ fraction burned} \\
+> X &= H \text{ mass fraction} \\
+> \end{aligned}$$
 > 
 > For a [[Units & Conversions#Solar Mass (${ rm M_{ odot}}$)|solar-mass]] star with [[Units & Conversions#Solar Luminosity ($L_{ odot}$)|solar-luminosity]], we find the timescale to be:
 > $$t_{\rm nuc} \approx \frac{(0.007) \, (0.1 \times 0.7 \times M_{\odot}) \, c^{2}}{L_{\odot}} \sim 10^{10} \; {\rm year}$$

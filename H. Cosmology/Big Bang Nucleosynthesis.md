@@ -42,7 +42,7 @@ At freeze out, the neutron–proton ratio was about $1/5$.
 
 However, free neutrons are unstable with a mean life of $\sim 890\,\pu{s}$; therefore, some neutrons decayed in the next few minutes before fusing into any nucleus. So, the ratio of total neutrons to protons after nucleosynthesis ends is about $0.15$ (see [[#Deuterium Bottleneck]] below).
 
-## Deuterium Bottleneck
+## Deuteron/Deuterium Bottleneck
 
 > [!note]- Deuteron vs Deuterium
 > 
