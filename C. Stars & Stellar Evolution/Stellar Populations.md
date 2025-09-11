@@ -41,7 +41,7 @@ aliases:
 > **What is the approximate maximum/minimum $\ce{[Fe/H]}$ [[Metallicity|metallicity]] that a Population II star can have?**
 > $$
 > \begin{align}
-> \log_{10} \left({\frac {N_{\mathrm {Fe}}}{N_{\mathrm {H}}}}\right) = \log_{10} \varepsilon ({\rm Fe}) - \underbrace{\log_{10} \varepsilon ({\rm H})}_{= \ 12} \hWhere 
+> \log_{10} \left({\frac {N_{\mathrm {Fe}}}{N_{\mathrm {H}}}}\right) = \log_{10} \varepsilon ({\rm Fe}) - \underbrace{\log_{10} \varepsilon ({\rm H})}_{= \ 12} \hspace{1cm} \text{where} \hspace{1cm} 
 > \begin{aligned}
 > 	&N_{\rm Fe} = \ce{Fe} \text{ atoms per unit of volume} \\
 > 	&N_{\rm H} = \ce{H} \text{ atoms per unit of volume}

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroWiki Homepage.md",
+                "file": "C. Stars & Stellar Evolution/Stellar Populations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AstroWiki Homepage"
+              "title": "Stellar Populations"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroWiki Homepage.md",
+                "file": "C. Stars & Stellar Evolution/Stellar Populations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AstroWiki Homepage"
+              "title": "Backlinks for Stellar Populations"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroWiki Homepage.md",
+                "file": "C. Stars & Stellar Evolution/Stellar Populations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of AstroWiki Homepage"
+              "title": "Outline of Stellar Populations"
             }
           }
         ],
@@ -172,10 +172,10 @@
   },
   "active": "6d04a3dc4051e47d",
   "lastOpenFiles": [
+    "AstroWiki Homepage.md",
     "C. Stars & Stellar Evolution/Stellar Populations.md",
     "C. Stars & Stellar Evolution/Metallicity.md",
     "C. Stars & Stellar Evolution/Stellar Classes.md",
-    "AstroWiki Homepage.md",
     "E. ISM & Emission/Radiative Transfer/Flux.md",
     "E. ISM & Emission/Radiative Transfer/Fluence.md",
     "Dashboard.canvas",
