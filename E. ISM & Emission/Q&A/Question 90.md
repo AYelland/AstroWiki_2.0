@@ -10,7 +10,7 @@ Name five molecules found in the interstellar medium and comment on how they are
 
 | Molecule      | Name                                                    | <nobr>Detection Mechanisms</nobr> | Notes                                                        |
 | ------------- | ------------------------------------------------------- | --------------------------------- | ------------------------------------------------------------ |
-| $\ce{H_{2}}$  | <nobr>[[Interstellar Medium#Molecular Hydrogen]]</nobr> | Vibrational Transitions           | Most abundant molecule.                                      |
+| $\ce{H_{2}}$  | <nobr>[[Interstellar Medium#Molecular Hydrogen|Molecular Hydrogen]]</nobr> | Vibrational Transitions           | Most abundant molecule.                                      |
 | $\ce{CO}$     | Carbon Monoxide                                         | Rotational Transitions            | Second most abundant molecule, by a factor of $\sim 10^{4}$. |
 | $\ce{CH_{4}}$ | Methane                                                 | Vibrational Transitions           |                                                              |
 | $\ce{NH_{3}}$ | Ammonia                                                 | Vibrational Transitions           |                                                              |
@@ -34,7 +34,7 @@ Use the transitions between a molecules different rotational states and molecula
 > 
 > Therefore, finding the $\ce{H_{2}}$ abundance is done indirectly by measuring the $\ce{CO}$  luminosity - $\ce{H_{2}}$ ratio, which is considered constant in the ISM from empirical observations. ([Soloman, 1897](https://ui.adsabs.harvard.edu/abs/1987ApJ...319..730S/abstract))
 > - $\ce{CO}$ emits far brighter spectral lines than $\ce{H_{2}}$ (due to its polar asymmetry), making it much easier to detect
-> - Usually done with millimeter telescopes ([[Instruments#JWST]] is equipped with a MIR IFU, allowing this to be done better.)
+> - Usually done with millimeter telescopes ([[Instruments#JWST|JWST]] is equipped with a MIR IFU, allowing this to be done better.)
 
 ##### What limits our ability to directly detect the most common molecules in the ISM?
 

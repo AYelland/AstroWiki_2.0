@@ -99,7 +99,7 @@ These equations are known as the **Friedmann Equations.** For relativistic boson
 
 1. Precession of Perihelion of Mercury
 2. [[Question 97|Shapiro Time Delay]]
-3. [[Redshift#Gravitational Redshift]]
+3. [[Redshift#Gravitational Redshift|Gravitational Redshift]]
 4. [[Gravitational Lensing]] - angle between real source and apparent source double what was predicted without GR
 
 Other Tests of GR

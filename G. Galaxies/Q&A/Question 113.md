@@ -14,7 +14,7 @@ A system is "relaxed" if its coarse-grained phase space distribution is constant
 
 This results in irreversible end-states with a roughly uniform phase space distribution, subject to the conservation of energy and conservation of fine-grained phase space density.
 
-In comparison to an [[Galaxy Profiles#Isothermal Sphere]], the phase space distribution follows [[Statistical Mechanics#Maxwell-Boltzmann]] statistics versus the uniform distribution produced by phase mixing.
+In comparison to an [[Galaxy Profiles#Isothermal Sphere|Isothermal Sphere]], the phase space distribution follows [[Statistical Mechanics#Maxwell-Boltzmann|Maxwell-Boltzmann]] statistics versus the uniform distribution produced by phase mixing.
 
 ##### How does the timescale for violent relation compare to that for weak 2-body interactions?
 

@@ -8,7 +8,7 @@ What is "Press-Schechter theory" and why is it wrong?
 
 ![[Press-Schechter#Press-Schechter Theory]]
 
-Using this theory, we can find the [[Press-Schechter#Press-Schechter Halo Mass Function]] that tells us the number of halos (collapsed structures) we will find in some volume element.
+Using this theory, we can find the [[Press-Schechter#Press-Schechter Halo Mass Function|Press-Schechter Halo Mass Function]] that tells us the number of halos (collapsed structures) we will find in some volume element.
 
 $$N(M) \; \mathrm{d} M = \frac{1}{\sqrt{2 \pi}} \; \left(\frac{\delta_{c}}{\sigma_{M}^{2}}\right) \exp \left[ - \frac{\delta_{c}^{2}}{2 \sigma_{M}^{2}} \right] \; \frac{\mathrm{d} \sigma_{M}}{\mathrm{d} M} \; \mathrm{d} M$$
 $$\Downarrow$$
@@ -16,7 +16,7 @@ $$n(M) \; \mathrm{d} M = \frac{1}{\sqrt{2 \pi}} \; \left(\frac{\rho_{0} \delta_{
 
 ##### ...and why is it wrong?
 
-The PS formalisms is wrong because it only accounts for $1/2$ of the mass in the universe (all of the mass should be a halo). This can be see through the normalization of the [[Press-Schechter#Press-Schechter Halo Mass Function]].
+The PS formalisms is wrong because it only accounts for $1/2$ of the mass in the universe (all of the mass should be a halo). This can be see through the normalization of the [[Press-Schechter#Press-Schechter Halo Mass Function|Press-Schechter Halo Mass Function]].
 
 ![[Press-Schechter#Normalization]]
 
@@ -32,6 +32,6 @@ Another way to look at it is that once things go nonlinear, the collapse is able
 
 > [!bonus]- The Extended Press-Schechter Formalism
 > 
-> In order to address the fudge factor properly, the [[Press-Schechter#Extended Press-Schechter Theory]] has been developed.
+> In order to address the fudge factor properly, the [[Press-Schechter#Extended Press-Schechter Theory|Extended Press-Schechter Theory]] has been developed.
 > 
 > ![[Press-Schechter#Extended Press-Schechter Theory]]

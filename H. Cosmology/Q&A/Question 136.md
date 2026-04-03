@@ -16,7 +16,7 @@ Evaluating this expression with the present-day Hubble constant $H(t) = H_{0}$, 
 
 $$t_{0} = \frac{2}{3 H_{0}} = \frac{2}{3} t_{H} \simeq 9 \; {\rm Gyr} \hspace{1cm} \text{where} \hspace{1cm} t_{H} \sim 14 \; {\rm Gyr}$$
 
-...where $t_H$ is the [[Timescales#Hubble Time]].
+...where $t_H$ is the [[Timescales#Hubble Time|Hubble Time]].
 
 > [!note]
 > This is smaller than other estimates because we assumed the universe was matter-dominated. Matter is the second-fastest driving force in expansion ($\propto a^{-3}$), with radiation as the fastest ($\propto a^{-4}$), and dark energy the slowest ($\propto a^{0}$). As a result, we end up underestimating the age a bit.

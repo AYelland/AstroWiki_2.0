@@ -7,7 +7,7 @@ aliases:
 ### Bonus - Measuring the Stellar Density
 *(D. Berardo)*
 
-We can directly determine the density of the star if we assume the planet's orbit is circular and much smaller than the star (${\rm M_{\rm p} \ll M_{*}}$). If we measure the duration ($T$) and period ($P$) of a transit, then by [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]]...
+We can directly determine the density of the star if we assume the planet's orbit is circular and much smaller than the star (${\rm M_{\rm p} \ll M_{*}}$). If we measure the duration ($T$) and period ($P$) of a transit, then by [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]]...
 
 $$
 \begin{align}
@@ -44,7 +44,7 @@ $$
 
 To actually calculate the planet's temperature ($T_{\rm p}$), we need a follow-up measurement from another instrument to get the surface temperature of the star ($T_{*}$),
 
-> [!math] Long Wavelength Limit for [[Blackbody Radiation#Blackbody Specific Intensity]]
+> [!math] Long Wavelength Limit for [[Blackbody Radiation#Blackbody Specific Intensity|Blackbody Specific Intensity]]
 > $$
 > B_{\lambda}(\lambda,T) = \frac{2 h c^{2}}{\lambda^{5}} \left(\frac{1}{e^{h c / (\lambda k_{\rm B} T)} - 1}\right)
 > \hspace{1cm} \Rightarrow \hspace{1cm}

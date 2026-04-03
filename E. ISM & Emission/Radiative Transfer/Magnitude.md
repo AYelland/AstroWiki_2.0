@@ -19,7 +19,7 @@ aliases:
 > - $5^{\rm th}$ Magnitude for white dwarfs and exoplanets
 > - $15^{\rm th}$ Magnitude for galaxy targets
 > - $27^{\rm th}$ Magnitude limit for ground-based telescopes
-> - $30+$ Magnitude is where [[Instruments#HST]] and [[Instruments#JWST]] observe at
+> - $30+$ Magnitude is where [[Instruments#HST|HST]] and [[Instruments#JWST|JWST]] observe at
 
 
 ## Apparent Magnitude
@@ -46,7 +46,7 @@ Since the apparent magnitude of an object is dependent on the wavelength/frequen
 - **monochromatic magnitude** - the magnitude of an object at a single wavelength
 	$$\ m_{\nu, 1} - m_{\nu, 2} = -2.5 \log_{10} \left(\frac{(F_{\nu})_{1}}{(F_{\nu})_{2}}\right)$$
 	
-- **band magnitude** - the magnitude spectrum of an object across many wavelengths. For these spectrum observations that use a a filter bandpass (such as the [[Photometry#UBVRI System]]), fluxes must integrated over the frequency band $X$ with a transmission function $T_X(\nu)$.
+- **band magnitude** - the magnitude spectrum of an object across many wavelengths. For these spectrum observations that use a a filter bandpass (such as the [[Photometry#UBVRI Filters|UBVRI filters]]), fluxes must integrated over the frequency band $X$ with a transmission function $T_X(\nu)$.
 	$$\ m_{X, 1} - m_{X, 2} = -2.5 \log_{10} \left(\frac{ \int (F_{\nu})_{1} T_{X}(\nu) \; \mathrm{d}\nu}{\int (F_{\nu})_{2} T_{X}(\nu) \; \mathrm{d}\nu}\right) = -2.5 \log_{10} \left(\frac{(F_{X})_{1}}{(F_{X})_{2}}\right)$$
 	Since in most observations you cannot single out a specific wavelength/frequency of light, the band magnitude is much more practical.
 
@@ -149,12 +149,12 @@ Overall, the bolometric magnitude tends to be a less practical quantity as we ca
 
 The **photographic magnitude** is defined as measure of the relative brightness of a star or other astronomical object as imaged on a photographic film emulsion with a camera attached to a telescope. 
 
-Photographic observations have now been superseded by electronic photometry such as Charge-Couple Devices ([[Tools#CCD]]) and alternative magnitude systems such as [[Photometry#UBVRI System]].
+Photographic observations have now been superseded by electronic photometry such as Charge-Couple Devices ([[Tools#CCD|CCD]]) and alternative magnitude systems such as [[Photometry#UBVRI Filters|UBVRI filters]].
 
 
 ## Color Index
 
-A **color index** is defined by taking the difference in [[Magnitude|magnitudes]] (a flux ratio) at two different wavelengths or through two different [[Photometry#Bandpass Systems|bandpass]] filters. The most common filters used are the [[Photometry#UBVRI Filters]].
+A **color index** is defined by taking the difference in [[Magnitude|magnitudes]] (a flux ratio) at two different wavelengths or through two different [[Photometry#Bandpass Systems|bandpass]] filters. The most common filters used are the [[Photometry#UBVRI Filters|UBVRI Filters]].
 
 $$
 \lambda_{\rm short} - \lambda_{\rm long} \quad \equiv \quad M_{\rm short \lambda} - M_{\rm long \lambda} = -2.5\log_{10} \left(\frac{F_{\rm short \lambda}}{F_{\rm long \lambda}}\right)

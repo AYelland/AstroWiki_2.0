@@ -24,11 +24,11 @@ Stellar nucleosynthesis is the process of using nuclear reactions within a stell
 > 	- [[Silicon Burning]]
 > - Production of elements heavier than iron:
 > 	- [[Neutron Capture]]:
-> 		- [[Neutron Capture#s-process]]
-> 		- [[Neutron Capture#r-process]]
+> 		- [[Neutron Capture#s-process|s-process]]
+> 		- [[Neutron Capture#r-process|r-process]]
 > 	- [[Proton Capture]]:
 > 		- [[Proton Capture|p-process]]
-> 		- [[Proton Capture#rp-process]]
+> 		- [[Proton Capture#rp-process|rp-process]]
 > 	- [[Photodisintegration]]
 ^methods-of-fusion
 

@@ -5,4 +5,4 @@ aliases:
   - Solar System Q&A Flashcards
 ---
 
-![[168 Flashcards#The Solar System]]
+![[168 Flashcards#The Solar System|The Solar System]]

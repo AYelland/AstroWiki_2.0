@@ -17,7 +17,7 @@ Successive proton captures at extremely high proton densities are called [[#Rapi
 
 **Important Notes:**
 - If the temperature could be increased arbitrarily to overcome the Coulomb barrier for successive proton captures, then protons would undergo [[Photodisintegration]] before they could be captured. 
-- The p-nuclides (proton-rich isotopes not produced by the [[Neutron Capture#s-process]] or [[Neutron Capture#r-process]]) were originally through to be produced this way, but their origins are still unknown.
+- The p-nuclides (proton-rich isotopes not produced by the [[Neutron Capture#s-process|s-process]] or [[Neutron Capture#r-process|r-process]]) were originally through to be produced this way, but their origins are still unknown.
 
 **P-Process Sites:**
 - Originally thought to have occurred in core-collapse supernovae, but the proper conditions have not been found there

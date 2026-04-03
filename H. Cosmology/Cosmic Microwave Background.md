@@ -50,7 +50,7 @@ With a standard optical telescope, the background space between stars and galaxi
 
 
 **What are the well-measured quantities today?**
-1. The almost perfect CMB [[Blackbody radiation#Blackbody radiation|blackbody]] spectrum ($T_{\rm peak} =2.73 \; \pu{K}$). 
+1. The almost perfect CMB [[Blackbody Radiation|blackbody]] spectrum ($T_{\rm peak} =2.73 \; \pu{K}$). 
 	- The anisotropies are on the order of $\Delta T/T \sim 10^{-5}$, which corresponds to temperature differences of about $30\,\pu{\mu K}$ that result from matter under- and over-densities in the early universe.
 2. The [[#CMB Power Spectrum]].
 	- measures the amount of variations in $T$ at different angular scales.
@@ -75,14 +75,14 @@ $$T(\nu, \vec{n}) = T_{0} + \underbrace{\Delta T(\nu)}_{\text{spectral}} + \unde
 ![[CMB_PS_sources_megan.png|align:center|450]]
 
 The anisotropy (directional dependency) of the CMB signal is divided into two types: 
-1) **Primary Anisotropy** - effects that occur at the surface of last scattering (the spherical shell on the sky in which the photons are now received/observed that were originally emitted at [[Cosmological Timeline#Recombination]]) or before.
+1) **Primary Anisotropy** - effects that occur at the surface of last scattering (the spherical shell on the sky in which the photons are now received/observed that were originally emitted at [[Cosmological Timeline#Recombination|Recombination]]) or before.
 2) **Secondary Anisotropy** - effects such as interactions of the background radiation with intervening hot gas or gravitational potentials, which occur between the last scattering surface and the observer.
 
 #### Primary Anisotropies
 
 1. **Non-Integrated Sachs-Wolfe Effect** ($l\lesssim 100$)
 	- Composed of two gravitational effects from [[Dark Matter|DM]] potential wells in early universe:
-		- [[Redshift#Gravitational Redshift]] - photons escaping the well are redshifted as they climb out of the well (if well deepens) $\implies$ cooler/redder
+		- [[Redshift#Gravitational Redshift|Gravitational Redshift]] - photons escaping the well are redshifted as they climb out of the well (if well deepens) $\implies$ cooler/redder
 		- Gravitational Time-Dilation - photons from deeper wells are from earlier times $\implies$ hotter/bluer
 	- Together, these effects yield a net redshift of the $1/3$ of the normal [[Redshift#Gravitational Redshift|gravitational redshift]] alone.
 		- overdensities $\implies$ cooler/redder
@@ -100,7 +100,7 @@ The anisotropy (directional dependency) of the CMB signal is divided into two ty
 		- The **silk scale** is distance scale over which photon diffusion is important at $z=1100$. When using the current angular scale of $0.1^\circ$, the silk scale is $\sim 3 \; \pu{Mpc}$. 
 		- The mass contained within the scale is the **silk mass**, which we estimate to be $\sim 10^{13} \; {\rm M_{\odot}}$ (i.e. about the mass of a galaxy today 😱). 
 		- Smaller scales (and smaller masses) are washed out.
-	- [[Cosmological Timeline#Recombination]] $\implies$ photons can "suddenly" travel much farther
+	- [[Cosmological Timeline#Recombination|Recombination]] $\implies$ photons can "suddenly" travel much farther
 	- These photons carry energy from the hot regions and diffuse to the cold regions, also dragging baryons around, such that any anisotropy on a very small scale is quickly washed out. Effect is strongest for smallest scales (largest $l$)
 	- There also exists electron diffusion damping for the same reasons, but it is far weaker since the electrons couldn't diffuse nearly as far.
 
@@ -111,7 +111,7 @@ The anisotropy (directional dependency) of the CMB signal is divided into two ty
 2. **[[Thomson Scattering]]**
 	- Free $e^{-}$ in the universe lead to overall damping of CMB fluctuation amplitudes
 	- isotropic and scale-independent
-3. **[[Cosmic Microwave Background#Sunyaev-Zeldovich Effect]]**
+3. **[[Cosmic Microwave Background#Sunyaev-Zeldovich Effect|Sunyaev-Zeldovich Effect]]**
 	- [[Inverse-Compton Scattering]] of CMB photons by high energy electrons
 	- Two flavors: thermal (from $e^{-}$ temp) + kinetic (from $e^{-}$ bulk motion)
 	- Only applies at very small scales (very high $l$)
@@ -121,7 +121,7 @@ The anisotropy (directional dependency) of the CMB signal is divided into two ty
 5. Late-time integrated Sachs–Wolfe Effect
 	- Informs expansion of universe and thus $\Omega_\Lambda$ 
 
-Theres also the [[Cosmic Microwave Background#CMB Polarization]] signal.
+Theres also the [[Cosmic Microwave Background#CMB Polarization|CMB Polarization]] signal.
 
 ## CMB Power Spectrum
 
@@ -151,7 +151,7 @@ Making a plot of the quantity $l(l+1)C_l/2\pi$ versus $l$ (this normalization ch
 
 > [!note]
 > 
-> $^1$ The signal *after* subtracting the monopole signal arising from the motion of your detector relative to the CMB, which effectively amounts to the relative motion of the [[Galaxy Group#Local Group]] relative to the rest frame of the CMB. Interestingly, fitting the CMB monopole direction (the direction we are moving in relative to CMB rest frame) gives a very different answer than other measurements, treated as another [[Dark Matter#LCDM]] tension.
+> $^1$ The signal *after* subtracting the monopole signal arising from the motion of your detector relative to the CMB, which effectively amounts to the relative motion of the [[Galaxy Group#Local Group|Local Group]] relative to the rest frame of the CMB. Interestingly, fitting the CMB monopole direction (the direction we are moving in relative to CMB rest frame) gives a very different answer than other measurements, treated as another [[Dark Matter#LCDM|LCDM]] tension.
 > 
 > $^2$loosely, we have a discrete basis because compact spaces like the 2D sphere on the sky admit discrete decompositions, as with the spin operator in QM. In fact, depending on the paper they may may decompose into lagrange polynomials rather than spherical harmonics.
 
@@ -163,7 +163,7 @@ In summary...
 - Gravity acts on the baryons and pulls them in towards over densities, making then denser and compressing the fluid in potential wells set by [[dark matter]].
 - Photon radiation pressure resists the compression and pushes the fluid back out, making the regions less dense and causing another rarefaction.
 - This created conditions for "acoustic" oscillations (sound/pressure waves) of the photon-baryon fluid.
-- At [[Cosmological Timeline#Recombination]], these acoustic oscillations are "frozen-in" as the photon-baryon fluid decouples, allowing the photons to free-stream with an imprinted image of the universe's energy density at the time of recombination. $\implies$ CMB
+- At [[Cosmological Timeline#Recombination|Recombination]], these acoustic oscillations are "frozen-in" as the photon-baryon fluid decouples, allowing the photons to free-stream with an imprinted image of the universe's energy density at the time of recombination. $\implies$ CMB
 
 ### Relation to Cosmological Density Parameters
 
@@ -201,7 +201,7 @@ The measure of the power spectrum's overall amplitude. The matter density sets t
 
 ![[CMB_matterdensity_comparison.png|align:center|300]]
 
-Essentially, *the more matter there is, the faster we reach [[Cosmological Timeline#recombination]].* If we reach recombination faster, there is less time for structure to grow in the early universe, and we see weaker power across the whole spectrum. (Similarly, less matter means stronger structure.)
+Essentially, *the more matter there is, the faster we reach [[Cosmological Timeline#recombination|recombination]].* If we reach recombination faster, there is less time for structure to grow in the early universe, and we see weaker power across the whole spectrum. (Similarly, less matter means stronger structure.)
 
 $$t = \frac{2}{3 H(z)} = \frac{2}{3 H_{0} \sqrt{\Omega_{M} (1+z)^{3}}} \propto \frac{1}{\Omega_{M}^{1/2}}$$
 
@@ -257,7 +257,7 @@ Actually doesn't show up here, but if we know $H_0$ then we can calculate this d
 
 [[Inverse-Compton Scattering|Inverse-Compton scattering]] of the CMB photons by high-energy electrons. The biggest effect occurs on small scales (large $l$) as the CMB photons pass through some object with a small angular size on the sky. (like a galaxy cluster).
 
-This scattering causes a deficit in the expected CMB signal at these scales, since the photons aren't CMB [[Blackbody radiation#Blackbody radiation|blackbody]] energies anymore.
+This scattering causes a deficit in the expected CMB signal at these scales, since the photons aren't CMB [[Blackbody Radiation|blackbody]] energies anymore.
 
 ![[sz.png|align:center|500]]
 
@@ -292,7 +292,7 @@ $$\frac{\delta T}{T} = - \frac{v_p}{c}\tau$$
 ![[SZ_kinectic.jpeg|align:center|400]]
 
 **Usage?**
-- probe cosmology and apply constraint to [[Hubble#Hubble Constant]]?
+- probe cosmology and apply constraint to [[Hubble#Hubble Constant|Hubble Constant]]?
 - Study large scale structure
 
 ## Sound Horizon
@@ -331,10 +331,10 @@ $$\boxed{ \; l_{\rm s} \simeq 220 \hspace{1cm} \theta_{\rm s} \simeq 1 \degree \
 ## CMB Polarization
 
 An overview of the polarization of CMB photons we measure:
-- Density perturbations ("scalar perturbations" arise from energy density fluctuations, see [these pages](https://w.astro.berkeley.edu/~mwhite/polar/node4.html) for overview) in the early universe produce **E modes** in the [[#CMB]] polarization map. Arise naturally from [[Thomson Scattering]] in a heterogeneous plasma. 
+- Density perturbations ("scalar perturbations" arise from energy density fluctuations, see [these pages](https://w.astro.berkeley.edu/~mwhite/polar/node4.html) for overview) in the early universe produce **E modes** in the CMB polarization map. Arise naturally from [[Thomson Scattering]] in a heterogeneous plasma. 
 - There are also **B modes** in the CMB polarization map ("tensor perturbations" which are essentially gravitational waves). They can be created by two mechanisms: 
 	1. [[Gravitational Lensing]] of E-modes, which has been measured by the [[Instruments#SPT|SPT]] in 2013
-	2. [[Gravitational Waves]] arising from [[Cosmological Timeline#Cosmic Inflation]]
+	2. [[Gravitational Waves]] arising from [[Cosmological Timeline#Cosmic Inflation|Cosmic Inflation]]
   
   Detecting the B-modes is extremely difficult, particularly as the degree of foreground contamination is unknown, and the weak gravitational lensing signal mixes the relatively strong E-mode signal with the B-mode signal
 

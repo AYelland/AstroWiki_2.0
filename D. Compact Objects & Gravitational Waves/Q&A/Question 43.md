@@ -43,13 +43,13 @@ Give a qualitative description of the frequency and amplitude evolution of the g
 > 
 ^conceptual-bkgd
 
-Since energy and angular momentum are continuously carried away by [[Gravitational Waves#Gravitational Radiation|gravitational radiation]] *(See the [[Gravitational Waves#Sticky Bead Argument]])*, as the two orbiting masses spiral towards each other over time, their orbital frequency $\omega$ increases. Furthermore, the [[Gravitational Waves|GW]] frequency $(f = \omega / \pi)$ and the [[Gravitational Waves|GW]] scaling amplitude ($h_{0}$) are also increasing functions of time. 
+Since energy and angular momentum are continuously carried away by [[Gravitational Waves#Gravitational Radiation|gravitational radiation]] *(See the [[Gravitational Waves#Sticky Bead Argument|Sticky Bead Argument]])*, as the two orbiting masses spiral towards each other over time, their orbital frequency $\omega$ increases. Furthermore, the [[Gravitational Waves|GW]] frequency $(f = \omega / \pi)$ and the [[Gravitational Waves|GW]] scaling amplitude ($h_{0}$) are also increasing functions of time. 
 
 
 **GW Frequency:**
 The orbital frequency (and thus the GW frequency) of a binary system can be calculated from Newtonian mechanics.
 
-At coalescence, we can simply use [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] and define the orbital separation as the sum of the radii of the two binary objects. Since Newtonian mechanics breaks down near the compact objects, we use their ISCO radius for coalescence (Maggorie, pg 174).
+At coalescence, we can simply use [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] and define the orbital separation as the sum of the radii of the two binary objects. Since Newtonian mechanics breaks down near the compact objects, we use their ISCO radius for coalescence (Maggorie, pg 174).
 
 $$a_{\rm c} = R_{1}^{\rm ISCO} + R_{2}^{\rm ISCO} = \frac{6 \, G M}{c^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} \omega_{\rm c} = \sqrt{\frac{G M}{a_{c}^{3}}} = \frac{c^{3}}{(6)^{3/2} \, G M}$$
 
@@ -63,7 +63,7 @@ where $M_{\rm c} = \mu^{3/5} M^{2/5} \equiv$ [[Gravitational Waves#Chirp Mass|ch
 > 
 > The frequency of the gravitational waves can be found by comparing the gravitational wave radiation and to the change to gravitational potential energy.
 > 
-> Beginning with the moment of inertia tensor ($I_{ij}$), we can take the third time derivative and apply it to the GW radiation equation ($L_{\rm GW}$), where we apply [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] to the orbital separation ($a$):
+> Beginning with the moment of inertia tensor ($I_{ij}$), we can take the third time derivative and apply it to the GW radiation equation ($L_{\rm GW}$), where we apply [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] to the orbital separation ($a$):
 > 
 > $$\textcolor{gray}{\left[ \; \text{Kepler's 3rd Law: } \quad \frac{a^{3}}{P^{2}} = \frac{G M}{4 \pi^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} a = \left(\frac{G M}{\omega^{2}}\right)^{1/3} \hspace{1cm} \dot{a} = - \frac{2 (G M)^{1/3} \dot{\omega}}{3 \,\omega^{5/3}} \; \right]}$$
 >
@@ -79,7 +79,7 @@ where $M_{\rm c} = \mu^{3/5} M^{2/5} \equiv$ [[Gravitational Waves#Chirp Mass|ch
 > 	&= \frac{32 G^{7/3}}{5 c^{5}} (M_{\rm c} \, \omega)^{10/3}
 > \end{aligned}$$
 > 
-> For the change in gravitational potential energy, we take the time derivative of the [[Kepler's Laws of Planetary Motion#Conservation of Energy|Keplerian Energy of a binary]] (and apply [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] again).
+> For the change in gravitational potential energy, we take the time derivative of the [[Kepler's Laws of Planetary Motion#Conservation of Energy|Keplerian Energy of a binary]] (and apply [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] again).
 > 
 > $$
 > E_{\rm orb} = \frac{G M \mu}{2 a} \hspace{1cm} \Rightarrow \hspace{1cm} 
@@ -96,7 +96,7 @@ where $M_{\rm c} = \mu^{3/5} M^{2/5} \equiv$ [[Gravitational Waves#Chirp Mass|ch
 > $$L_{\rm GW} = L_{\rm orb} \hspace{1cm} \Rightarrow \hspace{1cm} \frac{32 G \mu^{2} \omega^{6}}{5 c^{5}} \left(\frac{G M}{\omega^{2}}\right)^{4/3} = \frac{(G M)^{2/3} \mu}{3} \left(\frac{\dot{\omega}}{\omega^{1/3}}\right)$$
 > $$\dot{\omega} = \frac{96 G^{5/3}}{5 c^{5}} \left( \mu M^{2/3} \right) \; \omega^{11/3}$$
 > 
-> ...we can define the [[Gravitational Waves#Chirp Mass]] ($M_{\rm c} \equiv \mu^{3/5} M^{2/5}$) and the "chirp" ($\dot{\omega}$).
+> ...we can define the [[Gravitational Waves#Chirp Mass|Chirp Mass]] ($M_{\rm c} \equiv \mu^{3/5} M^{2/5}$) and the "chirp" ($\dot{\omega}$).
 > 
 > $$\dot{\omega} = \frac{96}{5 c^{5}} \left( G M_{\rm c} \right)^{5/3} \; \omega^{11/3}$$
 > 
@@ -151,7 +151,7 @@ Bringing these together, we can see this behavior reflected in the observed wave
 
 ##### Compute actual numbers for a $30 \; {\rm M_{\odot}} - 30 \; {\rm M_{\odot}}$ binary black hole system.
 
-We will assume that the [[Black Hole|black holes]] coalesce at the [[Black Hole#Innermost Stable Circular Orbit (ISCO)]]. Using the coalescence orbital frequency ($\omega_{\rm c}$) expression we derived above from [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]], with $M \equiv$ total mass...
+We will assume that the [[Black Hole|black holes]] coalesce at the [[Black Hole#Innermost Stable Circular Orbit (ISCO)|Innermost Stable Circular Orbit (ISCO)]]. Using the coalescence orbital frequency ($\omega_{\rm c}$) expression we derived above from [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]], with $M \equiv$ total mass...
 
 $$\omega_{\rm c} = \sqrt{\frac{G M}{a_{c}^{3}}} = \frac{c^{3}}{(6)^{3/2} \, G M} \simeq 230 \; {\rm rad \, s^{-1}} \hspace{1cm} \Rightarrow \hspace{1cm} \boxed{ \; f_{\rm c} = \frac{\omega_{\rm c}}{\pi} \simeq 70 \; {\rm Hz} \; }$$
 

@@ -18,7 +18,7 @@ aliases:
 >	- Mean separation of $a \sim 30 \; {\rm AU}$
 >- Large range of eccentricities
 >	- For short periods, $\varepsilon \ll 1$ due to tidal circularization
->	- Tidal forces remove/add orbital energy through [[Planetary Migration#Tidal Migration]] while conserving angular momentum
+>	- Tidal forces remove/add orbital energy through [[Planetary Migration#Tidal Migration|Tidal Migration]] while conserving angular momentum
 
 ## Types of Binary Systems
 
@@ -99,18 +99,18 @@ An **intermediate-mass X-ray binary (IMXB)** is composed of a [[Black Hole|bla
 
 #### High Mass X-Ray Binary (HMXB)
 
-A **high-mass X-ray binary (HMXB)** is composed of a [[Black Hole|black hole]] or [[Neutron Star|neutron star]]  with a massive star ([[Spectral Classes#O]] or [[Spectral Classes#B]] star, a [[Stellar Classes#Blue Supergiant|blue supergiant]], or in some cases, a [[Stellar Classes#Red Supergiant|red supergiant]] or a [[Stellar Classes#Wolf-Rayet Star]]). 
+A **high-mass X-ray binary (HMXB)** is composed of a [[Black Hole|black hole]] or [[Neutron Star|neutron star]]  with a massive star ([[Spectral Classes#O|O]] or [[Spectral Classes#B|B]] star, a [[Stellar Classes#Blue Supergiant|blue supergiant]], or in some cases, a [[Stellar Classes#Red Supergiant|red supergiant]] or a [[Stellar Classes#Wolf-Rayet Star|Wolf-Rayet Star]]). 
 
 A fraction of the stellar wind of the massive star is captured by the compact object, and produces X-rays as it falls onto the compact object. This allows the compact object to emit strongly in the X-ray while the massive star emits strongly in the optical. 
 
-Usually formed in star forming regions where the large, hot, short-lived stars can be formed. (i.e. the [[Anatomy of a Galaxy#Galactic Disk]])
+Usually formed in star forming regions where the large, hot, short-lived stars can be formed. (i.e. the [[Anatomy of a Galaxy#Galactic Disk|Galactic Disk]])
 
 
 ### Cataclysmic Variables (CVs)
 
 ![[binary_CVs.png|align:center|450]]
 
-A binary star system composed of a [[Stellar Classes#White Dwarf|white dwarf]] and a secondary, donor companion star (typically [[Spectral Classes#G]] star or later). The secondary star accretes matter onto the [[Stellar Classes#White Dwarf|white dwarf]] causing irregularly increases in brightness due to eruptive outbursts called [[Stellar Explosions#Nova|novas]]. After the eruption and increase in brightness, it returns to the initial quiescent state. 
+A binary star system composed of a [[Stellar Classes#White Dwarf|white dwarf]] and a secondary, donor companion star (typically [[Spectral Classes#G|G]] star or later). The secondary star accretes matter onto the [[Stellar Classes#White Dwarf|white dwarf]] causing irregularly increases in brightness due to eruptive outbursts called [[Stellar Explosions#Nova|novas]]. After the eruption and increase in brightness, it returns to the initial quiescent state. 
 
 This mass accretion is not enough to exceed the [[Chandrasekhar Limit]] and cause a [[Stellar Explosions#Supernova|supernova]]. All of the [[Stellar Explosions#Nova|nova]] events occur on the surface and don't perturb the star enough to de-structure it.
 
@@ -125,7 +125,7 @@ This mass accretion is not enough to exceed the [[Chandrasekhar Limit]] and caus
 
 ![[ellipse.png|align:center|500]]
 
-Using [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] and necessary [[Kepler's Laws of Planetary Motion#Parameters for Orbits|parameters]], we can find the following relations
+Using [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] and necessary [[Kepler's Laws of Planetary Motion#Parameters for Orbits|parameters]], we can find the following relations
 $$\theta_{1} = \frac{a_{1}}{d} \hspace{1cm} \theta_{2} = \frac{a_{2}}{d} \hspace{1cm} \Rightarrow \hspace{1cm} \frac{m_{1}}{m_{2}} = \frac{\theta_{2}}{\theta_{1}}$$
 $$P^{2} = \frac{4 \pi^{2} a^{3}}{G M} = \frac{4 \pi^{2} (\theta \, d)^{3}}{G M} \hspace{1cm} \text{where} \hspace{1cm} M = m_{1} + m_{2}$$
 
@@ -162,7 +162,7 @@ v_{1} = \omega a_{1} = \frac{2 \pi a_{1}}{P} \hspace{1cm} v_{2} = \omega a_{2} =
 \end{aligned}
 $$
 
-Here, we can see that the inclination of the system is irrelevant for the binary mass ratio. From [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]], we can then find the total mass for the system.
+Here, we can see that the inclination of the system is irrelevant for the binary mass ratio. From [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]], we can then find the total mass for the system.
 
 $$
 P^{2} = \frac{4 \pi^{2} a^{3}}{G M} \hspace{1cm} \Rightarrow \hspace{1cm} 

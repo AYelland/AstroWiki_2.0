@@ -44,10 +44,10 @@ The types of [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]]  that 
 ^ice-line
 
 - Towards the centre of the disk where the protostellar wind/stellar wind is strong and the temperature is high ($R < R_{\rm ice}$), only elements and compounds with high melting points can survive the heat (iron, rock, etc.). This material accumulates and clumps together into dense rocky, [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]] that later form terrestrial planets.
-	- Inner Planetary System :: [[Planetary Classes#Rocky Planets]] (Terrestrial Planets)
+	- Inner Planetary System :: [[Planetary Classes#Rocky Planets|Rocky Planets]] (Terrestrial Planets)
 
 - Far away from the center of the disk where the it is cool enough ($R > R_{\rm ice}$), ice compounds are able to condense and accrete onto planetesimals. Since there is significantly more material beyond the [[Standard Model of Planetary Formation#^ice-line|ice line]], planetesimals can grow much larger. When they clump together and grow large enough that gravity can begin pulling the surrounding gas (hydrogen and helium), they develop a **gas envelope** and only stop growing when they have cleared the gas from thier orbits. In the core of the planet, it is mostly composed of a rocky-icy mix, but as the pressure grows from the gas envelope, the core condenses into being primarily rock.
-	- Outer Planetary System :: [[Planetary Classes#Ice Giants]] & [[Planetary Classes#Gas Giants]]
+	- Outer Planetary System :: [[Planetary Classes#Ice Giants|Ice Giants]] & [[Planetary Classes#Gas Giants|Gas Giants]]
 
 *Note: The stellar wind prevents inner planets from maintaining gas envelopes early in their development.*
 
@@ -67,7 +67,7 @@ During these migration processes, much of the material in the disk is either eje
 
 > [!space] In the Solar System...
 > 
-> These processes are theorized to directly lead to the development of the [[#Asteroid Belt]], [[#Kuiper Belt]], and the [[#Oort Cloud]].
+> These processes are theorized to directly lead to the development of the [[Asteroid Belt]], [[Kuiper Belt]], and the [[Oort Cloud]].
 
 
 ---

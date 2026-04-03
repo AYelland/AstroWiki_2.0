@@ -13,7 +13,7 @@ When a [[Gamma Ray Burst|GRB]] is released from some compact object, it will lea
 ![[GRB_fireball.png|align:center|600]]
 ![[GRB_mechanism.jpg|align:center|600]]
 
-1. Collimated and relativistic jet forms and is launched from a [[Stellar Explosions#Type Ic-BL]] or a [[Stellar Explosions#Kilonova]]
+1. Collimated and relativistic jet forms and is launched from a [[Stellar Explosions#Type Ic-BL|Type Ic-BL]] or a [[Stellar Explosions#Kilonova|Kilonova]]
 	- Potentially related to the magnetic field prior to emission, but jet launching is highly certain and an area of active research
 2. Jet shocks the surrounding medium and sweeps up this material as it expands
 3. The gamma-ray photons (defining the GRB) come from "internal shocks" within the jet itself.
@@ -32,4 +32,4 @@ When a [[Gamma Ray Burst|GRB]] is released from some compact object, it will lea
 ##### What inputs are required?
 
 Mostly unknown, but we need some energetic accelerating mechanism can produce an ultrarelativistic jet.
-- Mostly originating from the central engine (i.e. [[Stellar Explosions#Type Ic-BL]] or [[Stellar Explosions#Kilonova]])).
+- Mostly originating from the central engine (i.e. [[Stellar Explosions#Type Ic-BL|Type Ic-BL]] or [[Stellar Explosions#Kilonova|Kilonova]])).

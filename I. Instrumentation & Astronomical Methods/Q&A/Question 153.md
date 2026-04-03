@@ -20,4 +20,4 @@ $$5 \times 10^{-6} \; {\rm rad} = \frac{1.22 \times 1 \; {\rm m}}{D} \hspace{1cm
 
 Thus, we can use multiple dishes to get better resolution, but with much less collecting area than a telescope that large. This effectively constructs a large interferometer that can constructively interfere to produce an effective diameter equal to the length of the baseline (how far apart the dishes are). To do this, it requires careful clock-synchronization and precise timing at each telescope due to the time-delay between different paths going to different telescopes.
 
-[[Instruments#EHT]] has a baseline of $\sim 1000\,\pu{km}$; such that at $\lambda \sim 1\,\pu{mm}$, they have an angular resolution of about $\theta \sim 25\,\pu{\mu as}$. With this, they were able to image the first two black holes: [[EHT-images.jpg|M87 and Sag A*]]
+[[Instruments#EHT|EHT]] has a baseline of $\sim 1000\,\pu{km}$; such that at $\lambda \sim 1\,\pu{mm}$, they have an angular resolution of about $\theta \sim 25\,\pu{\mu as}$. With this, they were able to image the first two black holes: [[EHT-images.jpg|M87 and Sag A*]]

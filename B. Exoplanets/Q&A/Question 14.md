@@ -25,13 +25,13 @@ Describe a sequence of observations to identify an exoplanet, to determine that 
 
 > [!note] Note about Hot Jupiters and their Atmosphere
 > 
-> In the atmospheres of [[Planetary Classes#Hot Jupiters]], things like sapphires and pure carbon clouds can form. When they imprint on the observed spectra, they can dampen the whole thing or cause broad absorption features in the [[Electromagnetic Spectrum|infrared]].
+> In the atmospheres of [[Planetary Classes#Hot Jupiters|Hot Jupiters]], things like sapphires and pure carbon clouds can form. When they imprint on the observed spectra, they can dampen the whole thing or cause broad absorption features in the [[Electromagnetic Spectrum|infrared]].
 > 
 > *(Source? - Alex Yelland, MKI)*
 
 > [!note] On the Oblateness of the Exoplanet
 > 
-> We can also measure the oblateness of an exoplanet if we have really high-quality transit data (e.g. from [[Instruments#JWST]]). This information can be inferred from the precise shape of the ingress and egress during the transit, (star and finish of the transit dip). 
+> We can also measure the oblateness of an exoplanet if we have really high-quality transit data (e.g. from [[Instruments#JWST|JWST]]). This information can be inferred from the precise shape of the ingress and egress during the transit, (star and finish of the transit dip). 
 > 
 > *"There are some tentative measurements, but nothing too convincing yet." - David Berardo, MKI*
 
@@ -39,8 +39,8 @@ Describe a sequence of observations to identify an exoplanet, to determine that 
 
 - High level of diversity in exoplanet composition and properties
 - Have observed...
-	- [[Planetary Classes#Hot Jupiters]] with opaque clouds
-	- Inflated  [[Planetary Classes#Hot Jupiters]] with larger radii than expected.
+	- [[Planetary Classes#Hot Jupiters|Hot Jupiters]] with opaque clouds
+	- Inflated  [[Planetary Classes#Hot Jupiters|Hot Jupiters]] with larger radii than expected.
 	- Planets with and without thermal inversions
 - With transit spectra, the exoplanet atmospheres can include: $\ce{H_{2}O , CO , NH_{4} , CH_{3} , HCN , \dots}$
 

@@ -110,9 +110,9 @@ This only applies to fairly extreme disk / planet cases where the migration is d
 
 ## Planetesimal-Driven Migration
 
-Planetesimal-Driven Migration occurs when a planet experiences a gravitational slingshot from smaller bodies (such as [[Smaller Non-Planetary Bodies#planetesimals]]) in their vicinity. When a planet ejects a planetesimal from the planetary system, it must give up energy and it moves closer toward the star (and vise versa). To a degree, this effect only becomes relevant when a planet interacts with a mass comparable to its own. 
+Planetesimal-Driven Migration occurs when a planet experiences a gravitational slingshot from smaller bodies (such as [[Smaller Non-Planetary Bodies#planetesimals|planetesimals]]) in their vicinity. When a planet ejects a planetesimal from the planetary system, it must give up energy and it moves closer toward the star (and vise versa). To a degree, this effect only becomes relevant when a planet interacts with a mass comparable to its own. 
 
-Due to the ratio of solids to gas in a typical protoplanetary disk, it seems [[Planetary Classes#Ice Giants]] are more affected by this than other massive planets.
+Due to the ratio of solids to gas in a typical protoplanetary disk, it seems [[Planetary Classes#Ice Giants|Ice Giants]] are more affected by this than other massive planets.
 
 > [!space] In the Solar System...
 > 
@@ -143,7 +143,7 @@ Perturbation of a binary system by a third object which results in a periodic ex
 
 This mechanism is important for:
 - irregular planetary satellites
-- [[Smaller Non-Planetary Bodies#Trans-Neptunian Object (TNO)]]
+- [[Smaller Non-Planetary Bodies#Trans-Neptunian Object (TNO)|Trans-Neptunian Object (TNO)]]
 - extrasolar planets
 - multiple star systems
 - [[Black Hole|black hole mergers]]

@@ -16,7 +16,7 @@ If we only needed neutrinos to account for all the [[Dark Matter|dark matter]], 
 
 $$\rho_{\nu} = \Omega_{\rm DM} \, \rho_{\rm crit} = \frac{3 \,\Omega_{\rm DM} H_{0}^{2}}{8 \pi G}$$
 
-...where $\Omega_{DM}\simeq 0.3$ (see [[Instruments#Planck]]). However, if this were true, then there would be no large scale structure, as things would be moving too quickly to collapse.
+...where $\Omega_{DM}\simeq 0.3$ (see [[Instruments#Planck|Planck]]). However, if this were true, then there would be no large scale structure, as things would be moving too quickly to collapse.
 
 To work out the mass, we need the number density of neutrinos in the universe. One can calculate the neutrino-to-photon temperature ratio via conservation of neutrino entropy (I guess it's conserved because they don't interact with other things, so their thermal properties don't change).
 
@@ -37,7 +37,7 @@ $$\begin{alignat}{2}
 
 ##### Compare it with current upper bounds (or detections).
 
-Current upper bound is $m_\nu < 0.8\,\pu{eV}$ from [[Instruments#KATRIN]], which uses [[Beta Decay]] of tritium for its constraints.
+Current upper bound is $m_\nu < 0.8\,\pu{eV}$ from [[Instruments#KATRIN|KATRIN]], which uses [[Beta Decay]] of tritium for its constraints.
 
 Below, there is an experimental neutrino mass timeline, but the x axis is $m^2$ so actually this may be confusing. Just use it for experimental history and relative sizes of error bars. Also cosmological constraints using [[Baryon Acoustic Oscillations|BAO]] and other probes finding constraints $m_\nu \lesssim 0.1\,\pu{eV}$ , but bounds depend on cosmological assumptions.
 

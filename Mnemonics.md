@@ -35,7 +35,7 @@
 
 ![[CNOcycle.png]]
 
-*(See [[_Stellar Nucleosynthesis#CNO Cycle]] for more details)*
+*(See [[Carbon-Nitrogen-Oxygen Cycle|CNO cycle]] for more details)*
 
 ## Spectral Classes
 
@@ -119,13 +119,13 @@
 ## Tully Fisher vs De Vaucouleurs
 
 > [!tip] Fishing vs Haughty Old Guy
-> [[Velocity dispersion#Tully-Fisher Relation]] is for spirals because whirlpools are in the ocean where fish live 🐟.
-> [[Velocity Dispersion#Faber-Jackson Relation]] is for ellipticals because ellipticals are old and haughty (puffed up). And quarters were invented in the past so thats why its 4.
+> [[Velocity dispersion#Tully-Fisher Relation|Tully-Fisher Relation]] is for spirals because whirlpools are in the ocean where fish live 🐟.
+> [[Velocity Dispersion#Faber-Jackson Relation|Faber-Jackson Relation]] is for ellipticals because ellipticals are old and haughty (puffed up). And quarters were invented in the past so thats why its 4.
 
 ## Kepler's 3rd Law
 
 > [!tip] Aw Good Morning 321
-> To remember [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] just remember "aw good morning 321" 
+> To remember [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] just remember "aw good morning 321" 
 > $$a^{3} \omega^{2} = G M$$
 
 ## Mass of SMBH
@@ -153,7 +153,7 @@
 ## The Einasto Profile
 
 > [!tip] Ei**mass**to
-> The [[Galaxy Profiles#Einasto Profile]] is nice because it has a well-defined total mass. Ei**mass**to.
+> The [[Galaxy Profiles#Einasto Profile|Einasto Profile]] is nice because it has a well-defined total mass. Ei**mass**to.
 
 ## Lyman Hydrogen Transitions
 

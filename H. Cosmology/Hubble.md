@@ -68,9 +68,9 @@ An example measurement involves:
 - Calibrate $B$ and repeat, getting distances to some very distant objects $C$.
 
 The current state of the cosmological distance ladder depends on...
-- Pulsating Objects (like [[Stellar Classes#Cepheids]] and [[Stellar Classes#RR Lyrae]])
+- Pulsating Objects (like [[Stellar Classes#Cepheids|Cepheids]] and [[Stellar Classes#RR Lyrae|RR Lyrae]])
 - "Standard Candles" of presumably known luminosity (like [[Stellar Explosions#Type Ia|Type Ia supernovae]] and the [[Hertzsprung-Russell Diagram#Helium Flash|helium flash]] at the tip of the [[Hertzsprung-Russell Diagram#Red Giant Branch (RGB)|RGB]])
-- [[Velocity Dispersion#Tully-Fisher Relation]]
+- [[Velocity Dispersion#Tully-Fisher Relation|Tully-Fisher Relation]]
 
 ![[distance_ladder.png|align:center|550]]
 
@@ -80,7 +80,7 @@ The current state of the cosmological distance ladder depends on...
 
 > [!space] Measured Hubble Constant: $\quad H_{0} \simeq 73 \pm 2 \; \pu{km s^{-1} Mpc^{-1}}$
 
-The H0LiCOW team measures time delays between multiple images of a [[Gravitational Lensing#Strong Lensing|strongly lensed]] background [[Active Galactic Nuclei#Quasar|quasar]] by a large foreground object. The time delay  ( $\sim \mathcal{O}({\rm seconds})$ ) can be used to infer a distance, independent of [[Cosmic Microwave Background|CMB]] and [[#Distance Ladder (Standard Candles)|distance ladder]] constraints.
+The H0LiCOW team measures time delays between multiple images of a [[Gravitational Lensing#Strong Lensing|strongly lensed]] background [[Active Galactic Nuclei#Quasar / Quasi-Stellar Object (QSO)|quasar]] by a large foreground object. The time delay  ( $\sim \mathcal{O}({\rm seconds})$ ) can be used to infer a distance, independent of [[Cosmic Microwave Background|CMB]] and [[#Distance Ladder (Standard Candles)|distance ladder]] constraints.
 
 ### Standard Sirens
 
@@ -90,7 +90,7 @@ Method co-invented by Scott Hughes here at MKI.
 
 To make this measurement, we need to compare two things: the distance to an object, and the apparent velocity with which it is moving away from us. 
 
-Measuring the apparent (radial) velocity is the easy part: you measure the [[Redshift|redshift]] of light, given you have an electromagnetic spectrum of an object. This allows us to transform the [[#Chirp Mass|chirp mass]] from the detector frame to the source frame. ($M_{c} \to M_{c} (1 +z)$). *(with gravitational waves alone, you can’t do it — there isn’t enough structure in the spectrum to measure a redshift.)*
+Measuring the apparent (radial) velocity is the easy part: you measure the [[Redshift|redshift]] of light, given you have an electromagnetic spectrum of an object. This allows us to transform the [[Gravitational Waves#Chirp Mass|chirp mass]] from the detector frame to the source frame. ($M_{c} \to M_{c} (1 +z)$). *(with gravitational waves alone, you can’t do it — there isn’t enough structure in the spectrum to measure a redshift.)*
 
 Measuring the distance is the tricky part; using the power emitted and the waveform of the merger, we can find the [[Gravitational Waves#Chirp Mass|chirp mass]],  [[Question 43#Give a qualitative description of the frequency and amplitude evolution of the gravitational wave signal from a binary compact star system.|chirp frequency & scaling amplitude]]. This is done through applying "standard" waveform templates (derived from GR) to a GW event. Then we can find the [[Distances#Luminosity Distance|luminosity distance]] ($R = d_{\rm L}$) to a GW merger.
 
@@ -105,7 +105,7 @@ Bringing both the distance and velocity together, we can estimate $H_{0}$.
 
 > [!space] Measured Hubble Constant: $\quad H_{0} \simeq 67 \pm 1 \; \pu{km s^{-1} Mpc^{-1}}$
 
-By fitting the [[Cosmic Microwave Background#Power Spectrum|CMB power spectrum]] with the $\Lambda\rm{CDM}$ model, we can predict $H_0$ within the context of this model. By then combining with [[Baryon Acoustic Oscillations|BAO]] measurements, we can improve constraints on $H_{0}$.
+By fitting the [[Cosmic Microwave Background#CMB Power Spectrum|CMB power spectrum]] with the $\Lambda\rm{CDM}$ model, we can predict $H_0$ within the context of this model. By then combining with [[Baryon Acoustic Oscillations|BAO]] measurements, we can improve constraints on $H_{0}$.
 
 ### Hubble Tension
 

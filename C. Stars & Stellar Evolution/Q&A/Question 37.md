@@ -4,7 +4,7 @@ Describe the internal structure of the sun. What is the Schwarzschild criterion 
 
 ### Answer
 ---
-The [[Stellar Structure#Schwarzschild Criterion]] defines the limit at which a radiative zone is no longer stable against the formation of convective cells. The criteria for stability **against** and **for** convection is...
+The [[Stellar Structure#Schwarzschild Criterion|Schwarzschild Criterion]] defines the limit at which a radiative zone is no longer stable against the formation of convective cells. The criteria for stability **against** and **for** convection is...
 
 $$
 \left\{ \; 
@@ -20,12 +20,12 @@ $$
 where $\gamma=\gamma_{\rm ad}$ is the assumed [[Polytropes|polytropic]] exponent (or adiabatic index). We take absolute values because these gradient quantities are often negative. 
 
 The limit on the temperature gradient means that
-- Small temperature gradients yields [[Stellar Structure#Radiative Energy Transport]]
-- Large temperature gradients yields [[Stellar Structure#Convective ("Adiabatic") Energy Transport]]
+- Small temperature gradients yields [[Stellar Structure#Radiative Energy Transport|Radiative Energy Transport]]
+- Large temperature gradients yields [[Stellar Structure#Convective ("Adiabatic") Energy Transport|Convective ("Adiabatic") Energy Transport]]
 
 ![[Stellar Structure#^schwarzchild-limits]]
 
-*(more details can be found at [[Stellar Structure#Schwarzschild Criterion]])*
+*(more details can be found at [[Stellar Structure#Schwarzschild Criterion|Schwarzschild Criterion]])*
 
 > [!note] 
 > We can also reframe this equation in terms of logarithmic derivatives since $(1/x) df/dx = d \ln(f)/dx$). 

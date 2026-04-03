@@ -7,4 +7,4 @@ Describe qualitatively one of the theories explaining the presence of hot Jupite
 
 ![[hot_jupiter_theories.png|align:center|500]]
 
-![[Planetary Classes#Hot Jupiters]]
+![[Planetary Classes#Hot Jupiters|Hot Jupiters]]

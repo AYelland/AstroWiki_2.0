@@ -101,7 +101,7 @@ P = \frac{3}{4} \rho_{0} v_{\rm S}^{2}
 \quad }
 $$
 
-Implementing the [[Thermodynamics#Ideal Gas Law]], we can show that the temperature of the shocked material rises to nearly coronal temperatures.
+Implementing the [[Thermodynamics#Ideal Gas Law|Ideal Gas Law]], we can show that the temperature of the shocked material rises to nearly coronal temperatures.
 
 $$T = \left(\frac{\mu m_{\rm p}}{k_{\rm B}}\right) \frac{P}{\rho} = \left(\frac{\mu m_{\rm p}}{k_{\rm B}}\right) \left( \frac{3}{16} v_{\rm S}^{2} \right) 
 \begin{aligned}[t]

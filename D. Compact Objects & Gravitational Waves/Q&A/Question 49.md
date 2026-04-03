@@ -59,7 +59,7 @@ Solving these allow us to model the accretion disk's **temperature, pressure and
 
 To go further and infer more about the disk, we need to consider the...
 5. *Equation of State* (pressure or radiation dominated)
-6. *[[Optical Depth#Kramer's Opacity Law]]*
+6. *[[Optical Depth#Kramer's Opacity Law|Kramer's Opacity Law]]*
 
 
 > [!space] Accretion Luminosity

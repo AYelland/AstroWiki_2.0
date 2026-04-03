@@ -30,7 +30,7 @@ Each filter has an associated transmission function, $T_{X}(\nu)$, that determin
 
 ![[SDSS_filters.jpg|align:center|500]]
 
-Similar to the [[#UBVRI System]], but more modernized and standardized. 
+Similar to the [[#UBVRI Filters]], but more modernized and standardized. 
 
 
 ## Spectral Energy Distrbutions

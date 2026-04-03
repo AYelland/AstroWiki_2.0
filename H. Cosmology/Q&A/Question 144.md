@@ -7,7 +7,7 @@ What is the baryonic contribution to the cosmological mass density and how is it
 ##### What is the baryonic contribution to the cosmological mass density and how is it determined? 
 
 We have measured $\Omega_b \simeq 0.05$ and $\Omega_M \simeq 0.3$, such that baryons make up about 18% of the mass budget. We measure this via...
-1. The baryon loading effect of the [[Cosmic Microwave Background#CMB Power Spectrum]] (see [[Question 129]]). This gives constraints on $\Omega_{M}$ for the overall amplitude and on $\Omega_{b}$ by comparing the difference between the first and second peaks.
+1. The baryon loading effect of the [[Cosmic Microwave Background#CMB Power Spectrum|CMB Power Spectrum]] (see [[Question 129]]). This gives constraints on $\Omega_{M}$ for the overall amplitude and on $\Omega_{b}$ by comparing the difference between the first and second peaks.
 2. [[Big Bang Nucleosynthesis]] models and the primordial element abundances finds consistency of the baryon fraction with [[Cosmic Microwave Background|CMB]]. ![[BBN.png|align:center|400]]
 
 ##### Where are the bulk of the baryons in our Universe?

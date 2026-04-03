@@ -23,7 +23,7 @@ $${\rm (energy \ generation) \propto (deuteron \ concentration) \times (density)
 
 If there were no deuteron available to fuse, then stars would gain significantly less mass in the pre-main-sequence phase, as the object would collapse faster, and more intense hydrogen fusion would occur and prevent the object from accreting matter. 
 
-Due to the scarcity of deuterium in the Universe, a protostar's supply of it is limited. After a few million years, it will have effectively been completely consumed. After this point, gravity will begin to overtake the protostellar radiation pressure, and the energy transport mechanism slows and switches from convective to radiative ([[Hertzsprung-Russell Diagram#Hayashi Track]] to [[Hertzsprung-Russell Diagram#Henyey Track]]) as ionization increases and opacity decreases. This allows the temperature to rise and hydrogen fusion to take over in a stable and sustained way. Hydrogen fusion will begin at $10^{7} \; {\rm K}$.
+Due to the scarcity of deuterium in the Universe, a protostar's supply of it is limited. After a few million years, it will have effectively been completely consumed. After this point, gravity will begin to overtake the protostellar radiation pressure, and the energy transport mechanism slows and switches from convective to radiative ([[Hertzsprung-Russell Diagram#Hayashi Track|Hayashi Track]] to [[Hertzsprung-Russell Diagram#Henyey Track|Henyey Track]]) as ionization increases and opacity decreases. This allows the temperature to rise and hydrogen fusion to take over in a stable and sustained way. Hydrogen fusion will begin at $10^{7} \; {\rm K}$.
 
 **Protostellar Wind**
 
@@ -43,7 +43,7 @@ A **brown dwarf** is a star that was not massive enough ($M < 0.08 \; {\rm M_{\o
 
 - The lifetime of the deuteron burning phase can last $\sim 10^{6} - 10^{7} \; {\rm yr}$. 
 - Mass Range: $0.013 \; {\rm M_{\odot}} \; \lesssim M \lesssim \; 0.8 \; {\rm M_{\odot}}$
-	- Maximum mass of [[Planetary Classes#Hot Jupiters]] ($M < 13 \; {\rm M_{\rm J}}$) defines the lower limit of brown dwarfs.
+	- Maximum mass of [[Planetary Classes#Hot Jupiters|Hot Jupiters]] ($M < 13 \; {\rm M_{\rm J}}$) defines the lower limit of brown dwarfs.
 
 Often, a brown dwarf is defined by the deuteron burning occurring at some point in its evolutionary development. Without this, it would be defined as a planet versus a star. That said, it is hard to define an astrophysical object by this standard with current observational methods, given they are very dim objects. Therefore, they are mostly defined by mass in practicality.
 
@@ -55,10 +55,10 @@ Often, a brown dwarf is defined by the deuteron burning occurring at some point 
 
 ![[HR_redDwarfs.jpg|align:center|500]]
 
-**Red Dwarfs** or **M Dwarfs** are low mass and low luminosity stars that can fuse hydrogen, but not helium. In the [[Hertzsprung-Russell Diagram|HR-Diagram]], the populate the low temperature end of the [[Hertzsprung-Russell Diagram#Main Sequence (MS)]]. That said, they are also classified as *flare stars* with significant stellar variability due to magnetic field fluctuations.
+**Red Dwarfs** or **M Dwarfs** are low mass and low luminosity stars that can fuse hydrogen, but not helium. In the [[Hertzsprung-Russell Diagram|HR-Diagram]], the populate the low temperature end of the [[Hertzsprung-Russell Diagram#Main Sequence (MS)|Main Sequence (MS)]]. That said, they are also classified as *flare stars* with significant stellar variability due to magnetic field fluctuations.
 
 > [!measure] Typical Parameters
-> These parameters overlap with some [[#Brown Dwarf]] stars and [[Spectral Classes#K]] stars. There are various definitions for the cutoff values for these stars.
+> These parameters overlap with some [[#Brown Dwarf]] stars and [[Spectral Classes#K|K]] stars. There are various definitions for the cutoff values for these stars.
 > - $M \sim 0.08 - 0.45 \; {\rm M_{\odot}}$
 > - $L \lesssim 0.08 \; {\rm L_{\odot}}$
 > - $T_{\rm eff} \sim 2000 - 3900 \; {\rm K}$
@@ -94,12 +94,12 @@ These stellar remnant cannot fuse carbon, such that they cool down over time (po
 2) Once fusible hydrogen is exhausted, the star will travel the [[Hertzsprung-Russell Diagram#Subgiant Branch (SGB)|subgiant branch]] and [[Hertzsprung-Russell Diagram#Red Giant Branch (RGB)|red giant branch]] until it helium fusion ignites through the [[Triple-Alpha Process|triple-alpha]] and [[Alpha Process|alpha process]]. 
 	- This creates an inert carbon-oxygen core.
 3) As carbon-oxygen ash builds up in the core, the star heats and travels the [[Hertzsprung-Russell Diagram#Horizontal Branch|horizontal branch]] before expanding and cooling along the [[Hertzsprung-Russell Diagram#Asymptotic Giant Branch (AGB)|asymptotic giant branch]].
-4) As the star begin to exceed the [[Luminosity#Eddington Limit]], it will shed its outer layers to form a [[Nebulae#Planetary Nebula|planetary nebula]], leaving behind its exposed core.
+4) As the star begin to exceed the [[Luminosity#Eddington Limit|Eddington Limit]], it will shed its outer layers to form a [[Nebulae#Planetary Nebula|planetary nebula]], leaving behind its exposed core.
 5) The remnant core is the new white dwarf. 
 
 Usually, white dwarfs are composed of carbon and oxygen through the above process. Since the white dwarf can no longer undergoes fusion reactions, the star has no source of energy and it no longer supported against gravitational collapse. It is only supported by electron degeneracy pressure, causing it to be extremely dense. 
 
-A non-rotating white dwarf has a maximum mass limit, beyond which it can no longer be supported through electron degeneracy pressure, known as the [[Chandrasekhar limit]] ($M_{\rm WD} \lesssim 1.4 \; {\rm M_{\odot}}$). When a carbon-oxygen white dwarf that approaches this mass limit, either by accretion of mass from a companion star ("single-degenerate" progenitor) or via a WD-WD merger ("double-degenerate" progenitor), may explode as a [[Stellar Explosions#Type Ia]] supernova.
+A non-rotating white dwarf has a maximum mass limit, beyond which it can no longer be supported through electron degeneracy pressure, known as the [[Chandrasekhar limit]] ($M_{\rm WD} \lesssim 1.4 \; {\rm M_{\odot}}$). When a carbon-oxygen white dwarf that approaches this mass limit, either by accretion of mass from a companion star ("single-degenerate" progenitor) or via a WD-WD merger ("double-degenerate" progenitor), may explode as a [[Stellar Explosions#Type Ia|Type Ia]] supernova.
 
 
 **Open Questions:**
@@ -112,7 +112,7 @@ A non-rotating white dwarf has a maximum mass limit, beyond which it can no long
 
 ## Main Sequence
 
-*See the [[Hertzsprung-Russell Diagram#Main Sequence (MS)]] section of [[Hertzsprung-Russell Diagram]].*
+*See the [[Hertzsprung-Russell Diagram#Main Sequence (MS)|Main Sequence (MS)]] section of [[Hertzsprung-Russell Diagram]].*
 
 ## Giant Stars
 
@@ -162,10 +162,10 @@ The stellar variability is thought to be caused by a variety of factors, each ou
 > - $P \sim 1 - 50 \; {\rm day}$
 
 There are two classes of Cepheids: 
-1) *Classical Cepheids* - [[Stellar Populations#Population I (Pop. I)]] stars with very regular periods on the order of days to months. ([[Spectral Classes#F]][[Luminosity Classes|6]] - [[Spectral Classes#K]][[Luminosity Classes|2]])
-2) *Type II Cepheids* - [[Stellar Populations#Population II (Pop. II)]] stars that pulsate with periods between 1 and 50 days. *(many subclasses)
+1) *Classical Cepheids* - [[Stellar Populations#Population I (Pop. I)|Population I (Pop. I)]] stars with very regular periods on the order of days to months. ([[Spectral Classes#F|F]][[Luminosity Classes|6]] - [[Spectral Classes#K|K]][[Luminosity Classes|2]])
+2) *Type II Cepheids* - [[Stellar Populations#Population II (Pop. II)|Population II (Pop. II)]] stars that pulsate with periods between 1 and 50 days. *(many subclasses)
 
-The [[Pulsation|pulsations]] are driven through the [[Pulsation#Kappa Opacity Mechanism]] and act as sound waves resonating in the stellar interior. From this mechanism, **denser stars resonate and pulse faster.**
+The [[Pulsation|pulsations]] are driven through the [[Pulsation#Kappa Opacity Mechanism|Kappa Opacity Mechanism]] and act as sound waves resonating in the stellar interior. From this mechanism, **denser stars resonate and pulse faster.**
 
 $$
 T \; \propto \; \frac{1}{\sqrt{\rho}} \hspace{1cm} \text{where} \hspace{1cm} 
@@ -206,7 +206,7 @@ $$
 
 ### RR Lyrae
 
-**RR Lyrae Variable Stars** are periodic, [[Stellar Populations#Population II (Pop. II)|Pop. II stars]] found in [[Stellar Clusters#Globular Cluster|globular clusters]] on the [[Hertzsprung-Russell Diagram#Horizontal Branch]]. They [[Pulsation|pulsate]] in both diameter and temperature, changing their [[Luminosity|brightness/luminosity]] using a similar [[Pulsation#Kappa Opacity Mechanism|mechanism]] to [[#Cepheids]]. 
+**RR Lyrae Variable Stars** are periodic, [[Stellar Populations#Population II (Pop. II)|Pop. II stars]] found in [[Stellar Clusters#Globular Cluster|globular clusters]] on the [[Hertzsprung-Russell Diagram#Horizontal Branch|Horizontal Branch]]. They [[Pulsation|pulsate]] in both diameter and temperature, changing their [[Luminosity|brightness/luminosity]] using a similar [[Pulsation#Kappa Opacity Mechanism|mechanism]] to [[#Cepheids]]. 
 
 > [!measure] Typical Parameters
 > - $M \lesssim 1.0 \; {\rm M_{\odot}}$ (started with  $\sim 2.5 \; {\rm M_{\odot}}$ before mass loss)
@@ -228,7 +228,7 @@ They are used as [[Cosmic Distance Ladder|standard candles]] to measure extra-ga
 ### T Tauri Stars
 *(abbreviated as **TTS**)*
 
-**T Tauri stars (TTS)** are a class of variable, [[Hertzsprung-Russell Diagram#Pre-Main Sequence|pre-main sequence]] stars on the [[Hertzsprung-Russell Diagram#Hayashi Track]] in the process of contracting onto the [[Hertzsprung-Russell Diagram#Main Sequence (MS)|main sequence]]. They are identified by their [[Electromagnetic Spectrum|optical]] variability and strong chromospheric lines.
+**T Tauri stars (TTS)** are a class of variable, [[Hertzsprung-Russell Diagram#Pre-Main Sequence|pre-main sequence]] stars on the [[Hertzsprung-Russell Diagram#Hayashi Track|Hayashi Track]] in the process of contracting onto the [[Hertzsprung-Russell Diagram#Main Sequence (MS)|main sequence]]. They are identified by their [[Electromagnetic Spectrum|optical]] variability and strong chromospheric lines.
 
 The stellar variability of T Tauri Stars is thought to be caused by:
 - large areas of starspot coverage (leading to violent activity in the stellar atmosphere)
@@ -247,7 +247,7 @@ There are two classes of T Tauri Stars:
 - They are powered by gravitational contraction and heating ([[Timescales#Thermal Timescale|thermal timescale]])
 	- Central temperatures at too low for hydrogen fusion
 	- Oten have large accration disks left over from star formation
-- Typically representative of [[Spectral Classes#F]], [[Spectral Classes#G]], [[Spectral Classes#K]], [[Spectral Classes#M]] spectral types
+- Typically representative of [[Spectral Classes#F|F]], [[Spectral Classes#G|G]], [[Spectral Classes#K|K]], [[Spectral Classes#M|M]] spectral types
 	- strong emission lines and broad absorption lines
 - Spend $\sim 100 \; {\rm Myr}$ on the [[Hertzsprung-Russell Diagram#Pre-Main Sequence|pre-main sequence]] during its collapse
 - Many TTS are in binary systems
@@ -270,7 +270,7 @@ Blue stragglers are thought to form through stellar mergers, but they challenge 
 
 ![[wolf_rayet.jpg|aling:center|400]]
 
-A **Wolf–Rayet (WR) Star** is a massive stellar type with very strong stellar winds as evolved descendants of very massive stars ([[Spectral Classes#O]]) that have blown off abut half their mass and now emit highly-ionizing radiation as dying supergiants.
+A **Wolf–Rayet (WR) Star** is a massive stellar type with very strong stellar winds as evolved descendants of very massive stars ([[Spectral Classes#O|O]]) that have blown off abut half their mass and now emit highly-ionizing radiation as dying supergiants.
 
 They are distinct from other stellar types because lack hydrogen lines in their spectra, due to their hydrogen envelope being expelled by stellar winds. 
 
@@ -314,7 +314,7 @@ Instead their spectra are dominated by broad emission lines of highly ionized el
 
 Though the mechanism for producing these collimated bipolar jets is not entirely understood, it is believed that interaction between the accretion disk and the stellar magnetic field
 
-For the young [[Stellar Classes#Protostar|protostars]] (younger than [[Stellar classes#T-tauri star|T-tauri]] stars), the flow can originate from the accretion of matter from the parent molecular cloud. For evolved stars, the flows can originate in the [[Nebulae#Planetary nebula|planetary nebulae]], with the jets driven by accretion from a [[Binary Stars|binary]] companion.
+For the young [[Stellar Classes#Protostar|protostars]] (younger than [[Stellar classes#T Tauri Stars|T-tauri]] stars), the flow can originate from the accretion of matter from the parent molecular cloud. For evolved stars, the flows can originate in the [[Nebulae#Planetary nebula|planetary nebulae]], with the jets driven by accretion from a [[Binary Stars|binary]] companion.
 
 ### OH Maser
 

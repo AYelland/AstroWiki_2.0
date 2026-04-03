@@ -6,7 +6,7 @@ aliases:
   - galaxy groups
   - Galaxy Groups
 ---
-A gravitationally bound collection of (typically) 50 or fewer galaxies, each at least as luminous as the Milky Way (~$10^{10}\, L_\odot$). Galaxy groups are smaller than a [[#Galaxy cluster|galactic cluster]]. [[Galaxies - General#The Milky Way]] is part of a galaxy group called the [[#Local Group]].
+A gravitationally bound collection of (typically) 50 or fewer galaxies, each at least as luminous as the Milky Way (~$10^{10}\, L_\odot$). Galaxy groups are smaller than a [[Galaxy Cluster|galactic cluster]]. [[Galaxies - General#The Milky Way|The Milky Way]] is part of a galaxy group called the [[#Local Group]].
 
 > [!measure] Typical Parameters
 > - Number of Galaxies: $\lesssim 50$
@@ -42,7 +42,7 @@ The **major components** of the Local Group include (by order of mass)...
 1. [[Galaxies - General#Andromeda|Andromeda (M31)]]
 	- Future merger with Milky Way in $\sim 4 \; {\rm Gyr}$
 	- Moving towards each other at $v_{\rm rel} \sim 120 \; {\rm km/s}$
-2. [[Galaxies - General#The Milky Way]]
+2. [[Galaxies - General#The Milky Way|The Milky Way]]
 3. Triangulum (M33) 
 	- satellite of Andromeda
 4. The [[Galaxies - General#Large Magellanic Cloud|LMC]] and [[Galaxies - General#Small Magellanic Cloud|SMC]]

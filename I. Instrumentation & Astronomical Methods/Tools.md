@@ -49,7 +49,7 @@ Voltage across gate determines conductivity, effectively forming a non-mechanica
 - Optical telescope with large FOV and limited [[#aberration]].
 - Designed and first used in the 1930s
 - Examples:
-	- [[Instruments#Kepler]]
+	- [[Instruments#Kepler|Kepler]]
 	- Hipparcos
 
 ## Cassegrain Telescope
@@ -115,7 +115,7 @@ Voltage across gate determines conductivity, effectively forming a non-mechanica
 
 - Measures the change in proper distance due to [[Gravitational Waves|GW]] by looking at the interference of light (relative phases) that has traveled  in along two separate paths
 - Example:
-	- [[Instruments#LIGO]]
+	- [[Instruments#LIGO|LIGO]]
 
 ## Adaptive Optics
 

@@ -15,7 +15,7 @@ Ignoring emissions from the ISM, the relevant light-matter interactions are:
 - [[Bound-Free Absorption]] 
 	- Originate from the ionization of hydrogen (primarily), leading to absorption lines at $\sim 13.6\,\pu{eV}$ in the [[Electromagnetic Spectrum|UV spectrum]].
 - [[Free-Free Absorption]] and [[Thomson Scattering|Electron Scattering]] 
-	- Both require ionized gas to occur, such as in the [[Interstellar Medium#Hot Ionized Medium (HIM)]] or [[Interstellar Medium#HII Regions]], but the density is too low to contribute significantly to  [[Optical Depth#Opacity|opacity]].
+	- Both require ionized gas to occur, such as in the [[Interstellar Medium#Hot Ionized Medium (HIM)|Hot Ionized Medium (HIM)]] or [[Interstellar Medium#HII Regions|HII Regions]], but the density is too low to contribute significantly to  [[Optical Depth#Opacity|opacity]].
 - $\rm{H}^-$ Opacity
 	- Occurs when [[Interstellar Medium#Atomic Hydrogen|neutron hydrogen]] captures another electron to fill its $1s$ orbital
 	- Requires neutral $\rm{H}$ and free electrons, which can happen with partially ionized metals in a stellar atmosphere.

@@ -10,21 +10,36 @@ In the photon counting regime, we can quantify the total number of photons obser
 
 **Signal:**
 - $N$ = number of photons from the source + sky background + anything else
-- $N_{\rm s}$ = number of photons after we calibrate and quantify the other sources ($N_b, N_{\rm d}, N_{\rm r}$ below), and subtract their counts, leaving an estimate of the **total** source counts.
+- $N_{\rm s} =$ **total number of photons from the star/source**, after calibrate and quantify the other sources ($N_b, N_{\rm d}, N_{\rm r}$ below), and subtract their counts, leaving an estimate of the total source counts.
 
-**Noise contributions:**
-- $\sigma_{\rm s} = \sqrt{N_{\rm s}}$ = poisson noise from source 
-- $\sigma_{\rm b} = \sqrt{N_{\rm b}}$ = poisson noise from background 
-- $\sigma_{\rm d} = \sqrt{N_{\rm d}}$ = poisson noise from dark current (thermal noise in electrons, decreases if we lower temperature)
-- $\sigma_{\rm r} = N_{\rm r}$ = [[Tools#Read noise|read noise]]
+**Noise contributions**:
+- $n_{\rm pix} =$ **number of pixels**
+- $\sigma_{\rm s} = \sqrt{N_{\rm s}} \hspace{1.3cm} \Rightarrow N_{\rm s} =$ Poisson noise from the **star/source**
+- $\sigma_{\rm b} = \sqrt{n_{\rm pix} N_{\rm b}} \hspace{0.5cm} \Rightarrow N_{\rm b} =$ per-pixel Poisson noise from the **sky background**
+- $\sigma_{\rm d} = \sqrt{n_{\rm pix} N_{\rm d}} \hspace{0.5cm} \Rightarrow N_{\rm d} =$ per-pixel Poisson noise from the **dark current** (thermal noise in electrons, decreases if we lower temperature)
+- $\sigma_{\rm r} = \sqrt{n_{\rm pix} N_{\rm r}^{2}} \hspace{0.5cm} \Rightarrow N_{\rm r} =$ per-pixel noise from the **[[Tools#Read noise|read noise]]**
 
-The total magnitude of the noise is then the following, assuming all the above are independent 
+Assuming each the above contributions are independent, we can add them in quadrature such that the total magnitude of the noise is then...
 
-$$\sigma = \sqrt{\sigma_{\rm s}^{2} + \sigma_{\rm b}^{2} + \sigma_{\rm d}^{2} + \sigma_{\rm r}^{2}} = \sqrt{N_{\rm s} + N_{\rm b} + N_{\rm d} + N_{\rm r}^{2}}$$
+$$\sigma = \sqrt{\sigma_{\rm s}^{2} + \sigma_{\rm b}^{2} + \sigma_{\rm d}^{2} + \sigma_{\rm r}^{2}} = \sqrt{N_{\rm s} + n_{\rm pix} \left( N_{\rm b} + N_{\rm d} + N_{\rm r}^{2} \right)}$$
 
-Thus the signal to noise ratio (${\rm SNR}$) is:
+Thus, the **signal to noise ratio (${\rm SNR}$) equation** (also known as the *"CCD Equation"*) is defined as:
 
-$${\rm SNR} \equiv \frac{\rm{Signal}}{\rm{Noise}}= \frac{N_{\rm s}}{\sigma}$$
+$${\rm SNR} \equiv \frac{\rm signal}{\rm noise} = \frac{N_{\rm s}}{\sigma} = \frac{N_{\rm s}}{\sqrt{\sigma_{\rm s}^{2} + \sigma_{\rm b}^{2} + \sigma_{\rm d}^{2} + \sigma_{\rm r}^{2}}} = \frac{N_{\rm s}}{\sqrt{N_{\rm s} + n_{\rm pix} \left( N_{\rm b} + N_{\rm d} + N_{\rm r}^{2} \right)}}$$
+
+> [!important] To note, the $\sigma$ values do **not** represent the *"standard deviation"*, but instead the *"uncertainty"* of measurement.
+
+> [!note]- In practice using photometry...
+> Assuming you know what your contribution to the dark current and read noise is known, you can set the following variables to the counts of pixels, times the gain of your telescope, to calculate the signal-to-noise.
+> 
+> - $g =$ gain of the telescope, allowing the conversion of counts (ADU) to number of photons
+> - $n_{\rm pix} =$ number of pixels in the aperture
+> - $N_{\rm s} =$ sum of counts in source aperture, minus the median of the collection of counts in the background aperture
+> - $N_{\rm b} =$ median/mean of the collection of counts in the background aperture (representing the the number of counts per pixel) -- the choice can be dependent on use case
+> 
+> $${\rm SNR} = \frac{g N_{\rm s}}{\sqrt{g N_{\rm s} + n_{\rm pix} \left( g N_{\rm b} + g N_{\rm d} + g N_{\rm r}^{2} \right)}}$$ 
+
+*(Useful [source](https://burro.case.edu/Academics/Astr306/Lectures/Lecture_20240205.pdf))*
 
 ##### What terms dominate at optical versus infrared wavelengths? 
 
@@ -33,7 +48,7 @@ At [[Electromagnetic Spectrum|optical]] wavelengths, we are usually object-limit
 - Since this is assumed independent of the other sources, it will eventually dominate.
 
 At [[Electromagnetic Spectrum|IR]] wavelengths, the dark current is significant so $\sigma \simeq \sqrt{N_d}$ .
-- Why? not sure, but may be due to thermal motion of particles within material of telescope itself, hence cooling of [[Instruments#JWST]] for example.
+- Why? not sure, but may be due to thermal motion of particles within material of telescope itself, hence cooling of [[Instruments#JWST|JWST]] for example.
 
 ##### Why, when observing objects that are fainter than physical foregrounds like the night sky, does SNR increase as sqrt(time)?
 

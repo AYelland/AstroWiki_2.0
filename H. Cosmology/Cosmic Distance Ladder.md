@@ -3,7 +3,7 @@ banner: "![[cosmology.png]]"
 banner_y: 0.46
 aliases:
 ---
-*(See [[Hubble#Distance Ladder]])*
+*(See [[Hubble#Distance Ladder (Standard Candles)|Distance Ladder]])*
 
 ![[distance_ladder.jpg|align:center|600]]
 

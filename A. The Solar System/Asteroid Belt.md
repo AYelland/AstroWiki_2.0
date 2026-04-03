@@ -10,7 +10,7 @@ aliases:
 
 ![[asteroid_belt.png|align:center|450]]
 
-The asteroid belt is a torus-shaped region in the solar system located between Mars and Jupiter ($R \in \left[ 2.0, 3.5 \right] \, {\rm AU}$) and centered on the [[Sun|sun]].  It is populated by a cluster of [[Smaller Non-Planetary Bodies#Asteroid|asteroids]] that did not create larger [[Smaller Non-Planetary Bodies#planetesimals]] or full sized planets during the formation of the solar system due to major perturbations in their orbits caused Jupiter. 
+The asteroid belt is a torus-shaped region in the solar system located between Mars and Jupiter ($R \in \left[ 2.0, 3.5 \right] \, {\rm AU}$) and centered on the [[Sun|sun]].  It is populated by a cluster of [[Smaller Non-Planetary Bodies#Asteroid|asteroids]] that did not create larger [[Smaller Non-Planetary Bodies#planetesimals|planetesimals]] or full sized planets during the formation of the solar system due to major perturbations in their orbits caused Jupiter. 
 
 ## Kirkwood Gaps
 

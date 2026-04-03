@@ -14,7 +14,7 @@ To calculate the shape of the [[Velocity Dispersion#Rotation Curve|rotation curv
 
 $$v_{\phi} = \sqrt{\frac{G M_{r}}{r}}$$
 
-...and calculate $M_r$ from [[Stellar Structure#Mass Continuity]] with our isothermal density profile.
+...and calculate $M_r$ from [[Stellar Structure#Mass Continuity|Mass Continuity]] with our isothermal density profile.
 
 $$M_{r} = \int_{0}^{r} 4 \pi r^{2} \rho \; \mathrm{d} r = \int_{0}^{r} 4 \pi r^{2} \left(\frac{\sigma^{2}}{2 \pi r^{2} G}\right) \; \mathrm{d} r  = \frac{2\sigma^2 r}{G}$$
 

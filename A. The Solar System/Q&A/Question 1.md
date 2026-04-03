@@ -22,8 +22,8 @@ Using the [[Standard Model of Planetary Formation]], we predict the Solar System
 **Clumping:**
 - Planets
 	4. The rotating material (rocks, dust, ice, gas, etc.) begins clumping together in the accretion disk through electrostatic forces, creating [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]] of various compositions.
-		- For $R < R_{\rm ice}$, the [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]] are composed of *rocky* material and later form [[Planetary Classes#Rocky Planets]]. Due to the high temperatures and stellar winds, they are unable to form any gaseous envelopes. (i.e. Venus, Mercury, Mars, Earth)
-		- For $R > R_{\rm ice}$, the [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]] that are mostly composed of *rocky* material and later form [[Planetary Classes#Gas Giants]]. They grow to be much larger sizes due the abundance of available of material further away from the [[Stellar Classes#Protostar|protostar]]. Once the [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]] are large enough, gravitational forces pull in the nearby hydrogen and helium and create large gaseous envelopes. (i.e. Jupiter and Saturn)
+		- For $R < R_{\rm ice}$, the [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]] are composed of *rocky* material and later form [[Planetary Classes#Rocky Planets|Rocky Planets]]. Due to the high temperatures and stellar winds, they are unable to form any gaseous envelopes. (i.e. Venus, Mercury, Mars, Earth)
+		- For $R > R_{\rm ice}$, the [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]] that are mostly composed of *rocky* material and later form [[Planetary Classes#Gas Giants|Gas Giants]]. They grow to be much larger sizes due the abundance of available of material further away from the [[Stellar Classes#Protostar|protostar]]. Once the [[Smaller Non-Planetary Bodies#Planetesimals|planetesimals]] are large enough, gravitational forces pull in the nearby hydrogen and helium and create large gaseous envelopes. (i.e. Jupiter and Saturn)
 			- If the gas envelope is not primarily composed of hydrogen and helium, and instead, it is composed of other ices (oxygen, carbon, nitrogen, sulfur, etc.), then the resulting planet is considered a [[Planetary Classes#Ice Giants|Ice Giant]] (i.e. Uranus and Neptune)
 - Moons
 	5. Once the planetary bodies are mostly formed, they develop their own accretion disk that later go through a similar clumping process and creates their respective moons.
@@ -44,14 +44,14 @@ Using the [[Standard Model of Planetary Formation]], we predict the Solar System
 ##### Discuss observational evidence for this model. 
 
 - Locations of rocky planets, gas giants and ice giants within solar system
-- Heavy cratering from rocky and icy bodies within the solar system, alongside the existence of water on the [[Planetary Classes#Rocky Planets]].
-	- This could only occur if the impact of the [[Smaller Non-Planetary Bodies]] was after the planets had already formed. Therefore, it is provides evidence of migration through [[Planetary Migration#Planetesimal-Driven Migration]] and [[Planetary Migration#Gravitational Scattering]].
+- Heavy cratering from rocky and icy bodies within the solar system, alongside the existence of water on the [[Planetary Classes#Rocky Planets|Rocky Planets]].
+	- This could only occur if the impact of the [[Smaller Non-Planetary Bodies]] was after the planets had already formed. Therefore, it is provides evidence of migration through [[Planetary Migration#Planetesimal-Driven Migration|Planetesimal-Driven Migration]] and [[Planetary Migration#Gravitational Scattering|Gravitational Scattering]].
 - All planets roughly in ecliptic plane (i.e. they formed from same protoplanetary disk)
 - The orbital resonance gaps within the [[Asteroid Belt]]
 
 ##### Describe observations of exoplanets that have challenged this simple picture as a universal explanation for planet formation.
 
-- The Existence of [[Planetary Classes#Hot Jupiters]], Jupiter-like planets near their host stars ($< 0.1 \; {\rm AU}$) where [[Core-Accretion Theory]] says they shouldn't be able to exist.
+- The Existence of [[Planetary Classes#Hot Jupiters|Hot Jupiters]], Jupiter-like planets near their host stars ($< 0.1 \; {\rm AU}$) where [[Core-Accretion Theory]] says they shouldn't be able to exist.
 	- Q: How did the migrate all the way in?
 	- A: See [[Planetary Migration]] & [[Question 12]]
 

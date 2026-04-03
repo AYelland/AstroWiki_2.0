@@ -7,7 +7,7 @@ Explain how interstellar dust grains can result in linear polarization of transm
 ##### Explain how interstellar dust grains can result in linear polarization of transmitted light. How is the direction of polarization related to the average direction of the interstellar magnetic field (as projected on the plane of the sky)?
 
 **Dust Alignment:**
-[[Interstellar Medium#Dust]] grains are conglomerates of chemical molecules, and they are not all spherically symmetric. Their asymmetry can result in various distributions of charge and mass across the dust grain, and therefore, an external magnetic field has a non-zero effect on the dust grains such that it can induce a preferential average alignment of the dust grains' magnetic dipole moments with an external magnetic field.
+[[Interstellar Medium#Dust|Dust]] grains are conglomerates of chemical molecules, and they are not all spherically symmetric. Their asymmetry can result in various distributions of charge and mass across the dust grain, and therefore, an external magnetic field has a non-zero effect on the dust grains such that it can induce a preferential average alignment of the dust grains' magnetic dipole moments with an external magnetic field.
 
 This alignment is *not ferromagnetic*, but instead *paramagnetic* due to the very weak spin-spin interactions within a given dust grain. The net alignment of the magnetic dipole moments ($\vec{\mu}$) of the grain population will be parallel to the magnetic field ($\vec{B}$) (a lower energy configuration, $\theta=0$), but this is an average of independent, randomly spinning grains, each weakly attracted to the magnetic field.
 
@@ -44,7 +44,7 @@ Typically dust has temperatures of $T \sim 2- 200 \; {\rm K}$.
 
 For dust at temperatures $T \sim 20 \; {\rm K}$, the thermal ([[Blackbody Radiation|blackbody]]) radiation peaks in the [[Electromagnetic Spectrum|infrared/microwave]] (with wavelength of $\lambda_{\rm peak} \sim 150 \; {\rm \mu m}$ by [[Blackbody radiation#Wien's displacement law|Wien's Law]]), very close to the [[Cosmic Microwave Background|CMB]].
 
-In 2014, the [[Instruments#BICEP|BICEP2]] team claimed to have measured B-mode polarization in the [[Cosmic Microwave Background|CMB]], providing evidence for primordial gravitational wave signals during inflation. However, after some further analysis and additional data (from [[Instruments#Planck]]), this revealed that the signal could entirely be produced by polarized thermal emission from [[Galaxies - General#The Milky Way|Milky Way]] dust.
+In 2014, the [[Instruments#BICEP|BICEP2]] team claimed to have measured B-mode polarization in the [[Cosmic Microwave Background|CMB]], providing evidence for primordial gravitational wave signals during inflation. However, after some further analysis and additional data (from [[Instruments#Planck|Planck]]), this revealed that the signal could entirely be produced by polarized thermal emission from [[Galaxies - General#The Milky Way|Milky Way]] dust.
 
 > [!note] B-mode Polarization
 > - Polarization at $45 \degree$ angle with respect to the plane wave direction of propagation.

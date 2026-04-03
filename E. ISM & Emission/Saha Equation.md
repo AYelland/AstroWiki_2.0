@@ -42,7 +42,7 @@ where
 > 
 > We integrate over this phase space while making two approximations:
 > 1) The particles are in a non-relativistic regime $\implies E = \frac{p^{2}}{2 m} + m c^{2}$
-> 2) The population can be represented by [[Statistical Mechanics#Maxwell-Boltzmann]] distribution, such that we can neglect the $\pm 1$.
+> 2) The population can be represented by [[Statistical Mechanics#Maxwell-Boltzmann|Maxwell-Boltzmann]] distribution, such that we can neglect the $\pm 1$.
 > 
 > $$\begin{align}
 > 	n &= \int \frac{\mathrm{d} N}{\mathrm{d}^{3} x \, \mathrm{d}^{3} p} \\
@@ -109,11 +109,11 @@ The Saha equation is only applicable when...
 - The stellar spectrum is directly correlated to its relative atomic abundance and elemental composition, because each atom or ion can absorb or emit radiation of a particular set of wavelengths.
 - The strength of those lines is strongly dependent on temperature (because the relative populations of ionization and atomic energy levels depends on temperature).
 	- The Saha Equation tells us the relative populations of ionization levels, and for the simplest inference, what fraction of atoms are not ionized
-	- The [[Boltzmann Equation]] (ratio of Boltzmann factors) tell us relative populations of those un-ionized atomic energy levels *(see [[Spectral Features#Hydrogen Spectra]])*
+	- The [[Boltzmann Equation]] (ratio of Boltzmann factors) tell us relative populations of those un-ionized atomic energy levels *(see [[Spectral Features#Hydrogen Spectra|Hydrogen Spectra]])*
 - As a result, the presence and strength of lines used to [[Spectral Classes|classify stars]] are effectively a classification of composition and temperature.
 
 > [!example]
-> For example, the Saha equation explains why the [[Spectral Features#Balmer Series]] is seen most strongly in [[Spectral Classes#A]] stars. Hydrogen transitions from a [[Interstellar Medium#Atomic Hydrogen|neutral]] to [[Interstellar Medium#Ionized Hydrogen|ionized]] state around $T \sim 10^{4} \; {\rm K}$. Using the [[Boltzmann Equation]], we see that most hydrogen is in the $n=2$ state around this temperature. So, if an electron is captured by a hydrogen nuclei, it will transition from some higher $n$ state to $n=2$, and thus, the [[Spectral Features#Balmer Series]].
+> For example, the Saha equation explains why the [[Spectral Features#Balmer Series|Balmer Series]] is seen most strongly in [[Spectral Classes#A|A]] stars. Hydrogen transitions from a [[Interstellar Medium#Atomic Hydrogen|neutral]] to [[Interstellar Medium#Ionized Hydrogen|ionized]] state around $T \sim 10^{4} \; {\rm K}$. Using the [[Boltzmann Equation]], we see that most hydrogen is in the $n=2$ state around this temperature. So, if an electron is captured by a hydrogen nuclei, it will transition from some higher $n$ state to $n=2$, and thus, the [[Spectral Features#Balmer Series|Balmer Series]].
 > *(see [[Question 78]])*
 
 ![[spectral_line_strengths.png|align:center|600]]

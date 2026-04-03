@@ -12,7 +12,7 @@ $$\Delta t_{\rm grav} = - \int \Phi \; \mathrm{d} s = - \underbrace{\left[ \frac
 
 If we bounce light off of a mirror (or anything that reflects) and the signal has to pass near a high-mass object, we should see that the signal takes a bit longer than expected due to time dilation. Roughly speaking, the time dilation increases with spacetime curvature, so the coordinate time along the null geodesic will be larger than if there were no curvature (but since its a null geodesic the proper time interval will be zero).
 
-This is one of the four [[General Relativity#Classical Tests of General Relativity]]. 
+This is one of the four [[General Relativity#Classical Tests of General Relativity|Classical Tests of General Relativity]]. 
 
 ##### Where was it first measured?
 

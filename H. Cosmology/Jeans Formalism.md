@@ -22,7 +22,7 @@ $$\frac{\partial f}{\partial t} + \vec{v} \, \frac{\partial f}{\partial \vec{x}}
 
 $$\mu_{n} = \int_{-\infty}^{+\infty} x^{n} f(x) \; \mathrm{d} x$$
 
-Usually, these moments represent total probability ($n=0$), the mean ($n=1$), the variance ($n=2$), the skewness ($n=3$), etc. For the phase-space density function ($f$) of the CBE, these moments represent the **density** ($n=0$), **mean velocity** ($n=1$), and the **velocity dispersion** ($n=2$). (see [[Fluid Mechanics#Conservation Laws]]) 
+Usually, these moments represent total probability ($n=0$), the mean ($n=1$), the variance ($n=2$), the skewness ($n=3$), etc. For the phase-space density function ($f$) of the CBE, these moments represent the **density** ($n=0$), **mean velocity** ($n=1$), and the **velocity dispersion** ($n=2$). (see [[Fluid Mechanics#Conservation Laws|Conservation Laws]]) 
 
 $$n = \int_{-\infty}^{+\infty} \mathrm{d}^{3} \vec{v} \; f \hspace{1.3cm} \overline{v}_{i} = \frac{1}{n} \; \int_{-\infty}^{+\infty} \mathrm{d}^{3} \vec{v} \; v_{i} f \hspace{1.3cm} \sigma_{ij} \equiv \overline{v_{i} v_{j}} = \frac{1}{n} \; \int_{-\infty}^{+\infty} \mathrm{d}^{3} \vec{v} \; v_{i} v_{j} f$$
 
@@ -246,7 +246,7 @@ The frequency/wavelength of this perturbation wave will determine whether the sy
 > $$
 > $$R > R_{J} = \sqrt{\frac{15 k_{\rm B} T}{4 \pi G \mu m_{\rm p} \rho}} = \sqrt{\frac{15 c_{s}^{2}}{4 \pi G \rho}} \simeq \sqrt{\frac{\pi c_{s}^{2}}{G \rho}} = \lambda_{J}$$
 > 
-> ...where the [[Fluid Mechanics#Speed of Sound|speed of sound]] can be calculated from the [[Thermodynamics#Ideal Gas Law]]. 
+> ...where the [[Fluid Mechanics#Speed of Sound|speed of sound]] can be calculated from the [[Thermodynamics#Ideal Gas Law|Ideal Gas Law]]. 
 > $$\textcolor{gray}{\left[ \; c_{s}^{2} = \frac{\partial P}{\partial \rho} = \frac{\partial }{\partial \rho} \left( \frac{\rho \, k_{\rm B} T}{\mu m_{\rm p}} \right) = \frac{k_{\rm B} T}{\mu m_{\rm p}} \; \right]}$$
 > 
 > The constant of this calculation differs from the Jeans Length calculated by the [[#Jeans Equation]], but it is gives a good approximation with the proper dependence.

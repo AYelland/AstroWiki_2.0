@@ -5,4 +5,4 @@ aliases:
   - Exoplanets Q&A Flashcards
 ---
 
-![[168 Flashcards#Exoplanets]]
+![[168 Flashcards#Exoplanets|Exoplanets]]

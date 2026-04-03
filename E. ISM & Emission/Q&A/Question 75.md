@@ -12,7 +12,7 @@ What is synchrotron radiation? Draw a typical synchrotron spectrum. From what ki
 
 - Jets in [[Binary Stars#X-Ray Binary|XRBs]]and [[Active Galactic Nuclei|AGN]] (radio emission)
 - [[Stellar Explosions#Supernova|SNe]] remnants
-- [[Nebulae#Pulsar Wind Nebula]]
+- [[Nebulae#Pulsar Wind Nebula|Pulsar Wind Nebula]]
 - Galactic [[Interstellar Medium|ISM]] (cosmic rays?)
 - [[Sun|Sunspots]]
 - [[Gamma Ray Burst|GRBs]]

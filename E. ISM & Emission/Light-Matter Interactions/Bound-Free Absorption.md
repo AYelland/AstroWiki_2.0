@@ -9,4 +9,4 @@ The energy for the change may come from a photon, resulting in the absorption ba
 
 If the energy comes from another excited electron within the atom, the process is known as _autoionization_.
 
-This process is partially responsible for the [[Spectral Features#Balmer Jump]].
+This process is partially responsible for the [[Spectral Features#Balmer Jump|Balmer Jump]].

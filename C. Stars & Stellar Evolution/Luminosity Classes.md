@@ -32,4 +32,4 @@ $$\Delta \lambda \; \propto \; n \; \propto \; R^{-3} \hspace{1cm} \Leftrightarr
 
 ![[HR_diagram4.png|align:center|500]]
 
-![[Mnemonics#Spectral Classification - Sun]]
+![[Mnemonics#Spectral Classification - Sun|Spectral Classification - Sun]]

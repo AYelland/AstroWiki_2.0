@@ -52,7 +52,7 @@ Therefore, a higher density star pulsates faster.
 
 ## Kappa Opacity Mechanism
 
-The **Kappa Opacity Mechanism** is the driving mechanism behind the changes in luminosity of many types of pulsating variable stars, including [[Stellar Classes#Cepheids]] and [[Stellar Classes#RR Lyrae]] stars. 
+The **Kappa Opacity Mechanism** is the driving mechanism behind the changes in luminosity of many types of pulsating variable stars, including [[Stellar Classes#Cepheids|Cepheids]] and [[Stellar Classes#RR Lyrae|RR Lyrae]] stars. 
 
 Effectively, the pulsation is caused by variations of opacity ($\kappa$) that limit the radiation efficiency inside the star.
  

@@ -132,7 +132,7 @@ The wake of the solar wind through the [[Interstellar Medium|ISM]] formed by the
 
 #### Solar Wind
 
-The speed the solar wind is emitted from the Sun is [[Fluid Mechanics#Supersonic|supersonic]] ($v_{\rm esc,\odot} > c_{\rm s} \sim 100\;{\rm km/s}$) until it reaches the [[Sun#Termination Shock]].
+The speed the solar wind is emitted from the Sun is [[Fluid Mechanics#Supersonic|supersonic]] ($v_{\rm esc,\odot} > c_{\rm s} \sim 100\;{\rm km/s}$) until it reaches the [[Sun#Termination Shock|Termination Shock]].
 
 ##### Parker Solar Wind Model
 

@@ -22,13 +22,13 @@ The comoving distance is related to the [[#Proper distance|proper distance]] by.
 
 $$\mathrm{d} x = a(t) \, \mathrm{d} \chi \hspace{1cm} \Longleftrightarrow \hspace{1cm} d_{p} = a(t) \, d_{C}$$
 
-...where the scale factor ($a(t)$) is determined by the [[Friedmann Equation#Friedmann Equation]] at the time ($t$) of observation.
+...where the scale factor ($a(t)$) is determined by the [[Friedmann Equation#Friedmann Equation|Friedmann Equation]] at the time ($t$) of observation.
 
 > [!note] 
 > We define $a$ such that in the present day, the comoving and proper distances are equal.
 > $$\text{Today's Values:} \hspace{1.5cm} a = 1 \hspace{1cm},\hspace{1cm} z = 0$$
 
-To calculate the comoving distance, we can integrate over time ($t$), the scale factor ($a$), or the redshift ($z$), where $d_{H}=c/H_{0}$ is the [[Hubble#Hubble Distance]]. 
+To calculate the comoving distance, we can integrate over time ($t$), the scale factor ($a$), or the redshift ($z$), where $d_{H}=c/H_{0}$ is the [[Hubble#Hubble Distance|Hubble Distance]]. 
 
 $$d_{C} = \int_{t_{\rm emt}}^{t_{\rm obs}} \frac{c \; \mathrm{d} t}{a(t)} \hspace{1.5cm} d_{C} = d_{H} \int_{a_{\rm emt}}^{a_{\rm obs}} \frac{\mathrm{d} a}{a^{2} \, E(a)} \hspace{1cm} \underbrace{d_{C} = d_{H} \int_{z_{\rm obs}}^{z_{\rm emt}} \frac{\mathrm{d} z}{E(z)}}_{\text{note the switched integration bounds}}$$
 
@@ -56,7 +56,7 @@ $$d_{C} = \int_{t_{\rm emt}}^{t_{\rm obs}} \frac{c \; \mathrm{d} t}{a(t)} \hspac
 > $$a(z) = \frac{1}{1+z} \hspace{1cm} \Rightarrow \hspace{1cm} \mathrm{d} a = -\frac{\mathrm{d} z}{(1+z)^{2}} = -a^{2} \; \mathrm{d} z$$
 > $$r = \frac{c}{H_{0}} \int_{t_{\rm emt}}^{t_{\rm obs}} \frac{\mathrm{d} a}{a^{2} E(a)} = - \frac{c}{H_{0}} \int_{z_{\rm emt}}^{z_{\rm obs}} \frac{\mathrm{d} z}{E(z)} = \frac{c}{H_{0}} \int_{z_{\rm obs}}^{z_{\rm emt}} \frac{\mathrm{d} z}{E(z)}$$
 > 
-> In summary, we can express the comoving distance in terms of time ($t$), scale factors ($a$), or redshift ($z$), where $d_{H}. = c/H_{0}$ is the [[Hubble#Hubble Distance]].
+> In summary, we can express the comoving distance in terms of time ($t$), scale factors ($a$), or redshift ($z$), where $d_{H}. = c/H_{0}$ is the [[Hubble#Hubble Distance|Hubble Distance]].
 > 
 > $$\boxed{d_{C} = \int_{t_{\rm emt}}^{t_{\rm obs}} \frac{c \; \mathrm{d} t}{a(t)}} \hspace{1.5cm} \boxed{d_{C} = d_{H} \int_{a_{\rm emt}}^{a_{\rm obs}} \frac{\mathrm{d} a}{a^{2} \, E(a)}} \hspace{1cm} \underbrace{\boxed{d_{C} = d_{H} \int_{z_{\rm obs}}^{z_{\rm emt}} \frac{\mathrm{d} z}{E(z)}}}_{\text{note the switched integration bounds}}$$
 
@@ -79,7 +79,7 @@ The proper distance is related to the [[#Comoving Distance|comoving distance]] b
 
 $$\mathrm{d} x = a(t) \, \mathrm{d} \chi \hspace{1cm} \Longleftrightarrow \hspace{1cm} d_{p} = a(t) \, d_{C}$$
 
-...where the scale factor ($a(t)$) is determined by the [[Friedmann Equation#Friedmann Equation]] at the time ($t$) of observation.
+...where the scale factor ($a(t)$) is determined by the [[Friedmann Equation#Friedmann Equation|Friedmann Equation]] at the time ($t$) of observation.
 
 > [!note] 
 > We define $a$ such that in the present day, the comoving and proper distances are equal.

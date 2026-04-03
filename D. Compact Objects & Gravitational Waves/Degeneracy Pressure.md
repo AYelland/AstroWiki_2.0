@@ -35,7 +35,7 @@ $$
 \bar{n}_{s} = \int f(p) \; \mathrm{d}^{3} p \hspace{2cm} P = \frac{1}{3} \int p \, v f(p) \; \mathrm{d}^{3} p \hspace{2cm} \textcolor{gray}{s \equiv {\rm particle\ species}}
 $$
 
-> [!note] In the classical limit ($n_{\rm occ} \ll 1$), we can find the [[Statistical Mechanics#Maxwell-Boltzmann]] distribution.
+> [!note] In the classical limit ($n_{\rm occ} \ll 1$), we can find the [[Statistical Mechanics#Maxwell-Boltzmann|Maxwell-Boltzmann]] distribution.
 
 With a completely degenerate fermion gas, we will take the Heisenberg Uncertainty Principle to be saturated ($\Delta x \; \Delta p \ge \hbar/2 \implies \Delta x \; \Delta p \sim \hbar$) such that every fermion will fill the lowest possible energy level (or "energy cells") accessible, without violating Pauli's Exclusion Principle.
 

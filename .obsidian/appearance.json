@@ -1,7 +1,7 @@
 {
   "accentColor": "#ee7411",
   "cssTheme": "",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "enabledCssSnippets": [
     "banner_modification",
     "center_tables",

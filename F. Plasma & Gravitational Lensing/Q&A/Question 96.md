@@ -24,11 +24,11 @@ $$\Delta t = \underbrace{\frac{1 + z_{\rm lens}}{c} \left(\frac{D_{L} D_{LS}}{D_
 
 ##### What is the current status of these determinations of $H_{0}$?
 
-The current estimates come from HoLiCOW, which measures time delays from lensed [[Active Galactic Nuclei#Quasar|quasars]]. Their current value is...
+The current estimates come from HoLiCOW, which measures time delays from lensed [[Active Galactic Nuclei#Quasar / Quasi-Stellar Object (QSO)|quasars]]. Their current value is...
 
 $$H_{0} = 73.3_{-1.8}^{+1.7} \; \pu{km s^{-1} Mpc^{-1}}$$
 
-...which has $5.3\sigma$ tension with the [[Cosmic Microwave Background|CMB]] measurements made from [[Instruments#Planck]]. 
+...which has $5.3\sigma$ tension with the [[Cosmic Microwave Background|CMB]] measurements made from [[Instruments#Planck|Planck]]. 
 
 HOLiCOW uses the following observatories:
 - [[Instruments#HST|Hubble Space Telescope]]

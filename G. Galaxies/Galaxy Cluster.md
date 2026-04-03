@@ -22,7 +22,7 @@ A **galaxy cluster** is a gravitationally bound collection of hundreds to thousa
 
 ### Bullet Cluster
 
-The [[Galaxy Cluster#Bullet Cluster]] is a smoking gun for an alternative massive and abundant species not coupled (in a detectable way currently) to electromagnetism. It is a system of galaxies which have passed through each other
+The [[Galaxy Cluster#Bullet Cluster|Bullet Cluster]] is a smoking gun for an alternative massive and abundant species not coupled (in a detectable way currently) to electromagnetism. It is a system of galaxies which have passed through each other
 
 - In observations of the hot X-ray gas, we find that the gas and stars (which interact with each other via some complicated effective cross section) have experienced a large degree of friction during the collision, and have slowed down and become largely disrupted.
 - We can also map the mass distribution of two galaxies which just passed through each other using [[Gravitational Lensing#Weak Lensing|weak lensing]], and what we find is that most of the mass is invisible, and has travelled further and become less disrupted than the gas. This suggests a species which interacts with baryons and itself weakly (so less friction, can constrain self-interaction cross section of dark matter via this measurement) and not with light.
@@ -60,7 +60,7 @@ Exhibits a "flattened" bubble resulting from a jet, flattening is evidence of ef
 
 ![[virgo.jpg|align:center|450]]
 
-A large galaxy cluster in the Virgo constellation containing [[Catalogs#M]]87 (lower left below, whose [[Black Hole#Supermassive Black Hole|SMBH]] we observed with [[Instruments#EHT]]). Its at the center of the "Virgo supercluster" which contains the [[Galaxy Group#Local Group]].
+A large galaxy cluster in the Virgo constellation containing [[Catalogs#M|M]]87 (lower left below, whose [[Black Hole#Supermassive Black Hole|SMBH]] we observed with [[Instruments#EHT|EHT]]). Its at the center of the "Virgo supercluster" which contains the [[Galaxy Group#Local Group|Local Group]].
 
 > [!measure] Parameters
 > - Mass: $\sim 10^{15} \; {\rm M_{\odot}}$

@@ -144,7 +144,7 @@ The crossing-timescale is defined as the time it roughly takes a star to travel 
 
 Violent relaxation is a process by which a collection of bodies relax/virialize through the collisionless exchange of the gravitational potential, where the total energy of the system remains constant. 
 
-This is the most efficient way for a self-gravitating system, as it is comparable to the [[Timescales#Dynamical Timescale]].
+This is the most efficient way for a self-gravitating system, as it is comparable to the [[Timescales#Dynamical Timescale|Dynamical Timescale]].
 
 **The General Picture:**
 If the potential is time-varying ($\phi(t)$), then "particles" (i.e. stars) can gain or lose energy. Consider the change in specific energy of an individual star.
@@ -180,7 +180,7 @@ To calculated the frequency of two-body interactions and the associated relaxati
 
 $$\vec{F} = \frac{G m^{2}}{b^{2} + (v t)^{2}} \; \hat{r} \hspace{1cm} \Rightarrow \hspace{1cm} F_{\perp} = \frac{G m^{2} \cos \theta}{b^{2} + (v t)^{2}} = \frac{G m^{2} b}{\left( b^{2} + (v t)^{2} \right)^{3/2}}$$
 
-By the definition of our relaxation, we are concerned with the change in velocity of the subject star due to the field star. From [[Newton's Laws of Motion#Newton's 2nd Law]]...
+By the definition of our relaxation, we are concerned with the change in velocity of the subject star due to the field star. From [[Newton's Laws of Motion#Newton's 2nd Law|Newton's 2nd Law]]...
 
 $$\vec{F} = m \vec{a} = m \frac{\mathrm{d} v}{\mathrm{d} t} \hspace{1cm} \Rightarrow \hspace{1cm}
 \begin{aligned}[t]
@@ -229,7 +229,7 @@ $$\boxed{\;t_{\rm strong} = \frac{\rm \#\ of\ collisions}{\rm time} = \frac{G m 
 
 > [!note]- Similar Approach - Mean Free Path
 > 
-> If we think about the [[Optical Depth#Mean Free Path]] ($l$) of the system, then can define the relaxation time in a very similar way.
+> If we think about the [[Optical Depth#Mean Free Path|Mean Free Path]] ($l$) of the system, then can define the relaxation time in a very similar way.
 > $$l \equiv \frac{1}{n \left( \pi b_{\rm strong}^{2} \right)} \hspace{1cm} \Rightarrow \hspace{1cm} 
 > \begin{aligned}[t]
 > 	t_{\rm strong} = \frac{l}{v} &= \frac{1}{n \left( \pi b_{\rm strong}^{2} \right) v} \\
@@ -305,7 +305,7 @@ $$v^{2} \sim (\delta v)^{2} \hspace{1cm} \Rightarrow \hspace{1cm} t_{\rm weak} \
 
 ## Hubble Time
 
-The Hubble time is the age of the universe assuming that it has expanded at a constant rate since the beginning of time. This rate of expansion is the [[#Hubble Law|Hubble flow]] we measure today with $H_{0}$.
+The Hubble time is the age of the universe assuming that it has expanded at a constant rate since the beginning of time. This rate of expansion is the [[Hubble#Hubble Law|Hubble flow]] we measure today with $H_{0}$.
 
 $$d = v \, t_{\rm H} = (H_{0} \, d) \,t_{H} \hspace{1cm} \Rightarrow \hspace{1cm} t_{H} = \frac{1}{H_{0}} \sim 14 \; {\rm Gyr} \quad \text{for} \quad H_{0} = 70 \; \pu{km s^{-1} Mpc^{-1}}$$
 
@@ -320,7 +320,7 @@ Based on how the cooling time scales with density ($t_{\rm cool} \propto n^{-1} 
 
 > [!math] Comparison to the [[#Hubble Time]] and [[#Dynamical Timescale]]
 > 
-> When considering a gas cloud collapsing, we can compare the Hubble time at $z$ (in a  matter-dominated universe, $\Omega_{M}=1$) and the free-fall timescale for a halo with 200 times the [[Friedmann Equation#Critical Density|critical density]] (in association with [[Dark Matter#CDM]]).
+> When considering a gas cloud collapsing, we can compare the Hubble time at $z$ (in a  matter-dominated universe, $\Omega_{M}=1$) and the free-fall timescale for a halo with 200 times the [[Friedmann Equation#Critical Density|critical density]] (in association with [[Dark Matter#CDM|CDM]]).
 > 
 > $$\begin{alignat}{3}
 > 	t_{H} &= \frac{1}{H(z)} \propto \frac{1}{\sqrt{G \bar{\rho}}} &&\hspace{1cm} \text{where} \hspace{1cm} \bar{\rho} &&= \Omega_{M} \, \rho_{\rm crit} =  \rho_{\rm crit} \\

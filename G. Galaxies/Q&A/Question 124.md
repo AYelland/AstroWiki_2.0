@@ -24,7 +24,7 @@ The index was initially inferred to be $n \sim 2 \pm 1$ for the Milky Way (Schmi
 
 The **Madau Plot** describes the cosmic evolution of the average star formation rate. 
 - Cosmic star formation peaks at around $z\simeq 2$. (Is this cosmic noon?)
-	- This is also when the number density of [[Active Galactic Nuclei#Quasar|quasars]] appears to peak
+	- This is also when the number density of [[Active Galactic Nuclei#Quasar / Quasi-Stellar Object (QSO)|quasars]] appears to peak
 	- Infers a connection between galaxy and AGN evolution like [[Velocity dispersion#M-sigma relation|M-sigma]]. 
 - Suggests that many metals formed early during the deaths of massive stars
 	- Corroborated by [[Intracuster Medium|ICM]] measurements. 
@@ -35,7 +35,7 @@ The **Madau Plot** describes the cosmic evolution of the average star formation 
 
 The **Star-Forming Main Sequence** correlates the star formation rate with the stellar mass of a galaxy (number of existing stars). 
 - This suggests that galaxies spend much of their lifetime building up stars in a self-regulated way. 
-- Seen across all broad classes of galaxy, including [[Galaxy Classification#Starburst Galaxy (SBG)]].
+- Seen across all broad classes of galaxy, including [[Galaxy Classification#Starburst Galaxy (SBG)|Starburst Galaxy (SBG)]].
 
 > [!note]
 > The Milky Way forms about 7 new stars per year.

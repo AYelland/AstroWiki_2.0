@@ -22,7 +22,7 @@ For a radial velocity measurement of $\Delta v \sim 10\,\pu{cm s^{-1}}$ (see [[Q
 
 $$R \simeq \frac{c}{0.1 \; {\rm m/s}} \simeq 3 \times 10^{9}$$
 
-This is much higher that the best that exists today ([[Instruments#HARPS]] has  $R \sim 10^{5}$ with  $\Delta v \sim 1 \; {\rm m/s}$,  [[Instruments#VLT]] with $\Delta v \sim 0.3 \; {\rm m/s}$)
+This is much higher that the best that exists today ([[Instruments#HARPS|HARPS]] has  $R \sim 10^{5}$ with  $\Delta v \sim 1 \; {\rm m/s}$,  [[Instruments#VLT|VLT]] with $\Delta v \sim 0.3 \; {\rm m/s}$)
 
 **How can we achieve such a precision then?**
 

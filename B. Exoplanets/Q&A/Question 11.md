@@ -4,4 +4,4 @@ What is meant by tidal locking between an exoplanet and its host star? What are 
 
 ### Answer
 ---
-![[Planetary Migration#Tidal Locking]]
+![[Planetary Migration#Tidal Locking|Tidal Locking]]

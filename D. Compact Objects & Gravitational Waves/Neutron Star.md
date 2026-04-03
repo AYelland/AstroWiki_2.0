@@ -11,7 +11,7 @@ aliases:
 
 A **neutron star** is a stellar remnant from a massive star ($M \sim 8 - 20 \; {\rm M_{\odot}}$) that has undergone a [[Core-Collapse|core-collapse]] [[Stellar Explosions#Supernova|supernova]]. It is physically supported through neutron [[Degeneracy Pressure|degeneracy pressure]] such that gravity can no longer compress the star further. 
 
-During the collapse, through angular momentum conservation (?), the compact core increases its spin and generates a powerful magnetic field. This field leads to developing the neutron star subtypes including [[#Pulsar|pulsars]], [[#Magnetar|magnetars]], and [[Binary Stars#X-Ray Binary|XRBs]].
+During the collapse, through angular momentum conservation (?), the compact core increases its spin and generates a powerful magnetic field. The magnetic field behavior varies, leading to different neutron star subtypes including [[#Pulsar|pulsars]], [[#Magnetar|magnetars]], and [[Binary Stars#X-Ray Binary|XRBs]].
 
 > [!measure] Typical Parameters
 > - Mass: $M\sim 1 - 2 \; {\rm M_{\odot}}$ (often quoted as $1.4 \; {\rm M_{\odot}}$)
@@ -36,13 +36,15 @@ During the collapse, through angular momentum conservation (?), the compact core
 
 ![[NS_anatomy+pasta.png|align:center|550]]
 
-A neutron star has a very thin crust, some regions of "nuclear pasta", & superfluid neutron core.
+A neutron star has a very thin crust, some regions of "nuclear pasta", and a superfluid neutron core.
 
 - [[Degeneracy Pressure]] arises because neutrons (and electrons, protons) are fermions, and by the *Pauli Exclusion Principle* they can not occupy the same quantum state. 
 - Lots of neutrons in a highly-dense region means [[Degeneracy Pressure|Fermi level]] (next "available" energy state) is actually very high, leading to an additional "pressure" that prevents the core from collapsing further. 
 - Neutron degeneracy pressure is not by itself sufficient to maintain an object beyond $0.7\,M_\odot$ , and repulsive nuclear forces play a larger role in supporting more massive neutron stars.
 
-Most of the basic models for these objects imply that neutron stars are composed almost entirely of neutrons; the electrons and protons present in normal matter combine to produce neutrons at the conditions in a neutron star through *neutronization*. Because electrons are fermions, unless an energy $E_F − m_e c^2$ is added to an electron, it is not possible to put the electron in the region of high density, since all the lower energy states are filled. If this energy becomes larger than $(m_n−m_p−m_e)c^2$, it becomes energetically favorable for the electron to combine with a proton to produce a neutron, rather than to exist as a free electron (assuming that neutrons are non-degenerate and a neutron can be created at the lowest energy state). Since $E_F$ increases with density, there is a critical density above which the electrons start combining with protons to give neutrons. At density well above the critical density, matter would mainly consist of neutrons. *(See [[Question 41]])*.
+Most of the basic models for these objects imply that neutron stars are composed almost entirely of neutrons; the electrons and protons present in normal matter combine to produce neutrons at the conditions in a neutron star through *neutronization*. 
+- Because electrons are fermions, unless an energy $E_F − m_e c^2$ is added to an electron, it is not possible to put the electron in the region of high density, since all the lower energy states are filled. If this energy becomes larger than $(m_n−m_p−m_e)c^2$, it becomes energetically favorable for the electron to combine with a proton to produce a neutron, rather than to exist as a free electron (assuming that neutrons are non-degenerate and a neutron can be created at the lowest energy state). 
+- Since $E_F$ increases with density, there is a critical density above which the electrons start combining with protons to give neutrons. At a density well above the critical density, matter would mainly consist of neutrons. *(See [[Question 41]])*.
 
 > [!note] **Size of Neutron Star Approximation:**
 > For a relativistic neutron degenerate core, we can use the DeBroglie wavelength for a good approximation for how separated the neutrons are. Relating this to number density and mass density...
@@ -123,7 +125,7 @@ A **millisecond pulsar (MSP)** is a pulsar with a very short rotation period ($P
 
 1. An isolated or non-accreting pulsar will spin down over time due to the loss of rotational energy. $$E_{\rm rot} = \frac{1}{2} I \Omega^{2} \hspace{1cm} \Rightarrow \hspace{1cm} \dot{E} = I \Omega \dot{\Omega} = \text{power from mag. dipole} < 0$$ $$\therefore \quad\dot{\Omega} < 0 \quad \text{(rot. freq. decreasing)} \hspace{1cm} \dot{P} > 0 \quad \text{(period increasing)}$$
 2. When period is long enough, there is no longer enough voltage to accelerate particles and produce $e^{\pm}$ pairs to power the radio emission. This leads to the pulsar activity becoming undetectable.
-3. If they pulsar is in a binary or captures a companion, then as the younger star ages and overflows its [[Binary Stars#Roche Lobe]], it will accrete matter onto the NS (dead pulsar). This accretion also transfers angular momentum from the donor, increasing the spin of the NS until it co-rotates with the inner edge of the accretion disk and can begin pulsing again.
+3. If they pulsar is in a binary or captures a companion, then as the younger star ages and overflows its [[Binary Stars#Roche Lobe|Roche Lobe]], it will accrete matter onto the NS (dead pulsar). This accretion also transfers angular momentum from the donor, increasing the spin of the NS until it co-rotates with the inner edge of the accretion disk and can begin pulsing again.
 
 This process is evidenced by the existence of many MSPs being found in [[Stellar Clusters#Globular Cluster|globular clusters]] amongst older stellar populations.
 
@@ -152,13 +154,13 @@ A **magnetar** is a neutron star was an extremely powerful magnetic field. Over 
 - In the dramatic collapse, the magnetic field increases dramatically due to conservation of magnetic flux
 - If conditions are correct, this can initiate the dynamo mechanic, converting heat & rotational energy into magnetic energy
 - Hence, magnetars are born spinning very fast and with massive $B$ fields (~$10^{11}\,\pu{T}$) *(see [[#P-Pdot Diagram]])*
-- Estimated about $1/10^{th}$ [[Stellar Explosions#Type II]] supernovae generate a magnetar versus a standard neutron star or pulsar
+- Estimated about $1/10^{th}$ [[Stellar Explosions#Type II|Type II]] supernovae generate a magnetar versus a standard neutron star or pulsar
 
 **Evidence of Existence:**
 
 - Anomalous X-ray [[#Pulsar|Pulsars]] (AXPs): 
 	- Isolated [[Neutron Star|neutron stars]] that emit in the X-ray
-	- Usually expect to come from accretion in an [[Binary Stars#X-Ray Binary (XRB)]] 
+	- Usually expect to come from accretion in an [[Binary Stars#X-Ray Binary|X-Ray Binary (XRB)]] 
 	- Hypothesized to originate from the magnetar field.
 - Soft Gamma Ray Repeaters (SGRs):
 	- an astronomical object which emits large bursts of gamma-rays and X-rays at irregular intervals

@@ -10,7 +10,7 @@ What is a "millisecond pulsar"? What is the shortest spin period known for such 
 
 ##### What is the shortest spin period known for such an object?
 
-[[Catalogs#PSR]] J1748-2446ad 
+[[Catalogs#PSR|PSR]] J1748-2446ad 
 - Location: [[Stellar Clusters#Globular Cluster|GC]] Terzan 5
 - Discovery Date: 2006
 - Period: $P = 1.4\,\pu{ms}$

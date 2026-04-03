@@ -5,7 +5,7 @@ aliases:
 ---
 ## Telemetry
 
-The recording and communication of information from the instrument to us. In the context of space-based observatories, refers to return of data to Earth via a retrieval mechanism like the [[Instruments#Deep Space Network]].
+The recording and communication of information from the instrument to us. In the context of space-based observatories, refers to return of data to Earth via a retrieval mechanism like the [[Instruments#Deep Space Network|Deep Space Network]].
 
 
 ## Long Baseline Interferometry
@@ -20,7 +20,7 @@ By using long baseline interferometry (LBI), one can deploy multiple detectors t
 Very-long-baseline interferometry (VLBI) is a type of astronomical interferometry that uses multiple radio telescopes on Earth or in space to detect a signal from a source. The distance between the radio telescopes is calculated using the difference between the arrival times of the radio signal at different telescopes. This allows simutaneous observations by many radio telescopes to be combined, emulating a telescope with a size equal to the maximum separation between the telescopes.
 
 **Usage:**
-- imaging distant cosmic radio sources (first image of [[Black Hole#Supermassive Black Hole|SMBHs]] wth [[Instruments#EHT]])
+- imaging distant cosmic radio sources (first image of [[Black Hole#Supermassive Black Hole|SMBHs]] wth [[Instruments#EHT|EHT]])
 - spacecraft tracking
 - measures the time differences between the arrival of radio waves at separate antennas
 - Earth rotation studies

@@ -14,8 +14,8 @@ Why are M Dwarfs thought to be promising candidates for identifying Earth-sized,
 3. The "habitable zone" around a [[Stellar classes#Red Dwarf|M Dwarf]] will be closer to the star (than for a Sun-Like star - [[Mnemonics#Spectral Classification - Sun|G2V]]) due to the lower luminosity. 
 	- "habitable zone" - the radial zone around a star where the temperature is suitable for life
 	- The habitable zone is around  $\sim 0.1 \; {\rm AU}$ for [[Stellar Classes#Red Dwarf|M Dwarfs]].
-	- Since both radial velocity and transit methods are biased toward planets with close orbits to their host star, we expect [[Stellar classes#Red Dwarf#M Dwarfs]] to be promising candidates to find habitable-zone planets.
-5. [[Stellar classes#Red Dwarf#M Dwarfs]] are the most abundant type of [[Hertzsprung-Russell Diagram#Main Sequence (MS)|main sequence]] star ($\sim 75 \%$ of all stars in Milky Way)
+	- Since both radial velocity and transit methods are biased toward planets with close orbits to their host star, we expect [[Stellar classes#Red Dwarf|M Dwarfs]] to be promising candidates to find habitable-zone planets.
+4. [[Stellar classes#Red Dwarf|M Dwarfs]] are the most abundant type of [[Hertzsprung-Russell Diagram#Main Sequence (MS)|main sequence]] star ($\sim 75 \%$ of all stars in Milky Way)
 
 ##### Why aren't these planets likely to be habitable?
 

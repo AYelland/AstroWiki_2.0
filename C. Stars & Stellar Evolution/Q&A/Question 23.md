@@ -12,4 +12,4 @@ Describe the types of stellar evolution that lead to type Ia, type Ib and type I
 
 ![[Stellar Explosions#Type II]]
 
-*(For more details of other supernovae types, see [[Stellar Explosions#Supernova]]. )*
+*(For more details of other supernovae types, see [[Stellar Explosions#Supernova|Supernova]]. )*

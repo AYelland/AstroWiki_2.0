@@ -6,7 +6,7 @@ What properties of supermassive black holes correlate with properties of the hos
 ---
 ###### Stellar Velocity Dispersion
 
-The mass of the [[Black Hole#Supermassive Black Hole|SMBH]] ($M_{\rm BH}$) scales with the stellar velocity ($\sigma$) of the galaxy and galactic bulge. *(See [[Velocity Dispersion#M-Sigma Relation]])*
+The mass of the [[Black Hole#Supermassive Black Hole|SMBH]] ($M_{\rm BH}$) scales with the stellar velocity ($\sigma$) of the galaxy and galactic bulge. *(See [[Velocity Dispersion#M-Sigma Relation|M-Sigma Relation]])*
 - Recall that $\sigma$ correlates with the bulge mass and luminosity, such that $M_{\rm BH}$ also correlates with galactic properties.
 
 Also see [[Question 124]].

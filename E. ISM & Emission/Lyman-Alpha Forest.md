@@ -27,16 +27,16 @@ Each cloud absorbs the line at a wavelength $\lambda = (1+z) \lambda_{0}$. We ca
 	- Photons emitted with $1216 \; {\rm \mathring{A}} (1+z_{\rm em}) < \lambda < 1216 \; {\rm \mathring{A}}$ will at some point have the right rest frame wavelength ($1216 \; {\rm \mathring{A}}$) to be absorbed.
 - There are three cases for HI along the line of sight:
 	1. column density $N_{\rm H} \lesssim 10^{17}\;{\rm cm}^{-2}$ gives narrow lines (i.e. the forest)
-	2. column density $N_{\rm H} \gtrsim 10^{17}\;{\rm cm}^{-2}$ are [[Spectral Features#Lyman Limit]] systems (i.e. photons with $\lambda\lesssim 912 \; {\rm \mathring{A}} = 13.6 \; {\rm eV}$) 
+	2. column density $N_{\rm H} \gtrsim 10^{17}\;{\rm cm}^{-2}$ are [[Spectral Features#Lyman Limit|Lyman Limit]] systems (i.e. photons with $\lambda\lesssim 912 \; {\rm \mathring{A}} = 13.6 \; {\rm eV}$) 
 		- In the rest frame, are completely absorbed as the light moves through the cloud.
 	3. column density $N_{\rm H} \gtrsim 10^{32}\:{\rm cm}^{-2}$ are damped Ly-$\alpha$ systems (i.e. absorption lines become very broad)
 
 
 ## The Gunn-Peterson Test
 
-The absorption spectra provides clues about [[Cosmological Timeline#Reionization]], how baryons are distributed in the universe, and what state they are in. The key idea is that neutral hydrogen along the line-of-sight leads to absorption, so if there is a significant amount of neutral hydrogen, then the spectrum should be totally absorbed. 
+The absorption spectra provides clues about [[Cosmological Timeline#Reionization|Reionization]], how baryons are distributed in the universe, and what state they are in. The key idea is that neutral hydrogen along the line-of-sight leads to absorption, so if there is a significant amount of neutral hydrogen, then the spectrum should be totally absorbed. 
 
-During the time between [[Cosmological Timeline#Recombination]] and [[Cosmological Timeline#Reionization]] (high $z$), the hydrogen is almost entirely neutral; such that the high-wavelength region of the spectrum should be almost totally absorbed. This is called the **Gunn-Peterson trough**.
+During the time between [[Cosmological Timeline#Recombination|Recombination]] and [[Cosmological Timeline#Reionization|Reionization]] (high $z$), the hydrogen is almost entirely neutral; such that the high-wavelength region of the spectrum should be almost totally absorbed. This is called the **Gunn-Peterson trough**.
 
 ![[lyman-alpha_gunn-peterson.png|align:center|650]]
 

@@ -56,7 +56,7 @@ Roughly speaking, we can also organize the phases of the ISM in space by their d
 
 A (mostly) [[Binding Energy#Gravitational Binding Energy|gravitationally bound]] cloud of gas composed primarily of molecular hydrogen and [[#Dust|dust]]. Since the region has "cores" that are unstable to collapse, they tend to become sites for star formation. 
 
-If enough dust is present and the region is dense enough to block visible light from background sources like stars, [[Nebulae#Emission nebula|emission nebulae]] or [[Nebulae#Reflection nebula|reflection nebulae]], it can also be called a "[[Nebulae#Dark Nebula]]".
+If enough dust is present and the region is dense enough to block visible light from background sources like stars, [[Nebulae#Emission nebula|emission nebulae]] or [[Nebulae#Reflection nebula|reflection nebulae]], it can also be called a "[[Nebulae#Dark Nebula|Dark Nebula]]".
 
 Very filamentary and chaotic-looking structure, which arises from a combination of gravitational collapse and turbulence (large scale).
 
@@ -66,10 +66,10 @@ Very filamentary and chaotic-looking structure, which arises from a combination 
 
 |  <nobr>ISM %</nobr>Mass  | ISM % Volume | <nobr>Scale Height</nobr> <br> ${\rm [pc]}$ | Temperature <br> ${\rm [K]}$ | Density <br>${\rm \left[ \frac{particles}{cm^{3}} \right]}$ |          State of Hydrogen           | Observational Traces                           |
 | :----------------------: | :----------: | :-----------------------------------------: | :--------------------------: | :---------------------------------------------------------: | :----------------------------------: | ---------------------------------------------- |
-| $\sim 50 \%$<br>(w/ WNM) |   $1-5 \%$   |                  $100-300$                  |           $50-100$           |                           $20-50$                           | [[#Atomic Hydrogen\|neutral atomic]] | HI [[Spectral Features#21 cm line]] absorption |
+| $\sim 50 \%$<br>(w/ WNM) |   $1-5 \%$   |                  $100-300$                  |           $50-100$           |                           $20-50$                           | [[#Atomic Hydrogen\|neutral atomic]] | HI [[Spectral Features#21 cm line|21 cm line]] absorption |
 
 **Notes:**
-- Traced by the *absorption* of the [[Spectral Features#21cm line]] (1420 MHz) of [[#Atomic Hydrogen|HI]] as the result of a low-probability transition (electron spin flip) in the hyperfine structure of the ground energy level of H
+- Traced by the *absorption* of the [[Spectral Features#21cm line|21cm line]] (1420 MHz) of [[#Atomic Hydrogen|HI]] as the result of a low-probability transition (electron spin flip) in the hyperfine structure of the ground energy level of H
 - Serve as excellent tracers of spiral structure
 
 ### Warm Neutral Medium (WNM)
@@ -77,10 +77,10 @@ Very filamentary and chaotic-looking structure, which arises from a combination 
 
 |  <nobr>ISM %</nobr>Mass  | ISM % Volume | <nobr>Scale Height</nobr> <br> ${\rm [pc]}$ | Temperature <br> ${\rm [K]}$ | Density <br>${\rm \left[ \frac{particles}{cm^{3}} \right]}$ |          State of Hydrogen           | Observational Traces                         |
 | :----------------------: | :----------: | :-----------------------------------------: | :--------------------------: | :---------------------------------------------------------: | :----------------------------------: | -------------------------------------------- |
-| $\sim 50 \%$<br>(w/ CNM) |  $10-20 \%$  |                  $300-400$                  |         $6000-10000$         |                          $0.2-0.5$                          | [[#Atomic Hydrogen\|neutral atomic]] | HI [[Spectral Features#21 cm line]] emission |
+| $\sim 50 \%$<br>(w/ CNM) |  $10-20 \%$  |                  $300-400$                  |         $6000-10000$         |                          $0.2-0.5$                          | [[#Atomic Hydrogen\|neutral atomic]] | HI [[Spectral Features#21 cm line|21 cm line]] emission |
 
 **Notes:**
-- Traced by the *emission* of the [[Spectral Features#21cm line]] (1420 MHz) of [[#Atomic Hydrogen|HI]] as the result of a low-probability transition (electron spin flip) in the hyperfine structure of the ground energy level of H
+- Traced by the *emission* of the [[Spectral Features#21cm line|21cm line]] (1420 MHz) of [[#Atomic Hydrogen|HI]] as the result of a low-probability transition (electron spin flip) in the hyperfine structure of the ground energy level of H
 - Form at the boundaries of [[#Molecular Clouds|molecular clouds]] and [[#HII Regions]].
 - Serve as excellent tracers of spiral structure
 
@@ -90,9 +90,9 @@ Very filamentary and chaotic-looking structure, which arises from a combination 
 
 | <nobr>ISM %</nobr>Mass | ISM % Volume | <nobr>Scale Height</nobr> <br> ${\rm [pc]}$ | Temperature <br> ${\rm [K]}$ | Density <br>${\rm \left[ \frac{particles}{cm^{3}} \right]}$ | State of Hydrogen | Observational Traces                                                                  |
 | ---------------------- | :----------: | :-----------------------------------------: | :--------------------------: | :---------------------------------------------------------: | :---------------: | ------------------------------------------------------------------------------------- |
-| $\sim 30 \%$           |  $20-50 \%$  |                   $1000$                    |            $8000$            |                          $0.2-0.5$                          |      ionized      | [[Spectral Features#H-alpha]] emission and [[Neutron Star#Pulsar\|pulsar]] dispersion |
+| $\sim 30 \%$           |  $20-50 \%$  |                   $1000$                    |            $8000$            |                          $0.2-0.5$                          |      ionized      | [[Spectral Features#H-alpha|H-alpha]] emission and [[Neutron Star#Pulsar\|pulsar]] dispersion |
 
-Primarily surrounding [[Spectral Classes#O]] & [[Spectral Classes#B]] stars and hot [[Stellar Classes#White Dwarf|WDs]].
+Primarily surrounding [[Spectral Classes#O|O]] & [[Spectral Classes#B|B]] stars and hot [[Stellar Classes#White Dwarf|WDs]].
 
 ### Hot Ionized Medium (HIM)
 *(Also known as **Coronal Gas**)*
@@ -110,11 +110,11 @@ Primarily surrounding [[Spectral Classes#O]] & [[Spectral Classes#B]] stars and 
 
 | <nobr>ISM %</nobr>Mass | ISM % Volume | <nobr>Scale Height</nobr> <br> ${\rm [pc]}$ | Temperature <br> ${\rm [K]}$ | Density <br>${\rm \left[ \frac{particles}{cm^{3}} \right]}$ | State of Hydrogen | Observational Traces                                                                     |
 | ---------------------- | :----------: | :-----------------------------------------: | :--------------------------: | :---------------------------------------------------------: | :---------------: | ---------------------------------------------------------------------------------------- |
-|                        |   $< 1 \%$   |                    $70$                     |            $8000$            |                       $10^{2}-10^{4}$                       |      ionized      | [[Spectral Features#H-alpha]] emission, pulsar dispersion, and radio recombination lines |
+|                        |   $< 1 \%$   |                    $70$                     |            $8000$            |                       $10^{2}-10^{4}$                       |      ionized      | [[Spectral Features#H-alpha|H-alpha]] emission, pulsar dispersion, and radio recombination lines |
 
 **HII Regions** are...
-- Dense, hot regions of [[#Ionized Hydrogen|singly ionized hydrogen]] found around hot, young stars ([[Spectral Classes#O]] & [[Spectral Classes#B]] stars)
-- The gas is ionized by the star's strong stellar winds (observed by the [[Spectral Features#H-alpha]] line)
+- Dense, hot regions of [[#Ionized Hydrogen|singly ionized hydrogen]] found around hot, young stars ([[Spectral Classes#O|O]] & [[Spectral Classes#B|B]] stars)
+- The gas is ionized by the star's strong stellar winds (observed by the [[Spectral Features#H-alpha|H-alpha]] line)
 
 In galaxies, HII regions are found in:
 - the arms of [[Galaxy Classification#Spiral Galaxy|spiral galaxies]]
@@ -134,7 +134,7 @@ A single atom of hydrogen ($\ce{HI = H_{1} = _{1}^{1}H}$), composed of a proton 
 **Notes:**
 - Comprises $\sim 60 \%$ (by mass) of matter in the ISM
 - Primarily heated by photoionization and cooled by line emission
-- Detectable through UV absorption (see [[Spectral Features#Lyman Series]]) or the [[Spectral Features#21cm line]]
+- Detectable through UV absorption (see [[Spectral Features#Lyman Series|Lyman Series]]) or the [[Spectral Features#21cm line|21cm line]]
 - Other isotopes of hydrogen like deuterium ($\ce{D = _{1}^{2}H}$) or tritium ($\ce{D = _{1}^{3}H}$) can also be present, but in significantly smaller quantities.
 - By its symmetry, atomic hydrogen does not have any rotational modes, only translational and vibrational.
 
@@ -152,8 +152,8 @@ Molecular hydrogen ($\ce{H_{2}}$) is a diatomic gas comprised of two hydrogen at
 **Notes:**
 - Most abundant molecule in ISM
 - Degrees of Freedom: 3 translational + 2 rotational + 1 vibrational = 6 total
-- There is no [[Spectral Features#Balmer Series]] equivalent because the binding energy of molecular hydrogen is $\sim 4.75 \; {\rm eV}$. Any absorption of energies that high would just unbind the molecule.
-- Finding $\ce{H_{2}}$ was usually done by measuring $\ce{CO}$ with millimeter telescopes and then constraining the $\ce{CO-H_{2}}$ correlation. Now with [[Instruments#JWST]], this can be done better, since we have a [[Electromagnetic Spectrum#Mid-IR]] integrated field unit (IFU) in space.
+- There is no [[Spectral Features#Balmer Series|Balmer Series]] equivalent because the binding energy of molecular hydrogen is $\sim 4.75 \; {\rm eV}$. Any absorption of energies that high would just unbind the molecule.
+- Finding $\ce{H_{2}}$ was usually done by measuring $\ce{CO}$ with millimeter telescopes and then constraining the $\ce{CO-H_{2}}$ correlation. Now with [[Instruments#JWST|JWST]], this can be done better, since we have a [[Electromagnetic Spectrum|Mid-IR]] integrated field unit (IFU) in space.
 
 ### Hot Gas
 

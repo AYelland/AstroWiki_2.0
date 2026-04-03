@@ -13,12 +13,12 @@ What kinds of sources are detected at TeV energies? What is the “cosmic gamma 
 - [[Gamma Ray Burst|GRBs]]
 	- Same synchrotron-compton up-scattering mechanism as the jets mentioned above.
 	- Fireball Model details in [[Question 67]]
-- [[Stellar Explosions#Supernova]] Remnants
+- [[Stellar Explosions#Supernova|Supernova]] Remnants
 	- Shock fronts in SN explosions are efficient particle accelerators (thought to be main source of [[Interstellar Medium#Cosmic Rays|cosmic rays]]). 
 	- If there is [[Synchrotron Radiation|synchrotron radiation]], the cosmic rays can produce TeV gamma rays via [[Inverse-Compton Scattering|inverse-compton scattering]].
-	- Similar mechanisms in [[Nebulae#Pulsar Wind Nebula]], like the Crab Nebula 
+	- Similar mechanisms in [[Nebulae#Pulsar Wind Nebula|Pulsar Wind Nebula]], like the Crab Nebula 
 		- See [[Question 62]], some of that energy accelerates particles in the nebula.
-- [[Galaxy Classification#Starburst Galaxy (SBG)]]
+- [[Galaxy Classification#Starburst Galaxy (SBG)|Starburst Galaxy (SBG)]]
 	- Stars in these galaxies have relatively short lifetimes, lots of supernovae, ideal environment for [[Interstellar Medium#Cosmic Rays|cosmic ray]] production
 
 ##### What is the “cosmic gamma ray horizon”?

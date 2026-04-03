@@ -31,7 +31,7 @@ If we want to do better, need to do much more detailed stellar population synthe
 
 Though we predict $\sim 10^{6} - 10^{7}$ [[Black Hole|black holes]] in the Milky Way, it is hard to observationally find this BH population.
 
-**[[Binary Stars#X-Ray Binary]] Population:**
+**[[Binary Stars#X-Ray Binary|X-Ray Binary]] Population:**
 - $\mathcal{O}(100)$ observed in the Milky Way ($\sim 60$ confirmed, $\sim 40$ candidates)
 	- Observed population is so low because we need to have relatively consistent x-ray emission to be able to see them.
 	- Without accretion from the donor companion star, we can't get good x-ray measurements
@@ -39,5 +39,5 @@ Though we predict $\sim 10^{6} - 10^{7}$ [[Black Hole|black holes]] in the Milky
 	- Stellar winds are not strong enough for x-ray emission with intermediate mass companions
 	- [[Binary Stars#Roche Lobe|RLOF]] proceeds very quickly in intermediate systems, making this phase rare to observe
 
-**[[Instruments#LIGO]] Observations of Binary [[Black Hole|BH]] Mergers:**
+**[[Instruments#LIGO|LIGO]] Observations of Binary [[Black Hole|BH]] Mergers:**
 - We can only detect binaries for which both objects are compact and they underwent a merging event.

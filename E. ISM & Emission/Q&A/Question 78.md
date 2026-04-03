@@ -5,14 +5,14 @@ Explain, from a statistical mechanics point of view, why the Balmer lines are mo
 ### Answer
 ---
 > [!key-idea] Big Picture
-> The [[Spectral Features#Balmer Series]] (transitions to first excited ($n=2$) state of [[Interstellar Medium#Atomic Hydrogen|atomic hydrogen]]) is most strongly seen in [[Spectral Classes#A]] stars ($T \sim 7500-10000 \; {\rm K}$) because:
+> The [[Spectral Features#Balmer Series|Balmer Series]] (transitions to first excited ($n=2$) state of [[Interstellar Medium#Atomic Hydrogen|atomic hydrogen]]) is most strongly seen in [[Spectral Classes#A|A]] stars ($T \sim 7500-10000 \; {\rm K}$) because:
 > 
 > - Using the [[Saha Equation]], we can determine the relative abundances of ionized-to-neutral atoms as a function of temperature ($T$)
 > 	- Hydrogen completely ionizes around $T \sim 10^{4} \; {\rm K}$
 > - Using the [[Boltzmann Equation]], we can determine the relative abundances of atoms in the $n=1,2,3,\dots$ energy states as a function of temperature ($T$).
 > 	- It turns out that the fractional occupancy of the $n=2$ energy level spikes at $10^{4} \; {\rm K}$, meaning at this temperature we see the most transitions to this level.
 > 
-> Intuitively, above this temperature, the hydrogen is mostly ionized (since ionization energy is just above the $n=2$ energy level), and below this temperature, most electrons are in the ground state ($n=1$), yielding the [[Spectral Features#Lyman Series]], not the [[Spectral Features#Balmer Series]].
+> Intuitively, above this temperature, the hydrogen is mostly ionized (since ionization energy is just above the $n=2$ energy level), and below this temperature, most electrons are in the ground state ($n=1$), yielding the [[Spectral Features#Lyman Series|Lyman Series]], not the [[Spectral Features#Balmer Series|Balmer Series]].
 > 
 > So basically...
 > $$\text{Balmer lines} \propto \left(\frac{n_{\text{un-ionized, } 2}}{n_{\text{tot}}}\right) = \underbrace{\left(\frac{n_{\text{un-ionized, } 2}}{n_{\text{un-ionized, tot}}}\right)}_{\text{Boltzmann factor}} \; \underbrace{\left(\frac{n_{\text{un-ionized, tot}}}{n_{\text{tot}}}\right)}_{\text{Saha}} $$
@@ -56,4 +56,4 @@ $$\frac{n_{2}}{n_{\rm tot}} = \underbrace{\left(\frac{n_{2}}{n_{m, \, {\rm I}}}\
   
 ![[balmer_fraction.png|align:center|600]]
 
-We can see here that the fraction of $n=2$ states peaks at $T \sim 10^{4} \; {\rm k}$, and hence, the [[Spectral Features#Balmer Series]] is prominent.
+We can see here that the fraction of $n=2$ states peaks at $T \sim 10^{4} \; {\rm k}$, and hence, the [[Spectral Features#Balmer Series|Balmer Series]] is prominent.

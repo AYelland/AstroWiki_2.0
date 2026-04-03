@@ -22,7 +22,7 @@ $$
 > 
 > - In the [[#PP II]]/[[#PP III]] branches, the initial $\ce{^{4}He}$ nuclei acts as a catalyst, allowing the $\ce{^{3}He} + p \longrightarrow \ce{^{4}He} + \nu_{e}$ net reaction to occur
 > - If a significant $\ce{^{4}He}$ is present in the system, then all three branches will operate simultaneously.
-> - Neutrinos from the [[#PP III]] branch (from the $\ce{^{8}B}$ decay) are emitted on the energy continuum up to $15 \; {\rm MeV}$ and are easily detectable. *(This is important for the [[Sun#Solar Neutrino Problem]])*
+> - Neutrinos from the [[#PP III]] branch (from the $\ce{^{8}B}$ decay) are emitted on the energy continuum up to $15 \; {\rm MeV}$ and are easily detectable. *(This is important for the [[Question 34|Solar Neutrino Problem]])*
 ^important-notes
 
 > [!sun] In the Sun...
@@ -36,7 +36,7 @@ $$
 ## Steps of Reaction
 
 1) Two protons ($p$) fuse together to produce deuteron ($D$, stable). *(This is known as the p-p reaction)*
-	- As the protons fuse, one of them undergoes [[Beta Decay#Beta-Plus Decay]], converting into a neutron by emitting a positron and an electron neutrino.
+	- As the protons fuse, one of them undergoes [[Beta Decay#Beta-Plus Decay|Beta-Plus Decay]], converting into a neutron by emitting a positron and an electron neutrino.
 	- The positron will annihilate with an electron from the environment into two gamma rays. 
 	- The energy produced in this reaction is emitted through the photons ($\sim 1.18 \; {\rm MeV}$) and the neutrino ($\sim 0.262 \; {\rm MeV}$).
 	- This *p-p reaction* is the rate-limiting reaction for the p-p chain due to being mediated by the weak nuclear force (therefore, it is extremely slow)
@@ -111,7 +111,7 @@ $$
 	\ce{^{7}Be} + p \longrightarrow \ce{^{8}B + \gamma}
 	$$
 	
-6) The $\ce{^{8}B}$ isotope (being highly unstable) quickly [[Beta Decay#Beta-Plus Decay]] into a $\ce{^{8}Be}$ isotope.
+6) The $\ce{^{8}B}$ isotope (being highly unstable) quickly [[Beta Decay#Beta-Plus Decay|Beta-Plus Decay]] into a $\ce{^{8}Be}$ isotope.
 	$$
 	\ce{^{8}B} \longrightarrow \ce{^{8}Be} + e^{+} + \nu_{e}
 	$$

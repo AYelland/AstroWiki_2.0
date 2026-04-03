@@ -8,7 +8,7 @@ Explain why you might expect most of the emission of an accreting neutron star t
 
 As with any accretion disk formation, matter loses angular momentum and losses in gravitational potential energy are emitted by radiating light. We want to find the energy, wavelength, or frequency of this radiation.
 
-The easiest way to do that is by finding the temperature of the accretion disk. If we assume that disk radiates like a [[Blackbody Radiation|blackbody]], then we can apply the [[Blackbody Radiation#Stefan-Boltzmann Law]] to find a relationship between power of the emission ([[Luminosity|luminosity]]) for a two-sided disk and the temperature.
+The easiest way to do that is by finding the temperature of the accretion disk. If we assume that disk radiates like a [[Blackbody Radiation|blackbody]], then we can apply the [[Blackbody Radiation#Stefan-Boltzmann Law|Stefan-Boltzmann Law]] to find a relationship between power of the emission ([[Luminosity|luminosity]]) for a two-sided disk and the temperature.
 
 $$L = F \cdot A = \left( \sigma T_{\rm eff}^{4} \right) \cdot \left( 2 \pi R^{2} \right) = 2 \pi \sigma R^{2} T_{\rm eff}^{4} \hspace{1cm} \Rightarrow \hspace{1cm} T_{\rm eff} = \left(\frac{L}{2 \pi \sigma R^{2}}\right)^{1/4}$$
 
@@ -20,7 +20,7 @@ Then, using the typical [[Neutron Star|neutron star]] radius of $\sim 10 \; {\rm
 
 $$T = \left( \frac{L}{2 \pi R^{2} \sigma}\right)^{1/4} \simeq 10^{7} \; {\rm K}$$
 
-By [[Blackbody Radiation#Wien's Displacement Law]], the temperature of the radiation peaks at...
+By [[Blackbody Radiation#Wien's Displacement Law|Wien's Displacement Law]], the temperature of the radiation peaks at...
 
 $$T \simeq 10^{7} \; {\rm K} \hspace{1cm} \Rightarrow \hspace{1cm} \lambda \sim 0.3 \; {\rm nm} \hspace{1cm} \nu \sim 1 \; {\rm Hz} \hspace{1cm} E \sim {\rm keV}$$
 
@@ -60,4 +60,4 @@ The rate of accretion in [[Neutron Star|neutron stars]] is highly dependent on t
 
 A pulsar's magnetic field axis is misaligned with its geometric spin axis. This means that the polar beams (observed in radio) appear like a lighthouse with two bulbs as one (or both if aligned fortunately) of the beams pass over Earth periodically and crosses our line-of-sight.
 
-A challenge to this picture comes from [[Instruments#NICER]]. It has observed multiple X-ray pulses coming from hotspots on the same hemisphere, suggesting a much more complicated magnetic field configuration. In addition to seeing the radio pulses from the beams, these hotspot emit in the x-ray consistently. Due to the gravitational well, the light can be bend around the neutron star, providing a sinusoidal emission curve.
+A challenge to this picture comes from [[Instruments#NICER|NICER]]. It has observed multiple X-ray pulses coming from hotspots on the same hemisphere, suggesting a much more complicated magnetic field configuration. In addition to seeing the radio pulses from the beams, these hotspot emit in the x-ray consistently. Due to the gravitational well, the light can be bend around the neutron star, providing a sinusoidal emission curve.

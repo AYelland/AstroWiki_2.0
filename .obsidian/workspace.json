@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b2bde01903cfe3fd",
+        "id": "d7a73e3d2c7192fb",
         "type": "tabs",
         "children": [
           {
-            "id": "6d04a3dc4051e47d",
+            "id": "e05e83715c2e8740",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C. Stars & Stellar Evolution/Stellar Populations.md",
+                "file": "A. The Solar System/History of Earth-Moon-Sun Units.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stellar Populations"
+              "title": "History of Earth-Moon-Sun Units"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "align}",
+                "query": "sagit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C. Stars & Stellar Evolution/Stellar Populations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Stellar Populations"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "D. Compact Objects & Gravitational Waves/Q&A/Question 58.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Question 58"
+              "title": "Outgoing links"
             }
           },
           {
@@ -128,7 +126,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -140,13 +140,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C. Stars & Stellar Evolution/Stellar Populations.md",
+                "file": "A. The Solar System/History of Earth-Moon-Sun Units.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Stellar Populations"
+              "title": "Outline of History of Earth-Moon-Sun Units"
+            }
+          },
+          {
+            "id": "e4409fe0268e6203",
+            "type": "leaf",
+            "state": {
+              "type": "broken-links-view",
+              "state": {},
+              "icon": "unlink",
+              "title": "Broken links"
             }
           }
         ],
@@ -154,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 752.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,41 +177,46 @@
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "broken-links:View broken links": false
     }
   },
-  "active": "6d04a3dc4051e47d",
+  "active": "e05e83715c2e8740",
   "lastOpenFiles": [
     "AstroWiki Homepage.md",
-    "C. Stars & Stellar Evolution/Stellar Populations.md",
-    "C. Stars & Stellar Evolution/Metallicity.md",
-    "C. Stars & Stellar Evolution/Stellar Classes.md",
-    "E. ISM & Emission/Radiative Transfer/Flux.md",
-    "E. ISM & Emission/Radiative Transfer/Fluence.md",
-    "Dashboard.canvas",
-    "x. Other/DashboardResources/Deadlines.md",
-    "Untitled.canvas",
-    "J. Lightning Round/Q&A/Question 166.md",
-    "Units & Conversions.md",
-    "B. Exoplanets/Bonus.md",
-    "H. Cosmology/Big Bang Nucleosynthesis.md",
-    "D. Compact Objects & Gravitational Waves/Q&A/Question 53.md",
-    "D. Compact Objects & Gravitational Waves/Neutron Star.md",
-    "C. Stars & Stellar Evolution/Q&A/Question 22.md",
-    "J. Lightning Round/Q&A/Question 165.md",
-    "J. Lightning Round/Q&A/Question 167.md",
-    "J. Lightning Round/Q&A/Question 168.md",
-    "J. Lightning Round/Q&A/Question 164.md",
+    "G. Galaxies/Velocity Dispersion.md",
+    "H. Cosmology/Cosmic Distance Ladder.md",
+    "H. Cosmology/Hubble.md",
+    "H. Cosmology/Cosmological Timeline.md",
     "H. Cosmology/Cosmic Microwave Background.md",
     "H. Cosmology/Dark Matter.md",
-    "G. Galaxies/Q&A/Question 112.md",
+    "H. Cosmology/Big Bang Nucleosynthesis.md",
+    "H. Cosmology/Q&A/Question 143.md",
+    "G. Galaxies/Galaxy Classification.md",
+    "G. Galaxies/Galaxies - General.md",
+    "G. Galaxies/Anatomy of a Galaxy.md",
+    "D. Compact Objects & Gravitational Waves/Black Hole.md",
+    "D. Compact Objects & Gravitational Waves/Active Galactic Nuclei.md",
+    "G. Galaxies/Q&A/Question 121.md",
+    "G. Galaxies/Q&A/Question 125.md",
+    "G. Galaxies/Q&A/Question 124.md",
     "G. Galaxies/Q&A/Question 111.md",
-    "G. Galaxies/Q&A/Question 113.md",
-    "168 Flashcards.md",
-    "G. Galaxies/Galaxy Profiles.md",
-    "K. Bonus Questions/P-Pdot Diagram.md",
-    "x. Images/Atmospheric_Transmission.svg",
+    "F. Plasma & Gravitational Lensing/Gravitational Lensing.md",
+    "F. Plasma & Gravitational Lensing/Q&A/Question 96.md",
+    "G. Galaxies/Q&A/Question 101.md",
+    "G. Galaxies/Q&A/Question 120.md",
+    "G. Galaxies/Q&A/Question 122.md",
+    "G. Galaxies/Galaxy Group.md",
+    "E. ISM & Emission/Interstellar Medium.md",
+    "L. Other Physics/Electromagnetic Spectrum.md",
+    "x. Other/file_cleaning.ipynb",
+    "test",
+    "file_cleaning.ipynb",
+    "Dashboard.canvas",
+    "x. Images/NS_ppdot_together.png",
     "168 Questions.pdf",
+    "Untitled.canvas",
+    "x. Images/Atmospheric_Transmission.svg",
     "x. Images/RossiterMcLaughlin_spin.png",
     "x. Images/RossiterMcLaughlin_lines.png",
     "x. Images/transit_method.gif",
@@ -215,10 +230,6 @@
     "x. Other/Latex_168Questions.tex",
     "x. Other/main.tex",
     "ASTRO_Oral_Qualification_Exam_Questions.pdf",
-    "x. Other/Latex_Preamble.sty",
-    "Latex_168Questions.tex",
-    "Latex_Preamble.sty",
-    "x. Images/dashboard_screenshot.png",
-    "dashboard_screenshot.png"
+    "x. Images/dashboard_screenshot.png"
   ]
 }

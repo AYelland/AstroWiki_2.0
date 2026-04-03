@@ -47,10 +47,10 @@ The **Hayashi Track** is where a protostar undergoes isothermal contraction ($T_
 > [!derivation]- Limiting Case of a fully Convective Star
 > To calculate the boundary, we look at the limiting case of a fully convective star in hydrostatic equilibrium. We need...
 > 
-> - [[Stellar Structure#Hydrostatic Equilibrium]] $$\frac{\mathrm{d} P}{\mathrm{d} r} = - \frac{G \rho \, m(r)}{r^{2}}$$
-> - [[Blackbody Radiation#Effective Temperature]]-[[Luminosity]] Relationship $$L = 4 \pi R^{2} \sigma T_{\rm eff}^{4}$$
-> - [[Thermodynamics#Ideal Gas Law]] for a hydrogen gas $$P = \frac{\rho k_{\rm B} T}{\mu m_{\rm p}}$$
-> - [[Optical Depth#Opacity Law]] $$\kappa_{R} = \kappa_{0} \, \rho^{a} \, T^{b}$$
+> - [[Stellar Structure#Hydrostatic Equilibrium|Hydrostatic Equilibrium]] $$\frac{\mathrm{d} P}{\mathrm{d} r} = - \frac{G \rho \, m(r)}{r^{2}}$$
+> - [[Blackbody Radiation#Effective Temperature|Effective Temperature]]-[[Luminosity]] Relationship $$L = 4 \pi R^{2} \sigma T_{\rm eff}^{4}$$
+> - [[Thermodynamics#Ideal Gas Law|Ideal Gas Law]] for a hydrogen gas $$P = \frac{\rho k_{\rm B} T}{\mu m_{\rm p}}$$
+> - [[Optical Depth#Kramer's Opacity Law|Opacity Law]] $$\kappa_{R} = \kappa_{0} \, \rho^{a} \, T^{b}$$
 > - [[Polytropes|Polytropic Model]] for a Convective Star $$P(\rho, M, R) = K(M, R)\, \rho^{\gamma} \hspace{1cm} \text{where} \hspace{1cm} \gamma = 5/3$$
 > 
 > This all [combines together](https://en.wikipedia.org/wiki/Hayashi_track#Derivation) to yield...
@@ -83,15 +83,15 @@ The **Henyey Track** is where a protostar undergoes contraction with near-consta
 	- Gas heated & ionized by gravitational contraction leading to decreased opacity
 - Luminosity ($L$) remains roughly constant while radius ($R$) decreases.
 $$T_{\rm eff} \propto \left(\frac{L}{R^{2}}\right)^{1/4} \hspace{1cm} \Rightarrow \hspace{1cm} \text{protostar moves left on HR diagram}$$
-- When central temperature becomes hot enough for [[_Stellar Nucleosynthesis#^methods-of-fusion|hydrogen fusion]], the [[Stellar Classes#Protostar|protostar]] becomes a [[Stellar Classes#Main Sequence]] star and it reaches the [[#Zero-Age Main Sequence (ZAMS)|ZAMS]] line.
+- When central temperature becomes hot enough for [[_Stellar Nucleosynthesis#^methods-of-fusion|hydrogen fusion]], the [[Stellar Classes#Protostar|protostar]] becomes a [[Stellar Classes#Main Sequence|Main Sequence]] star and it reaches the [[#Zero-Age Main Sequence (ZAMS)|ZAMS]] line.
 	- Given that low-mass stars star the [[#Hayashi Track]] near the bottom, they don't have a [[#Henyey Track]] and begin immediately on the [[#Main Sequence (MS)]]
-	- If the [[Stellar Classes#Protostar|protostar]] did not accrete enough mass for hydrogen fusion but it can still undergo [[Deuteron Fusion|deuteron burning]], then it will instead transition into a [[Stellar Classes#Brown Dwarf]].
+	- If the [[Stellar Classes#Protostar|protostar]] did not accrete enough mass for hydrogen fusion but it can still undergo [[Deuteron Fusion|deuteron burning]], then it will instead transition into a [[Stellar Classes#Brown Dwarf|Brown Dwarf]].
 
 ## Zero-Age Main Sequence (ZAMS)
 
 ![[HR_preMS2b.jpeg|align:center|500]]
 
-The **Zero-Age Main Sequence" (ZAMS) Line** is a theoretical locus of points in the [[#Hertzsprung-Russel diagram|HR-diagram]] where the luminosities of young stars (at a range of masses) are mostly supplied by the nuclear reactions that have begun in their cores. In other words, it is the line that represents when a [[Stellar Classes#Protostar|protostar]] becomes a [[Stellar Classes#Main Sequence|main sequence star]].
+The **Zero-Age Main Sequence" (ZAMS) Line** is a theoretical locus of points in the HR-diagram where the luminosities of young stars (at a range of masses) are mostly supplied by the nuclear reactions that have begun in their cores. In other words, it is the line that represents when a [[Stellar Classes#Protostar|protostar]] becomes a [[Stellar Classes#Main Sequence|main sequence star]].
 
 We often refer to the time since ZAMS as the age of the star, although the time for the collapse of the protostar prior to the ZAMS can be very significant. Additionally, we often use the *"mass at ZAMS"* as the mass of a star when discussing the evolution process the star will go through. (i.e. mass of star = mass when it entered the main sequence = ZAMS mass)
 
@@ -122,7 +122,7 @@ The **main sequence** comprises $\sim 90\%$ of known stars, including the [[Sun]
 	- At [[#Terminal-Age Main Sequence (TAMS)|TAMS]]: $\left[ \; X = 0 \, , \, Y = 0.98 \, \implies \, \mu = 1.34 \; \right]$ (after H-core burning)
 	- In stars with radiative cores, the composition changes shell by shell
 	- In stars with convective cores, the shells are well mixed and the composition is homogeneous
-- Their lifetime follows the [[Timescales#Nuclear Timescale]].
+- Their lifetime follows the [[Timescales#Nuclear Timescale|Nuclear Timescale]].
 	- For radiative cores $f \approx 0.1$
 	- For convective cores $f \approx 1$
 
@@ -132,7 +132,7 @@ When the fusible hydrogen in the core is exhausted, the star will transition int
 
 ![[HR_TAMS.jpeg|align:center|300]]
 
-The **Terminal-Age Main Sequence" (TAMS) Line** is not a term used often, but it is a theoretical line on the [[#Hertzsprung-Russel diagram|HR-diagram]] drawn for when stars "turn-off" (or leave) the [[#Main Sequence (MS)|main sequence]] and begin their evolutionary process.
+The **Terminal-Age Main Sequence" (TAMS) Line** is not a term used often, but it is a theoretical line on the HR-diagram drawn for when stars "turn-off" (or leave) the [[#Main Sequence (MS)|main sequence]] and begin their evolutionary process.
 
 ## Post-Main Sequence
 
@@ -190,10 +190,10 @@ At this point in the evolutionary process, the next phase after the [[#Red Giant
 **Very Low Mass Stars:** ($M \sim 0.08 - 0.5 \; {\rm M_{\odot}}$)
 - The helium cores never get hot enough to ignite helium burning, but they are dense enough to be completely degenerate
 - For $M \lesssim 0.3 \; {\rm M_{\odot}}$, the star is completely convective such that there is no build-up of a helium core. Eventually, H-burning will continue until star is completely helium.
-	- Later will form a [[Stellar Classes#Red Dwarf]].
+	- Later will form a [[Stellar Classes#Red Dwarf|Red Dwarf]].
 - For $0.3 \; {\rm M_{\odot}} \lesssim M \lesssim 0.5 \; {\rm M_{\odot}}$, the star develops a radiative core and convective envelope with a hydrogen burning shell, but still is unable to burn helium in the core.
-	- Though not observed, stellar models expect that the weakly-bound envelopes are radiated away through stellar winds in the [[#Red Giant Branch (RGB)|Red Giant phase]] leaving behind a bare helium core, classified as a [[Stellar Classes#White Dwarf]].
-	- Could also later form [[Stellar Classes#Red Dwarf]] instead?
+	- Though not observed, stellar models expect that the weakly-bound envelopes are radiated away through stellar winds in the [[#Red Giant Branch (RGB)|Red Giant phase]] leaving behind a bare helium core, classified as a [[Stellar Classes#White Dwarf|White Dwarf]].
+	- Could also later form [[Stellar Classes#Red Dwarf|Red Dwarf]] instead?
 
 **Low Mass Stars:** ($M \sim 0.5 - 2 \; {\rm M_{\odot}}$)
 - The helium ignition in degenerate conditions leads to a thermonuclear runaway called a [[#Helium Flash]].
@@ -254,9 +254,9 @@ The **Asymptotic Giant Branch** is similar to the [[#Subgiant Branch (SGB)|SGB]]
 		- Hydrogen shell-burning becomes temporarily extinguished
 		- Carbon-oxygen core becomes degenerate, slowing core-contraction
 		- Convection in the envelope causes the *"second dredge-up"* of [[Carbon-Nitrogen-Oxygen Cycle|CNO]] products, alters surface composition.
-- After the luminosity has increased and the star has traveled up the AGB track, the hydrogen shell will re-ignite leading to double shell burning and cyclic shell flashes called [[#Thermal Pulses (TP-AGB)|]] [[#^thermal-pulses-helium|"AGB thermal pulses"]].
-	- These high temperature shell flashes lead to reaction chains that produce many neutrons, allowing the [[Neutron Capture#s-process]] to occur in the stellar envelope.
-	- For $M \gtrsim 2 \; {\rm M_{\odot}}$ stars, convection in the envelope can cause a periodic *"third dredge-up"* of [[Carbon-Nitrogen-Oxygen Cycle|CNO]] products and [[Neutron Capture#s-process]] elements, once again altering surface composition.
+- After the luminosity has increased and the star has traveled up the AGB track, the hydrogen shell will re-ignite leading to double shell burning and cyclic shell flashes called [[#^thermal-pulses-helium|"AGB thermal pulses"]].
+	- These high temperature shell flashes lead to reaction chains that produce many neutrons, allowing the [[Neutron Capture#s-process|s-process]] to occur in the stellar envelope.
+	- For $M \gtrsim 2 \; {\rm M_{\odot}}$ stars, convection in the envelope can cause a periodic *"third dredge-up"* of [[Carbon-Nitrogen-Oxygen Cycle|CNO]] products and [[Neutron Capture#s-process|s-process]] elements, once again altering surface composition.
 		- This can produce carbon-rich stars
 
 > [!note] Thermal Pulses (TP-AGB)
@@ -276,7 +276,7 @@ The **Asymptotic Giant Branch** is similar to the [[#Subgiant Branch (SGB)|SGB]]
 > Pulses have period of $P \sim 10^{3} - 10^{5} \; {\rm yr}$
 ^thermal-pulses-helium
 
-Star moves up and to the right (decreasing $T_{\rm eff}$ and increasing $L$) until it reaches the [[#Hayashi Track|Hayashi Limit]]. Here, it "asymptotically" approaches the [[#Red Giant Branch (RGB)|RGB track]] (with a higher $R$ and $L$). At the late [[#Asymptotic Giant Branch (AGB)|AGB]] phase, the [[#Thermal Pulses (TP-AGB)|thermal pulses]] cause additional small peaks at the top of the [[#Asymptotic Giant Branch (AGB)|AGB]] track.
+Star moves up and to the right (decreasing $T_{\rm eff}$ and increasing $L$) until it reaches the [[#Hayashi Track|Hayashi Limit]]. Here, it "asymptotically" approaches the [[#Red Giant Branch (RGB)|RGB track]] (with a higher $R$ and $L$). At the late [[#Asymptotic Giant Branch (AGB)|AGB]] phase, the [[#^thermal-pulses-helium|thermal pulses]] cause additional small peaks at the top of the [[#Asymptotic Giant Branch (AGB)|AGB]] track.
 
 ### Post-Asymptotic Giant Branch (Post-AGB)
 
@@ -306,19 +306,19 @@ This collapse is the death of the star and birth of a compact object.
 ## Other Features of HR Diagram
 ### Instability Strip
 
-A strip on the [[#Hertzsprung-Russel diagram|HR-diagram]] representing an instability of the radius and luminosity of stars due to density and pressure fluctuations. These fluctuations tend to often through the [[Pulsation#Kappa Opacity Mechanism]].
+A strip on the HR-diagram representing an instability of the radius and luminosity of stars due to density and pressure fluctuations. These fluctuations tend to often through the [[Pulsation#Kappa Opacity Mechanism|Kappa Opacity Mechanism]].
 
 ![[HR_instabilityStrip.jpg|align:center|500]]
 
 Why doesn't this occur across all the HR diagram?
-- On the low $T$ end (redder side), convection in the envelope can begin causing an increase in mixing and preventing the development of the [[Pulsation#Kappa Opacity Mechanism]]
+- On the low $T$ end (redder side), convection in the envelope can begin causing an increase in mixing and preventing the development of the [[Pulsation#Kappa Opacity Mechanism|Kappa Opacity Mechanism]]
 - On the high $T$ end (bluer side), the $\ce{He}$ ionization zone is too far out in the stellar atmosphere to drive pulsations
 
 
 
 ### Lines of Constant Radius
 
-If we assume that stars act as pure [[Blackbody Radiation|blackbodies]], then we can apply [[Blackbody Radiation#Stefan-Boltzmann Law]] such that...
+If we assume that stars act as pure [[Blackbody Radiation|blackbodies]], then we can apply [[Blackbody Radiation#Stefan-Boltzmann Law|Stefan-Boltzmann Law]] such that...
 
 $$
 L = (4 \pi R^{2}) \; \sigma T^{4}

@@ -72,9 +72,9 @@ $$\rho(r) = \rho_{0} \left[ \frac{r}{r_{\rm s}}\left( 1 + \frac{r}{r_{\rm s}} \r
 	c &\equiv \text{concentration of halo}
 \end{aligned}$$
 
-Used to describe and model [[Dark Matter#CDM]] density profiles. This is an empirical model developed over a series of papers in the 90’s through N-Body simulations of [[Dark Matter#CDM]] halos.
+Used to describe and model [[Dark Matter#CDM|CDM]] density profiles. This is an empirical model developed over a series of papers in the 90’s through N-Body simulations of [[Dark Matter#CDM|CDM]] halos.
 
-- Showed the mass density ($\rho_{0}$) and scale radii ($r_{\rm s}$), are strongly correlated for [[Dark Matter#CDM]] halos, such halos are approximately members of a $1$-parameter family.
+- Showed the mass density ($\rho_{0}$) and scale radii ($r_{\rm s}$), are strongly correlated for [[Dark Matter#CDM|CDM]] halos, such halos are approximately members of a $1$-parameter family.
 - A conventional choice for this parameter is $r = r_{200}$, the [[Virial Theorem|Virial Radius]] (the distance that encloses a 200 times the cosmic critical density ($\rho_{c}$) of the universe). In terms of the [[Virial Theorem|Virial Mass]] and the present day critical density: $$M_{200} = 200 \cdot \left( \frac{4}{3} \pi r_{200}^{3} \right) \cdot \rho_{c} \hspace{1cm} \text{where} \hspace{1cm} \rho_{\rm c, 0} = \frac{3 H_{0}^{2}}{8 \pi G} \approx 1.8 \times 10^{-29} h^{2} \; {\rm g/cm}$$
 
 **Properties:**
@@ -127,7 +127,7 @@ where
 	- $\rho_{−2}$ is the density are the $r=r_{-2}$ radius $\implies \rho_{-2} = \rho(r_{−2})$
 - $\alpha$ profile index (best-fit values: $0.12 \lesssim \alpha \lesssim 0.25$ , increase systematically with mass)
 
-Used to describe and model [[Dark Matter#CDM]] density profiles. Unlike the [[#Navarro-Frenk-White Profile]], this model does not have a divergent central density. It is primarily described by its power-law fit to the logarithmic slope of the density profile (left equation above),
+Used to describe and model [[Dark Matter#CDM|CDM]] density profiles. Unlike the [[#Navarro-Frenk-White Profile]], this model does not have a divergent central density. It is primarily described by its power-law fit to the logarithmic slope of the density profile (left equation above),
 
 https://cluster-toolkit.readthedocs.io/en/latest/source/density_profiles.html
 
@@ -141,7 +141,7 @@ https://cluster-toolkit.readthedocs.io/en/latest/source/density_profiles.html
 
 For a self-gravitating isothermal gas sphere ($T = \text{const}$), we will utilize [[Stellar Structure#Hydrostatic Equilibrium|hydrostatic equilibrium]] and [[Stellar Structure#Mass Continuity|mass continuity]] to express the density profile ($\rho(r)$) in terms of the velocity dispersion ($\sigma$), assuming that the density profile follows the power law:  $\rho(r) = \rho_{0} r^{-\alpha}$. 
 
-1. [[Stellar Structure#Hydrostatic Equilibrium]] + [[Thermodynamics#Ideal Gas Law]]
+1. [[Stellar Structure#Hydrostatic Equilibrium|Hydrostatic Equilibrium]] + [[Thermodynamics#Ideal Gas Law|Ideal Gas Law]]
    Beginning with hydrostatic equilibrium, we will assume that the ideal gas law holds, such that $P= n k_{\rm B} T = k_{\rm B} T (\rho/m)$ , where $m \equiv$ mean particle mass. 
    $$\frac{\mathrm{d} P}{\mathrm{d} r} = -\frac{G M_{r} \rho}{r^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} \frac{\mathrm{d} \rho}{\mathrm{d} r} = -\left(\frac{G M_{r} m}{k_{\rm B} T}\right) \frac{\rho}{r^{2}}$$
    We also will assume the velocity in the system is given by the [[Velocity Dispersion|velocity dispersion]] $\sigma$, such that by equating the thermal energy and kinetic energies...
@@ -149,14 +149,14 @@ For a self-gravitating isothermal gas sphere ($T = \text{const}$), we will utili
    This is the differential equation a density profile must satisfy for a self-gravitating ideal gas with constant temperature in hydrostatic equilibrium. This can be rewritten as
    $$r^2 \frac{d\ln\rho}{dr} = -\frac{GM_r}{\sigma^2}$$
    
-1. [[Stellar Structure#Mass Continuity]]
+1. [[Stellar Structure#Mass Continuity|Mass Continuity]]
    Differentiating the equation above with respect to ($r$) and applying mass continuity... 
    $$\frac{\mathrm{d} }{\mathrm{d} r} \left[ r^{2} \frac{\mathrm{d} \ln \rho}{\mathrm{d} r} \right] = -\frac{G}{\sigma^{2}} \frac{\mathrm{d} M_{r}}{\mathrm{d} r} = -\frac{G}{\sigma^{2}} \left( 4 \pi r^{2} \rho \right) \textcolor{gray}{\hspace{1cm} \text{where} \hspace{1cm} \left[ \; \frac{\mathrm{d} M_{r}}{\mathrm{d} r} = 4 \pi r^{2} \rho \; \right]}$$
    
 3. Power-Law Density Profile (Anstaz)
    We now make the assumption that the density profile will follow a power-law in radius. 
    $$\rho(r) = \rho_{0} r^{-\alpha}$$
-   This is motivated by the known solutions of the Laplacian Equation (homogeneous Poisson Equation). There could also be some correlation with the [[Polytropes|polytropic EoS]] and the [[Polytropes#Lane-Emden Equation]] as well, given they source from similar assumptions.
+   This is motivated by the known solutions of the Laplacian Equation (homogeneous Poisson Equation). There could also be some correlation with the [[Polytropes|polytropic EoS]] and the [[Polytropes#Lane-Emden Equation|Lane-Emden Equation]] as well, given they source from similar assumptions.
    
    From this, our differential equation becomes:
    $$\begin{align}

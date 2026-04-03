@@ -30,7 +30,7 @@ $$\omega_{c} = \sqrt{\frac{G M}{a^{3}}} = \frac{c^{3}}{(6)^{3/2} \, G \,(2.8 \; 
 
 ...and the [[Gravitational Waves#Chirp Mass|chirp mass]] is...
 
-$$M_{\rm c} = \mu^{3/5} M^{2/5} \quad \xrightarrow{\rm M_{*} = M_{1} = M_{2}} \quad M_{\rm c} = \frac{M_{*}}{2^{1/5}} \simeq 0.9 M_{*} \hspace{1cm} \Rightarrow \hspace{1cm} M_{\rm c} \simeq 1.2 \; {\rm M_{\odot}}$$
+$$M_{\rm c} = \mu^{3/5} M_{\rm tot}^{2/5} \quad \xrightarrow{\rm M_{*} = M_{1} = M_{2}} \quad M_{\rm c} = \frac{M_{*}}{2^{1/5}} \simeq 0.9 M_{*} \hspace{1cm} \Rightarrow \hspace{1cm} M_{\rm c} \simeq 1.2 \; {\rm M_{\odot}}$$
 
 Applying these values to GW radiation equation, we can get the total energy output during the coalescence period ($\delta t_{\rm c} \simeq 10 \; {\rm ms}$). We see that this event outputs energy levels similar to a supernova ($E_{\rm SN} \sim 10^{44} \; {\rm J}$).
 
@@ -44,7 +44,7 @@ $$h_{0} \simeq \sqrt{\frac{G L_{\rm GW}}{2 R^{2} \omega^{2} c^{3}}} \quad \simeq
 
 ![[GW_sensitivity_curves.png|600]]
 
-With strain $h_{0} \sim 10^{-20}$ (y-axis) and gravitational wave frequency of $f \sim 2 \; {\rm kHz}$ (x-axis), this is well within the [[Instruments#LIGO]] sensitivity.
+With strain $h_{0} \sim 10^{-20}$ (y-axis) and gravitational wave frequency of $f \sim 2 \; {\rm kHz}$ (x-axis), this is well within the [[Instruments#LIGO|LIGO]] sensitivity.
 
 > [!note] Contributions to Noise
 > 

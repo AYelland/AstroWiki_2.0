@@ -9,7 +9,7 @@ What are the "flatness problem" and the "isotropy problem" in standard Big-Bang 
 The fact that the total $\Omega = \rho/\rho_c$ of the [[Friedmann Equation]] is remarkably close to 1 today ($\Omega \simeq 1.00\pm 0.01$). That is, it is very *flat*. 
 
 Why is this a problem? If you look at the Friedmann equations, a deviation from flatness will be blown up as the universe expands. A flatness of $\Omega \simeq 1.00\pm 0.01$ today would require
-- $\Omega \simeq 1.00\pm 0.00004$ at [[Cosmological Timeline#Recombination]]
+- $\Omega \simeq 1.00\pm 0.00004$ at [[Cosmological Timeline#Recombination|Recombination]]
 - $\Omega \simeq 1.00\pm 10^{-12}$ at [[Big Bang Nucleosynthesis|nucleosynthesis]]
 
 This implies an incredibly fine tuning of the universe at early times to be incredibly flat.
@@ -39,7 +39,7 @@ A proposed theory that solves this is [[Cosmological Timeline#Cosmic Inflation|i
 
 ##### Isotropy Problem
 
-The light horizon size at [[Cosmological Timeline#Recombination|recombination]] is only $\sim 2^\circ$ on the sky today, but its almost a perfect [[Blackbody radiation#Blackbody radiation|blackbody]].
+The light horizon size at [[Cosmological Timeline#Recombination|recombination]] is only $\sim 2^\circ$ on the sky today, but its almost a perfect [[Blackbody Radiation|blackbody]].
 
 The blackbody spectrum infers that the universe was in thermal equilibrium, and further suggests that this scale should be the size of the entire sky. When was it in causal contact in order to reach such a thermal equilibrium?
 

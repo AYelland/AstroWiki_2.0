@@ -12,7 +12,7 @@ The carbon-nitrogen-oxygen is one of two known sets of nuclear fusion reactions 
 > -  In stars a bit larger than the sun ($M \gtrsim 1.3 \; {\rm M_{\odot}}$) - and therefore hotter - the CNO cycle is dominant over the [[Proton-Proton Chain|pp chain]].
 > - Cold vs. Hot CNO 
 > 	- Dependent on [[Proton Capture|proton capture]] rate vs [[Beta Decay#Beta-Plus Decay|beta-plus decay]] rate (i.e. hotter allows heavier element formation since proton capture rate is faster than beta-plus decay rate)
-> 	- Inside of stars, there are 4 [[#Cold CNO Cycles]] ([[#CNO-I]], [[Carbon-Nitrogen-Oxygen Cycle#CNO-II]], [[#CNO-III]], [[#CNO-IV]]) that can occur. The [[#CNO-III]] and [[#CNO-IV]] cycles are reserved for heavier stars.
+> 	- Inside of stars, there are 4 [[#Cold CNO Cycles]] ([[#CNO-I]], [[Carbon-Nitrogen-Oxygen Cycle#CNO-II|CNO-II]], [[#CNO-III]], [[#CNO-IV]]) that can occur. The [[#CNO-III]] and [[#CNO-IV]] cycles are reserved for heavier stars.
 > 	- Outside of stars, where the temperature and pressure are high enough, there are 3 [[#Hot CNO Cycles]] ([[#HCNO-I]], [[#HCNO-II]], [[#HCNO-III]]) that produce helium-4 through a different reaction chain.
 > 	- HCNO Sites: [[Stellar Explosions#Supernova|supernovae]] and [[Binary Stars#X-Ray Binary|XRBs]]
 ^important-notes
@@ -28,7 +28,7 @@ The carbon-nitrogen-oxygen is one of two known sets of nuclear fusion reactions 
 
 ![[CNOcycle_cold.png]]
 
-With normal stellar conditions, the catalytic hydrogen burning is restricted by the timescales necessary for nuclear fusion through [[Proton Capture|proton captures]] with respect to [[Beta Decay#Beta-Plus Decay]]. Due to the lower temperature and pressure, the cold CNO cycles work on timescales long enough (many years) that the slow [[Proton Capture|proton capture]] processes can occur.
+With normal stellar conditions, the catalytic hydrogen burning is restricted by the timescales necessary for nuclear fusion through [[Proton Capture|proton captures]] with respect to [[Beta Decay#Beta-Plus Decay|Beta-Plus Decay]]. Due to the lower temperature and pressure, the cold CNO cycles work on timescales long enough (many years) that the slow [[Proton Capture|proton capture]] processes can occur.
 
 ### CNO-I
 
@@ -108,7 +108,7 @@ $$
 
 ![[CNOcycle_hot.png|align:center|450]]
 
-With conditions of higher temperature and pressure (in supernovae and x-ray burst) the rate of [[Proton Capture|proton captures]] exceeds the rate of [[Beta Decay#Beta-Plus Decay]], pushing the hydrogen burning process to the [[_Stellar Nucleosynthesis#Table of Nuclides|proton drip line]]. This allows a different chain of catalytic reactions to occur.
+With conditions of higher temperature and pressure (in supernovae and x-ray burst) the rate of [[Proton Capture|proton captures]] exceeds the rate of [[Beta Decay#Beta-Plus Decay|Beta-Plus Decay]], pushing the hydrogen burning process to the [[_Stellar Nucleosynthesis#Table of Nuclides|proton drip line]]. This allows a different chain of catalytic reactions to occur.
 
 ### HCNO-I
 

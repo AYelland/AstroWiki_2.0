@@ -41,7 +41,7 @@ As inferred in the emission processes in the plot above, the cooling function is
 
 > [!note] Primordial Gas and First Stars
 > 
-> When the [[Stellar Populations#Population III (Pop. III)|first stars]] were forming (end of [[Cosmological Timeline#Dark Ages]]), the cooling function was not able to rely on metal line cooling. It was only able to only able to use atomic and molecular cooling mechanism (such as the 4 mentioned above) with hydrogen and helium. As more metals are introduced to the system, more cooling mechanisms become available, and the cooling power increases as seen above.
+> When the [[Stellar Populations#Population III (Pop. III)|first stars]] were forming (end of [[Cosmological Timeline#Dark Ages|Dark Ages]]), the cooling function was not able to rely on metal line cooling. It was only able to only able to use atomic and molecular cooling mechanism (such as the 4 mentioned above) with hydrogen and helium. As more metals are introduced to the system, more cooling mechanisms become available, and the cooling power increases as seen above.
 > 
 > ![[cooling_processes_primordial.png|align:center|450]]
 > 
@@ -67,10 +67,10 @@ $$\mathcal{H} = n \, \Gamma(T) \hspace{1cm} \text{where} \hspace{1cm}
 	\Gamma(T) &\equiv \text{heating function} \; {\rm \left[ erg \, cm^{3} \, s^{-1} \right]} 
 \end{aligned}$$
 
-*(Note: Megan's notes have a typo that was carried into Cian's notes, $\mathcal{H} \ne n \, \Gamma$)*
+*(Note: The Heating Function has different units as the cooling function. Notice the $n$ factor in the rate equations: $\mathcal{C} = n^{2} \Lambda$ , $\mathcal{H} = n \, \Gamma$)*
 
 The energy gain from heating can be caused a variety of processes, including...
-- [[Interstellar Medium#Cosmic Rays]] spallation
+- [[Interstellar Medium#Cosmic Rays|Cosmic Rays]] spallation
 - Photoionization
 - Photoelectric heating from [[Interstellar Medium#Dust|dust grains]]
 

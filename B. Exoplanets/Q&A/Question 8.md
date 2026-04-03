@@ -6,11 +6,11 @@ TESS finds an exoplanet. What can one directly determine from this measurement? 
 ---
 ##### TESS finds an exoplanet. 
 
-[[Instruments#TESS]] is the ***T**ransiting **E**xoplanet **S**urvey **S**atellite*. (led by George Ricker, MIT)
+[[Instruments#TESS|TESS]] is the ***T**ransiting **E**xoplanet **S**urvey **S**atellite*. (led by George Ricker, MIT)
 
 ##### What can one directly determine from this measurement?
 
-From a planetary [[Detection Methods#Transit Method|transit]], (using only [[Instruments#TESS]]) we can measure the ***period*** of the orbit around the host star and the ***size*** of the planetary body.
+From a planetary [[Detection Methods#Transit Method|transit]], (using only [[Instruments#TESS|TESS]]) we can measure the ***period*** of the orbit around the host star and the ***size*** of the planetary body.
 
 ![[transiting_planet.png|align:center|550]]
 
@@ -56,8 +56,8 @@ $$
 
 > [!bonus]
 > 
-> - [[Bonus#Bonus - Measuring the Stellar Density]]
-> - [[Bonus#Bonus - Measuring the Planet's Temperature]]
+> - [[Bonus#Bonus - Measuring the Stellar Density|Bonus - Measuring the Stellar Density]]
+> - [[Bonus#Bonus - Measuring the Planet's Temperature|Bonus - Measuring the Planet's Temperature]]
 
 ##### What additional observations are needed to determine the mass of this planet?
 
@@ -87,7 +87,7 @@ $$
 > [!note]
 > The circular orbit assumption is not unreasonable given the [[Detection Methods#Transit Method|transit method]] is biased to small orbital radii -- which tend to lead to smaller eccentricities.
 
-2) Use [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] to find the total mass of they star-planet system in terms of the star's mass ($M_{*}$) and the planet's mass ($M_{\rm p}$). 
+2) Use [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] to find the total mass of they star-planet system in terms of the star's mass ($M_{*}$) and the planet's mass ($M_{\rm p}$). 
 	- Since we only measure $v_{*,r}$ in practice, we use the mass ratio to express $v_{p,r}$ in terms of the other parameters.
 	- This yields an equivalent expression to the **binary mass function**
 $$

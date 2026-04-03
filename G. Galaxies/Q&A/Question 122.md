@@ -58,7 +58,7 @@ Observational measurements suggest that the two-point correlation function follo
 
 $$\xi(\vec{r}) \simeq \left(\frac{|\vec{r}|}{r_0}\right)^{-\gamma}$$
 
-These measurements are made by using data from large surveys (i.e. [[Catalogs#eBOSS]] and [[Catalogs#SDSS]]) and comparing to simulation/mock random distributions matter.
+These measurements are made by using data from large surveys (i.e. [[Catalogs#eBOSS|eBOSS]] and [[Catalogs#SDSS|SDSS]]) and comparing to simulation/mock random distributions matter.
 
 **For Galaxies:**
 A good fit for the power-law parameters is given by...
@@ -78,7 +78,7 @@ This shows clusters are found to be much more strongly correlated in space than 
 
 $$\xi_{\rm cluster} \simeq 20 \xi_{\rm gal}$$
 
-Effectively, this means large-scale structure of the universe follows cluster formation as *more massive objects are more clustered* (modulo [[#120|galaxy bias]], which is less biased for clusters than for individual galaxies).
+Effectively, this means large-scale structure of the universe follows cluster formation as *more massive objects are more clustered* (modulo [[Question 120|galaxy bias]], which is less biased for clusters than for individual galaxies).
 
 **For both fits:**
 

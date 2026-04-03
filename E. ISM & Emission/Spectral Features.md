@@ -53,11 +53,11 @@ In the image above, the two dotted lines' spectra are shown with various effects
 
 **Special Relativity:** 
 - Near a black hole, the orbital velocities of the disk are mildly relativistic.
-- Through [[Redshift#Relativistic Doppler Effect]] ("moving clocks run slowly”), "beaming" enhances the blue peak of the line from each radius. 
+- Through [[Redshift#Relativistic Doppler Effect|Relativistic Doppler Effect]] ("moving clocks run slowly”), "beaming" enhances the blue peak of the line from each radius. 
 	- This occurs when the relativistic material (usually through jets or relativistic [[Stellar Classes#Bipolar Flows|bipolar flows]]) traveling towards the observer.
 
 **General Relativity:**
-- Through the [[Redshift#Gravitational Redshift]] (“clocks near black holes run slowly”), the entire spectrum redshifts as the contribution from each radius moves to a lower energy. 
+- Through the [[Redshift#Gravitational Redshift|Gravitational Redshift]] (“clocks near black holes run slowly”), the entire spectrum redshifts as the contribution from each radius moves to a lower energy. 
 
 Summing the line emission from all radii of the relativistic disk gives a skewed and highly broadened line profile.
 
@@ -167,9 +167,9 @@ Using the notation from [[#Rydberg Formula]]...
 The H-$\alpha$ (Balmer-$\alpha$) line comes from the electron transition from $n=3$ to $n=2$ in the atomic hydrogen atom (wavelength: $\lambda \simeq 656 \; {\rm nm}$).
 
 It is important signature that appears in the spectra of many astrophysical sources, including:
-- [[Nebulae#Emission Nebula]]
+- [[Nebulae#Emission Nebula|Emission Nebula]]
 - The [[Sun|Solar]] Atmosphere (specifically, in solar prominences and the chromosphere)
-- [[Interstellar Medium#HII Regions]] of the [[Interstellar Medium|ISM]]
+- [[Interstellar Medium#HII Regions|HII Regions]] of the [[Interstellar Medium|ISM]]
 - Star Forming Regions
 
 #### Balmer Jump
@@ -214,13 +214,13 @@ For all but the coldest spin temperatures, $n_{\rm u} / n_{\rm d} \approx 3$.
 **Observational characteristics**:
 - Transition is very rare and happens on a timescale of $\sim 10\,\pu{Myr}$, but observable for very large amounts of neutral $H$ (low density to avoid collisional de-excitation) 
 - Can be used to map neutral hydrogen in the "dark ages" between $z=1100$ and $z=6-20$ (i.e. the times between recombination and reionization) in radio wavelengths. 
-- [[Instruments#CHIME]] and [[Instruments#HERA]] can observe it at low [[Redshift|redshifts]]. [[Instruments#MEERKAT|MEERKAT]] also did this recently. [[Instruments#SKA|SKA]] will observe out to $z=27$ 
+- [[Instruments#CHIME|CHIME]] and [[Instruments#HERA|HERA]] can observe it at low [[Redshift|redshifts]]. [[Instruments#MEERKAT|MEERKAT]] also did this recently. [[Instruments#SKA|SKA]] will observe out to $z=27$ 
 - Can map neutral hydrogen in spiral arms of a galaxy, and can therefore use to constrain rotation curves.
 - Comes from cold gas $\implies$ little thermal broadening.
 - $(\lambda \sim 21 \; {\rm cm})$ is a  [[Electromagnetic Spectrum|microwave]] wavelengths, which pass mostly unobstructed through the atmosphere, and is therefore suitable for ground-based astronomy.
 
 > [!bonus] Fun Fact!
-> This hydrogen transition is depicted in the Pioneer Plaque on the top left. It is used as the unit of length and time for all of the other images depicted on the plaque as well. (Also, [[Instruments#Voyager]])
+> This hydrogen transition is depicted in the Pioneer Plaque on the top left. It is used as the unit of length and time for all of the other images depicted on the plaque as well. (Also, [[Instruments#Voyager|Voyager]])
 > 
 > ![[Pioneer_plaque.svg|align:center|350]]
 
@@ -232,7 +232,7 @@ For all but the coldest spin temperatures, $n_{\rm u} / n_{\rm d} \approx 3$.
 
 ![[feKalpha_line.png|align:center|600]]
 
-A fluorescent line that is a key feature in reflection spectra when observing an [[Active Galactic Nuclei|AGN]]. It shows up in [[Electromagnetic Spectrum|x-ray spectrum]] (6.4 keV). The $\ce{Fe K-\alpha}$ line is intrinsically a rather narrow line. Hence, when it is broadened (through [[#Relativistic Effects on Spectra|relativistic effects]]), we can use it to study the dynamics of the accretion disk. 
+A fluorescent line that is a key feature in reflection spectra when observing an [[Active Galactic Nuclei|AGN]]. It shows up in [[Electromagnetic Spectrum|x-ray spectrum]] (6.4 keV). The $\ce{Fe K-\alpha}$ line is intrinsically a rather narrow line. Hence, when it is broadened (through [[#Relativistic Effects on Profiles|relativistic effects]]), we can use it to study the dynamics of the accretion disk. 
 
 https://cxc.harvard.edu/ciao/workshop/oct17_pune/agn_chandra_workshop.pdf
 
@@ -253,12 +253,12 @@ Atmosphere not too problematic, can perform radio observations even on cloudy da
 - Jupiter 
 
 **Galactic**:
-- [[Anatomy of a Galaxy#Galactic Center]]
-- [[Neutron Star#Pulsar]]
+- [[Anatomy of a Galaxy#Galactic Center|Galactic Center]]
+- [[Neutron Star#Pulsar|Pulsar]]
 
 **Extragalactic**
-- [[Galaxy Classification#Radio Galaxy]]
-- [[Fast Radio Burst#Fast Radio Burst]]
+- [[Galaxy Classification#Radio Galaxy|Radio Galaxy]]
+- [[Fast Radio Burst#Fast Radio Burst|Fast Radio Burst]]
 
 
 ### X-ray background

@@ -29,7 +29,7 @@ The mass of a black hole is all contained within the [[#Singularity|singularity]
 
 ![[BH_LIGO-Virgo_massplot.png]]
 
-The above image summarizes the current compact object mass observations determined by **gravitational wave** observations (mergers measured by [[Instruments#LIGO]], [[Instruments#VIRGO]], [[Instruments#KAGRA]]) and **electromagnetic (EM)** observations (typically referring to [[Binary Stars#X-Ray Binary|x-ray binary]] measurements).
+The above image summarizes the current compact object mass observations determined by **gravitational wave** observations (mergers measured by [[Instruments#LIGO|LIGO]], [[Instruments#VIRGO|VIRGO]], [[Instruments#KAGRA|KAGRA]]) and **electromagnetic (EM)** observations (typically referring to [[Binary Stars#X-Ray Binary|x-ray binary]] measurements).
 
 > [!space] Mass Gaps
 > 
@@ -62,7 +62,7 @@ a = \cases{
 }
 $$
 
-We could further describe another spin parameter ($\alpha$) through the [[General Relativity#Kerr Metric]] in general relativity. I will not go into details, but it can be derived as a function of $a$ such that...
+We could further describe another spin parameter ($\alpha$) through the [[General Relativity#Kerr Metric|Kerr Metric]] in general relativity. I will not go into details, but it can be derived as a function of $a$ such that...
 
 $$
 a = \cases{
@@ -79,7 +79,7 @@ a = \cases{
 $$
 
 > [!note] When considering black hole binaries...
-> When considering black hole binary mergers and the production of gravitational waves, see the [[Gravitational Waves#Mass-Weighted Effective Spin]] ($\chi_{\rm eff}$). It is similar bounds as the spin parameter of the black hole, but is reliant on both merging masses.
+> When considering black hole binary mergers and the production of gravitational waves, see the [[Gravitational Waves#Mass-Weighted Effective Spin|Mass-Weighted Effective Spin]] ($\chi_{\rm eff}$). It is similar bounds as the spin parameter of the black hole, but is reliant on both merging masses.
 
 ### Charge
 
@@ -182,12 +182,12 @@ Current area of research, though no candidate yet. David Keiser (MIT, CTP) is wo
 **Mass Measurements:**
 - For the EM observations: (XRBs)
 	- If we have radial velocity measurements, we can find constraints on the mass through the [[Binary Stars#For a Spectroscopic Binary|binary mass function]]. $$v_{\rm 1,r} = \left(\frac{2 \pi G}{P}\right)^{1/3} \left(\frac{M_{2} \sin i}{(M_{1} + M_{2})^{2/3}}\right) \frac{1}{\sqrt{1-e^{2}}}$$ 
-	- We can infer the mass though X-ray [[Methods#Reverberation Mapping]] (*x-ray timing*)
+	- We can infer the mass though X-ray [[Methods#Reverberation Mapping|Reverberation Mapping]] (*x-ray timing*)
 		- Uses the time lags between correlated X-ray signals to infer information about the environment very close to a black hole, and indirectly, properties of the black hole.
 		- Has only been done in one source (Cygnus X-1, Mastroserio+19).
 
-- For GW observations: ([[Instruments#LIGO]], [[Instruments#VIRGO]])
-	- For the [[Instruments#LIGO]] observations, we can observe the [[Question 43|gravitational frequency and amplitude]], [[Gravitational Waves#Chirp Mass|chirp mass]], and duration of compact binary merger. Assuming the coalescence of the two masses happens at the ISCO radius ($R_{\rm ISCO}$), we can calculate the orbital frequency ($\omega_{\rm c}$) and gravitational wave frequency ($f_{\rm c} = \omega_{\rm c} / \pi$) at coalescence from [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] as... $$\omega_{\rm c} = \frac{f_{\rm c}}{\pi} = \sqrt{\frac{G M}{a_{c}^{3}}} = \frac{c^{3}}{(6)^{3/2} \, G M}$$...along with the amplitude...$$h_{0} = \left(\frac{4}{\sqrt{5} c^{4}}\right) \frac{(G M_{\rm c})^{5/3}\omega^{2/3}}{R}$$Once we have $M$ and $M_{\rm c}$, we can combine them to find the individual binary mass before merging.
+- For GW observations: ([[Instruments#LIGO|LIGO]], [[Instruments#VIRGO|VIRGO]])
+	- For the [[Instruments#LIGO|LIGO]] observations, we can observe the [[Question 43|gravitational frequency and amplitude]], [[Gravitational Waves#Chirp Mass|chirp mass]], and duration of compact binary merger. Assuming the coalescence of the two masses happens at the ISCO radius ($R_{\rm ISCO}$), we can calculate the orbital frequency ($\omega_{\rm c}$) and gravitational wave frequency ($f_{\rm c} = \omega_{\rm c} / \pi$) at coalescence from [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] as... $$\omega_{\rm c} = \frac{f_{\rm c}}{\pi} = \sqrt{\frac{G M}{a_{c}^{3}}} = \frac{c^{3}}{(6)^{3/2} \, G M}$$...along with the amplitude...$$h_{0} = \left(\frac{4}{\sqrt{5} c^{4}}\right) \frac{(G M_{\rm c})^{5/3}\omega^{2/3}}{R}$$Once we have $M$ and $M_{\rm c}$, we can combine them to find the individual binary mass before merging.
 
 
 **Spin Measurement:**
@@ -199,8 +199,8 @@ Current area of research, though no candidate yet. David Keiser (MIT, CTP) is wo
 > - LIGO has discovered many slowly-spinning black holes with $\chi_{\rm{eff}}\simeq 0$ (the [[Gravitational waves#Mass-weighted effective spin|mass-weighted effective spin]]).
 
 - For the EM observations: (XRBs)
-	- **[[Methods#Reflection Spectroscopy]]** 
-		- Use the shape of spectral lines emitted from the [[Active Galactic Nuclei#Corona|corona]] and reflected off the accretion disk to constrain $R_{\rm{ISCO}}$ (dependent on spin parameter $a$)
+	- **[[Methods#Reflection Spectroscopy|Reflection Spectroscopy]]** 
+		- Use the shape of spectral lines emitted from the [[Active Galactic Nuclei#Structure|corona]] and reflected off the accretion disk to constrain $R_{\rm{ISCO}}$ (dependent on spin parameter $a$)
 		- Key feature in the spectrum to measure this feature is the [[Spectral Features#Fe K-alpha Line|Fe K-alpha line]].
 			- The line is blurry (fluorescent) due to [[Spectral Features#Relativistic Effects on Profiles|relativistic effects]] (i.e. transverse Doppler, gravitational redshifting) *([source](https://www.semanticscholar.org/paper/Broad-iron-lines-in-Active-Galactic-Nuclei-A.C.Fabian-K.Iwasawa/13654e12a16c49dae1353238fc7e6bbc7e715810))*
 			- The shape of resulting line constrains the GR effects, and thus $R_{\rm{ISCO}}$ 
@@ -209,7 +209,7 @@ Current area of research, though no candidate yet. David Keiser (MIT, CTP) is wo
 		- Spin influences temperature of inner disk by [[#Innermost Stable Circular Orbit (ISCO)|changing ISCO radius]] such that: 
 			-  Higher spin $\implies$ smaller $R_{\rm{ISCO}}$ $\implies$ more gravitational PE converted to KE $\implies$ hotter temperature of inner accretion disk. 
 		- Requires good understanding of disk modelling and radiative transfer modelling of XRBs.
-- For GW observations: ([[Instruments#LIGO]], [[Instruments#VIRGO]])
+- For GW observations: ([[Instruments#LIGO|LIGO]], [[Instruments#VIRGO|VIRGO]])
 	- LIGO is constrained by using matched filtering techniques applied to the GW waveform at inspiral and merger.
 	- Constrain [[Black Hole#Spin|spin parameter]] ($a$) via the [[Gravitational waves#Mass-weighted effective spin|mass-weighted effective spin]] ($\chi_{\rm eff}$) and [[Gravitational waves#Effective precession spin|effective precession spin]] ($\chi_{\rm p}$).
 		- If we only constrain $\chi_{\rm{eff}}$,  there is a degeneracy due to the projection along direction of orbital angular momentum. This degeneracy can be broken by identifying $\chi_p$, but it can only be constrained for unequal mass ratio binaries.
@@ -232,22 +232,22 @@ Current area of research, though no candidate yet. David Keiser (MIT, CTP) is wo
 
 **Mass Measurement:**
 - Special Case: 
-	- In the Milky Way we can resolve individual stellar orbits around the BH [[Active Galactic Nuclei#Sagittarius A*]] and infer the mass from the dynamics. Found $M\sim4\times 10^6\,M_\odot$ 
+	- In the Milky Way we can resolve individual stellar orbits around the BH [[Active Galactic Nuclei#Sagittarius A*|Sagittarius A*]] and infer the mass from the dynamics. Found $M\sim4\times 10^6\,M_\odot$ 
 - The M-$\sigma$ Relation ([[Velocity Dispersion#M-Sigma Relation|here]]):
 	- The mass of SMBH ($M$) is related to velocity dispersion ($\sigma$) of stars in the bulge.
 	- If we measure $\sigma$ from spectral line widths, we can infer the SMBH mass.
 	- See [[Question 124]].
-- [[Methods#Reverberation Mapping]] in the [[Active Galactic Nuclei|AGN]]:
+- [[Methods#Reverberation Mapping|Reverberation Mapping]] in the [[Active Galactic Nuclei|AGN]]:
 	- Measure the timing delay between optical broad lines with respect to the continuum to get the location of the "broad line region" (BLR). Then, relate the SMBH mass to the velocity widths of the lines $$M_{\rm BH} = \frac{f (\Delta v)^{2} r_{\rm BLR}}{G} \hspace{1cm} \text{where} \hspace{1cm} \underbrace{f \equiv \text{BLR scaling factor} \sim 5}_{\text{dependent on geometry and kinematics}}$$
 	- Requirements:
 		- High time resolution ($\lesssim 1 \; {\rm day}$)
 		- Long duration monitoring ($\lesssim 1 \; {\rm day}$)
 		- Moderate spectral resolution ($\lesssim 1 \; {\rm day}$)
 		- High signal-to-noise ratio
-- [[Instruments#EHT]] uses [[Methods#Long baseline interferometry|(very) long baseline interferometry]] to measure the size of [[Black Hole#Photon Sphere|BH shadow]], which is dependent on mass.
+- [[Instruments#EHT|EHT]] uses [[Methods#Long baseline interferometry|(very) long baseline interferometry]] to measure the size of [[Black Hole#Photon Sphere|BH shadow]], which is dependent on mass.
 
 **Spin Measurement:**
-- [[Methods#Reflection Spectroscopy]] as with [[Binary Stars#X-Ray Binary|XRBs]] (similar to [[#Stellar Black Hole]] spin measurements)
+- [[Methods#Reflection Spectroscopy|Reflection Spectroscopy]] as with [[Binary Stars#X-Ray Binary|XRBs]] (similar to [[#Stellar Black Hole]] spin measurements)
 - Cannot use spectral continuum fitting because $k_{\rm B} T \lesssim 0.05 \; {\rm keV}$ for SMBH
 	- This is because much of the [[Blackbody Radiation|blackbody]] disk emission is absorbed and inaccessible.
 
@@ -262,7 +262,7 @@ In the image below, we show that we observe a larger population of SMBH that hav
 
 ![[BH_smbh_spin_mass.png|align:center|600]]
 
-That said, given our limits in instrumentation, we are biased toward measuring high-spin BH (right plot). Spins are typically measured by X-ray [[Methods#Reflection Spectroscopy]], but we can't use this methodology for lower spin BH due to the observation gap in the [[Electromagnetic Spectrum|EM spectrum]] (UV) caused by hydrogen absorption. Given that to the disk's [[Blackbody radiation#Blackbody radiation|blackbody radiation]] emits in this gap for low spin BH, the radiation is being absorbed prior to reaching us, and is inaccessible. (i.e. can't use continuum fitting)
+That said, given our limits in instrumentation, we are biased toward measuring high-spin BH (right plot). Spins are typically measured by X-ray [[Methods#Reflection Spectroscopy|Reflection Spectroscopy]], but we can't use this methodology for lower spin BH due to the observation gap in the [[Electromagnetic Spectrum|EM spectrum]] (UV) caused by hydrogen absorption. Given that to the disk's [[Blackbody Radiation|blackbody radiation]] emits in this gap for low spin BH, the radiation is being absorbed prior to reaching us, and is inaccessible. (i.e. can't use continuum fitting)
    
 ### Ultramassive Black Hole
 *(Abbrev. as **UMBH**)*
@@ -274,7 +274,7 @@ That said, given our limits in instrumentation, we are biased toward measuring h
 
 ## Spin-Charge Classification
 
-Beyond the [[#Mass Classifications]] above, one can also define 4 other classifications based on the spin (angular momentum) and the charge of the black hole.
+Beyond the [[#Mass Classification|mass classifications]] above, one can also define 4 other classifications based on the spin (angular momentum) and the charge of the black hole.
 
 |                    |        Non-Rotating ($J=0$)        |      Rotating ($J>0$)       |
 | :----------------: | :--------------------------------: | :-------------------------: |
@@ -285,13 +285,13 @@ Beyond the [[#Mass Classifications]] above, one can also define 4 other classifi
 
 A non-rotating, non-charged black hole.
 
-*(Originating from a solution of Einstein field equation, solved with the [[General Relativity#Schwarzschild Metric]].)*
+*(Originating from a solution of Einstein field equation, solved with the [[General Relativity#Schwarzschild Metric|Schwarzschild Metric]].)*
 
 ### Kerr Black Hole
 
 A rotating, non-charged black hole.
 
-*(Originating from a solution of Einstein field equation, solved with the [[General Relativity#Kerr Metric]].)*
+*(Originating from a solution of Einstein field equation, solved with the [[General Relativity#Kerr Metric|Kerr Metric]].)*
 
 ### Reissner-Nordström Black Hole
 

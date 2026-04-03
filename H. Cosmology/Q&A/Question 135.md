@@ -4,7 +4,7 @@ How can the age of the universe be estimated empirically? Do the current estimat
 
 ### Answer
 ---
-There are a couple of empirical methods we can use to determine the age of the universe. All of which are roughly consistent with the [[Timescales#Hubble Time]] ($t_{H} \sim 14 \; {\rm Gyr}$).
+There are a couple of empirical methods we can use to determine the age of the universe. All of which are roughly consistent with the [[Timescales#Hubble Time|Hubble Time]] ($t_{H} \sim 14 \; {\rm Gyr}$).
 
 **1) Ages of Globular Clusters**
 
@@ -31,5 +31,5 @@ The figure below is just for open clusters but the same principle applies to glo
 
 **3) Age of MW Stellar Halo Stars**
 
-- The [[Galaxies - General#The Milky Way|MW]] [[Anatomy of a Galaxy#Stellar Halo]] is thought to contain old [[Stellar Populations|stellar populations]] (Pop. II), and as such, their age can be useful to constraining the age of the universe. 
+- The [[Galaxies - General#The Milky Way|MW]] [[Anatomy of a Galaxy#Stellar Halo|Stellar Halo]] is thought to contain old [[Stellar Populations|stellar populations]] (Pop. II), and as such, their age can be useful to constraining the age of the universe. 
 - However, these stars originate from multiple populations (mergers) that can make this measurement difficult.

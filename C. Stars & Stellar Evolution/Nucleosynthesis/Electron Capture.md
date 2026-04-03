@@ -19,6 +19,6 @@ Electron Capture is a process in which an unstable nucleus ($\ce{^{A}_{Z}X}$) a
 
 > [!aside] Positron Capture
 > 
-> One might expect after looking at [[Beta Decay#Beta-Minus Decay]], [[Beta Decay#Beta-Plus Decay]], and [[Electron Capture]] that there would also be process for **positron capture**; however, this is not true. The *"capture"* part in electron-capture refers to the fact that the electron is taken from its atomic orbit around the nucleus, containing the proton for the reaction. Since a positron cannot exist in a bound state with a nucleus, it can't be captured.
+> One might expect after looking at [[Beta Decay#Beta-Minus Decay|Beta-Minus Decay]], [[Beta Decay#Beta-Plus Decay|Beta-Plus Decay]], and [[Electron Capture]] that there would also be process for **positron capture**; however, this is not true. The *"capture"* part in electron-capture refers to the fact that the electron is taken from its atomic orbit around the nucleus, containing the proton for the reaction. Since a positron cannot exist in a bound state with a nucleus, it can't be captured.
 > $$n + e^{+} \longrightarrow p + \bar{\nu}_{e}$$
 > Nevertheless, it is a valid scattering reaction.

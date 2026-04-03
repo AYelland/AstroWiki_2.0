@@ -43,11 +43,11 @@ Due to the gravitational influence they have on their host star, they can cause 
 - **Radial Position:**  $R \lesssim 1 \; {\rm AU}$
 
 > [!note] Maximum Hot Jupiter Mass
-> *The upper limit on the mass range is defined by the temperature and pressure needed for deuterium fusion. Any higher, and the planet would be considered a [[Stellar Classes#Brown Dwarf]].*
+> *The upper limit on the mass range is defined by the temperature and pressure needed for deuterium fusion. Any higher, and the planet would be considered a [[Stellar Classes#Brown Dwarf|Brown Dwarf]].*
 
 #### Observed Characteristics of Hot Jupiters:
 
-- They tend to be [[Planetary Migration#Tidal Locking]] with the host star, such that only one side is always facing it
+- They tend to be [[Planetary Migration#Tidal Locking|Tidal Locking]] with the host star, such that only one side is always facing it
 - Most have nearly circular orbits (low eccentricities). 
 	- This is thought to be caused by perturbations from nearby stars or tidal forces. 
 	- Any major perturbations could cause the planet to dissipate or plunge into the host star.
@@ -71,11 +71,11 @@ There are two methods theorized to account for the existence of Hot Jupiters. On
 	
 2) Migration
 	- If the planets migrated slowly... *(not as likely due to high obliquity?)*
-		- when the protoplanetary disk was still hot and filled with gas, [[Planetary Migration#Disk Migration]] ([[Planetary Migration#Type I]] & [[Planetary Migration#Type II]])
-		- when the planet had mostly formed, [[Planetary Migration#Tidal Migration]]
+		- when the protoplanetary disk was still hot and filled with gas, [[Planetary Migration#Disk Migration|Disk Migration]] ([[Planetary Migration#Type I|Type I]] & [[Planetary Migration#Type II|Type II]])
+		- when the planet had mostly formed, [[Planetary Migration#Tidal Migration|Tidal Migration]]
 	- If the planets migrated quickly...
-		- when the protoplanetary disk was still hot and filled with gas, [[Planetary Migration#Disk Migration]] ([[Planetary Migration#Type III]])
-		- and were sent on highly eccentric orbits by [[Planetary Migration#Gravitational Scattering]] or the [[Planetary Migration#Kozai Cycles and Tidal Friction|Kozai Mechanism]], they settled into shallow, circularized orbits by [[Planetary Migration#Tidal Migration]].
+		- when the protoplanetary disk was still hot and filled with gas, [[Planetary Migration#Disk Migration|Disk Migration]] ([[Planetary Migration#Type III|Type III]])
+		- and were sent on highly eccentric orbits by [[Planetary Migration#Gravitational Scattering|Gravitational Scattering]] or the [[Planetary Migration#Kozai Cycles and Tidal Friction|Kozai Mechanism]], they settled into shallow, circularized orbits by [[Planetary Migration#Tidal Migration|Tidal Migration]].
 
 ## Eccentric Jupiters
 
@@ -99,7 +99,7 @@ Super-Earths are more massive than Earth yet lighter than ice giants like Neptun
 
 A body with characteristics similar to those of a classical planet with a nearly round shape; however, it has not been able to clear its orbit of debris.
 
-**Examples:** Pluto, [[Smaller Non-Planetary Bodies#Trans-Neptunian Object (TNO)]]
+**Examples:** Pluto, [[Smaller Non-Planetary Bodies#Trans-Neptunian Object (TNO)|Trans-Neptunian Object (TNO)]]
 
 
 ---

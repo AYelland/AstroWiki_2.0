@@ -20,9 +20,9 @@ Describe the prominent neutrino producing reactions in the sun, and the experime
 In the [[Sun]], they are produced in large quantities through the nuclear fusion reactions and lepton conservation. With a mean free path of $\sim 10\,\pu{pc}$, they are able to easily escape the [[Sun|sun]] after their production, such that if we can detect and measure them, we can directly probe the physics in the core of the Sun itself.
 
 The primary production mechanism for solar neutrinos is through the [[Proton-Proton Chain|pp chain]]. In the associated neutrino-producing reactions, we expect them all to be electron neutrinos (initially).
-- [[Proton-Proton Chain#PP I]] generates $\sim 90 \%$ of solar neutrinos in first step of the reaction chain. $$p + p \longrightarrow D + + e^{+} + \nu_{\rm e}$$
-- [[Proton-Proton Chain#PP II]] generates $\sim 7 \%$ of solar neutrinos in first step of the reaction chain. $$\ce{^{7}Be} + e^{-} \longrightarrow \ce{^{7}Li} + \nu_{e}$$
-- [[Proton-Proton Chain#PP III]] generates $\lesssim 1 \%$ of solar neutrinos in the boron decay. $$\ce{^{8}B} \longrightarrow \ce{^{8}Be + e^{+} + \nu_{e}} $$
+- [[Proton-Proton Chain#PP I|PP I]] generates $\sim 90 \%$ of solar neutrinos in first step of the reaction chain. $$p + p \longrightarrow D + + e^{+} + \nu_{\rm e}$$
+- [[Proton-Proton Chain#PP II|PP II]] generates $\sim 7 \%$ of solar neutrinos in first step of the reaction chain. $$\ce{^{7}Be} + e^{-} \longrightarrow \ce{^{7}Li} + \nu_{e}$$
+- [[Proton-Proton Chain#PP III|PP III]] generates $\lesssim 1 \%$ of solar neutrinos in the boron decay. $$\ce{^{8}B} \longrightarrow \ce{^{8}Be + e^{+} + \nu_{e}} $$
 
 ##### ...and the experiments designed to detect them. 
 

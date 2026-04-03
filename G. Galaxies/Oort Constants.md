@@ -31,7 +31,7 @@ To observationally measure the value of the Oort constants, we need:
 3) Distances to nearby stars ($d$) - use [[parallax.png|parallax]]
 4) Galactic longitude ($\ell$)
 
-All of these quantities can be measured by [[Instruments#GAIA]]. The current values for the Oort constants are:
+All of these quantities can be measured by [[Instruments#GAIA|GAIA]]. The current values for the Oort constants are:
 
 $$A = (15.3 \pm 0.4) \; {\rm km\,s^{-1}\,kpc^{-1}} \hspace{2cm} B= (-11.9 \pm 0.4) \; {\rm km\,s^{-1}\,kpc^{-1}}$$
 

@@ -13,7 +13,7 @@ Because deuteron fusion can occur when temperatures exceed $10^{6} \; K$, this r
 - Stars
 - [[Stellar Classes#Protostar|Protostars]]
 - [[Stellar Classes#Brown Dwarf|Brown Dwarfs]]
-- [[Planetary Classes#Gas Giants]] / [[Planetary Classes#Hot Jupiters]] with masses $M \gtrsim 13 \; {\rm M_{Jup}}$ (effectively becoming a [[Stellar Classes#Brown Dwarf]])
+- [[Planetary Classes#Gas Giants|Gas Giants]] / [[Planetary Classes#Hot Jupiters|Hot Jupiters]] with masses $M \gtrsim 13 \; {\rm M_{Jup}}$ (effectively becoming a [[Stellar Classes#Brown Dwarf|Brown Dwarf]])
 
 > [!temperature] Deuteron Thermostat
 > 

@@ -135,7 +135,7 @@ Catalogue of galaxies with a UV excess at their center
 
 > [!catalog] Pulsating Source of Radio Catalogue
 
-[[Neutron Star#Pulsar]] catalogue.
+[[Neutron Star#Pulsar|Pulsar]] catalogue.
 
 
 ### BD

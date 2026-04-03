@@ -41,7 +41,7 @@ where
 > 
 > When $n=1$, the spectrum is "scale invariant", meaning that all perturbations enter the horizon at the same time.
 > 
-> From [[Instruments#WMAP]] and [[Catalogs#SDSS]], we have: $n = 0.953 \pm 0.016$, $\sigma_{8} = 0.756 \pm 0.035$
+> From [[Instruments#WMAP|WMAP]] and [[Catalogs#SDSS|SDSS]], we have: $n = 0.953 \pm 0.016$, $\sigma_{8} = 0.756 \pm 0.035$
 
 Dark matter simulations have found that halos are anti-biased with respect to the overall mass ($b < 1$). This means that the fluctuations in galaxy number density are smaller than that of mass due to the excessive merging of halos compared with real galaxies. This results in very large halos.
 

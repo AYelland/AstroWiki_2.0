@@ -11,7 +11,7 @@ The Hulse-Taylor was the first binary [[Neutron Star#Pulsar|pulsar]]-[[Neutron S
 
 This system is also very important as a test of general relativity and gravitational waves. 
 - Two compact objects in a close binary should be losing orbital energy and angular momentum to [[Gravitational Waves]].
-	- [[Gravitational Waves#Gravitational Radiation]] carries away energy from the system, such that to conserve energy, the overall energy of the binary must also decrease.
+	- [[Gravitational Waves#Gravitational Radiation|Gravitational Radiation]] carries away energy from the system, such that to conserve energy, the overall energy of the binary must also decrease.
 	- For a [[Kepler's Laws of Planetary Motion|Keplerian Orbit]], the energy of the binary is roughly $$E_{\rm binary} \simeq -\frac{G M_{1} M_{2}}{2 a}$$ such that if the energy decreases, so must $a$.
 
 By comparing the change in period ($\dot{P}$) and comparing general relativity predictions, we found incredible agreement between the theory and data for over 30 years:

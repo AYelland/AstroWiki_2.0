@@ -10,4 +10,4 @@ aliases:
 	- At this temperature, some nuclei will undergo [[Photodisintegration|photodisintegration]], releasing all types of particles, including protons and alpha particles
 	- The silicon will use the alpha particles in [[Alpha Process|alpha process]] to create heavier elements upto iron ($\ce{Fe}$)
 - When a star has completed the silicon-burning phase, no further fusion is possible. 
-- The star catastrophically collapses and explodes in a [[Stellar Explosions#Type II]] supernova.
+- The star catastrophically collapses and explodes in a [[Stellar Explosions#Type II|Type II]] supernova.

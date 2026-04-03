@@ -94,14 +94,14 @@ The Rayleigh–Jeans law agrees with experimental results at large wavelengths (
 
 $$F_{\nu} = \int_{\Omega} I_{\nu} \cos \theta \; \mathrm{d} \Omega = \int_{\Omega} B_{\nu} \cos \theta \; \mathrm{d} \Omega$$
 
-*(See [[Intensity#Specific Flux Density]] for more details...)*
+*(See [[Intensity#Specific Flux Density|Specific Flux Density]] for more details...)*
 
 ### Blackbody Specific Mean Intensity
 
 Given that a blackbody emits isotropically, the **specific mean intensity** ($J_{\nu}$) is...
 $$J_{\nu} = \frac{\int_{\Omega} I_{\nu} \; \mathrm{d} \Omega}{\int_{\Omega} \mathrm{d} \Omega} = \frac{1}{4 \pi} \int_{\Omega} I_{\nu} \; \mathrm{d} \Omega = B_{\nu}(T)$$
 
-*(See [[Intensity#Specific Mean Intensity]] for more details...)*
+*(See [[Intensity#Specific Mean Intensity|Specific Mean Intensity]] for more details...)*
 
 ### Blackbody Specific Energy Density
 
@@ -109,7 +109,7 @@ Given that a blackbody emits isotropically, the **specific mean energy** ($U_{
 
 $$U_{\nu} = \frac{1}{c} \int_{\Omega} I_{\nu} \; \mathrm{d} \Omega = \frac{4 \pi}{c} B_{\nu}(T)$$
 
-*(See [[Intensity#Specific Energy Density]] for more details...)*
+*(See [[Intensity#Specific Energy Density|Specific Energy Density]] for more details...)*
 
 ### Blackbody Specific Radiation Pressure
 
@@ -119,7 +119,7 @@ $$
 P_{\nu} = \frac{1}{c} \int_{\Omega} I_{\nu} \, \cos^{2} \theta\; \mathrm{d} \Omega = \frac{4 \pi}{3 c} B_{\nu}(T)
 $$
 
-*(See [[Intensity#Specific Radiation Pressure]] for more details...)*
+*(See [[Intensity#Specific Radiation Pressure|Specific Radiation Pressure]] for more details...)*
 
 ## Frequency-Wavelength Conversion
 

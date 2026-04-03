@@ -47,7 +47,7 @@ A **planetary nebula** is an [[Nebulae#Emission Nebula|emission nebula]] created
 - Once ejected, the medium is irradiated with strong [[Electromagnetic Spectrum|UV]] radiation, ionizing the gas (sometimes, into a HII region).
 	- $T_{\rm remnant} \sim 3 \times 10^{4} \; {\rm K}$
 	- The ionized gas can then recombine, de-excite, and emit spectra that we observe
-- The shape of the nebula can be spherical ($\sim20\%$) or have more complex morphologies ([[Stellar Classes#Bipolar Flows]], multipolar structures, etc.)
+- The shape of the nebula can be spherical ($\sim20\%$) or have more complex morphologies ([[Stellar Classes#Bipolar Flows|Bipolar Flows]], multipolar structures, etc.)
 
 **Example:** Southern Ring Nebula
 

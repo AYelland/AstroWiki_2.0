@@ -18,7 +18,7 @@ To find the approximate size to of the heliosphere (closest point being the heli
 
 **1) Solar Wind Pressure**
 
-The [[Sun#Solar Wind|solar wind]] in the [[Sun#heliosphere]] can be viewed as exerting a [[Fluid Mechanics#Ram Pressure|ram pressure]] on the [[Interstellar Medium|ISM]].
+The [[Sun#Solar Wind|solar wind]] in the [[Sun#heliosphere|heliosphere]] can be viewed as exerting a [[Fluid Mechanics#Ram Pressure|ram pressure]] on the [[Interstellar Medium|ISM]].
 
 $$
 P_{\rm{ram}} = \rho_{\rm sw} v_{\rm n}^{2} \hspace{1cm} \text{where} \hspace{1cm}
@@ -27,9 +27,9 @@ P_{\rm{ram}} = \rho_{\rm sw} v_{\rm n}^{2} \hspace{1cm} \text{where} \hspace{1cm
 \end{aligned}
 $$
 
-Here, $R_{\rm ram}$ labels the distance from the [[Sun]] to [[Sun#Heliopause|heliopause]], $v_{\rm n}$ is the [[Center of Mass & Relative Coordinates#Relative Position|relative]] velocity of the two bodies, and we use the subscript $X_{\rm sw}$ for [[Sun#heliosphere]] ( or [[Sun#Solar Wind|solar wind]]).
+Here, $R_{\rm ram}$ labels the distance from the [[Sun]] to [[Sun#Heliopause|heliopause]], $v_{\rm n}$ is the [[Center of Mass & Relative Coordinates#Relative Position|relative]] velocity of the two bodies, and we use the subscript $X_{\rm sw}$ for [[Sun#heliosphere|heliosphere]] ( or [[Sun#Solar Wind|solar wind]]).
 
-- We approximate the relative velocity ($v_{\rm n}$) by assuming the speed of the [[Sun#Solar Wind|solar wind]] is approximately the same as the particle escape velocity from the surface of the [[Sun]], and by assuming the speed remains constant until reaching the [[Sun#Heliopause|heliopause]]. (Within the [[Sun#heliosphere]], we can treat the [[Interstellar Medium|ISM]] to be at rest.) $$v_{\rm n} \sim v_{\rm esc,\odot} = \sqrt{\frac{2 G M_{\odot}}{R_{\odot}}} \simeq 600 \, {\rm km/s} = 6 \times 10^{5} \; {\rm m/s}$$
+- We approximate the relative velocity ($v_{\rm n}$) by assuming the speed of the [[Sun#Solar Wind|solar wind]] is approximately the same as the particle escape velocity from the surface of the [[Sun]], and by assuming the speed remains constant until reaching the [[Sun#Heliopause|heliopause]]. (Within the [[Sun#heliosphere|heliosphere]], we can treat the [[Interstellar Medium|ISM]] to be at rest.) $$v_{\rm n} \sim v_{\rm esc,\odot} = \sqrt{\frac{2 G M_{\odot}}{R_{\odot}}} \simeq 600 \, {\rm km/s} = 6 \times 10^{5} \; {\rm m/s}$$
 
 - We approximate the mass density ($\, \rho_{\rm sw} \equiv \rho_{\rm sw}(r) \,$) of the [[Sun#Heliosphere|heliosphere]] by assuming the inner-heliospheric medium is composed purely of ionized hydrogen gas. From earth ground-based measurements, we can determine the solar wind density at $r = 1 \; {\rm AU}$. $$\rho_{\rm sw, AU} \simeq n_{\rm AU} \, \mu \, m_{\rm p} \simeq (7 \times 10^{6} \pu{m^{-3}})\, \left(\frac{1}{2}\right) \, (1.6\times 10^{-27}\,\pu{kg}) \simeq 10^{-21} \; {\rm kg/m^{3}}$$Here, the number density is ($n_{\rm AU} = 6 \times 10^{3} \; {\rm m^{-3}}$), the [[Mean Molecular Weight|mean molecular weight ]] is ($\mu = 1/2$) for purely ionized hydrogen gas, and the hydrogen mass ($m_{\rm H} \approx m_{\rm p}$) is about $1 \; {\rm amu}$.
 
@@ -63,7 +63,7 @@ $$
 
 ![[heliopause.jpg|align:center|500]]
 
-The [[Sun#Heliopause|heliopause]] is the location where pressure between the solar wind and the ISM thermal pressure reaches an equilibrium. Therefore, by definition, the heliopause is the central point of the mixing, meaning that the solar wind extends further into the ISM and the ISM reaches in closer to the Sun. Hence, the heliopause has no clear boundary between the two gaseous species. *(for more information, see [[Sun#Heliopause]])*
+The [[Sun#Heliopause|heliopause]] is the location where pressure between the solar wind and the ISM thermal pressure reaches an equilibrium. Therefore, by definition, the heliopause is the central point of the mixing, meaning that the solar wind extends further into the ISM and the ISM reaches in closer to the Sun. Hence, the heliopause has no clear boundary between the two gaseous species. *(for more information, see [[Sun#Heliopause|Heliopause]])*
 
 > [!note] The Local Bubble
 > 

@@ -6,7 +6,7 @@ How are the magnetic fields of neutron stars estimated in (i) X-ray binaries? (i
 ---
 ##### (i) X-ray binaries?
 
-In an [[Binary Stars#X-Ray Binary]] containing a [[Neutron Star|neutron star]], hot plasma near the surface of the NS produces a spectral continuum of [[Cyclotron Radiation|cyclotron]] resonant scattering features (CRSF), allowing us to determine the magnetic field from the frequency/wavelength of the line(s).
+In an [[Binary Stars#X-Ray Binary|X-Ray Binary]] containing a [[Neutron Star|neutron star]], hot plasma near the surface of the NS produces a spectral continuum of [[Cyclotron Radiation|cyclotron]] resonant scattering features (CRSF), allowing us to determine the magnetic field from the frequency/wavelength of the line(s).
 
 > [!note] The Process of Emission
 > - Accretion onto the NS from the donor star persists along the mag field lines and onto the magnetic poles of the NS
@@ -18,7 +18,7 @@ In an [[Binary Stars#X-Ray Binary]] containing a [[Neutron Star|neutron star]], 
 
 ##### (ii) radio pulsars?
 
-In a radio [[Neutron Star#Pulsar]], the magnetic field can be inferred from the exchange between magnetic dipole energy and the rotational energy. Meaning, if we can determine the period ($P$) and how it changes ($\dot{P}$), then we can directly infer how the strength of the magnetic field.
+In a radio [[Neutron Star#Pulsar|Pulsar]], the magnetic field can be inferred from the exchange between magnetic dipole energy and the rotational energy. Meaning, if we can determine the period ($P$) and how it changes ($\dot{P}$), then we can directly infer how the strength of the magnetic field.
 
 $$
 \dot{E}_{\rm B} = \dot{E}_{\rm rot} \hspace{1cm} \text{where} \hspace{1cm} \dot{E}_{\rm B} = \frac{2}{3 c^{2}} \left(\frac{4 \pi}{\mu_{0}}\right) |\ddot{m}|^{2} \hspace{1cm} \dot{E}_{\rm rot} = I \Omega \dot{\Omega}
@@ -40,6 +40,6 @@ $$\boxed{\; B \propto ( \dot{P} P )^{1/2} \;}$$
 > [!note] Additional Notes...
 > 
 > - For a more [[Neutron Star#^constant-bfield|explicit calculation]]...
-> - This derivation gives rise to linear lines on the [[Neutron Star#P-Pdot Diagram]].
+> - This derivation gives rise to linear lines on the [[Neutron Star#P-Pdot Diagram|P-Pdot Diagram]].
 > - Another potentially helpful [link](https://www.cv.nrao.edu/~sransom/web/Ch6.html).
 

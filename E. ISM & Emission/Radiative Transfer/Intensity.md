@@ -59,7 +59,7 @@ $$F_{\nu} = \int_{\Omega} \frac{\mathrm{d} E_{\nu}}{\mathrm{d} A \, \mathrm{d} t
 
 $$F_{\nu} = \int_{\Omega} \frac{\mathrm{d} E_{\nu}}{\mathrm{d} A \, \mathrm{d} t \, \mathrm{d} \nu} = \int_{\Omega} I_{\nu} \cos \theta \; \mathrm{d} \Omega \hspace{1cm} \text{where} \hspace{1cm} [ \, F_{\nu} \, ] \equiv \left(\frac{{\rm energy}}{{\rm area} \times {\rm time} \times {\rm hertz}}\right) = MT^{-2}$$
 
-*(See [[Flux#Specific Flux]] for more details...)*
+*(See [[Flux#Specific Flux|Specific Flux]] for more details...)*
 
 ### Specific Mean Intensity
 

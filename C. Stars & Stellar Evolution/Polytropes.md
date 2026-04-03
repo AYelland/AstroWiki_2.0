@@ -12,7 +12,7 @@ aliases:
 > 
 > The [[Stellar Structure]] equations are complicated, but much of the difficulty comes from the third and fourth ($L$ and $T$).
 > 
-> If we separate and distinguish the [[Stellar Structure]] equations by **physical structure** ([[Stellar Structure#Mass Continuity]] and [[Stellar Structure#Hydrostatic Equilibrium]]) and **thermal structure** ([[Stellar Structure#Conservation of Energy]] and [[Stellar Structure#Energy Transport]]), then we define a system that may or may not describe a physically realistic thing. In this system, we find that the **physical structure** relationships lack explicit dependence on temperature. 
+> If we separate and distinguish the [[Stellar Structure]] equations by **physical structure** ([[Stellar Structure#Mass Continuity|Mass Continuity]] and [[Stellar Structure#Hydrostatic Equilibrium|Hydrostatic Equilibrium]]) and **thermal structure** ([[Stellar Structure#Conservation of Energy|Conservation of Energy]] and [[Stellar Structure#Energy Transport|Energy Transport]]), then we define a system that may or may not describe a physically realistic thing. In this system, we find that the **physical structure** relationships lack explicit dependence on temperature. 
 > 
 > We can then introduce temperature dependence through some theoretical equation of state (i.e. $P = P(\rho, T)$); however, if we instead ignored the** thermal structure** relationships by assuming the equation of state is independent of temperature (i.e. $P = P(\rho)$), then we can create a useful approximation that can accurately describe some stellar bodies. This is the model of a polytrope.
 

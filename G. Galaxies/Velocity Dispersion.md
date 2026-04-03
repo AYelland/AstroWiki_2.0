@@ -28,13 +28,13 @@ A series of relationships derived from the virial theorem, relating velocity dis
 
 ## Cluster Velocity Dispersion
 
-Goes back to Zwicky in the 1930s observing the [[Galaxy Cluster#Coma Cluster]]. 
+Goes back to Zwicky in the 1930s observing the [[Galaxy Cluster#Coma Cluster|Coma Cluster]]. 
 
 The galaxies in [[Galaxy Cluster|clusters]] are moving with speeds far greater than what can be explained by the observed stellar mass. In order to achieve these speeds, the galaxies would need much more mass and would be much brighter ([[Question 108|Schechter Luminosity Function]]).
 
 Clusters galaxies do tend to have an anomalous mass-light ratio (meaning there is more mass for a given luminosity than expected in comparison to the same luminosity outside of a cluster) due to being a denser region primarily [[Question 107|populated by "red and dead" ellipticals]]; however, the discrepancy between the inferred mass and the kinematics is still an order of magnitude.
 
-In a similar manner to to measuring the mass of elliptical galaxies using *stellar* [[Velocity dispersion#Velocity dispersion|velocity dispersion]] (which can also be evidence for dark matter), we can measure the mass of a cluster via the galaxy velocity dispersion by assuming it is virialized, finding $$M \simeq \frac{3}{2}\frac{\sigma^2R}{G}$$In the [[Galaxy Cluster#Coma Cluster]], Zwicky measured velocity dispersions of $\sim 1000\,\pu{km s^{-1}}$ and inferred a mass. Then comparing that mass to that expected from the light (and realizing our inferred mass from kinematics is much larger) Zwicky offered the following possible resolutions:
+In a similar manner to to measuring the mass of elliptical galaxies using *stellar* [[Velocity Dispersion|velocity dispersion]] (which can also be evidence for dark matter), we can measure the mass of a cluster via the galaxy velocity dispersion by assuming it is virialized, finding $$M \simeq \frac{3}{2}\frac{\sigma^2R}{G}$$In the [[Galaxy Cluster#Coma Cluster|Coma Cluster]], Zwicky measured velocity dispersions of $\sim 1000\,\pu{km s^{-1}}$ and inferred a mass. Then comparing that mass to that expected from the light (and realizing our inferred mass from kinematics is much larger) Zwicky offered the following possible resolutions:
 1.  stars in the Coma Cluster behave very differently than those in the local Milky Way (emitting much less light at equivalent mass, which turns out to be somewhat true relative to field galaxies but not by a sufficient amount) or
 2.  the Coma Cluster is not in equilibrium or
 3.  the laws of physics are different here and in the Coma Cluster or
@@ -57,7 +57,7 @@ The majority of the stellar mass in the Milky Way is contained within about $r \
 
 As we can see, the baryonic matter cannot explain the rotation curves of the Milky Way (also seen in other galaxies). There must be an additional mass contribution to the rotation curve (i.e. dark matter).
 
-> [!note] We can use [[Spectral Features#21cm line]] to map rotation curves as well. (see [[Question 103]]).
+> [!note] We can use [[Spectral Features#21cm line|21cm line]] to map rotation curves as well. (see [[Question 103]]).
 
 ## Escape Velocity
 
@@ -148,7 +148,7 @@ $$M \propto \sigma^{n} \hspace{2.5cm} \textcolor{gray}{ \;\left[ \frac{M}{M_{\od
 > 
 > 1. Direct/dynamical measurements of the motion of stars or gas near the black hole.
 > 	- Gave BH masses that averaged $\approx 1 \%$ of the [[Anatomy of a Galaxy#Galactic Bulge|galactic bulge]] mass (the "Magorrian relation"). 
-> 2. [[Methods#Reverberation Mapping]] in [[Active Galactic Nuclei|AGN]]
+> 2. [[Methods#Reverberation Mapping|Reverberation Mapping]] in [[Active Galactic Nuclei|AGN]]
 > 	- Gave BH masses that averaged $\approx 0.1 \%$ of the [[Anatomy of a Galaxy#Galactic Bulge|galactic bulge]] mass
 > 3. "Sołtan Argument" - computes the cosmological density in black holes needed to explain the quasar light
 > 	- Gave BH masses that averaged $\approx 0.1 \%$ of the [[Anatomy of a Galaxy#Galactic Bulge|galactic bulge]] mass

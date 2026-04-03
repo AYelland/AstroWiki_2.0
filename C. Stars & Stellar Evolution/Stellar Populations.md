@@ -21,8 +21,8 @@ aliases:
 	- Theoretically: 
 		- Pop. I stars are more likely have planetary systems, given planets are formed by the accretion metals
 	- Observationally: 
-		- [[Planetary Classes#Rocky Planets]] are concentrated about stars with a larger range of metallicities.
-		- [[Planetary Classes#Gas Giants]] are concentrated around stars with relatively higher metallicity.
+		- [[Planetary Classes#Rocky Planets|Rocky Planets]] are concentrated about stars with a larger range of metallicities.
+		- [[Planetary Classes#Gas Giants|Gas Giants]] are concentrated around stars with relatively higher metallicity.
 
 **Examples:** [[Sun]], stars in spiral arms and disk (star-forming regions)
 
@@ -35,7 +35,7 @@ aliases:
 - Orbits undergo random motion
 - Thought to have formed from more pristine gas (i.e. hydrogen & helium based) before being enriched with metals from supernovae
 
-**Examples:** stars near/in the [[Anatomy of a Galaxy#Galactic Bulge]], a [[Stellar Clusters#Globular Cluster]], or the [[Anatomy of a Galaxy#Stellar Halo]] 
+**Examples:** stars near/in the [[Anatomy of a Galaxy#Galactic Bulge|Galactic Bulge]], a [[Stellar Clusters#Globular Cluster|Globular Cluster]], or the [[Anatomy of a Galaxy#Stellar Halo|Stellar Halo]] 
 
 > [!bonus]-
 > **What is the approximate maximum/minimum $\ce{[Fe/H]}$ [[Metallicity|metallicity]] that a Population II star can have?**

@@ -18,13 +18,13 @@ Therefore, to image X-ray emission, we focus the beams by slowly increasing the 
 ![[xray_telescope_multimirror.jpg|align:center|450]]
 
 > [!note] 
-> This geometry is the reasoning that x-ray telescopes have such long "booms". They allow the detector/sensor to be much further away from the mirror configuration. For example, [[Instruments#CHANDRA]] has a $\sim 10 \; {\rm m}$ separation.
+> This geometry is the reasoning that x-ray telescopes have such long "booms". They allow the detector/sensor to be much further away from the mirror configuration. For example, [[Instruments#CHANDRA|CHANDRA]] has a $\sim 10 \; {\rm m}$ separation.
 > 
 > ![[chandra.png|align:center]]
 
 There are 3 geometric configurations proposed for x-ray astronomy.
 
-- **Wolter Type I** (most commonly used, [[Instruments#CHANDRA]]) ![[wolter_typeI.jpg|align:center|350]]
+- **Wolter Type I** (most commonly used, [[Instruments#CHANDRA|CHANDRA]]) ![[wolter_typeI.jpg|align:center|350]]
 - **Wolter Type II** (used as narrow-field imager) ![[wolter_typeII.jpg|align:center|350]]
 - **Wolter Type III** (never used) ![[wolter_typeIII.jpg|align:center|350]]
 

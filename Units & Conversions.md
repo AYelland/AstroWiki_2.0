@@ -207,7 +207,7 @@ The distance light can travel in 1 [[#Minute (${ rm min}$)|min]].
 
 ### Light-year (${\rm lyr}$)
 
-The distance light can travel in 1 [[#Year (${ rm y}$)|year]].
+The distance light can travel in 1 [[#Year (${ rm yr}$)|year]].
 
 **SI Units:**
 - $1 \; {\rm ly} = 9.461 \times 10^{15} \; {\rm m}$
@@ -456,7 +456,7 @@ A unit of power, specifically for the energy produced by the [[Sun]].
 ---
 ### Gravitational Constant ($G$)
 
-$G$ has dimensions of 1/(density $\times$ time^2) - think of [[Timescales#Dynamical Timescale]]
+$G$ has dimensions of 1/(density $\times$ time^2) - think of [[Timescales#Dynamical Timescale|Dynamical Timescale]]
 
 - $G = 6.674 \times 10^{−11} \; {\rm \frac{N \cdot m^{2}}{kg^{2}}} \hspace{1cm} \text{where} \hspace{1cm} {\rm \frac{N \cdot m^{2}}{kg^{2}}} = {\rm \frac{m^{3}}{kg \cdot s^{2}}}$
 - $G = 1.3 \times 10^{20} \; {\rm m^{3} \, s^{-2} \, M_{\odot}^{-1}}$

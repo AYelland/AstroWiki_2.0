@@ -4,7 +4,7 @@ Summarize the state of the experimental field of 21cm cosmology and what it hope
 
 ### Answer
 ---
-See [[Spectral Features#21cm line]] for explanation of the spectral line physics. 
+See [[Spectral Features#21cm line|21cm line]] for explanation of the spectral line physics. 
 
 **What is the use of this line in studying cosmology?** 
 - Can use this transition to map the fraction of [[Interstellar Medium#Atomic Hydrogen|neutral hydrogen]] over cosmic time, which tells us about the epoch of [[Cosmological Timeline#Reionization|reionization]].

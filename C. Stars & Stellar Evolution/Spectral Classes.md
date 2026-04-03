@@ -136,7 +136,7 @@ This is known as the **Harvard Spectral Classification Scheme**. Each spectral c
 
 **Characteristics:**
 - A more recent addition to the classification scheme
-- Used to describe [[Stellar Classes#Red Dwarf]] stars
+- Used to describe [[Stellar Classes#Red Dwarf|Red Dwarf]] stars
 - Strong spectral lines
 	- metal hydrides
 	- alkali metals
@@ -145,7 +145,7 @@ This is known as the **Harvard Spectral Classification Scheme**. Each spectral c
 
 **Characteristics:**
 - A more recent addition to the classification scheme
-- Used to describe [[Stellar Classes#Brown Dwarf]] stars
+- Used to describe [[Stellar Classes#Brown Dwarf|Brown Dwarf]] stars
 - emission peaks in the [[Electromagnetic Spectrum|infrared]]
 - Strong spectral lines
 	- Methane
@@ -154,7 +154,7 @@ This is known as the **Harvard Spectral Classification Scheme**. Each spectral c
 
 **Characteristics:**
 - A more recent addition to the classification scheme
-- Used to describe cooler [[Stellar Classes#Brown Dwarf]] stars
+- Used to describe cooler [[Stellar Classes#Brown Dwarf|Brown Dwarf]] stars
 - Only $\sim 17$ classified objects
 - Strong spectral lines
 	- no well-defined spectral sequence yet and no prototypes

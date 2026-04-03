@@ -23,7 +23,7 @@ $$v_{\rm r,*} \sim \left(\frac{10^{-11}}{10^{7}}\right)^{1/3} \left(\frac{10^{24
 
 We find that we would need approximately ${\rm cm/s}$ velocity resolution (assuming circular orbit with maximum inclination). Otherwise, we would not be able to see any significant change over an orbit. At the moment, no instrument is able to achieve this precision. 
 
-The best precision we have so far is $\sim 0.3 \; {\rm m/s}$ for ESPRESSO on the [[Instruments#VLT]], with the goal to push to $0.1 \; {\rm m/s}$. That means we could observe a planet with mass $\sim 10 \; {\rm M_{\oplus}}$
+The best precision we have so far is $\sim 0.3 \; {\rm m/s}$ for ESPRESSO on the [[Instruments#VLT|VLT]], with the goal to push to $0.1 \; {\rm m/s}$. That means we could observe a planet with mass $\sim 10 \; {\rm M_{\oplus}}$
 
 ##### What astrophysical processes complicate the measurement of radial velocities with this precision?
 
@@ -33,5 +33,5 @@ The best precision we have so far is $\sim 0.3 \; {\rm m/s}$ for ESPRESSO on the
 - Stellar Activity: the material within the star is moving, causing noise in the spectra to appear.
 - Atmospheric Seeing: turbulence in the earth's atmosphere leads to additional noise in spectrum for ground-based observatories
 - Need high-resolution spectrometer
-- Very hot stars ([[Spectral Classes#O]], [[Spectral Classes#B]], [[Spectral Classes#A]]) may not have enough narrow lines in their spectra for precise Doppler shift measurements.
+- Very hot stars ([[Spectral Classes#O|O]], [[Spectral Classes#B|B]], [[Spectral Classes#A|A]]) may not have enough narrow lines in their spectra for precise Doppler shift measurements.
 - Need to understand the motion of Earth in the Solar system relative to the star down at the $\sim {\rm cm/s}$ precision.

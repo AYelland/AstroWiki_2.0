@@ -106,7 +106,7 @@ $$
 \end{aligned}$$
 $$\boxed{F_{\nu} \propto \nu^{-(P-1)/2}}$$
 
-For *optically thick* (low-frequency) regime, self-absorption becomes important such that the spectrum becomes [[Blackbody Radiation|blackbody]] limited. Following [[Blackbody Radiation#Rayleigh-Jeans Law]], the energy of the emission (i.e. photons) will be proportional to the frequency-squared and the temperature.
+For *optically thick* (low-frequency) regime, self-absorption becomes important such that the spectrum becomes [[Blackbody Radiation|blackbody]] limited. Following [[Blackbody Radiation#Rayleigh-Jeans Law|Rayleigh-Jeans Law]], the energy of the emission (i.e. photons) will be proportional to the frequency-squared and the temperature.
 
 $$F_{\nu} \propto B_{\nu} = \frac{2 h}{c^{2}} \left(\frac{\nu^{3}}{e^{h \nu / k_{\rm B} T} - 1}\right) \propto \left(\frac{\nu^{3}}{h \nu / k_{\rm B} T}\right) \propto \nu^{2} \, k_{\rm B} T$$
 

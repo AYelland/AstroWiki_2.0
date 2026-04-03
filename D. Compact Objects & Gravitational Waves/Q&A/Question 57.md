@@ -6,9 +6,9 @@ What minimum mass is required for a black hole powering a quasar of luminosity $
 ---
 ##### What minimum mass is required for a black hole powering a quasar of luminosity $10^{12} \; {\rm L_{\odot}}$?
 
-A [[Active Galactic Nuclei#Quasar|quasar]] is a very luminous [[Active Galactic Nuclei|AGN]]. This means that the [[Black Hole|black hole]] is surrounded by some accretion disk that is feeding the EM radiation (causing the high luminosity). 
+A [[Active Galactic Nuclei#Quasar / Quasi-Stellar Object (QSO)|quasar]] is a very luminous [[Active Galactic Nuclei|AGN]]. This means that the [[Black Hole|black hole]] is surrounded by some accretion disk that is feeding the EM radiation (causing the high luminosity). 
 
-The mass of the [[Black Hole|black hole]] (including its accretion disk) will be constrained by the [[Luminosity#Eddington Limit]]. Given that a black hole doesn't emit light itself, we can solely focus on the luminous accretion disk in our calculations.
+The mass of the [[Black Hole|black hole]] (including its accretion disk) will be constrained by the [[Luminosity#Eddington Limit|Eddington Limit]]. Given that a black hole doesn't emit light itself, we can solely focus on the luminous accretion disk in our calculations.
 
 $$L_{\rm Edd} = \frac{4 \pi G M c}{\kappa} \approx 3.2 \times 10^{4} \; \left(\frac{M}{M_{\odot}}\right) \underbrace{\left(\frac{\kappa_{\odot}}{\kappa}\right)}_{=1} \; L_{\odot} \hspace{1cm} \Rightarrow \hspace{1cm} M = \left[ \frac{1}{3.2 \times 10^{4}} \left(\frac{L_{\rm eff}}{L_{\odot}}\right) \right] \; M_{\odot}$$
 $$M_{\rm Edd} \equiv M = \left[ \frac{1}{3.2 \times 10^{4}} \left(\frac{10^{12} \, L_{\odot}}{L_{\odot}}\right) \right] \; M_{\odot} \sim 3 \times 10^{7} \; {\rm M_{\odot}}$$
@@ -25,6 +25,6 @@ $$\textcolor{gray}{\left[\frac{L}{\eta c^{2}} \simeq \frac{10^{12} \; (4 \times 
 > Accretion liberates gravitational potential energy as gas loses angular momentum and falls onto the compact object.
 > $$L = \eta \dot{M} c^{2} \hspace{1cm} \text{where} \hspace{1cm} \left( \frac{\text{energy radiated}}{\text{time}} = \frac{\text{efficiency} \times \text{mass-energy gained}}{\text{time}} \right)$$ 
 > The accretion efficiency $\eta$ is spin-dependent.
-> - $\sim 6 \%$ for [[Black Hole#Schwarzschild Black Hole]]
-> - $\sim 40 \%$ for a maximally spinning [[Black Hole#Kerr Black Hole]]
+> - $\sim 6 \%$ for [[Black Hole#Schwarzschild Black Hole|Schwarzschild Black Hole]]
+> - $\sim 40 \%$ for a maximally spinning [[Black Hole#Kerr Black Hole|Kerr Black Hole]]
 > - Estimating as $10 \% = 0.1$ is fine.

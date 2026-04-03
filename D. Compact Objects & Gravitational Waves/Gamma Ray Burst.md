@@ -31,7 +31,7 @@ A **gamma ray burst** is an intense, jet-shaped burst of high-energy gamma rays 
 **Additional Notes:**
 - Found both in [[Galaxy Classification#Elliptical Galaxy|elliptical]] and [[Galaxy Classification#Spiral Galaxy|spiral]] galaxies
 - Not typically associated with massive stellar progenitors (i.e. supernovae events)
-- First afterglow was found with [[Instruments#SWIFT]] (2005)
+- First afterglow was found with [[Instruments#SWIFT|SWIFT]] (2005)
 
 **Comparison to [[#Long Duration GRBs (LGRBs)]]:**
 - SGRBs afterglows tend to have lower energy and density scales
@@ -39,7 +39,7 @@ A **gamma ray burst** is an intense, jet-shaped burst of high-energy gamma rays 
 - Comparable variability timescales with the first $2 \; {\rm s}$ of LGRBs
 
 > [!note] 
-> In 2017, [[Instruments#LIGO]] and [[Instruments#VIRGO]] observed the [[Gravitational Waves|gravitational waves]] of a [[Stellar Explosions#Kilonova|NS-NS merger]] (GW170817). [[Instruments#Fermi]] and [[Instruments#INTEGRAL]] then detected a [[#Short Duration GRBs (SGRBs)|SGRB]] 1.7 seconds following the merger.
+> In 2017, [[Instruments#LIGO|LIGO]] and [[Instruments#VIRGO|VIRGO]] observed the [[Gravitational Waves|gravitational waves]] of a [[Stellar Explosions#Kilonova|NS-NS merger]] (GW170817). [[Instruments#Fermi|Fermi]] and [[Instruments#INTEGRAL|INTEGRAL]] then detected a [[#Short Duration GRBs (SGRBs)|SGRB]] 1.7 seconds following the merger.
 > 
 > Q: *"Why after?"*
 > 
@@ -50,7 +50,7 @@ A **gamma ray burst** is an intense, jet-shaped burst of high-energy gamma rays 
 
 > [!measure] Duration: ~ seconds to minutes ($> 2 \; {\rm s}$)
 
-**Origin:** Thought to primarily originate from the [[Core-Collapse|core-collapse]] of a massive star ([[Stellar Explosions#Type Ic-BL]] supernovae) as it forms a [[Neutron Star|neutron star]] or a [[Black Hole|black hole]]. However, there have recently been a couple of detections associated with binary compact object mergers.
+**Origin:** Thought to primarily originate from the [[Core-Collapse|core-collapse]] of a massive star ([[Stellar Explosions#Type Ic-BL|Type Ic-BL]] supernovae) as it forms a [[Neutron Star|neutron star]] or a [[Black Hole|black hole]]. However, there have recently been a couple of detections associated with binary compact object mergers.
 
 **Additional Notes:**
 - Found in star forming regions of [[Galaxy Classification#Spiral Galaxy|spiral galaxies]]

@@ -68,7 +68,7 @@ $$
 \end{align}
 $$
 
-From the [[Statistical Mechanics#Maxwell-Boltzmann]] distribution, we can re-express the ratio number densities ($n_{i}$) in terms of the energy ($E_{i}$) and the degeneracy ($g_{i}$) of the states.
+From the [[Statistical Mechanics#Maxwell-Boltzmann|Maxwell-Boltzmann]] distribution, we can re-express the ratio number densities ($n_{i}$) in terms of the energy ($E_{i}$) and the degeneracy ($g_{i}$) of the states.
 
 $$\frac{n_{i}}{n} = \frac{1}{Z} \left( g_{i} \, e^{- E_{i} / k_{\rm B} T} \right) \hspace{1cm} \Rightarrow \hspace{1cm} \frac{n_{2}}{n_{1}} = \frac{g_{2}}{g_{1}} \; e^{- (E_{2} - E_{1}) / k_{\rm B} T}$$
 
@@ -83,7 +83,7 @@ $$
 \end{aligned}
 $$
 
-For a thermal process, we can take $J_{\nu}$ as the [[Blackbody Radiation#Blackbody Specific Intensity]] ($B_{\nu}$).
+For a thermal process, we can take $J_{\nu}$ as the [[Blackbody Radiation#Blackbody Specific Intensity|Blackbody Specific Intensity]] ($B_{\nu}$).
 
 $$B_{\nu} = \frac{2 h \nu^{3}}{c^{2}} \left(\frac{1}{e^{h \nu / k_{\rm B} T} - 1}\right)$$
 

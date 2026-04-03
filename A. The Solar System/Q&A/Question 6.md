@@ -15,7 +15,7 @@ For 3-body orbiting systems, a specific type of [[Orbital Resonance|mean-motion 
 
 **Examples in the Solar System:**
 - [[Kuiper Belt]] resonances with Neptune (including Pluto-Neptune at the 2:3 ratio)
-- The [[Asteroid Belt]] resonance gaps with Jupiter ([[Asteroid Belt#Kirkwood Gaps]])
+- The [[Asteroid Belt]] resonance gaps with Jupiter ([[Asteroid Belt#Kirkwood Gaps|Kirkwood Gaps]])
 - Gaps in the Rings of Saturn from its Moons
 - 2:4 - Tethys : Mimas (Saturn's Moons)
 - 1:2 - Dion : Enceladus (Saturn's Moons)

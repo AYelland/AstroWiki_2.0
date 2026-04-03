@@ -50,7 +50,7 @@ $$\omega_{\rm p} = \sqrt{\frac{n_{\rm e} e^{2}}{\epsilon_{0} m_{\rm e}}} \hspace
 > 
 > $$E = -\frac{\sigma}{\epsilon_0}$$
 > 
-> Applying [[Newton's Laws of Motion#Newton's 2nd Law]] to a test particle in the box, we can define the *plasma frequency* ($\omega_{\rm p}$).
+> Applying [[Newton's Laws of Motion#Newton's 2nd Law|Newton's 2nd Law]] to a test particle in the box, we can define the *plasma frequency* ($\omega_{\rm p}$).
 > 
 > $$m \frac{\mathrm{d}^{2} (\delta x)}{\mathrm{d} t^{2}} = q E = - m \left(\frac{q^{2} n}{\epsilon_{0} m}\right) \, \delta x = - m \, \omega_{\rm p}^{2} \, \delta x \hspace{1cm} \Rightarrow \hspace{1cm} \omega_{\rm p} \equiv \sqrt{\frac{q^{2} n}{\epsilon_{0} m}}$$
 > 

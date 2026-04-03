@@ -10,9 +10,9 @@ Sketch the rotation curve of our Galaxy, with approximate scales on the axes. Ho
 
 ##### How can information about the rotation curve be determined from 21 cm observations?
 
-If we make observations of the [[Spectral Features#21cm line]] in the disk, then we can directly probe the profile of the rotation curve within the Earth's galactic orbit. (geometry breaks down past that)
+If we make observations of the [[Spectral Features#21cm line|21cm line]] in the disk, then we can directly probe the profile of the rotation curve within the Earth's galactic orbit. (geometry breaks down past that)
  
- When we have multiple disconnected clouds of [[Interstellar Medium#Atomic Hydrogen|neutral hydrogen]] along some line-of-sight in the disk (each on a $\sim$ circular orbit), the observed [[Spectral Features#21cm line]] signal will be Doppler shifted with respect to the relative velocity of Earth.
+ When we have multiple disconnected clouds of [[Interstellar Medium#Atomic Hydrogen|neutral hydrogen]] along some line-of-sight in the disk (each on a $\sim$ circular orbit), the observed [[Spectral Features#21cm line|21cm line]] signal will be Doppler shifted with respect to the relative velocity of Earth.
 
 ![[21cm_rotation_curves.png]]
 
@@ -20,7 +20,7 @@ If all of the clouds are moving with the same speed, then the largest Doppler sh
 
 If the clouds aren't moving with the same speed, then the scale of the Doppler shifts could shifted around. This provides some systematic error as we wouldn't know which doppler shift is associated with the maximum, tangential velocity. To address this error, we must use other tracers in the disk to span the other dimensions of phase space. (21cm observations only probe the radial velocity, not the velocity in the sky plane.)
 
-Once we've measured and identified the magnitude of the rotational velocity ($v_{\rm rot} = v_{\rm B}$), we can apply [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] assuming a circular orbit (or equivalently circular motion with gravity) to find the radius ($r$) of the orbit.
+Once we've measured and identified the magnitude of the rotational velocity ($v_{\rm rot} = v_{\rm B}$), we can apply [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] assuming a circular orbit (or equivalently circular motion with gravity) to find the radius ($r$) of the orbit.
 
 $$v_{\rm B} = \sqrt{\frac{G M_{r}}{r}} \quad \propto r^{-1/2}$$
 

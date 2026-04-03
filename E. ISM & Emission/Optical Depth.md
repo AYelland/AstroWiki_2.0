@@ -16,7 +16,7 @@ aliases:
 
 **Kirchoff's Law** makes three statements:
 
-1. A perfect black body in thermodynamic equilibrium is the perfect insulator (absorbs all light that strikes it) and radiator (emits energy according to [[Blackbody Radiation#Stefan-Boltzmann Law]], universal for all perfect black bodies).
+1. A perfect black body in thermodynamic equilibrium is the perfect insulator (absorbs all light that strikes it) and radiator (emits energy according to [[Blackbody Radiation#Stefan-Boltzmann Law|Stefan-Boltzmann Law]], universal for all perfect black bodies).
 
 2. For an arbitrary body emitting and absorbing thermal radiation in thermodynamic equilibrium, the emissivity is equal to the absorptivity. (see [[Radiative Transfer Equation|RTE]]) $$\frac{\mathrm{d} I_{\nu}}{\mathrm{d} z} = j_{\nu} - \alpha_{\nu} I_{\nu} = 0 \hspace{1cm} \Rightarrow \hspace{1cm} j_{\nu} = \alpha_{\nu} I_{\nu} = \alpha_{\nu} B_{\nu}(T)$$
 3. The emissivity of a source cannot exceed one (because the absorptivity cannot exceed one by conservation of energy), and thus, it is not possible to thermally radiate more energy than a black body, at equilibrium.
@@ -39,7 +39,7 @@ For incident flux ($F$) on the differential length of material, we have...
 
 $$\mathrm{d} F = - F n \sigma \, \mathrm{d} x$$
 
-...which we can solve to get **Lambert-Beer Law**, which relates the incident flux from a source ($F_{0}$) to the [[#Optical Depth]] ($\tau$).
+...which we can solve to get **[Beer-Lambert Law](https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law)**, which relates the incident flux from a source ($F_{0}$) to the [[#Optical Depth]] ($\tau$).
 
 $$\int \frac{\mathrm{d} F}{F} = - n \sigma \int \mathrm{d} x \hspace{1cm} \Rightarrow \hspace{1cm} F = F_{0} e^{-x/l} = F_{0} e^{-\tau}$$^lambert-beer-law
 

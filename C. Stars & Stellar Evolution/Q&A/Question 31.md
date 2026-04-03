@@ -4,7 +4,7 @@ Make a dimensional analysis of the equation of hydrostatic equilibrium using a p
 
 ### Answer
 ---
-We begin by using [[Stellar Structure#Mass Continuity]], [[Stellar Structure#Hydrostatic Equilibrium]], and the [[Polytropes|Polytrope Equation of State]]... 
+We begin by using [[Stellar Structure#Mass Continuity|Mass Continuity]], [[Stellar Structure#Hydrostatic Equilibrium|Hydrostatic Equilibrium]], and the [[Polytropes|Polytrope Equation of State]]... 
 
 $$
 \underbrace{\frac{\mathrm{d} M}{\mathrm{d} r} = 4 \pi r^{2} \rho}_{\require{enclose}\enclose{circle}{1}}

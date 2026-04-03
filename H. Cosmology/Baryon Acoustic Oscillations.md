@@ -18,7 +18,7 @@ The speed in the baryon-photon fluid can be expressed as $c_{s} = c / \sqrt{3}$ 
 
 $$d_{A} = \frac{\ell_{s}}{\theta_{s}}$$
 
-The BAO serve as the scale of the first [[Cosmic Microwave Background#CMB Power Spectrum]] peak as we'd measure it today. Shows up in galaxy-galaxy correlation function. $\sim 150\,\pu{Mpc}$ in today's universe.
+The BAO serve as the scale of the first [[Cosmic Microwave Background#CMB Power Spectrum|CMB Power Spectrum]] peak as we'd measure it today. Shows up in galaxy-galaxy correlation function. $\sim 150\,\pu{Mpc}$ in today's universe.
 
 ![[BAO.jpg|align:center|500]]
 
@@ -46,11 +46,11 @@ For different length scales, we have different modes of oscillation. For example
 ---
 ## Relation to the CMB
 
-The [[Cosmic Microwave Background|CMB]] power spectrum peaks originate from these acoustic oscillations. These oscillations are frozen in at [[Cosmological Timeline#Recombination]], when the photon-baryon fluid is decoupled.
+The [[Cosmic Microwave Background|CMB]] power spectrum peaks originate from these acoustic oscillations. These oscillations are frozen in at [[Cosmological Timeline#Recombination|Recombination]], when the photon-baryon fluid is decoupled.
 - The acoustic modes (and therefore length scales) caught at extrema of their oscillation represent the peaks - characteristic scales with enhanced temperature fluctuations
 - The wavenumbers (or spatial frequency) of the peaks are harmonically related to the fundamental scale - the distance sound can travel by recombination.
 
-The fundamental scale (mode) reaches it maximum compression exactly when recombination occurs, such that it is the scale at which we see large temperature fluctuations. This length scale is the **sound horizon** and its angular size sets the position of the first peak of the CMB power spectrum. (see [[Cosmic Microwave Background#Sound Horizon]])
+The fundamental scale (mode) reaches it maximum compression exactly when recombination occurs, such that it is the scale at which we see large temperature fluctuations. This length scale is the **sound horizon** and its angular size sets the position of the first peak of the CMB power spectrum. (see [[Cosmic Microwave Background#Sound Horizon|Sound Horizon]])
 
 Because a scale half the size oscillates twice as fast, if the sound horizon scale $l_H$ reaches exactly first compression in the time it takes to reach recombination, then $2 l_H$ will reach exactly its first rarefaction by recombination (it will reach first compression in half the time to recombination). 
 

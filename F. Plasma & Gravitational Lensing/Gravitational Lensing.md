@@ -40,7 +40,7 @@ $$
 $$
 $$\alpha \equiv \text{deflection angle} = \frac{4 G M}{r \, c^{2}}$$
 
-The "deflection angle" ($\alpha$) is set by the [[General Relativity#Schwarzschild Metric]] in general relativity (derivation found [here, chp 1.2](https://www.ita.uni-heidelberg.de/~jmerten/misc/meneghetti_lensing.pdf)). For most of these angles, the distance scales are large enough compared to the objects' sizes such that we can use the small angle approximation.
+The "deflection angle" ($\alpha$) is set by the [[General Relativity#Schwarzschild Metric|Schwarzschild Metric]] in general relativity (derivation found [here, chp 1.2](https://www.ita.uni-heidelberg.de/~jmerten/misc/meneghetti_lensing.pdf)). For most of these angles, the distance scales are large enough compared to the objects' sizes such that we can use the small angle approximation.
 
 $$
 \begin{aligned}[t]
@@ -85,11 +85,11 @@ $$
 ## Types of Lensing
 
 ### Microlensing
-*(Also see Exoplanet Detection Methods: [[Detection Methods#Microlensing Method]])*
+*(Also see Exoplanet Detection Methods: [[Detection Methods#Microlensing Method|Microlensing Method]])*
 
 **Microlensing** occurs when a compact/massive object passes in front of a background source, lensing it to the observer. Often, the lens mass is too low (mass of a planet or a star) for the image displacement and time delay *(see [[Question 96]])* of light to be observed easily, but the apparent brightening of the source may still be detected.
 
-The method is commonly used to find an exoplanets, brown dwarfs, and compact objects ([[Black Hole|BH]] & [[Neutron Star|NS]], [[Dark Matter#MACHOs]]) we wouldn't have been able to see otherwise.
+The method is commonly used to find an exoplanets, brown dwarfs, and compact objects ([[Black Hole|BH]] & [[Neutron Star|NS]], [[Dark Matter#MACHOs|MACHOs]]) we wouldn't have been able to see otherwise.
 
 > [!bonus] Why "microlensing"?
 > 
@@ -122,7 +122,7 @@ The method is commonly used to find an exoplanets, brown dwarfs, and compact obj
 > 
 > ![[lensing_microGAIA.gif|align:center|450]]
 > 
-> [[Instruments#GAIA]] sees microlensing events in the [[Galaxies - General#The Milky Way|Milky Way]], but not nearly enough to explain all the "missing mass" we attribute to [[Dark Matter]].
+> [[Instruments#GAIA|GAIA]] sees microlensing events in the [[Galaxies - General#The Milky Way|Milky Way]], but not nearly enough to explain all the "missing mass" we attribute to [[Dark Matter]].
 
 ### Weak Lensing
 
@@ -147,13 +147,13 @@ This is because the degree of lensing on any individual background source is not
 > 
 > ![[lensing_weak_bulletCluster.png|align:center]]
 > 
-> A major result from weak lensing was the surface mass density mapping in the [[Galaxy Cluster#Bullet Cluster|bullet cluster]]. [[Instruments#CHANDRA]] provided strong evidence for an alternative massive and abundant species not coupled (in a detectable way currently) to electromagnetism (i.e. [[Dark Matter]]). Being able to distinguish the two species allows one to constrain the self-interaction cross section.
+> A major result from weak lensing was the surface mass density mapping in the [[Galaxy Cluster#Bullet Cluster|bullet cluster]]. [[Instruments#CHANDRA|CHANDRA]] provided strong evidence for an alternative massive and abundant species not coupled (in a detectable way currently) to electromagnetism (i.e. [[Dark Matter]]). Being able to distinguish the two species allows one to constrain the self-interaction cross section.
 
 ### Strong Lensing
 
 **Strong Lensing** is the large deflection and distortion of lensed objects that allow background sources to have multiple images and arcs along the Einstein Ring around a large foreground gravitational lens.
 
-In the example below, a [[Galaxy Cluster|galaxy cluster]] in the foreground is lensing many background objects, but produces clear multiple images of a background [[Active Galactic Nuclei#Quasar|quasar]] and a background galaxy.
+In the example below, a [[Galaxy Cluster|galaxy cluster]] in the foreground is lensing many background objects, but produces clear multiple images of a background [[Active Galactic Nuclei#Quasar / Quasi-Stellar Object (QSO)|quasar]] and a background galaxy.
 
 ![[lensing_strong.jpg|align:center|550]]
 
@@ -213,7 +213,7 @@ $$
 > 
 > 2) This theorem was not believed to be observable back in the 1930s when galaxies were believed to have masses of $10^{9} \; {\rm M_{\odot}}$. Zwicky then demonstrated that their mass was much larger by the [[Virial Theorem]] in the [[Stellar Clusters|cluster]], arguing this would produce images at a sufficient distance from the lens to be resolvable.
 > 
-> 3) Zwicky predicted that (I cant find the reference actually) about 1 in 100 bright high-redshift sources would be lensed in a manner detectable in principle by a foreground galaxies. Turns out to be pretty much correct. More distant means more intervening galaxies, increasing chances of lensing (but has to be bright so a [[Active Galactic Nuclei#Quasar|quasar]] is an ideal candidate, also because it is compact and so multiple images can more easily be resolved).
+> 3) Zwicky predicted that (I cant find the reference actually) about 1 in 100 bright high-redshift sources would be lensed in a manner detectable in principle by a foreground galaxies. Turns out to be pretty much correct. More distant means more intervening galaxies, increasing chances of lensing (but has to be bright so a [[Active Galactic Nuclei#Quasar / Quasi-Stellar Object (QSO)|quasar]] is an ideal candidate, also because it is compact and so multiple images can more easily be resolved).
 
 **What do astronomers use strong lensing for?**
 - To constrain the masses of objects acting as gravitational lenses

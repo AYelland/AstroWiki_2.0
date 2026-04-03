@@ -8,7 +8,7 @@ $$
 \ce{^{A}_{Z}X} + n \longrightarrow \ce{^{(A+1)}_{Z}X}
 $$
 
-Neutron capture is a process in which an atomic nucleus ($\ce{^{A}_{Z}X}$) and one or more neutrons ($n$) collide and merge to form an isotope with one higher atomic mass ($A+1$). If the new isotope is stable, a series of increases in mass can occur, but if it is unstable, then [[Beta Decay#Beta-Minus Decay]] will occur, producing an element of the next higher atomic number ($A-1, Z+1$).
+Neutron capture is a process in which an atomic nucleus ($\ce{^{A}_{Z}X}$) and one or more neutrons ($n$) collide and merge to form an isotope with one higher atomic mass ($A+1$). If the new isotope is stable, a series of increases in mass can occur, but if it is unstable, then [[Beta Decay#Beta-Minus Decay|Beta-Minus Decay]] will occur, producing an element of the next higher atomic number ($A-1, Z+1$).
 
 Neutron capture can proceed in two ways depending on the neutron flux: as a rapid process ([[#r-process]]) or a slow process ([[#s-process]]).
 
@@ -28,7 +28,7 @@ $$
 \ce{^{(A+N)}_{Z'}X'}
 $$
 
-The s-process (slow neutron-capture process) occurs when an atomic nucleus ($\ce{^{A}_{Z}X}$) undergoes successive [[#Neutron Capture|neutron captures]], but the neutron flux is low enough that [[Beta Decay#Beta-Minus Decay|beta-minus decay]] **can** occur between captures. *(hence, a "slow" process)*
+The s-process (slow neutron-capture process) occurs when an atomic nucleus ($\ce{^{A}_{Z}X}$) undergoes successive [[Neutron Capture|neutron captures]], but the neutron flux is low enough that [[Beta Decay#Beta-Minus Decay|beta-minus decay]] **can** occur between captures. *(hence, a "slow" process)*
 
 **Important Notes:**
 - Accounts for approximately half the atomic nuclei heavier than iron.
@@ -39,7 +39,7 @@ The s-process (slow neutron-capture process) occurs when an atomic nucleus ($\ce
 - Timescale: $\sim \mathcal{O}(10 \; {\rm yr})$ between successive neutron captures, such that the full process in the reaction chain can take $\sim \mathcal{O}(1000 \; {\rm yr})$
 
 **S-Process Sites:**
-- The [[Hertzsprung-Russell Diagram#Asymptotic Giant Branch]] 
+- The [[Hertzsprung-Russell Diagram#Asymptotic Giant Branch (AGB)|Asymptotic Giant Branch]] 
 
 ### r-process
 

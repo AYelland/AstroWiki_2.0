@@ -12,7 +12,7 @@ What is the Eddington limit and how is it manifested in (i) ordinary stars? (ii)
 
 **(i) Ordinary Stars**
 
-When a star exceeds [[Luminosity#Eddington Limit]], the radiation pressure drives significant stellar winds in the outer layers, leading to significant mass loss.
+When a star exceeds [[Luminosity#Eddington Limit|Eddington Limit]], the radiation pressure drives significant stellar winds in the outer layers, leading to significant mass loss.
 - Only happens in most massive stars, since $L_{\rm Edd} \gg L_{\odot}$
 	- since $L\sim M^{3.5}$ (for [[Hertzsprung-Russell Diagram#Main Sequence (MS)|MS]] stars) and $L_{Edd} \sim M$ eventually as mass increases the luminosity overtakes the Eddington limit and the star begins to blow out mass.
 - An increased opacity in the star increases the outward radiation pressure (via more interactions, perhaps due to [[Interstellar Medium#Dust|dust]]), and thus, lowers the Eddington luminosity
@@ -25,8 +25,8 @@ The x-ray  source originates from the accretion of matter onto a compact object 
 - Accretion liberates gravitational potential energy as gas loses angular momentum and falls onto the compact object.
 	- $L = \eta \dot{M} c^{2}$ (energy radiated per time = efficiency $\times$ mass-energy gained per time). 
 	- The accretion efficiency $\eta$ is spin-dependent.
-		- $\sim 6 \%$ for [[Black Hole#Schwarzschild Black Hole]]
-		- $\sim 40 \%$ for a maximally spinning [[Black Hole#Kerr Black Hole]]
+		- $\sim 6 \%$ for [[Black Hole#Schwarzschild Black Hole|Schwarzschild Black Hole]]
+		- $\sim 40 \%$ for a maximally spinning [[Black Hole#Kerr Black Hole|Kerr Black Hole]]
 		- Estimating as $10 \% = 0.1$ is fine.
 - Accreting sources can also be Eddington-limited like stars, in that:
 	- For $L/L_{Edd} \lesssim 0.5$, they have a standard thin, radiatively efficient accretion flow

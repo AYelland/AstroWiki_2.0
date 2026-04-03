@@ -34,7 +34,7 @@ At high redshifts (early times), radiation is the dominate process that drives t
 - $T \sim 8500 \; {\rm K}$
 
 > [!derivation] Redshift Calculation
-> The [[Redshift|redshift]] of this transition can be found is at the Matter-Radiation equality using the [[Friedmann Equation]] and rough [[Instruments#Planck]] fit numbers.
+> The [[Redshift|redshift]] of this transition can be found is at the Matter-Radiation equality using the [[Friedmann Equation]] and rough [[Instruments#Planck|Planck]] fit numbers.
 > 
 > $$H^{2}(z) = H_{0}^{2} \Big[ \underbrace{\Omega_{M} \, (1+z)^{3}}_{\rm matter} + \underbrace{\Omega_{r} \, (1+z)^{4}}_{\rm radiation} + \Omega_{k} \, (1+z)^{2} + \Omega_{\Lambda} \Big]$$
 > 
@@ -87,7 +87,7 @@ Recombination is the epoch during which the universe had expanded and cooled eno
 > 
 > The ionization energy of hydrogen is about $13.6\,\pu{eV}$ which would correspond to a thermal temperature on the order of $T \simeq E/k_{\rm B} \simeq 10^{5} \,\pu{K}$  (using $k_{\rm B} \simeq 10^{-4}\,\pu{eV K^{-1}}$). This implies we should have recombined much earlier than the redshift at which $T$ was $3000\,\pu{K}$. 
 > 
-> The reason it takes longer to reach half ionization is that the photon energy distribution has a long tail which keeps things ionized for longer (think of it as a [[Blackbody Radiation#Blackbody radiation|BB]] with peak temperature much smaller than that required to ionize, but the tail is long so it can still do so).
+> The reason it takes longer to reach half ionization is that the photon energy distribution has a long tail which keeps things ionized for longer (think of it as a [[Blackbody Radiation|BB]] with peak temperature much smaller than that required to ionize, but the tail is long so it can still do so).
 > 
 > ![[photon_tail.png|align:center|575]]
 > 
@@ -145,13 +145,13 @@ The epoch of reionization ended when the majority of the universe became ionized
 > 
 > ![[ionization_fraction-1.png|align:center|450]]
 > 
-> Once they formed, the gas was ionized over a period of time. Before recombination, the gas was mostly ionized in the hot universe. Exactly how and when reionization occurred is an active area of research that is being probed by both telescopes like [[Instruments#HERA]] and simulations like THESAN.
+> Once they formed, the gas was ionized over a period of time. Before recombination, the gas was mostly ionized in the hot universe. Exactly how and when reionization occurred is an active area of research that is being probed by both telescopes like [[Instruments#HERA|HERA]] and simulations like THESAN.
 
 ## Matter-$\Lambda$ Equality
 
 > [!space] Time Since Big Bang: $\quad t \simeq 9.8 \; {\rm Myr} \hspace{1cm} a \sim 0.75 \hspace{1cm} z \sim 0.33$
 
-Using rough [[Instruments#Planck]] numbers, the time of Matter-$\Lambda$ equality can be found using the [[Friedmann Equation]].
+Using rough [[Instruments#Planck|Planck]] numbers, the time of Matter-$\Lambda$ equality can be found using the [[Friedmann Equation]].
 
 $$H^{2}(z) = H_{0}^{2} \Big[ \Omega_{M} \, (1+z)^{3} + \Omega_{r} \, (1+z)^{4} + \Omega_{k} \, (1+z)^{2} + \Omega_{\Lambda} \Big]$$
 

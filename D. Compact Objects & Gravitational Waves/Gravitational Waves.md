@@ -15,12 +15,12 @@ Gravitational waves originate from *any accelerating mass with a [[#Gravitationa
 	- Binary [[Black Hole]] (BBH) - BH+BH Merger
 	- Binary [[Neutron Star]] (BNS) - NS+NS Merger
 	- Binary [[Neutron Star]]-[[Black Hole]] (NSBH) - NS+BH Merger
-	- [[Stellar Classes#White Dwarf]] Binaries (WD+WD, WD+NS, WD+BH)
+	- [[Stellar Classes#White Dwarf|White Dwarf]] Binaries (WD+WD, WD+NS, WD+BH)
 		- Undetected: too low of energy/frequency for current detectors
-	- [[Black Hole#Supermassive Black Hole]] Binaries
-		- Undetected: will be detectable with [[Instruments#LISA]] or [[Instruments#Pulsar Timing Arrays|PTAs]] *(See [[#Gravitational Wave Spectrum]])*
+	- [[Black Hole#Supermassive Black Hole|Supermassive Black Hole]] Binaries
+		- Undetected: will be detectable with [[Instruments#LISA|LISA]] or [[Instruments#Pulsar Timing Arrays|PTAs]] *(See [[#Gravitational Wave Spectrum]])*
 	- Extreme Mass-Ratio Inspiral ([[EMRI.jpg|EMRI]])
-		- Undetected: will be detectable with [[Instruments#LISA]]
+		- Undetected: will be detectable with [[Instruments#LISA|LISA]]
 2. Continuous
 	- Isolated, rotating [[Neutron Star|Neutron Stars]] with spherical asymmetry (e.g. "mountains" on the surface)
 		- Undetected: the effect would only give a very weak signal at roughly a constant frequency (very hard measurement)
@@ -28,9 +28,9 @@ Gravitational waves originate from *any accelerating mass with a [[#Gravitationa
 	- Primordial Gravitational Waves (fluctuations near big bang)
 		- Analogous to the [[Cosmic Microwave Background|CMB]] in that it make a stochastic background on whole sky
 	- Unresolved Merger events
-	- More likely to be detected via [[Instruments#Pulsar Timing Arrays|PTAs]]. GW signal will be correlated across pulsar signals, but noise will not be. ([[Instruments#NANOGrav]] made a detection)
+	- More likely to be detected via [[Instruments#Pulsar Timing Arrays|PTAs]]. GW signal will be correlated across pulsar signals, but noise will not be. ([[Instruments#NANOGrav|NANOGrav]] made a detection)
 1. Burst
-	- Asymmetric [[Stellar Explosions#Supernova]] or [[Fast Radio Burst#Long GRBs]]
+	- Asymmetric [[Stellar Explosions#Supernova|Supernova]] or [[Fast Radio Burst#Long GRBs|Long GRBs]]
 		- If emitting GWs, then they can't be spherically symmetric
 	- GW signal from such sources currently unclear, but probably "bursty"
 

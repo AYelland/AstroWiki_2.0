@@ -6,7 +6,7 @@ What is meant by the "gravothermal collapse" of a globular cluster, and what can
 ---
 A **gravothermal collapse** occurs in response to an instability from negative heat capacity of self-gravitating systems. 
 
-> [!math] [[Thermodynamics#Negative Heat Capacity]]
+> [!math] [[Thermodynamics#Negative Heat Capacity|Negative Heat Capacity]]
 > Assuming we are working with a [[Statistical Mechanics#Energy|ideal gas]] and a self-gravitating system ($U \propto r^{-1}$)...
 > 
 > $$\left\langle K \right\rangle = \frac{1}{2} m \bar{v}^{2} = \frac{d}{2} N k_{\rm B} T \hspace{1cm} \text{where} \hspace{1cm} d \equiv \text{degrees of freedom}$$

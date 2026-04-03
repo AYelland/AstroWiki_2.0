@@ -20,7 +20,7 @@ An **Active Galactic Nucleus (AGN)** is the highly compact region in a galactic 
 > Luminosity: $L \sim 10^{42} - 10^{48} \; {\rm erg/s} \quad (\simeq 10^{35} - 10^{41} \; {\rm W} \simeq 10^{9} - 10^{15} \; {\rm L_{\odot}})$
 
 **Invalid Alternative Sources:**
-- For a collection of stars to be this bright ($L_{\odot} \sim 10^{26} \; {\rm W}$), there would have to be $\sim 10^{9}$ [[Spectral Classes#G]] stars within $10^{-2} \; {\rm pc}$ $\implies$ unstable as stellar density is too high.
+- For a collection of stars to be this bright ($L_{\odot} \sim 10^{26} \; {\rm W}$), there would have to be $\sim 10^{9}$ [[Spectral Classes#G|G]] stars within $10^{-2} \; {\rm pc}$ $\implies$ unstable as stellar density is too high.
 - For a supernovae ($E_{SN} \sim 10^{52} \; {\rm erg}$), they would need to occur a rate of $\sim 3 SN/yr$, requiring continual star production $\implies$ same problem as the source being stars (too dense and unstable).
 - For a black hole, the nearby gas is gravitationally pulled into an accretion disk, heating up to temperatures $T \sim 10^{8} \; {\rm K}$. Assuming the accretion is [[Luminosity#Eddington Limit|Eddington-limited]]... $$L_{\rm Edd} \equiv \left(\frac{4 \pi G M c}{\kappa}\right) \simeq 3.2 \times 10^{4} \; \left(\frac{M_{\rm BH}}{M_{\odot}}\right) \, L_{\odot}$$
 
@@ -106,33 +106,33 @@ The different types of AGN being represented together is what creates the "unifi
 
 #### Low Excitation Radio Galaxy (LERG)
 
-- See [[#Radio Galaxy]]
+- See [[#Radio Galaxy (RG)]]
 - Radio Loud + Low EM Power
 - Also known as hot mode, radio mode, jet mode, and radiatively inefficient sources.
 
 #### High Excitation Radio Galaxy (HERG)
 
-- See [[#Radio Galaxy]]
+- See [[#Radio Galaxy (RG)]]
 - Radio Loud + High EM Power
 - Also known as cold mode, quasar mode, radiative mode, and radiatively efficient sources.
 
 #### Narrow Line Radio Galaxy (NLRG)
 
-- See [[#Radio Galaxy]]
+- See [[#Radio Galaxy (RG)]]
 - Radio Loud + Low/High EM Power
 - A subtype of the [[#Type 2]] AGN classification
 - Lacks broad line emissions because the [[#Structure|BLR]] is heavily obscured in the x-ray band by the [[#Structure|torus]].
 
 #### Broad Line Radio Galaxy (BLRG)
 
-- See [[#Radio Galaxy]]
+- See [[#Radio Galaxy (RG)]]
 - Radio Loud + Low/High EM Power
 - A subtype of the [[#Type 1]] AGN classification
 - Has both broad line emissions and narrow line emissions because there is little obscuration in the x-ray band
 
 #### Steep Spectrum Radio Quasar (SSRQ)
 
-- See [[#Radio Galaxy]]
+- See [[#Radio Galaxy (RG)]]
 - Radio Loud + Low EM Power
 - Very similar to [[#Broad Line Radio Galaxy (BLRG)]], but with a steeper flux spectrum
 
@@ -140,7 +140,7 @@ The different types of AGN being represented together is what creates the "unifi
 
 Classification of [[#Radio Galaxy (RG)|radio galaxies]] with active nuclei based on their radio luminosity or brightness of their radio emissions in relation to their hosting environment 
 
-- FR1 arms can look bent due to [[Fluid Mechanics#Ram Pressure]] as galaxy moves through [[Intracuster Medium|ICM]]
+- FR1 arms can look bent due to [[Fluid Mechanics#Ram Pressure|Ram Pressure]] as galaxy moves through [[Intracuster Medium|ICM]]
 - FR2 often looks one-sided due to relativistic boosting
 
 ![[fanaroff_riley.png]]
@@ -153,20 +153,20 @@ What specific models are we trying to understand by quasar pair formation statis
 - "Quasar" (quasi-stellar radio source): optical point source with radio jet
 - "QSO" (quasi-stellar object): like a quasar but no radio emission
 
-- A [[#Quasar]] and [[#Quasi-Stellar Object (QSO)|QSO]] are similar phenomena.
+- A Quasar and QSO are similar phenomena.
 	- Of AGN sources found optically, $90\%$ are radio quiet (QSO), $\sim10\%$ are radio loud (Quasar)
 -  Mostly found in elliptical galaxies
 -  $L_{\rm quasar}\sim10^{45-48}\:$erg/s
 -  synchrotron jets between $0.1 \; {\rm pc} - 1 \; {\rm Mpc}$
 -  maximum space density $\sim z=2...3$
 
-**Catalogs**: [[Catalogs#SDSS|SDSS]] and [[Catalogs#LAMOST]] 
+**Catalogs**: [[Catalogs#SDSS|SDSS]] and [[Catalogs#LAMOST|LAMOST]] 
 
 **Observation strategies**: To observe the environment of a quasar you can use objects in the background (eg galaxies) and examine their light as absorbed by the environment of the quasar (ref: Christina Eilers talk)
 
 #### Blazar
 
-A [[#Quasar|quasar]] with a relativistic jet pointing along out line of sight. Have spectra dominated by featureless non-thermal continuum, which we would expect for a relativistic jet along the line of sight.
+A [[#Quasar / Quasi-Stellar Object (QSO)|quasar]] with a relativistic jet pointing along out line of sight. Have spectra dominated by featureless non-thermal continuum, which we would expect for a relativistic jet along the line of sight.
 
 #### BL Lac
 

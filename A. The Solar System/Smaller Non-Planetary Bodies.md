@@ -5,7 +5,7 @@ aliases:
 ---
 
 > [!key-idea] Key Differences between the following...
-> - A [[#planetesimal]] is a larger body composed of dust, ice, and rock that later forms planets.
+> - A [[#Planetesimals|planetesimal]] is a larger body composed of dust, ice, and rock that later forms planets.
 > - An [[#asteroid]] has a rockier and more metallic composition.
 > - A [[#comet]] has an icier composition.
 > - A [[#meteoroid]] is a smaller piece of a asteroid or comet.
@@ -21,7 +21,7 @@ A primitive body composed of loose conglomerates of materials (dust, ice, gas) o
 A small, rocky or metallic object ([[#planetesimals|planetesmial]]) that has survived planetary accretion.
 - They tend to be round and/or elongated.
 - They can have satellites (smaller gravitationally bound objects).
-- They are parent bodies of [[#Meteoriod|meteoroids]].
+- They are parent bodies of [[#Meteoroid|meteoroids]].
 
 When seen in a telescope, asteroids appear as a points of light. Most are found in a ring between the orbit of Mars and Jupiter called the asteroid belt.
 

@@ -30,10 +30,10 @@ Analyzing the changes in the light curve caused by the planet blocking the emitt
 - Temperature of Planet (can in theory be observed)
 	- Determined from the secondary transit
 	- When the planet goes behind star, should see the subtraction of a [[Blackbody Radiation|blackbody spectrum]] at a certain temperature.
-	- See [[Bonus#Bonus - Measuring the Planet's Temperature]].
+	- See [[Bonus#Bonus - Measuring the Planet's Temperature|Bonus - Measuring the Planet's Temperature]].
 - Density of Star
 	- Can be calculated from the period and duration of a transit, by assuming that that the planet's orbit is circular and $M_{\rm p} \ll M_{*}$.
-	- See [[Bonus#Bonus - Measuring the Stellar Density]].
+	- See [[Bonus#Bonus - Measuring the Stellar Density|Bonus - Measuring the Stellar Density]].
 
 **Biases:**
 - Biased towards detecting larger planets with a smaller orbital radius.
@@ -79,7 +79,7 @@ Directly observing the reflected light from a planet (coronagraphy). We assume t
 - Biased towards detecting large and/or hot planets
 	- Requires a high planet:star contrast.
 	- The more blackbody flux a planet can emit $\implies$ the easier it is to observe.
-	- Current observations are limited to [[Electromagnetic Spectrum|IR]] (in future, [[Instruments#Roman]] should allow [[Electromagnetic Spectrum|optical]])
+	- Current observations are limited to [[Electromagnetic Spectrum|IR]] (in future, [[Instruments#Roman|Roman]] should allow [[Electromagnetic Spectrum|optical]])
 - Biased toward long-period planets
 	- Requires large separations to be able to resolve planet individually
 
@@ -99,7 +99,7 @@ When a background source is lensed by a foreground star, a planet (which is insi
 
 We need the planet to be close to the Einstein ring because we want the microlensing blip from the planet to show up during the lensing event of the star. If it closer to the host star, it won't produce a distinguishable lensing magnification. Similarly, if it is farther away from the host star, it will not be detected as well. 
 
-*(Also see [[Gravitational Lensing#Microlensing]] for other important comments not here!)*
+*(Also see [[Gravitational Lensing#Microlensing|Microlensing]] for other important comments not here!)*
 
 **Direct Observables:**
 - Timescale of Orbit 

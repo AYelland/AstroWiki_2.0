@@ -10,7 +10,7 @@ aliases:
 >\epsilon_{\rm v} = Q_{\rm nuc} \,  n_{A} \, n_{B} \, \sigma v \left( \frac{1}{1 + \delta_{AB}} \right) \quad \propto \quad Q_{\rm nuc} \,  n_{A} \, n_{B} \, S(E_{0}) \; T_{6}^{-2/3} \, e^{-B T_{6}^{-1/3}}
 > $$
 > **Energy Generated (per unit mass):** 
-> - *used in the [[Stellar Structure#Conservation of Energy]] Stellar Structure Equation*
+> - *used in the [[Stellar Structure#Conservation of Energy|Conservation of Energy]] Stellar Structure Equation*
 > $$
 > \epsilon_{\rm m} = \frac{\epsilon_{\rm v}}{\rho} \quad \propto \quad Q_{\rm nuc} \, \rho X_{A} \, X_{B} \, S(E_{0}) \; T_{6}^{-2/3} \, e^{-B T_{6}^{-1/3}}
 > \hspace{1cm} \text{where} \hspace{1cm} X_{i} \equiv \text{mass fraction}

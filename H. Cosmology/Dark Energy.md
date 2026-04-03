@@ -12,14 +12,14 @@ Particle physics predicts $\Lambda \sim 1/t_{\rm planck} \implies \Omega_{\Lambd
 
 **What is the evidence of "dark energy"?**
 
-1. [[Cosmic Microwave Background#CMB Power Spectrum]] Fitting
+1. [[Cosmic Microwave Background#CMB Power Spectrum|CMB Power Spectrum]] Fitting
 	- The power spectrum constrains the cosmological density parameters.
 	- $\Omega_{M} \simeq 0.3 \; , \; \Omega_{k} \simeq \Omega_{r} \simeq 0 \implies \Omega_{\Lambda} \simeq 0.7 \neq 0$.
 
 2. Integrated Sachs-Wolfe Effect (see [[Question 128]])
 	- We see large scale redshifting consistent with an accelerated expansion that only occurs if universe is $\Lambda$-dominated or radiation-dominated
 
-3. [[Stellar Explosions#Supernova]] Cosmology
+3. [[Stellar Explosions#Supernova|Supernova]] Cosmology
 	- We can measure [[Distances#Luminosity Distance|luminosity distance]] of [[Stellar Explosions#Type Ia|Type 1a SNe]] ("standard candles") and plot them against [[Redshift|redshift]] ($z\sim 1-2$).
 	- At higher redshifts, we can see where differences in cosmological models become more pronounced.
 		- For larger $\Omega_{\Lambda}$, the luminosity distance to an object is larger because there was a slower expansion in the past.

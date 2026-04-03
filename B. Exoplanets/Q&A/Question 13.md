@@ -6,10 +6,10 @@ Describe four methods for detecting an exoplanet, and the potential biases in th
 ---
 ![[exoplanet_overview.png|align:center]]
 
-![[Detection Methods#Transit Method]]
+![[Detection Methods#Transit Method|Transit Method]]
 
-![[Detection Methods#Radial Velocity Method]]
+![[Detection Methods#Radial Velocity Method|Radial Velocity Method]]
 
-![[Detection Methods#Direct Imaging Method]]
+![[Detection Methods#Direct Imaging Method|Direct Imaging Method]]
 
-![[Detection Methods#Microlensing Method]]
+![[Detection Methods#Microlensing Method|Microlensing Method]]

@@ -6,7 +6,7 @@ How much energy is typically released in a type II supernova? What fractions of 
 ---
 ##### How much energy is typically released in a type II supernova?
 
-A [[Stellar Explosions#Type II]] supernova originates from the core-collapse of a high mass stars ($M \gtrsim 8 \; {\rm M_{\odot}}$) after it has fused iron ($\ce{Fe}$) in its core, and it leaves behind either a [[Neutron Star|neutron star]] or a [[Black Hole|black hole]]. [[Stellar Explosions#Type II]] SN are identified by the hydrogen lines in their spectra.
+A [[Stellar Explosions#Type II|Type II]] supernova originates from the core-collapse of a high mass stars ($M \gtrsim 8 \; {\rm M_{\odot}}$) after it has fused iron ($\ce{Fe}$) in its core, and it leaves behind either a [[Neutron Star|neutron star]] or a [[Black Hole|black hole]]. [[Stellar Explosions#Type II|Type II]] SN are identified by the hydrogen lines in their spectra.
 
 To calculate the total amount of energy released during the SN event, we consider the collapse of a purely iron core from $R_{\rm i} \simeq 5000 \; {\rm km}$ to $R_{\rm f} \simeq 10 \; {\rm km}$ on the [[Timescales#Dynamical Timescale|dynamical (freefall) timescale]] ($t_{\rm dyn} \sim 1 \; {\rm s}$) . By the [[Chandrasekhar Limit]], we take the mass of the core to be $M \gtrsim 1.4 \; {\rm M_{\odot}}$ (such that the collapse can initiate).
 
@@ -14,9 +14,9 @@ The amount of gravitational potential energy released during the collapse is def
 
 $$\Delta E = \left( - \frac{3 G M^{2}}{5 R_{\rm f}} \right) - \left( - \frac{3 G M^{2}}{5 R_{\rm i}} \right) \simeq - 10^{46}\; {\rm J} = - 100 \; {\rm foe}$$
 
-Here, the negative sign refers to the energy lost by the system and $1 \; {\rm foe} \sim 10^{51} \; {\rm erg} = 10^{44} \; {\rm J}$. A [[Stellar Explosions#Type Ia]] supernova releases $\sim 1 \; {\rm foe}$ worth of energy. 
+Here, the negative sign refers to the energy lost by the system and $1 \; {\rm foe} \sim 10^{51} \; {\rm erg} = 10^{44} \; {\rm J}$. A [[Stellar Explosions#Type Ia|Type Ia]] supernova releases $\sim 1 \; {\rm foe}$ worth of energy. 
 
-This is a lot of energy released in $\sim 1 \; {\rm s}$; however, the light curves can be visible over much longer durations. For example, a [[Stellar Explosions#Type Ia]] can have significant light curves over the period of months.
+This is a lot of energy released in $\sim 1 \; {\rm s}$; however, the light curves can be visible over much longer durations. For example, a [[Stellar Explosions#Type Ia|Type Ia]] can have significant light curves over the period of months.
 
 > [!bonus] What is a "foe"?
 > "**foe**" is an acronym for "**fifty-one ergs**".

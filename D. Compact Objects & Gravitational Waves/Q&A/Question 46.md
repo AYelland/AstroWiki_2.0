@@ -4,7 +4,7 @@ How does the orbital frequency of the innermost stable circular orbit around a b
 
 ### Answer
 ---
-For a [[Black Hole|black hole]] of mass $M_{\rm BH}$, we can use [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law]] to calculate the orbital frequency through balancing the gravitational force and the centripetal force at the radius of the [[Black Hole#Innermost Stable Circular Orbit (ISCO)]], using some test mass ($m$).
+For a [[Black Hole|black hole]] of mass $M_{\rm BH}$, we can use [[Kepler's Laws of Planetary Motion#Kepler's 3rd Law|Kepler's 3rd Law]] to calculate the orbital frequency through balancing the gravitational force and the centripetal force at the radius of the [[Black Hole#Innermost Stable Circular Orbit (ISCO)|Innermost Stable Circular Orbit (ISCO)]], using some test mass ($m$).
 
 $$
 m (\Omega^{2} R) = \frac{G M m}{R^{2}} \hspace{1cm} \Rightarrow \hspace{1cm} \Omega_{\rm ISCO} = \sqrt{\frac{G M}{R_{\rm ISCO}^{3}}}
@@ -18,7 +18,7 @@ $$R_{\rm{ISCO}} = \alpha \frac{GM}{c^{2}} \hspace{1cm} \text{where} \hspace{1cm}
 > 
 > It might seem as though we could rearrange the orbital frequency ($\Omega_{\rm ISCO}$) expression to define the [[Black Hole#Spin|spin-parameter]] $\alpha$; however, the above expression for $R_{\rm ISCO}$ does not come from the force balancing equations. 
 > 
-> Instead, it originates from solving the Einstein equations with the [[General Relativity#Kerr Metric]] in general relativity. Thus, it has significantly more complex (non-trivial) derivation.
+> Instead, it originates from solving the Einstein equations with the [[General Relativity#Kerr Metric|Kerr Metric]] in general relativity. Thus, it has significantly more complex (non-trivial) derivation.
 > 
 > The resulting limits on $\alpha$ can be related to the primary spin parameter ($a$) such that...
 > $$

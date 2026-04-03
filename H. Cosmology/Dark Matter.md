@@ -10,7 +10,7 @@ aliases:
 5 Main Sources of [[Dark Matter]] Evidence:
 1. [[Velocity Dispersion#Rotation Curve|Galaxy Rotation Curves]]
 2. [[Velocity Dispersion#Escape Velocity|Galactic Escape Velocity]]
-3. [[Velocity Dispersion#Cluster Velocity Dispersion]]
+3. [[Velocity Dispersion#Cluster Velocity Dispersion|Cluster Velocity Dispersion]]
 4. [[Galaxy Cluster#Bullet Cluster|The Bullet Cluster]]
 5. [[Cosmic Microwave Background#CMB Power Spectrum|3rd Peak of CMB Power Spectrum]]
 
@@ -29,7 +29,7 @@ Dark matter also interacts with *quasiparticles* which are collective excitation
 
 Are there symmetries in the dark sector that influence how DM behaves in the very high-temperature early universe? If so, what are their signatures now? 
 
-Yes: Imprints on [[Cosmic Microwave Background#Power Spectrum|CMB power spectrum]] as a result of resonances, long scale interactions and phase transitions of DM.
+Yes: Imprints on [[Cosmic Microwave Background#CMB Power Spectrum|CMB power spectrum]] as a result of resonances, long scale interactions and phase transitions of DM.
 
 ### Gravitational Waves
 *"If there isn't another type of force or particle, what can gravity alone do for us?"*
@@ -37,16 +37,16 @@ Yes: Imprints on [[Cosmic Microwave Background#Power Spectrum|CMB power spectrum
 Gravity is universal, super-weak, so we'll never see a single DM particle with gravity alone (unless DM is [[#PBH]]).
 
 If there is a class of BBH mergers near galactic centers, where DM is strongly clustered, then potentially there would be a signal that can tell us more about DM as it interacts.
-- [[Instruments#Pulsar Timing Arrays]] of SMBH mergers might be the ones where such a signal is found
+- [[Instruments#Pulsar Timing Arrays|Pulsar Timing Arrays]] of SMBH mergers might be the ones where such a signal is found
 - Intermediate-mass mergers wont work.
-- [[Instruments#NANOGrav]] will do it. Focus is on stochastic background of GWs, not individual mergers. 
+- [[Instruments#NANOGrav|NANOGrav]] will do it. Focus is on stochastic background of GWs, not individual mergers. 
 
 ## Properties of Dark Matter
 
 **What we do know about DM:**
 - Particles are slow/cold (non-dissipative)
 - It doesn't interact with EM in a way we've observed
-- It acts like regular old matter (i.e. [[Galaxy Cluster#Bullet Cluster]])
+- It acts like regular old matter (i.e. [[Galaxy Cluster#Bullet Cluster|Bullet Cluster]])
 - Strongly clustered
 - Stable
 - Essential (necessary to explain what we've seen)

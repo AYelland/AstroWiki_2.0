@@ -7,7 +7,7 @@ Summarize the observational evidence in favor of the standard "Big Bang" model o
 **Observational Evidence:**
 
 1. The universe is expanding
-	- We see everything moving away from us in a way that implies space is expanding ([[Hubble#Hubble Law]]).
+	- We see everything moving away from us in a way that implies space is expanding ([[Hubble#Hubble Law|Hubble Law]]).
 	- This means that we are at the center of some explosion of galaxies (no observational evidence for, Copernican principle), or that the universe is expanding uniformly (the same everywhere in space). 
 	- The universe must have been much smaller, denser and hotter.
 

@@ -7,7 +7,7 @@ aliases:
 
 A **nova** is the sudden appearance of a bright, apparently "new" star  that slowly fades over weeks or months. There are different types of mechanism that can cause this abrupt increase in brightness.
 
-Star systems that showcase nova activity are considered to be [[Binary Stars#Cataclysmic Variables (CVs)]]. Meaning, they all involve [[Stellar Classes#White Dwarf|white dwarfs]] in close [[Binary Stars|binary systems]] with accretion from the secondary, donor star.
+Star systems that showcase nova activity are considered to be [[Binary Stars#Cataclysmic Variables (CVs)|Cataclysmic Variables (CVs)]]. Meaning, they all involve [[Stellar Classes#White Dwarf|white dwarfs]] in close [[Binary Stars|binary systems]] with accretion from the secondary, donor star.
 
 #### Classical Novae
 
@@ -30,7 +30,7 @@ Follows the same mechanism as the as the [[#Classical Novae]], except that the f
 
 #### Dwarf Novae
 
-Smaller and less luminous outbursts that occur when accretion disk instabilities lead to sudden increase in mass accretion ($\dot{M}$) and a loss in gravitational potential energy. *(similar to the [[Pulsation#Kappa Opacity Mechanism]], but with viscosity)*
+Smaller and less luminous outbursts that occur when accretion disk instabilities lead to sudden increase in mass accretion ($\dot{M}$) and a loss in gravitational potential energy. *(similar to the [[Pulsation#Kappa Opacity Mechanism|Kappa Opacity Mechanism]], but with viscosity)*
 
 - Mechanism:
 	1. There is thermal instability in accretion disk near the $\ce{H}$ (hydrogen) ionization temperature
@@ -108,7 +108,7 @@ Type Ia supernova are though to originate from the sudden re-ignition of nuclear
 
 ### Type Ib
 
-**Progenitor:** [[Core-Collapse|core-collapse]] of a [[Stellar Classes#Wolf-Rayet Star]] ($M \gtrsim 30 \ {\rm M_{\odot}}$)
+**Progenitor:** [[Core-Collapse|core-collapse]] of a [[Stellar Classes#Wolf-Rayet Star|Wolf-Rayet Star]] ($M \gtrsim 30 \ {\rm M_{\odot}}$)
 **Remnant:** Neutron Star
 
 Type Ib supernovae originate when a massive star undergoes [[Core-Collapse|core-collapse]]. This star must been massive enough that its outer envelope of hydrogen would have been stripped away during the [[Hertzsprung-Russell Diagram#Post-Asymptotic Giant Branch (Post-AGB)|post-AGB]] stage by strong stellar winds. This is because we do not observe hydrogen in these spectra of these objects; however, we do observe the second ‘onion layer’ of helium.
@@ -193,7 +193,7 @@ Type I/II SLSNe are *Superluminous Supernovae* that appear to be a subset of al
 ## Kilonova
 *(also known as a **neutron star merger**)*
 
-A **Kilonova** is a transient astronomical event that occurs in a compact [[Binary Stars|binary]] system (two [[Neutron Star|neutron stars]] or a [[Neutron Star|neutron star]] and a [[Black Hole|black hole]]) when the two companions merge. These mergers are thought to produce [[Gamma Ray Burst#Short Duration GRBs|short GRBs]] and emit bright [[Electromagnetic Spectrum|electromagnetic radiation]] due to the radioactive decay of heavy [[Neutron Capture#r-process]] nuclei that are produced and ejected fairly isotropically during the merger process.
+A **Kilonova** is a transient astronomical event that occurs in a compact [[Binary Stars|binary]] system (two [[Neutron Star|neutron stars]] or a [[Neutron Star|neutron star]] and a [[Black Hole|black hole]]) when the two companions merge. These mergers are thought to produce [[Gamma Ray Burst#Short Duration GRBs (SGRBs)|short GRBs]] and emit bright [[Electromagnetic Spectrum|electromagnetic radiation]] due to the radioactive decay of heavy [[Neutron Capture#r-process|r-process]] nuclei that are produced and ejected fairly isotropically during the merger process.
 
 It is called "kilonovae" since its peak brightness (within a week of the merger) is about a thousand times brighter than a [[#Nova|classical nova]] ($10-100$ times dimmer that a [[#Supernova]])
 

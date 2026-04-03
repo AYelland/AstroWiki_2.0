@@ -8,7 +8,7 @@ aliases:
 **Metallicity** measures the abundance of the elements heavier than hydrogen and helium (such as carbon, oxygen, iron, …). In stellar astrophysics, metallicity usually refers to the abundance of iron and is defined as the iron-to-hydrogen ratio $\ce{[Fe/H]}$.
 
 > [!note] "Metals" in Astronomy
-> Astronomers use the term "metals" to refer to element that is not hydrogen or helium. *(See [[_Stellar Nucleosynthesis#Periodic Table]])*
+> Astronomers use the term "metals" to refer to element that is not hydrogen or helium. *(See [[_Stellar Nucleosynthesis#Periodic Table|Periodic Table]])*
 
 This concept is very important when classifying stellar bodies by their age, and thus sorting them into [[Stellar Populations|stellar populations]]. This comes from the underlying assumption that old stars formed with the universe had very little metals (given they form from stellar fusion reactions) and young stars form in environments that are metal-rich.
 

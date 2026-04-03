@@ -11,8 +11,8 @@ Denoted $\mu$ typically. Defined as the mean mass per particle, in units of ([[U
 | Species                                                            |           $\mu$           |                            Comment                            |
 |:------------------------------------------------------------------ |:-------------------------:|:-------------------------------------------------------------:|
 | [[Interstellar Medium#Atomic Hydrogen\|Atomic (Neutral) Hydrogen]] |      $\mu \simeq 1$       |                                                               |
-| [[Interstellar Medium#Ionized Hydrogen]]                           | $\mu \simeq \tfrac{1}{2}$ | we doubled the number of particles but didn't change the mass |
-| [[Interstellar Medium#Molecular Hydrogen]]                         |      $\mu \simeq 2$       |          particle number invariant but mass doubles           |
+| [[Interstellar Medium#Ionized Hydrogen|Ionized Hydrogen]]                           | $\mu \simeq \tfrac{1}{2}$ | we doubled the number of particles but didn't change the mass |
+| [[Interstellar Medium#Molecular Hydrogen|Molecular Hydrogen]]                         |      $\mu \simeq 2$       |          particle number invariant but mass doubles           |
 | Atomic (neutral) Helium                                            |      $\mu \simeq 4$       |                                                               |
 | Completely Ionized Helium                                          | $\mu \simeq \tfrac{4}{3}$ |                                                               |
 

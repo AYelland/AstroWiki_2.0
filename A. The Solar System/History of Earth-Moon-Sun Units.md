@@ -8,7 +8,7 @@ aliases:
 > [!aside] The Earth is Round
 > The ancient Greek philosopher Aristotle (c.384–322 BCE) was able to deduce that the Earth was spherical from observations such as the shape of the Earth’s shadow during lunar eclipses and the changing view of stars in the sky during travel from north to south.
 
-Eratosthenes (c.276–196 BCE) found the [[Units & Conversions#Earth Radius]] by measuring the arclength between the Egyptian cities Syene and Alexandria. He did this by using angles of the incident solar light rays penetrating a deep well on the same day each year.
+Eratosthenes (c.276–196 BCE) found the [[Units & Conversions#Earth Radius ($R_{ oplus}$)|Earth's radius]] by measuring the arclength between the Egyptian cities Syene and Alexandria. He did this by using angles of the incident solar light rays penetrating a deep well on the same day each year.
 - When the Sun was directly overhead in Syene, Egypt, the light rays were at zenith ($\theta = 0^{\circ}$)
 - On the same day in Alexandria, Egypt, the light rays were $7^{\circ}$ south of zenith ($\theta = 7^{\circ}$)
 - The latitudinal distance between Syene and Alexandria was $L \approx 800 \; {\rm km}$.
@@ -18,7 +18,7 @@ Eratosthenes (c.276–196 BCE) found the [[Units & Conversions#Earth Radius]] by
 
 $$
 \text{arclength} = \text{fractional angle} \times \text{circumference}
-\hRightarrow
+\hspace{1cm} \Rightarrow \hspace{1cm}
 L = \left(\frac{\theta}{360^{\circ}}\right) \times \left( 2 \pi R_{\oplus} \right)
 $$
 $$
@@ -50,7 +50,7 @@ $$
 \begin{align}
 	2 R_{\oplus} &= 2 R_{\rm umbral} + 2 D_{\rm EM} \tan \theta \\
 	R_{\oplus} &= R_{\rm umbral} + D_{\rm EM} \tan \theta \\
-	R_{\oplus} &= \left( f \cdot R_{\rm moon} \right) + \left( R_{\oplus} + \frac{R_{\rm moon}}{\theta} \right) \left( \theta \right) \hRightarrow
+	R_{\oplus} &= \left( f \cdot R_{\rm moon} \right) + \left( R_{\oplus} + \frac{R_{\rm moon}}{\theta} \right) \left( \theta \right) \hspace{1cm} \Rightarrow \hspace{1cm}
 	R_{\rm moon} \approx \left(\frac{1 - \theta}{1 + f}\right) R_{\oplus}
 \end{align}
 $$
@@ -97,12 +97,12 @@ There are two ways to easily find a value for the solar mass:
 	M_{\oplus} \omega^{2} r &= \frac{G M_{\oplus} M_{\odot}}{r^{2}} \\
 	M_{\oplus} \left(\frac{2 \pi}{P_{\oplus}}\right)^{2} (D_{\rm ES}) &= \frac{G M_{\oplus} M_{\odot}}{(D_{\rm ES})^{2}}
 	\end{aligned}
-	\hRightarrow
+	\hspace{1cm} \Rightarrow \hspace{1cm}
 	M_{\odot} = \left(\frac{4 \pi^{2}}{G P_{\oplus}^{2}}\right) (D_{\rm ES})^{3}
 	$$
 
 2) **Using [[Kepler's Laws of Planetary Motion]]**
-	Beginning with the area of an ellipse and [[Kepler's Laws of Planetary Motion#Kepler's 2nd Law]], we approximate that the sun is much bigger than Earth ($M_{\oplus} \ll M_{\odot}$) where $a \equiv$ the sun-earth distance$\equiv D_{\rm ES}$.
+	Beginning with the area of an ellipse and [[Kepler's Laws of Planetary Motion#Kepler's 2nd Law|Kepler's 2nd Law]], we approximate that the sun is much bigger than Earth ($M_{\oplus} \ll M_{\odot}$) where $a \equiv$ the sun-earth distance$\equiv D_{\rm ES}$.
 	$$
 	\begin{aligned}[b]
 		\pi a^{2} \sqrt{1 - \varepsilon^{2}} &= \int_{0}^{P_{\oplus}} \frac{\mathrm{d} A}{\mathrm{d} t} \; \mathrm{d} t \\
@@ -110,7 +110,7 @@ There are two ways to easily find a value for the solar mass:
 		\left( \pi a^{2} \right)^{2} &= \frac{P_{\oplus}}{2 \mu} \sqrt{G M \mu^{2} a} \\
 		\left(\frac{2 \pi}{P_{\oplus}}\right)^{2} &= \frac{G M \mu}{a^{3}}
 	\end{aligned}
-	\hRightarrow
+	\hspace{1cm} \Rightarrow \hspace{1cm}
 	M_{\odot} = \left(\frac{4 \pi^{2} a^{3}}{G P_{\oplus}^{2}}\right) - M_{\oplus} \approx \frac{4 \pi^{2} a^{3}}{G P_{\oplus}^{2}}
 	$$
 

@@ -43,12 +43,12 @@ aliases:
 #### PAPER
 *(**Precision Array to Probe the Epoch of Reionization**)*
 
-- [[Spectral Features#21cm line]] observations
+- [[Spectral Features#21cm line|21cm line]] observations
 
 #### LOFAR
 *(**LOw Frequency ARray**)*
 
-- [[Spectral Features#21cm line]] observations
+- [[Spectral Features#21cm line|21cm line]] observations
 
 #### CHIME
 *(**Canadian Hydrogen Intensity Mapping Experiment**)*
@@ -59,7 +59,7 @@ aliases:
 - Consists of four adjacent $20 \; {\rm m} \times 100 \; {\rm m}$ cylindrical reflectors oriented north-south. 
 	- The focal axis of each cylinder is lined with 256 dual-polarization antennas
 - "Pointing" takes place in post-processing by examining autocorrelations in the signal. 
-- Can probe the [[Spectral Features#21cm line]] from redshifts $z\sim 0.8-2.5$ (so $\lambda \simeq 50\,\pu{cm}$)
+- Can probe the [[Spectral Features#21cm line|21cm line]] from redshifts $z\sim 0.8-2.5$ (so $\lambda \simeq 50\,\pu{cm}$)
 - An excellent [[Fast Radio Burst|FRB]] finding device, though localization is hard
 	- Built outrigger stations to assist, will be made better by [[#CHORD]]. 
 	- Kiyoshi Masui's group here at MKI is heavily involved
@@ -78,7 +78,7 @@ aliases:
 ![[HERA.png]]
 
 - Array of radio dishes in South Africa operating at $120-200\,\pu{MHz}$ 
-- Measure the [[Spectral Features#21cm line]] line heavily [[Redshift|redshifted]] at $z\sim 6-13$ (so $\lambda \simeq 2\,\pu{m}$). 
+- Measure the [[Spectral Features#21cm line|21cm line]] line heavily [[Redshift|redshifted]] at $z\sim 6-13$ (so $\lambda \simeq 2\,\pu{m}$). 
 - Precursor to [[#SKA]] (along with [[#MWA]])
 - Jackie Hewitt at MKI is PI
 
@@ -131,7 +131,7 @@ aliases:
 *(**Square Kilometre Array**)*
 
 - A low-frequency radio telescope to be built in Australia expected to have first light in 2027
-- Will have two components which observe [[Spectral Features#21cm line]] up to $z=3$ and $z\in(3,27)$ respectively
+- Will have two components which observe [[Spectral Features#21cm line|21cm line]] up to $z=3$ and $z\in(3,27)$ respectively
 - Percursor Observatories include:
 	- [[#HERA]] (Hydrogen Epoch of Reionization Array)
 	- [[#ASKAP]] (Australian SKA Pathfinder) and the Murchison Widefield Array (MWA), the MeerKAT is one of four precursors to the final SKA.
@@ -179,7 +179,7 @@ aliases:
 	- constraining possible new light relic particles
 	- providing precise constraints on the nature of dark energy
 	- testing general relativity on large scales
-- Has more frequency channels which allow one to discern between the [[Cosmic Microwave Background#Kinetic SZ-effect]] and contaminants like background quasars more easily.  
+- Has more frequency channels which allow one to discern between the [[Cosmic Microwave Background#Kinetic SZ-effect|Kinetic SZ-effect]] and contaminants like background quasars more easily.  
 
 #### BICEP
 *(**Background Imaging of Cosmic Extragalactic Polarization**)*
@@ -202,7 +202,7 @@ See [[Question 79]] for dust sadness.
 
 - Space probe launched in 1989 to measure the [[Cosmic Microwave Background|CMB]] (ran until 1993)
 - Measured CMB anisotropy at $\Delta T/T \simeq 10^{-5}$ precision
-	- Essentially measured the low-$l$ (where $l \equiv$ multipole moment) flat part of the [[#CMB Power Spectrum|CMB power spectrum]]
+	- Essentially measured the low-$l$ (where $l \equiv$ multipole moment) flat part of the [[Cosmic Microwave Background#CMB Power Spectrum|CMB power spectrum]]
 - 2006 Nobel prize
 
 #### WMAP
@@ -212,14 +212,14 @@ See [[Question 79]] for dust sadness.
 
 - Space probe launched in 2001 to measure the [[Cosmic Microwave Background|CMB]] (ran until 2010)
 - Beam sizes ranged from $10'-50'$ ([[Units & Conversions#Arcminute ($'$)|arcminute]])
-- Placed strong constraints on cosmological parameters, like the [[Hubble#Hubble Constant]] ($H_{0}$) and matter abundances ($\Omega_{M}$)
+- Placed strong constraints on cosmological parameters, like the [[Hubble#Hubble Constant|Hubble Constant]] ($H_{0}$) and matter abundances ($\Omega_{M}$)
 
 #### Planck
 
 ![[CMB_Planck.jpg|align:center|400]]
 
 - ESA space probe launched in 2009 to measure the [[Cosmic Microwave Background|CMB]] (ran until 2013)
-- Best measurement of the [[Cosmic Microwave Background#CMB Power Spectrum]] + CMB measured [[Cosmic Microwave Background#Relation to Cosmological Density Parameters|cosmological parameters]]
+- Best measurement of the [[Cosmic Microwave Background#CMB Power Spectrum|CMB Power Spectrum]] + CMB measured [[Cosmic Microwave Background#Relation to Cosmological Density Parameters|cosmological parameters]]
 - Temperature Sensitivity: $\Delta T/T \sim 10^{-6}$
 - Angular Resolution: $\sim 5'-10'$ ([[Units & Conversions#Arcminute ($'$)|arcmin]])
 
@@ -262,7 +262,7 @@ Different types of emission detected by Planck:
 ![[JWST.png|align:center|400]]
 
 - NASA's flagship [[Electromagnetic Spectrum|near-IR]] mission that launched on Dec 25 2021. 
-- $6.5\,\pu{m}$ diameter IR telescope ($0.6-28.3\,\pu{\mu m}$) orbiting in the [[Sun]]-Earth L2 [[Methods#Space-based detector orbits|Lagrange point]]. 
+- $6.5\,\pu{m}$ diameter IR telescope ($0.6-28.3\,\pu{\mu m}$) orbiting in the [[Sun]]-Earth at [[Lagrange Points|L2]]. 
 - 4 science instruments:
 	- NIRCam: ($0.6-5\,\pu{\mu m}$)
 	- NIRSpec: ($0.6-5\,\pu{\mu m}$ with 3 observing models)
@@ -296,7 +296,7 @@ Different types of emission detected by Planck:
 - Performs the first seeing-limited IR time-domain survey with 6 cameras (each with FOV $\sim 1 \; {\rm deg^{2}}$, covering $\sim 400 \; {\rm deg^{2}}$ per week)
 	- can probe magnitudes up to 18 (higher magnitude = dimmer sources = deeper into space)
 - Looking for time-domain events:
-	- [[Stellar Explosions#Kilonova]]
+	- [[Stellar Explosions#Kilonova|Kilonova]]
 	- TDEs
 	- Other variable systems...
 	- Can also aid with [[Methods#Reverberation Mapping|reverberation mapping]]
@@ -371,7 +371,7 @@ Rob Simcoe & Danielle Frostig worked on it here at MKI
 
 - ESA astrometry telescope (positions and velocities). 
 - [[Electromagnetic Spectrum|Near-UV]] to NIR wide band. 
-- Sits at [[Methods#Space-based detector orbits|L2]]
+- Sits at [[Lagrange Points|L2]]
 
 #### GMT
 *(**Giant Magellan Telescope**)*
@@ -454,7 +454,7 @@ Rob Simcoe & Danielle Frostig worked on it here at MKI
 		- Combines a lightweight X-ray Mirror Assembly (XMA) paired with an X-ray calorimeter spectrometer
 		- non-dispersive $5-7 \; {\rm eV}$ energy resolution in the $0.3-12 \; {\rm keV}$ bandpass with FOV of $3'$
 	- Xtend: soft X-ray imager
-		- Array of 4 [[Tools#CCD]]s with FOV of $30'$ over energy range $0.4-13 \; {\rm keV}$
+		- Array of 4 [[Tools#CCD|CCD]]s with FOV of $30'$ over energy range $0.4-13 \; {\rm keV}$
 		- Uses an identical lightweight XRM
 
 #### IXPE
@@ -499,6 +499,9 @@ Rob Simcoe & Danielle Frostig worked on it here at MKI
 	- GBM: Gamma-ray Burst Monitor (formerly GLAST Burst Monitor)
 		- used to study [[Gamma Ray Burst|GRBs]] and [[Sun|solar]] flares.
 
+#### INTEGRAL
+
+- The INTErnational Gamma-Ray Astrophysics Laboratory (INTEGRAL) is a _retired space telescope for observing gamma rays_ of energies up to 8 MeV
 
 
 ---
@@ -584,7 +587,7 @@ Neutrino obseratory at South Pole. Would see a spike in neutrino detection from 
 #### HARPS
 *(**The High Accuracy Radial Velocity Planet Searcher**)*
 
-- A high-precision planet-finding [[Tools#Echelle Spectrograph]] installed in 2002 on the ESO's 3.6m telescope at La Silla Observatory in Chile
+- A high-precision planet-finding [[Tools#Echelle Spectrograph|Echelle Spectrograph]] installed in 2002 on the ESO's 3.6m telescope at La Silla Observatory in Chile
 	- Second-generation radial-velocity spectrograph, based on experience with the ELODIE and CORALIE instruments.
 - First light was achieved in February 2003
 - Discovered over 130 exoplanets to date, with the first one in 2004, making it the most successful planet finder behind the [[#Kepler|Kepler space observatory]]. 

@@ -12,7 +12,7 @@ The **Nice Model** is a scenario for the dynamical evolution (i.e. the migrati
 ## The Steps of the Nice Model
 
 0) Following the [[Standard Model of Planetary Formation]] and dissipation of the primordial Solar System disk, the four giant planets (Jupiter, Saturn, Uranus, and Neptune) were originally found on near-circular orbits between $\sim 5.5 - 17 \; {\rm AU}$, and there remained a large, dense disk of small rock and ice planetesimals from $\sim 17 - 35 \; {\rm AU}$.
-1) Planetesimals at the disk's inner edge have gravitational encounters with the outermost giant planet, exchanging angular momentum. ([[Planetary Migration#Planetesimal-Driven Migration]])
+1) Planetesimals at the disk's inner edge have gravitational encounters with the outermost giant planet, exchanging angular momentum. ([[Planetary Migration#Planetesimal-Driven Migration|Planetesimal-Driven Migration]])
 	- The icy planetesimals scatter inwards.
 	- The planet migrates outwards. 
 	- The scattered planetesimals encounter the other giant planets, moving each outwards by the same process.
@@ -24,9 +24,9 @@ The **Nice Model** is a scenario for the dynamical evolution (i.e. the migrati
 		- Jupiter shifts Saturn to its present position, pushing Neptune and Uranus into more eccentric orbits. (potentially causing them to switch places)
 		- The ice giants then plough through the planetesimal disk, scattering the planetesimals causing...
 			1) **Late Heavy Bombardment** - a sharp spike of impacts by icy objects on the lunar surface and terrestrial planets after their formation
-			2) **Irregular Satellites** - Saturn, Uranus, and Neptune have many smaller satellites on with high inclinations ([[Planetary Migration#Kozai Mechanism]])
+			2) **Irregular Satellites** - Saturn, Uranus, and Neptune have many smaller satellites on with high inclinations ([[Planetary Migration#Kozai Mechanism|Kozai Mechanism]])
 			3) **Adding to Oort Cloud & Kuiper Belt** - the scattered bodies sent further out and on highly eccentric and inclined orbits
-	- This disruption scatters the primordial disk, removing 99% of its mass and explaining the absence of a dense [[Smaller Non-Planetary Bodies#Trans-Neptunian Object (TNO)]] population.
+	- This disruption scatters the primordial disk, removing 99% of its mass and explaining the absence of a dense [[Smaller Non-Planetary Bodies#Trans-Neptunian Object (TNO)|Trans-Neptunian Object (TNO)]] population.
 3) The giant planets reach their final orbital semi-major axes through dynamical friction with the remaining planetesimal disc, removing eccentricity in the planetary orbits.
 
 ## Problems
